@@ -1,0 +1,627 @@
+{
+	id: "3B11E432B813B930"
+	group: "5A43EA4A3BF38D32"
+	order_index: 1
+	filename: "challenges"
+	title: " &6Challenges"
+	icon: "minecraft:gold_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "100,000 Damage Dealt"
+			icon: {
+				id: "minecraft:netherite_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.0d
+			y: -5.5d
+			dependencies: ["6906CA6C9ABB354F"]
+			dependency_requirement: "one_started"
+			id: "2B0F63EE7D333401"
+			tasks: [{
+				id: "379DE943BBCB413B"
+				type: "stat"
+				title: "1,000,000 Damage Dealt"
+				icon: {
+					id: "minecraft:netherite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				stat: "minecraft:damage_dealt"
+				value: 1000000
+			}]
+			rewards: [{
+				id: "79E5AB83A4FC7928"
+				type: "random"
+				table_id: 7474746035066092266L
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:white_banner"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Patterns: [
+							{
+								Pattern: "mr"
+								Color: 9
+							}
+							{
+								Pattern: "bs"
+								Color: 8
+							}
+							{
+								Pattern: "cs"
+								Color: 7
+							}
+							{
+								Pattern: "bo"
+								Color: 8
+							}
+							{
+								Pattern: "ms"
+								Color: 15
+							}
+							{
+								Pattern: "hh"
+								Color: 8
+							}
+							{
+								Pattern: "mc"
+								Color: 8
+							}
+							{
+								Pattern: "bo"
+								Color: 15
+							}
+						]
+					}
+					display: {
+						Name: "{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}"
+					}
+				}
+			}
+			x: 2.5d
+			y: -5.5d
+			subtitle: "To start a &fraid&r, you must defeat a &bRaid Captain Pillager&r to obtain the &cBad Omen effect."
+			dependencies: ["6D7F20CB5DD3EEDA"]
+			dependency_requirement: "one_started"
+			id: "20ED8543DB3BC55C"
+			tasks: [{
+				id: "1619B05AEC6EF84C"
+				type: "stat"
+				title: "10 Raids Won"
+				stat: "minecraft:raid_win"
+				value: 10
+			}]
+			rewards: [{
+				id: "53CC7F05668430F9"
+				type: "choice"
+				table_id: 2645938118790146101L
+			}]
+		}
+		{
+			title: "Defeat the Ender Dragon 5 times"
+			icon: "minecraft:dragon_head"
+			x: -0.5d
+			y: -5.5d
+			dependencies: ["4669C6442D40A5DD"]
+			dependency_requirement: "one_started"
+			id: "29A7B76E25298C73"
+			tasks: [{
+				id: "23EC0AAA781445D6"
+				type: "kill"
+				title: "Defeat the Ender Dragon 5 times"
+				icon: "minecraft:dragon_head"
+				entity: "minecraft:ender_dragon"
+				value: 5L
+			}]
+			rewards: [{
+				id: "22AA66C366BAA6E9"
+				type: "random"
+				table_id: 7474746035066092266L
+			}]
+		}
+		{
+			icon: "minecraft:enchanted_golden_apple"
+			x: -2.0d
+			y: -5.5d
+			shape: "heart"
+			dependencies: ["56F211E02993D683"]
+			dependency_requirement: "all_started"
+			id: "56090EDEF3A288EB"
+			tasks: [{
+				id: "5A6326E717216503"
+				type: "stat"
+				title: "Survive for 24 hours"
+				stat: "minecraft:time_since_death"
+				value: 1734000
+			}]
+			rewards: [{
+				id: "327CF962936240B9"
+				type: "choice"
+				table_id: 2645938118790146101L
+			}]
+		}
+		{
+			title: "Survive for 12 hours"
+			x: -2.0d
+			y: -4.0d
+			shape: "heart"
+			dependencies: ["6AB0C64458778339"]
+			dependency_requirement: "all_started"
+			id: "56F211E02993D683"
+			tasks: [{
+				id: "6DFE2D7F7B631D42"
+				type: "stat"
+				icon: "minecraft:golden_apple"
+				stat: "minecraft:time_since_death"
+				value: 864020
+			}]
+			rewards: [{
+				id: "2178A795D5F29627"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.5d
+			shape: "heart"
+			id: "6AB0C64458778339"
+			tasks: [{
+				id: "658687475F0A3641"
+				type: "stat"
+				title: "Survive for 1 hour"
+				icon: "minecraft:apple"
+				stat: "minecraft:time_since_death"
+				value: 72020
+			}]
+			rewards: [{
+				id: "3102142ED3C36737"
+				type: "random"
+				table_id: 2198154992902025748L
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:white_banner"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Patterns: [
+							{
+								Pattern: "mr"
+								Color: 9
+							}
+							{
+								Pattern: "bs"
+								Color: 8
+							}
+							{
+								Pattern: "cs"
+								Color: 7
+							}
+							{
+								Pattern: "bo"
+								Color: 8
+							}
+							{
+								Pattern: "ms"
+								Color: 15
+							}
+							{
+								Pattern: "hh"
+								Color: 8
+							}
+							{
+								Pattern: "mc"
+								Color: 8
+							}
+							{
+								Pattern: "bo"
+								Color: 15
+							}
+						]
+					}
+					display: {
+						Name: "{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}"
+					}
+				}
+			}
+			x: 2.5d
+			y: -4.0d
+			subtitle: "To start a &fraid&r, you must defeat a &bRaid Captain Pillager&r to obtain the &cBad Omen effect."
+			dependencies: ["2165149BD434F0A2"]
+			dependency_requirement: "one_started"
+			id: "6D7F20CB5DD3EEDA"
+			tasks: [{
+				id: "62150EB2BAD66836"
+				type: "stat"
+				title: "5 Raids Won"
+				stat: "minecraft:raid_win"
+				value: 5
+			}]
+			rewards: [{
+				id: "1AE3EBFFCCB401A7"
+				type: "choice"
+				table_id: 7661356219169517173L
+			}]
+		}
+		{
+			title: "Defeat the Ender Dragon 2 times"
+			icon: "minecraft:dragon_head"
+			x: -0.5d
+			y: -2.5d
+			subtitle: "Place an &5End Crystal&r on all four &fActivation Runes&r to respawn the &5Ender Dragon."
+			dependency_requirement: "one_completed"
+			id: "2EF616FE00BD0EAD"
+			tasks: [{
+				id: "12E105EE2C1C0EA7"
+				type: "kill"
+				title: "Defeat the Ender Dragon 2 times"
+				icon: "minecraft:dragon_head"
+				entity: "minecraft:ender_dragon"
+				value: 2L
+			}]
+			rewards: [{
+				id: "17771796B582BE55"
+				type: "random"
+				table_id: 2645938118790146101L
+			}]
+		}
+		{
+			title: "Defeat the Ender Dragon 3 times"
+			icon: "minecraft:dragon_head"
+			x: -0.5d
+			y: -4.0d
+			dependencies: ["2EF616FE00BD0EAD"]
+			dependency_requirement: "one_started"
+			id: "4669C6442D40A5DD"
+			tasks: [{
+				id: "54254716D176B6F5"
+				type: "kill"
+				title: "Defeat the Ender Dragon 3 times"
+				icon: "minecraft:dragon_head"
+				entity: "minecraft:ender_dragon"
+				value: 3L
+			}]
+			rewards: [{
+				id: "022A85496FD3ECB7"
+				type: "choice"
+				table_id: 2645938118790146101L
+			}]
+		}
+		{
+			title: "50,000 Damage Dealt"
+			icon: {
+				id: "minecraft:diamond_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.0d
+			y: -4.0d
+			dependencies: ["4A7B8A509BD1BC8C"]
+			dependency_requirement: "one_started"
+			id: "6906CA6C9ABB354F"
+			tasks: [{
+				id: "1B4D6FDE82CEE901"
+				type: "stat"
+				icon: {
+					id: "minecraft:diamond_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				stat: "minecraft:damage_dealt"
+				value: 750000
+			}]
+			rewards: [{
+				id: "29D232B9F0E5D176"
+				type: "choice"
+				table_id: 2645938118790146101L
+			}]
+		}
+		{
+			title: "10,000 Damage Dealt"
+			icon: {
+				id: "minecraft:iron_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.0d
+			y: -2.5d
+			id: "4A7B8A509BD1BC8C"
+			tasks: [{
+				id: "32E1C081B028DB83"
+				type: "stat"
+				title: "500,000 Damage Dealt"
+				stat: "minecraft:damage_dealt"
+				value: 500000
+			}]
+			rewards: [{
+				id: "30DCE9C2FE71D9DA"
+				type: "choice"
+				table_id: 7661356219169517173L
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:white_banner"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Patterns: [
+							{
+								Pattern: "mr"
+								Color: 9
+							}
+							{
+								Pattern: "bs"
+								Color: 8
+							}
+							{
+								Pattern: "cs"
+								Color: 7
+							}
+							{
+								Pattern: "bo"
+								Color: 8
+							}
+							{
+								Pattern: "ms"
+								Color: 15
+							}
+							{
+								Pattern: "hh"
+								Color: 8
+							}
+							{
+								Pattern: "mc"
+								Color: 8
+							}
+							{
+								Pattern: "bo"
+								Color: 15
+							}
+						]
+					}
+					display: {
+						Name: "{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}"
+					}
+				}
+			}
+			x: 2.5d
+			y: -2.5d
+			subtitle: "To start a &fraid&r, you must defeat a &bRaid Captain Pillager&r to obtain the &cBad Omen effect."
+			id: "2165149BD434F0A2"
+			tasks: [{
+				id: "309028D8AF47EDFD"
+				type: "stat"
+				title: "1 Raid Won"
+				stat: "minecraft:raid_win"
+				value: 1
+			}]
+			rewards: [{
+				id: "180ACBBEFCDA0135"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+		}
+		{
+			title: "Collect music discs"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "iceandfire:textures/tinkers/weezer.png"
+				}
+			}
+			x: 1.0d
+			y: -7.0d
+			subtitle: "Turn in one of every vanilla music disc"
+			description: ["{image:iceandfire:textures/tinkers/weezer.png width:100 height:100 align:1}"]
+			id: "13E633214F4E2339"
+			tasks: [
+				{
+					id: "1AA761CFCF9F3EBE"
+					type: "item"
+					title: "C418 - 13"
+					item: "minecraft:music_disc_13"
+					consume_items: true
+				}
+				{
+					id: "6E62972F99265927"
+					type: "item"
+					title: "C418 - blocks"
+					item: "minecraft:music_disc_cat"
+					consume_items: true
+				}
+				{
+					id: "6F2791F206E871B3"
+					type: "item"
+					title: "C418 - blocks"
+					item: "minecraft:music_disc_blocks"
+					consume_items: true
+				}
+				{
+					id: "4F7BDE19D8F236B4"
+					type: "item"
+					title: "C418 - chirp"
+					item: "minecraft:music_disc_chirp"
+					consume_items: true
+				}
+				{
+					id: "5D978D6A3BE7FDC8"
+					type: "item"
+					title: "C418 - far"
+					item: "minecraft:music_disc_far"
+					consume_items: true
+				}
+				{
+					id: "425810924A277BC3"
+					type: "item"
+					title: "C418 - mall"
+					item: "minecraft:music_disc_mall"
+					consume_items: true
+				}
+				{
+					id: "44079DD29846867F"
+					type: "item"
+					title: "C418 - mellohi"
+					item: "minecraft:music_disc_mellohi"
+					consume_items: true
+				}
+				{
+					id: "568D6612DEBC53AD"
+					type: "item"
+					title: "C418 - stal"
+					item: "minecraft:music_disc_stal"
+					consume_items: true
+				}
+				{
+					id: "5C9EEA73687AEAF6"
+					type: "item"
+					title: "C418 - strad"
+					item: "minecraft:music_disc_strad"
+					consume_items: true
+				}
+				{
+					id: "40AE80F951177B3C"
+					type: "item"
+					title: "C418 - ward"
+					item: "minecraft:music_disc_ward"
+					consume_items: true
+				}
+				{
+					id: "036BC55C3302F8F7"
+					type: "item"
+					title: "C418 - 11"
+					item: "minecraft:music_disc_11"
+					consume_items: true
+				}
+				{
+					id: "5ABC673097069CCD"
+					type: "item"
+					title: "C418 - wait"
+					item: "minecraft:music_disc_wait"
+					consume_items: true
+				}
+				{
+					id: "2E36CE238619C6FE"
+					type: "item"
+					title: "Lena Raine - Pigstep"
+					item: "minecraft:music_disc_pigstep"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "36F4909158F13BA9"
+					type: "random"
+					table_id: 8035482593293167064L
+				}
+				{
+					id: "31DF9EFA2E66097A"
+					type: "random"
+					table_id: 2479455307777560111L
+				}
+				{
+					id: "0CD43E51A6D17A28"
+					type: "random"
+				}
+				{
+					id: "23AB27DA668B23E9"
+					type: "random"
+					table_id: 9173031481625304501L
+				}
+				{
+					id: "02F720B764D06D06"
+					type: "random"
+					table_id: 823528550893493875L
+				}
+				{
+					id: "2C3E2074DC2E5608"
+					type: "random"
+				}
+				{
+					id: "72099B0712E58038"
+					type: "random"
+					table_id: 5645059266537726814L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -2.5d
+			subtitle: "Activated at &dworld creation."
+			id: "01A925F9D9152B56"
+			tasks: [{
+				id: "436B2B234A06827C"
+				type: "advancement"
+				title: "Normal Mode"
+				advancement: "majruszsdifficulty:progressive_difficulty/normal_mode"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0DBED20ABC38D941"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 7661356219169517173L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			subtitle: "Activated when &dthe first player changes dimension."
+			dependencies: ["01A925F9D9152B56"]
+			id: "776ECA27E0FA0841"
+			tasks: [{
+				id: "6A643FB044099748"
+				type: "advancement"
+				title: "Expert Mode"
+				advancement: "majruszsdifficulty:progressive_difficulty/expert_mode"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "351CBF7F795566E3"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 7661356219169517173L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -5.5d
+			subtitle: "Activated when anyone defeats &dthe Ender Dragon."
+			dependencies: ["776ECA27E0FA0841"]
+			id: "1A79A52A223762CD"
+			tasks: [{
+				id: "41BA55083E5C0116"
+				type: "advancement"
+				title: "Master Mode"
+				advancement: "majruszsdifficulty:progressive_difficulty/master_mode"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7201BC88692ACBFD"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 7661356219169517173L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

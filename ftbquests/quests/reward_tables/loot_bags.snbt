@@ -1,0 +1,91 @@
+{
+	id: "7F4D27881FC05DB5"
+	order_index: 5
+	title: "Loot Bags"
+	icon: {
+		id: "treasurebags:treasure_bag"
+		Count: 1b
+		tag: {
+			silentlib.LootContainer: { }
+		}
+	}
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "treasurebags:treasure_bag"
+				Count: 1b
+				tag: {
+					silentlib.LootContainer: {
+						LootTable: "treasurebags:bags/dungeon"
+						BagType: "treasurebags:dungeon"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "treasurebags:treasure_bag"
+				Count: 1b
+				tag: {
+					silentlib.LootContainer: {
+						LootTable: "treasurebags:bags/nature"
+						BagType: "treasurebags:nature"
+					}
+				}
+			}
+			weight: 2
+		}
+		{
+			item: {
+				id: "treasurebags:treasure_bag"
+				Count: 1b
+				tag: {
+					silentlib.LootContainer: {
+						LootTable: "treasurebags:bags/literacy"
+						BagType: "treasurebags:literacy"
+					}
+				}
+			}
+			weight: 2
+		}
+		{
+			item: {
+				id: "treasurebags:treasure_bag"
+				Count: 1b
+				tag: {
+					silentlib.LootContainer: {
+						LootTable: "treasurebags:bags/ingots"
+						BagType: "treasurebags:ingots"
+					}
+				}
+			}
+			weight: 2
+		}
+		{
+			item: {
+				id: "treasurebags:treasure_bag"
+				Count: 1b
+				tag: {
+					silentlib.LootContainer: {
+						LootTable: "treasurebags:bags/food"
+						BagType: "treasurebags:food"
+					}
+				}
+			}
+			weight: 2
+		}
+		{
+			item: {
+				id: "treasurebags:treasure_bag"
+				Count: 1b
+				tag: {
+					silentlib.LootContainer: {
+						LootTable: "treasurebags:bags/ender"
+						BagType: "treasurebags:ender"
+					}
+				}
+			}
+		}
+	]
+}

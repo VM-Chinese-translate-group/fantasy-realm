@@ -1,0 +1,1144 @@
+{
+	id: "1962507DEBE689FD"
+	group: ""
+	order_index: 1
+	filename: "getting_started"
+	title: " &7Getting Started"
+	icon: "minecraft:oak_log"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Pick a Starter Item"
+			icon: "minecraft:grass_block"
+			x: -4.5d
+			y: -1.0d
+			shape: "gear"
+			subtitle: "&6Starter Items &rdo not affect gameplay in any way, they are &5simply starting items."
+			size: 1.5d
+			id: "7944A3DD37CF9502"
+			tasks: [{
+				id: "095D3A48E6778842"
+				type: "dimension"
+				title: "Pick a Starter Item"
+				icon: "minecraft:grass_block"
+				dimension: "minecraft:overworld"
+			}]
+			rewards: [{
+				id: "5EE48420489DF620"
+				type: "choice"
+				icon: "fantasyfurniture:royal/chest"
+				exclude_from_claim_all: true
+				table_id: 2810418854467652350L
+			}]
+		}
+		{
+			title: "Biome Locator"
+			x: -3.0d
+			y: 0.5d
+			subtitle: "Craft a &aNature's Compass"
+			dependencies: ["7944A3DD37CF9502"]
+			id: "745233F49640DA8A"
+			tasks: [{
+				id: "18AB7949503682D9"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "5BC5CA5F5425B39D"
+					type: "random"
+					table_id: 2198154992902025748L
+				}
+				{
+					id: "404F08B84D2A0F71"
+					type: "item"
+					item: "minecraft:rabbit_hide"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "Enchantable, Portable Storage"
+			x: -4.5d
+			y: 1.0d
+			subtitle: "Craft a&6 Backpack"
+			dependencies: ["7944A3DD37CF9502"]
+			id: "7BD9F3A654922398"
+			tasks: [{
+				id: "2CDECC6C34DD50D6"
+				type: "item"
+				item: {
+					id: "backpacked:backpack"
+					Count: 1b
+					tag: {
+						display: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "5A82A77D6D6DDC04"
+				type: "random"
+				table_id: 2198154992902025748L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.5d
+			dependencies: ["7944A3DD37CF9502"]
+			id: "66D1A389C7465BBB"
+			tasks: [{
+				id: "3B1F6A7C54E5BA63"
+				type: "item"
+				item: "farmersdelight:chicken_sandwich"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -1.0d
+			dependencies: ["7944A3DD37CF9502"]
+			id: "798A68F37DB7E0BC"
+			tasks: [
+				{
+					id: "56B5F2EA24D93BCD"
+					type: "item"
+					item: {
+						id: "minecraft:iron_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "128C72D64814B6CD"
+					type: "item"
+					item: {
+						id: "minecraft:iron_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5A8DEC96ED753E41"
+					type: "item"
+					item: {
+						id: "minecraft:iron_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "58D8B568241D2DA3"
+					type: "item"
+					item: {
+						id: "minecraft:iron_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -2.5d
+			subtitle: "Guides for various mods in the modpack"
+			dependencies: ["7944A3DD37CF9502"]
+			id: "2E99CAFA5689A90C"
+			tasks: [
+				{
+					id: "3C23AD4D896CD20C"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "epicsamurai:samurai_guide"
+						}
+					}
+				}
+				{
+					id: "5F148A4D2E6056D5"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "distant_worlds:garhenna_book"
+						}
+					}
+				}
+				{
+					id: "758EC34D932B76E0"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "distant_worlds:distant_worlds_book"
+						}
+					}
+				}
+				{
+					id: "156B6CB3EEE5D7EC"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "twilightforest:guide"
+						}
+					}
+				}
+				{
+					id: "1FCA61ADF5BAFC5F"
+					type: "item"
+					item: "obscure_api:obscure_book"
+				}
+				{
+					id: "3582973C27A648C4"
+					type: "item"
+					item: "blue_skies:blue_journal"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -3.0d
+			dependencies: ["7944A3DD37CF9502"]
+			id: "339D7C559E0AB1C8"
+			tasks: [
+				{
+					id: "29E9EE7C21B87517"
+					type: "item"
+					item: "minecolonies:supplychestdeployer"
+				}
+				{
+					id: "63AE02A5CA305F64"
+					type: "item"
+					item: "minecolonies:supplycampdeployer"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -2.5d
+			dependencies: ["7944A3DD37CF9502"]
+			id: "32AF4734F0705E12"
+			tasks: [{
+				id: "547D97BA5F738BA6"
+				type: "item"
+				item: "tetra:pristine_diamond"
+			}]
+		}
+		{
+			title: "&5Normal Mode"
+			x: -5.5d
+			y: 4.5d
+			shape: "rsquare"
+			subtitle: "&fClick!"
+			description: [
+				"Activated at &d&lWorld Creation.&r"
+				""
+				"&6&lFeatures:&r"
+				""
+				"- &dUndead Army&r spawns after &4killing 25 undead mobs.&r"
+				""
+				"- &cAnimals&r, &cZombies&r, and &cSpiders&r inflict &4Bleeding effect&r."
+				""
+				"- &eZombies&r and &eSkeletons&r spawn in &2groups.&r"
+				""
+				"- &2Creepers &rspawn &bcharged.&r"
+				""
+				"- &4Stronger mobs &rand &4bosses&r drop &4Treasure Bags.&r"
+				""
+				" - &3Elder Guardian &rdrops &6Elder guardian treasure bag&r"
+				""
+				" - &3Warden&r drops Warden treasure bag &6Warden Treasure Bag&r"
+				""
+				" - &3Wither&r drops Wither treasure bag &6Wither Treasure Bag&r"
+				""
+				" - &3Ender Dragon&r drops &6Ender dragon treasure bag&r"
+				""
+				"etc etc"
+			]
+			id: "76D21CEBF925F2B1"
+			tasks: [{
+				id: "5361A18F4630A9D7"
+				type: "advancement"
+				advancement: "majruszsdifficulty:progressive_difficulty/normal_mode"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "69487DBC5C2E299E"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 7661356219169517173L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			shape: "circle"
+			subtitle: "&fClick!"
+			description: [
+				"Activated when &l&dthe first player&r &l&4Changes Dimension.&r"
+				""
+				"&6&lFeatures:&r"
+				""
+				"- &dUndead Army&r has 2 extra waves.&r"
+				""
+				"- &0Wither Skeletons &rand &4Cerberus Cerberus&r can be encountered during 4th and 5th wave.&r"
+				""
+				"- &4Bleeding effect &rgets stronger.&r"
+				""
+				"- &6Piglins &rspawn in groups.&r"
+				""
+				"- &2Creepers &rexplode into more &2Creeperlings.&r"
+				""
+				"- &2Creepers &rignite other &2Creepers &ron explosion.&r"
+				""
+				"- &bDrowned &rspawn &blightning bolts&r when using &bTrident.&r"
+				""
+				"- &4Mobs&r are more likely to spawn: &4+10% mob&r spawn rateIt only affects &4hostile mobs.&r"
+				""
+				"- &eRabbits&r can be replaced with &4The Killer Bunny.&r"
+				""
+				"- &2Fishing&r rewards you with &6Treasure Bags more often.&r"
+				""
+				"etc etc"
+				""
+			]
+			dependencies: [
+				"01A925F9D9152B56"
+				"76D21CEBF925F2B1"
+			]
+			size: 1.5d
+			id: "24E08A5486D838BE"
+			tasks: [{
+				id: "77570D18BF031E60"
+				type: "advancement"
+				title: "&5Expert Mode"
+				advancement: "majruszsdifficulty:progressive_difficulty/expert_mode"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "35A903D780B3FC31"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2645938118790146101L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.5d
+			shape: "gear"
+			subtitle: "&fClick!"
+			description: [
+				"Activated when &l&dAnyone&r defeats &l&dthe Ender Dragon.&r"
+				""
+				"&l&6Features:&r"
+				""
+				"- &4Undead Army&r has extra wave.&r"
+				""
+				"- &2Giant&r can be encountered during &b6th wave&r"
+				""
+				"- &4Bleeding effect &rgets stronger.&r"
+				""
+				"- &dEndermans&r teleport mobs on hit.&r"
+				""
+				"- &3Phantoms&r inflict &bLevitation effect.&r"
+				""
+				"- &dShulkers &rinflict &6Blindness effect.&r"
+				""
+				"- &4Mobs&r are more likely to spawn.&r"
+				""
+				"- &cCerberus&r starts to spawn naturally in&4 the Nether.&r"
+				""
+				"- &4Mobs have more &bhealth:&r "
+				" - &b+10% &4extra health&r during the day (&btotal +20%&r)"
+				" - &b+15% &4extra health&r during the night (&btotal +30%&r)"
+				""
+				"- &4Mobs &rdeal more &4damage:&r"
+				" - &b+10% &4extra damage &rduring the day (&btotal +20%&r)"
+				" - &b+15% &4extra damage&r during the night (&btotal +30%&r)"
+				""
+				""
+			]
+			dependencies: ["24E08A5486D838BE"]
+			size: 2.0d
+			id: "6F4188CED1FC9D82"
+			tasks: [{
+				id: "1409BD27BC44FC6B"
+				type: "advancement"
+				title: "&5Master Mode"
+				advancement: "majruszsdifficulty:progressive_difficulty/master_mode"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6A7E96D633713E73"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 7474746035066092266L
+			}]
+		}
+		{
+			title: "Craft &5Bandages"
+			x: -5.0d
+			y: 6.0d
+			subtitle: "Bandage is an item that cures Bleeding effect. It can be obtained from Angler treasure bag Angler Treasure Bag or by crafting it."
+			dependencies: ["76D21CEBF925F2B1"]
+			id: "17286011E566C866"
+			tasks: [
+				{
+					id: "111945CCA8F96303"
+					type: "item"
+					item: "majruszsdifficulty:bandage"
+				}
+				{
+					id: "7B97ADDE5BFC9F5B"
+					type: "item"
+					item: "majruszsdifficulty:golden_bandage"
+				}
+			]
+			rewards: [{
+				id: "209E266C4B9DF116"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2198154992902025748L
+			}]
+		}
+		{
+			title: "Craft an &5Undead Battle Standard"
+			x: -7.5d
+			y: 4.5d
+			subtitle: "&5Undead Battle Standard&r is an item that allows to summon the &5Undead Army&r whenever possible."
+			dependencies: ["76D21CEBF925F2B1"]
+			id: "226DA6205D929C7B"
+			tasks: [{
+				id: "303F946C105FFED3"
+				type: "item"
+				item: "majruszsdifficulty:undead_battle_standard"
+			}]
+			rewards: [{
+				id: "48007616468487B8"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 7661356219169517173L
+			}]
+		}
+		{
+			title: "Obtain a &5Recall Potion"
+			x: -4.0d
+			y: 5.5d
+			subtitle: "It can be obtained from &fPillager Raid Treasure Bag."
+			dependencies: ["76D21CEBF925F2B1"]
+			id: "78AE52AA945C6948"
+			tasks: [{
+				id: "2804B3007A6C7492"
+				type: "item"
+				item: "majruszsdifficulty:recall_potion"
+			}]
+			rewards: [{
+				id: "75DE6582133984D3"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2198154992902025748L
+			}]
+		}
+		{
+			title: "Obtain a &5Soul Jar"
+			x: -4.0d
+			y: 3.5d
+			subtitle: "It can be obtained from &fUndead Army Treasure Bag."
+			dependencies: ["76D21CEBF925F2B1"]
+			id: "5646A179EE4D5BED"
+			tasks: [{
+				id: "66B5CD68519E84A0"
+				type: "item"
+				item: {
+					id: "majruszsdifficulty:soul_jar"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "26EF9F4AE61E901B"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2198154992902025748L
+			}]
+		}
+		{
+			title: "Craft an &5Enderium Set"
+			x: 2.0d
+			y: 6.0d
+			subtitle: "Armor pieces can be crafted using Netherite equivalent,"
+			dependencies: ["6F4188CED1FC9D82"]
+			id: "3E616F1FD165DE43"
+			tasks: [
+				{
+					id: "4AB19636C3502217"
+					type: "item"
+					item: {
+						id: "majruszsdifficulty:enderium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4009F4E76C5CE550"
+					type: "item"
+					item: {
+						id: "majruszsdifficulty:enderium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2836922F8FEAAFDF"
+					type: "item"
+					item: {
+						id: "majruszsdifficulty:enderium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "78B4D525C37E5F94"
+					type: "item"
+					item: {
+						id: "majruszsdifficulty:enderium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "455FA4D4C925A09A"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2645938118790146101L
+			}]
+		}
+		{
+			title: "Craft an &5Enderium Tools Set"
+			x: 3.0d
+			y: 6.0d
+			dependencies: ["6F4188CED1FC9D82"]
+			id: "4E76AE914A79374F"
+			tasks: [
+				{
+					id: "5E24E3F75538B6D1"
+					type: "item"
+					item: {
+						id: "majruszsdifficulty:enderium_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3678EF69BA207232"
+					type: "item"
+					item: {
+						id: "majruszsdifficulty:enderium_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5F037DCA34CDCEE2"
+					type: "item"
+					item: {
+						id: "majruszsdifficulty:enderium_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "71FEB9A907FD2979"
+					type: "item"
+					item: {
+						id: "majruszsdifficulty:enderium_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6F03BB478C6C1A15"
+					type: "item"
+					item: {
+						id: "majruszsdifficulty:enderium_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "42F1070810DF2945"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 2645938118790146101L
+				}
+				{
+					id: "3AE781BB0F1FB334"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 823528550893493875L
+				}
+			]
+		}
+		{
+			title: "Obtain an &5Enderium Shard Locator"
+			x: 2.0d
+			y: 3.0d
+			subtitle: "&5Enderium Shard Locator&r is an item that helps to locate the&5 Enderium Shard Ores&r by indicating how far the player is from the nearest ore.It can be obtained from &cEnder Dragon Treasure Bag."
+			dependencies: ["6F4188CED1FC9D82"]
+			id: "1C5274CB5C3D832E"
+			tasks: [{
+				id: "5B0982A0F0B23036"
+				type: "item"
+				item: "majruszsdifficulty:enderium_shard_locator"
+			}]
+			rewards: [{
+				id: "4A56D037EFE42EEC"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 7661356219169517173L
+			}]
+		}
+		{
+			title: "Obtain an &5Enderium Ingot"
+			x: 3.0d
+			y: 3.0d
+			subtitle: "&5Enderium Ingot &ris an item required to craft &5Enderium Armor and Enderium Tools&r.It can be crafted using  &5Enderium Shards."
+			dependencies: ["6F4188CED1FC9D82"]
+			id: "381899A2E72E410C"
+			tasks: [{
+				id: "6903E54CA73B4983"
+				type: "item"
+				item: "majruszsdifficulty:enderium_ingot"
+			}]
+			rewards: [{
+				id: "78AFF9B8D548CCD1"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 7661356219169517173L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			dependencies: ["24E08A5486D838BE"]
+			id: "540BAFF7DDCEC2AA"
+			tasks: [{
+				id: "576CB1898AB8DC10"
+				type: "item"
+				title: "Obtain a &5Wither Sword"
+				item: {
+					id: "majruszsdifficulty:wither_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Obtain a &5Cerberus Fang"
+			x: -1.0d
+			y: 6.0d
+			subtitle: "&4Cerberus Fang&r is an item that is an ingredient required to make &0Wither Potions&r and &0Wither Arrows.&r It can be obtained from &4The Cerberus."
+			dependencies: ["24E08A5486D838BE"]
+			id: "4E61B953876B1CB8"
+			tasks: [{
+				id: "6C889661822FE0F9"
+				type: "item"
+				item: "majruszsdifficulty:cerberus_fang"
+			}]
+		}
+		{
+			title: "Obtain a &5Wither Treasure Bag"
+			x: -2.0d
+			y: 6.0d
+			subtitle: "&0Wither Treasure Bag&r is one of Treasure Bags that can be obtained after killing &0the Wither."
+			dependencies: ["24E08A5486D838BE"]
+			id: "579750220CF7B904"
+			tasks: [{
+				id: "39B6BF00C2754231"
+				type: "item"
+				item: "majruszsdifficulty:wither_treasure_bag"
+			}]
+		}
+		{
+			title: "Obtain an &5Ender Dragon Treasure Bag"
+			x: 4.0d
+			y: 4.0d
+			subtitle: "&5Ender Dragon Treasure Bag&r is one of Treasure Bags that can be obtained after killing &5the Ender Dragon."
+			dependencies: ["6F4188CED1FC9D82"]
+			id: "1437743B652CCD39"
+			tasks: [{
+				id: "03BF721AEC477494"
+				type: "item"
+				item: "majruszsdifficulty:ender_dragon_treasure_bag"
+			}]
+		}
+		{
+			title: "Obtain an &5Ender Pouch"
+			x: 4.0d
+			y: 5.0d
+			subtitle: "&5Ender Pouch&r is an item that works as portable &fEnder Chest.&rIt can be obtained from an &5Ender Dragon Treasure Bag."
+			dependencies: ["6F4188CED1FC9D82"]
+			id: "3EC122E73B3B1D61"
+			tasks: [{
+				id: "19F02470B6F039FB"
+				type: "item"
+				item: "majruszsdifficulty:ender_pouch"
+			}]
+		}
+		{
+			title: "Obtain &5the Angler Treasure Bag"
+			x: -6.0d
+			y: 6.0d
+			subtitle: "Click me!"
+			description: [
+				"Angler Treasure Bag is one of Treasure Bags that can be obtained while fishing"
+				""
+				"- once every 20 items fished on Normal Mode"
+				"- once every 15 items fished on Expert Mode"
+				"- once every 10 items fished on Master Mode"
+				""
+				""
+				""
+			]
+			dependencies: ["76D21CEBF925F2B1"]
+			id: "7E5786FA29ACFB83"
+			tasks: [{
+				id: "107CE138CA85ECE3"
+				type: "item"
+				item: "majruszsdifficulty:fishing_treasure_bag"
+			}]
+		}
+		{
+			title: "Obtain &5the Undead Army Treasure Bag"
+			x: -7.0d
+			y: 3.5d
+			subtitle: "&cUndead Army Treasure Bag&r is one of Treasure Bags that can be obtained after defeating the&5 Undead Army."
+			dependencies: ["76D21CEBF925F2B1"]
+			id: "6BF0451167B38ACF"
+			tasks: [{
+				id: "38EAD8042B1C3A49"
+				type: "item"
+				item: "majruszsdifficulty:undead_army_treasure_bag"
+			}]
+		}
+		{
+			title: "Obtain a &5Raid Treasure Bag"
+			x: -6.0d
+			y: 3.0d
+			subtitle: "&3Raid Treasure Bag&r is one of Treasure Bags that can be obtained after defeating &3the raid."
+			dependencies: ["76D21CEBF925F2B1"]
+			id: "69CB7E0AD09ED92F"
+			tasks: [{
+				id: "2E482AD0FFBF4FC9"
+				type: "item"
+				item: "majruszsdifficulty:pillager_treasure_bag"
+			}]
+		}
+		{
+			title: "Obtain an &5Elder Guardian Treasure Bag"
+			x: -7.0d
+			y: 5.5d
+			subtitle: "&bElder Guardian Treasure Bag&r is one of Treasure Bags that can be obtained after killing the &bElder Guardian."
+			dependencies: ["76D21CEBF925F2B1"]
+			id: "6615AFCEAAB0049B"
+			tasks: [{
+				id: "00FFCD1DEA412E62"
+				type: "item"
+				item: "majruszsdifficulty:elder_guardian_treasure_bag"
+			}]
+		}
+		{
+			title: "Create a &8Workbench"
+			icon: "tetra:basic_workbench"
+			x: -1.5d
+			y: -1.0d
+			shape: "circle"
+			subtitle: "Right click a crafting table with a&f hammer&r to create a &eWorkbench."
+			dependencies: ["7944A3DD37CF9502"]
+			size: 1.2d
+			id: "0A11483C0D4D821C"
+			tasks: [{
+				id: "16A3E0F98C662C50"
+				type: "item"
+				item: {
+					id: "tetra:modular_double"
+					Count: 1b
+					tag: {
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "3460e712-9721-47a6-af09-4ecd84f40698"
+						"double/basic_hammer_right_material": "basic_hammer/oak"
+						Damage: 0
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/basic_hammer_left_material": "basic_hammer/oak"
+					}
+				}
+			}]
+			rewards: [{
+				id: "7AD3C150BA50DB49"
+				type: "random"
+				table_id: 9173031481625304501L
+			}]
+		}
+		{
+			title: "Upgrade to a &8Tier 2 Hammer"
+			x: 0.0d
+			y: -2.5d
+			subtitle: "&6Upgrade a wooden hammer&r to a &8stone hamme&rr using the &eTetra Workbench."
+			dependencies: ["0A11483C0D4D821C"]
+			id: "03B8B043890E8D81"
+			tasks: [{
+				id: "163A37193405E837"
+				type: "advancement"
+				advancement: "tetra:upgrades/hammer_2"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "733EE9C1C63F5F32"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2198154992902025748L
+			}]
+		}
+		{
+			title: "Create a &8Tier 3 Hammer"
+			x: 0.0d
+			y: -4.0d
+			subtitle: "Created in a &eTetra Workbench."
+			dependencies: ["03B8B043890E8D81"]
+			id: "5A909AB89A767C8E"
+			tasks: [{
+				id: "1F0EA579221C46F4"
+				type: "advancement"
+				advancement: "tetra:upgrades/hammer_3"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6E916895BE8505AF"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 7661356219169517173L
+			}]
+		}
+		{
+			title: "Create a&8 Tier 4 Hammer"
+			x: 1.5d
+			y: -4.0d
+			subtitle: "Created in a &eTetra Workbench."
+			dependencies: ["5A909AB89A767C8E"]
+			id: "121A55E1DB9C6395"
+			tasks: [{
+				id: "378199B1F0791EF2"
+				type: "advancement"
+				advancement: "tetra:upgrades/hammer_4"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1F0EB38D5340D061"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 7661356219169517173L
+			}]
+		}
+		{
+			title: "Create a &8Tier 5 Hammer"
+			x: 1.5d
+			y: -5.5d
+			subtitle: "Created in a &eTetra Workbench."
+			dependencies: ["121A55E1DB9C6395"]
+			id: "5EEFB1652B221214"
+			tasks: [{
+				id: "2BE32B317B8DD275"
+				type: "advancement"
+				advancement: "tetra:upgrades/hammer_5"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "01414A8BA5C2E01A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2645938118790146101L
+			}]
+		}
+		{
+			title: "Create a&8 Tier 6 Hammer"
+			x: 0.0d
+			y: -5.5d
+			subtitle: "Created in a &eTetra Workbench."
+			dependencies: ["5EEFB1652B221214"]
+			id: "4044F53070B5724E"
+			tasks: [{
+				id: "464B884202DE1FDB"
+				type: "advancement"
+				advancement: "tetra:upgrades/hammer_6"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "39981BF7DE41FA83"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2645938118790146101L
+			}]
+		}
+		{
+			title: "Obtain a &8Holosphere"
+			x: 2.5d
+			y: 0.0d
+			subtitle: "Shows the types of tools and weapons which can be made using &6Tetra crafting&r, alongside all possible materials. Attachments are not shown in the &fholosphere&r, and instead are shown on the tools themselves. Can be upgraded into a scanner with an&5 Eye of Ender&r. An additional &5Eye of Ender&r will extend the range which it can find Ruins."
+			dependencies: ["0A11483C0D4D821C"]
+			id: "6B884ACCC607642F"
+			tasks: [{
+				id: "19AE94B61907B927"
+				type: "item"
+				item: {
+					id: "tetra:holo"
+					Count: 1b
+					tag: {
+						"holo/core_material": "frame/dim"
+						"holo/frame": "holo/frame"
+						"holo/core": "holo/core"
+						"holo/frame_material": "core/ancient"
+					}
+				}
+			}]
+			rewards: [{
+				id: "57B48FC573BCC6F9"
+				type: "random"
+				table_id: 9173031481625304501L
+			}]
+		}
+		{
+			title: "Craft a &8Toolbelt"
+			x: -1.5d
+			y: -2.5d
+			subtitle: "Crafted in a crafting table with &f4 pieces of string."
+			dependencies: ["0A11483C0D4D821C"]
+			id: "2891F205429F2ABB"
+			tasks: [{
+				id: "3DBC8B164BC578E4"
+				type: "item"
+				item: {
+					id: "tetra:modular_toolbelt"
+					Count: 1b
+					tag: {
+						"toolbelt/belt_material": "belt/rope"
+						"toolbelt/belt": "toolbelt/belt"
+						"toolbelt/slot1": "toolbelt/strap_slot1"
+						"toolbelt/strap_slot1_material": "strap1/leather"
+					}
+				}
+			}]
+			rewards: [{
+				id: "564A592290A3E5B9"
+				type: "random"
+				table_id: 2198154992902025748L
+			}]
+		}
+		{
+			title: "Fully upgrade a &8Toolbelt"
+			x: -1.5d
+			y: -3.5d
+			subtitle: "Upgraded in the &eTetra Workbench."
+			dependencies: ["2891F205429F2ABB"]
+			id: "5CEAADF45BE31794"
+			tasks: [{
+				id: "7CF9849376790E37"
+				type: "advancement"
+				advancement: "tetra:upgrades/toolbelt_upgraded"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Upgrade a &8Sword"
+			x: -1.5d
+			y: 0.5d
+			subtitle: "&fSwords &rcan be upgraded by placing them in a &eTetra Workbench."
+			dependencies: ["0A11483C0D4D821C"]
+			id: "16EB81AB666A456D"
+			tasks: [{
+				id: "1C1F7A3F208A762D"
+				type: "advancement"
+				advancement: "tetra:upgrades/sword_upgrade"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5BDA203CF455E631"
+				type: "random"
+				table_id: 9173031481625304501L
+			}]
+		}
+		{
+			title: "Strengthen a &8Sword"
+			x: -1.5d
+			y: 1.5d
+			subtitle: "Use a &eTetra Workbench."
+			dependencies: ["16EB81AB666A456D"]
+			id: "512B2D81BD1B7C9C"
+			tasks: [{
+				id: "45CB768FBCD4243D"
+				type: "advancement"
+				advancement: "tetra:upgrades/sword_integrity"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "32EF9FD3E39DCBBD"
+				type: "random"
+				table_id: 2198154992902025748L
+			}]
+		}
+		{
+			title: "Hone a &8Sword"
+			x: -0.5d
+			y: 0.5d
+			subtitle: "&fA Tetra Sword&r can be honed in a &eTetra Workbench&r after the sword is used a sufficient amount."
+			dependencies: ["16EB81AB666A456D"]
+			id: "0DD749BE290BB411"
+			tasks: [{
+				id: "42E56CA5B1D117DF"
+				type: "advancement"
+				advancement: "tetra:upgrades/sword_hone"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "440F5D5CDBC6DD1E"
+				type: "random"
+				table_id: 2198154992902025748L
+			}]
+		}
+		{
+			title: "Upgrade a &8Tool"
+			x: 2.5d
+			y: -1.0d
+			subtitle: "&fTools&r can be upgraded by placing them in a &eTetra Workbench."
+			dependencies: ["0A11483C0D4D821C"]
+			id: "3F5AD7F84ED1D430"
+			tasks: [{
+				id: "31C5CFA7EA0C218D"
+				type: "advancement"
+				advancement: "tetra:upgrades/tool_upgrade"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "52C1490EB4BF3F63"
+				type: "random"
+				table_id: 9173031481625304501L
+			}]
+		}
+		{
+			title: "Upgrade a &8Shield"
+			x: 1.5d
+			y: 0.5d
+			subtitle: "&fShields &rcan be upgraded by placing them in a &eTetra Workbench."
+			dependencies: ["0A11483C0D4D821C"]
+			id: "4720F10897BD2ED0"
+			tasks: [{
+				id: "0C62C2DCBF8576DD"
+				type: "advancement"
+				advancement: "tetra:upgrades/shield_upgrade"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "21E07C97401537E0"
+				type: "random"
+				table_id: 9173031481625304501L
+			}]
+		}
+		{
+			title: "Upgrade a&8 Bow"
+			x: 1.5d
+			y: -2.5d
+			subtitle: "&fBows&r can be upgraded by placing them in a &eTetra Workbench."
+			dependencies: ["0A11483C0D4D821C"]
+			id: "71AB8F72C97BEA47"
+			tasks: [{
+				id: "0F6DA72108F58140"
+				type: "advancement"
+				advancement: "tetra:upgrades/bow_upgrade"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "618925EE6BBDE4FD"
+				type: "random"
+				table_id: 9173031481625304501L
+			}]
+		}
+		{
+			title: "Craft a &8Rack"
+			x: 2.5d
+			y: -2.0d
+			subtitle: "&fStores tools&r for easy access."
+			dependencies: ["0A11483C0D4D821C"]
+			id: "4403068C731511D6"
+			tasks: [{
+				id: "1321677C7F49EE0C"
+				type: "item"
+				item: "tetra:rack"
+			}]
+			rewards: [{
+				id: "44B483F68A655746"
+				type: "random"
+				table_id: 9173031481625304501L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 3.0d
+			subtitle: "Scroll of &2Evoker Fangs&r is an item that summons &2Evoker Fangs&r in a straight line to &4damage other mobs&r. The longer the scroll is held the &bhigher the attack range&r is and must be held at least &41 second&r to release the attack."
+			dependencies: ["76D21CEBF925F2B1"]
+			id: "6788B541B155F079"
+			tasks: [{
+				id: "745882D165EC2972"
+				type: "item"
+				item: "majruszsdifficulty:evoker_fang_scroll"
+			}]
+			rewards: [{
+				id: "6157DA36955DD5A2"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2198154992902025748L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

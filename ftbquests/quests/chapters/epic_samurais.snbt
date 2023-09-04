@@ -1,0 +1,1275 @@
+{
+	id: "0DBCE5ECF1A0F2FA"
+	group: "1E5E40F7A856E564"
+	order_index: 0
+	filename: "epic_samurais"
+	title: " &6Epic Samurai's"
+	icon: {
+		id: "epicsamurai:red_samurai_helmet"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.5d
+		y: -6.0d
+		width: 4.0d
+		height: 4.0d
+		rotation: 0.0d
+		image: "epicsamurai:textures/item/draco_samurai_helmet.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "Obtain &6Ruby"
+			x: 7.0d
+			y: -2.5d
+			subtitle: "&4The Ruby &rcan be found in the&a Overworld &rfrom &4Y: -64 to Y: 30.&r It can be mined via an Iron Pickaxe."
+			dependencies: ["558D0B3EA892B567"]
+			id: "499638A25891A35C"
+			tasks: [{
+				id: "116AA51F244D7245"
+				type: "item"
+				item: "epicsamurai:ruby"
+			}]
+		}
+		{
+			title: "Obtain &6Jade"
+			x: 7.0d
+			y: 1.5d
+			subtitle: "&2The Jade &rcan be found in the &aOverworld &rfrom &4Y: -64 to Y:&r 30. It can be mined via an Iron Pickaxe."
+			dependencies: ["558D0B3EA892B567"]
+			id: "305A1458225092C6"
+			tasks: [{
+				id: "6CD0646E63E070F5"
+				type: "item"
+				item: "epicsamurai:jade"
+			}]
+		}
+		{
+			title: "Obtain an &6Aquamarine"
+			x: 5.0d
+			y: -0.5d
+			subtitle: "&bThe Aquamarine &rcan be found in the &2Overworld&r from &4Y: -64&r to &4Y: 30&r. It can be mined via an &fIron Pickaxe."
+			dependencies: ["558D0B3EA892B567"]
+			id: "2FF1181C88A27DD6"
+			tasks: [{
+				id: "2F64E02FCB8FD7C2"
+				type: "item"
+				item: "epicsamurai:aquamarine"
+			}]
+		}
+		{
+			title: "Obtain &6Onyx"
+			x: 9.0d
+			y: -0.5d
+			subtitle: "&eThe Onyx &rcan be found in the &aOverworld&r from &4Y: -64 to Y: 30&r. It can be mined via an Iron Pickaxe."
+			dependencies: ["558D0B3EA892B567"]
+			id: "6733D21099E640C6"
+			tasks: [{
+				id: "7D5C818207F5F879"
+				type: "item"
+				item: "epicsamurai:onyx"
+			}]
+		}
+		{
+			title: "Obtain a &6Silver Ingot"
+			x: 8.5d
+			y: -2.0d
+			subtitle: "&8Silver &rcan be found in the &aOverworld &rfrom &4Y: -64 to Y: 30.&r It can be mined via an Iron Pickaxe."
+			dependencies: ["558D0B3EA892B567"]
+			id: "383D230B247F1950"
+			tasks: [{
+				id: "159179F564020103"
+				type: "item"
+				item: "epicsamurai:silver_ingot"
+			}]
+		}
+		{
+			title: "Make Steel Ingots"
+			x: 8.5d
+			y: 1.0d
+			subtitle: "You need to smelt &fIron Ingots&r to get some &8Steel."
+			dependencies: ["558D0B3EA892B567"]
+			id: "601FE61A5EA647EB"
+			tasks: [{
+				id: "3E33E4D042AAA648"
+				type: "item"
+				item: "epicsamurai:steel_ingot"
+			}]
+		}
+		{
+			title: "Craft an &6Anethyst-Coated Steel Ingot"
+			x: 5.5d
+			y: -2.0d
+			subtitle: "&8Steel &rcan be combined with&5 Amethyst in &rthe Smithing Table."
+			dependencies: ["558D0B3EA892B567"]
+			id: "758ED6BAE8AB682E"
+			tasks: [{
+				id: "7E8CC9966624CAE1"
+				type: "item"
+				item: "epicsamurai:amethyst_ingot"
+			}]
+		}
+		{
+			title: "Craft &6Quartz-Coated Steel Ingot"
+			x: 5.5d
+			y: 1.0d
+			subtitle: "&8Steel &rcan be combined with &fQuartz&r in the Smithing Table."
+			dependencies: ["558D0B3EA892B567"]
+			id: "061FC23FDC02018A"
+			tasks: [{
+				id: "1732ECC6B9091D9A"
+				type: "item"
+				item: "epicsamurai:quartz_ingot"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -0.5d
+			shape: "gear"
+			size: 1.5d
+			id: "558D0B3EA892B567"
+			tasks: [{
+				id: "6DCCA8B2F92B556C"
+				type: "checkmark"
+				title: "&6Materials"
+			}]
+		}
+		{
+			title: "Defeat &6the Akaname"
+			x: -4.0d
+			y: -2.5d
+			shape: "circle"
+			subtitle: "Wanders around the &4nether &rto &6scare the humans&r. It will attack with his long&a tongue to slow his &4enemy."
+			id: "7377ECA5B975A70F"
+			tasks: [{
+				id: "12287D0411D56966"
+				type: "kill"
+				icon: "epicsamurai:akaname_spawn_egg"
+				entity: "epicsamurai:akaname"
+				value: 1L
+			}]
+			rewards: [{
+				id: "5B38EE251D91CD9B"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 9173031481625304501L
+			}]
+		}
+		{
+			title: "Defeat &6 the Enenra"
+			x: -6.0d
+			y: -2.5d
+			shape: "circle"
+			subtitle: "Wanders around &8the caves&r to &6hunt the humans.&r Because of it's&0 dark colors&r it is hard to see him in the &8caves."
+			id: "6F1F0937EF19FF7C"
+			tasks: [{
+				id: "4EB9B255AC0B6122"
+				type: "kill"
+				icon: "epicsamurai:enenra_spawn_egg"
+				entity: "epicsamurai:enenra"
+				value: 1L
+			}]
+			rewards: [{
+				id: "0E65D183DBE46D4A"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 9173031481625304501L
+			}]
+		}
+		{
+			title: "Defeat&6 the Oni"
+			x: -5.0d
+			y: -2.0d
+			shape: "circle"
+			subtitle: "Wanders around the&4 nether&r to &6scare the humans.&r It is very slow but&c deals a lot of damage."
+			id: "2D091861C4810369"
+			tasks: [{
+				id: "3BA286930692F7AE"
+				type: "kill"
+				icon: "epicsamurai:oni_spawn_egg"
+				entity: "epicsamurai:oni"
+				value: 1L
+			}]
+			rewards: [{
+				id: "0A6549F2A2785DCF"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 9173031481625304501L
+			}]
+		}
+		{
+			title: "Defeat&6 the Kitsune"
+			x: -5.0d
+			y: -3.0d
+			shape: "circle"
+			subtitle: "Wanders around the &aoverworld &r&6to scare the humans.&r If a human gets too close to it, it will&c fire a projectile called will-o'-the-wisp."
+			id: "6C8F7D241495872B"
+			tasks: [{
+				id: "0A910EAE17AA6389"
+				type: "kill"
+				icon: "epicsamurai:kitsune_spawn_egg"
+				entity: "epicsamurai:kitsune"
+				value: 1L
+			}]
+			rewards: [{
+				id: "57473163FFCDE9D0"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 9173031481625304501L
+			}]
+		}
+		{
+			title: "Craft an&6 Iron Samurai set"
+			x: -1.0d
+			y: -2.5d
+			dependencies: ["5BB3F9D46974552E"]
+			id: "0A4ABB41AF6173B3"
+			tasks: [
+				{
+					id: "12AE32E6BA163911"
+					type: "item"
+					item: {
+						id: "epicsamurai:iron_samurai_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0CBD484EA912597D"
+					type: "item"
+					item: {
+						id: "epicsamurai:iron_samurai_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6C7B926D11BADFCB"
+					type: "item"
+					item: {
+						id: "epicsamurai:iron_samurai_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "309F4E41B2042AC7"
+					type: "item"
+					item: {
+						id: "epicsamurai:iron_samurai_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "245C5772BC711858"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2645938118790146101L
+			}]
+		}
+		{
+			title: "Craft a &6Silver Samurai Set"
+			x: 1.0d
+			y: 2.0d
+			dependencies: ["5BB3F9D46974552E"]
+			id: "04FED954C59A888D"
+			tasks: [
+				{
+					id: "3515D2417231AFF1"
+					type: "item"
+					item: {
+						id: "epicsamurai:white_samurai_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "437ECC31A14D6C2B"
+					type: "item"
+					item: {
+						id: "epicsamurai:white_samurai_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "093D90E729D00682"
+					type: "item"
+					item: {
+						id: "epicsamurai:white_samurai_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "499F8ABB8F100D57"
+					type: "item"
+					item: {
+						id: "epicsamurai:white_samurai_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1775F1A04592178A"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2645938118790146101L
+			}]
+		}
+		{
+			title: "Craft a &6Gold Samurai Set"
+			x: 2.0d
+			y: -2.5d
+			dependencies: ["5BB3F9D46974552E"]
+			id: "196CEAC84438EC8D"
+			tasks: [
+				{
+					id: "4E9DC608E0CF0350"
+					type: "item"
+					item: {
+						id: "epicsamurai:gold_samurai_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "23FD5317DF76FF19"
+					type: "item"
+					item: {
+						id: "epicsamurai:gold_samurai_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6563DF86318F0C33"
+					type: "item"
+					item: {
+						id: "epicsamurai:gold_samurai_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3217DFB76EBE9BB3"
+					type: "item"
+					item: {
+						id: "epicsamurai:gold_samurai_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "125A62972408D7F9"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2645938118790146101L
+			}]
+		}
+		{
+			title: "Craft a &6Diamond Samurai Set"
+			x: 1.0d
+			y: -3.0d
+			dependencies: ["5BB3F9D46974552E"]
+			id: "4E746B6F88808111"
+			tasks: [
+				{
+					id: "37C576EFBF1C1F7F"
+					type: "item"
+					item: {
+						id: "epicsamurai:diamond_samurai_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3177C161C43C8FD5"
+					type: "item"
+					item: {
+						id: "epicsamurai:diamond_samurai_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4B60FE024673FE94"
+					type: "item"
+					item: {
+						id: "epicsamurai:diamond_samurai_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "33103C2E1AC22458"
+					type: "item"
+					item: {
+						id: "epicsamurai:diamond_samurai_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0B4F6D5511E54E88"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2645938118790146101L
+			}]
+		}
+		{
+			title: "Craft a &6Netherite Samurai Set"
+			x: -2.0d
+			y: -1.5d
+			dependencies: ["5BB3F9D46974552E"]
+			id: "27E9C68C53D1C3DA"
+			tasks: [
+				{
+					id: "472027EC8585E7AA"
+					type: "item"
+					item: {
+						id: "epicsamurai:netherite_samurai_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6336444D8AE8FD57"
+					type: "item"
+					item: {
+						id: "epicsamurai:netherite_samurai_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "63E6E199C616CA82"
+					type: "item"
+					item: {
+						id: "epicsamurai:netherite_samurai_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "637DE02A860BB130"
+					type: "item"
+					item: {
+						id: "epicsamurai:netherite_samurai_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "31FBF1C7AEC21CD9"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2645938118790146101L
+			}]
+		}
+		{
+			title: "Craft an &6Amethyst Samurai Set"
+			x: -2.0d
+			y: 0.5d
+			dependencies: ["5BB3F9D46974552E"]
+			id: "16B915EF4476D445"
+			tasks: [
+				{
+					id: "318BDF2B90643274"
+					type: "item"
+					item: {
+						id: "epicsamurai:amethyst_samurai_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "437992E98305F8A3"
+					type: "item"
+					item: {
+						id: "epicsamurai:amethyst_samurai_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "12BAA2F1F005D664"
+					type: "item"
+					item: {
+						id: "epicsamurai:amethyst_samurai_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4E76B6731E906B42"
+					type: "item"
+					item: {
+						id: "epicsamurai:amethyst_samurai_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3117B54CB6504293"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2645938118790146101L
+			}]
+		}
+		{
+			title: "Craft a &6Quartz Samurai Set"
+			x: 3.0d
+			y: 0.5d
+			dependencies: ["5BB3F9D46974552E"]
+			id: "72104AE9D8558FDA"
+			tasks: [
+				{
+					id: "306E736DF2D5E16B"
+					type: "item"
+					item: {
+						id: "epicsamurai:quartz_samurai_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3099E22326A6D0CA"
+					type: "item"
+					item: {
+						id: "epicsamurai:quartz_samurai_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4F2697713327677D"
+					type: "item"
+					item: {
+						id: "epicsamurai:quartz_samurai_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "21F18BBDF8C30156"
+					type: "item"
+					item: {
+						id: "epicsamurai:quartz_samurai_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4EB9B382FE866FD0"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2645938118790146101L
+			}]
+		}
+		{
+			title: "Craft a &6Ruby Samurai Set"
+			x: 3.0d
+			y: -1.5d
+			dependencies: ["5BB3F9D46974552E"]
+			id: "1C10544D46F925EC"
+			tasks: [
+				{
+					id: "07AF91F092CCEDD6"
+					type: "item"
+					item: {
+						id: "epicsamurai:red_samurai_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "159E78E1A15CE511"
+					type: "item"
+					item: {
+						id: "epicsamurai:red_samurai_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4D91957D7D4E7B7A"
+					type: "item"
+					item: {
+						id: "epicsamurai:red_samurai_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "38E7AAFD2FB76019"
+					type: "item"
+					item: {
+						id: "epicsamurai:red_samurai_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2CD90C14411F1E52"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2645938118790146101L
+			}]
+		}
+		{
+			title: "Craft an &6Aquamarine Samurai Set"
+			x: -1.0d
+			y: 1.5d
+			dependencies: ["5BB3F9D46974552E"]
+			id: "5674A41B2E29ECC7"
+			tasks: [
+				{
+					id: "5E9B20614EEADF48"
+					type: "item"
+					item: {
+						id: "epicsamurai:blue_samurai_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3CC4E5380DBE0F5F"
+					type: "item"
+					item: {
+						id: "epicsamurai:blue_samurai_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "25C354E25FC2CDB6"
+					type: "item"
+					item: {
+						id: "epicsamurai:blue_samurai_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "45FC6CE242CC900D"
+					type: "item"
+					item: {
+						id: "epicsamurai:blue_samurai_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2CB759FAFF0C7480"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2645938118790146101L
+			}]
+		}
+		{
+			title: "Craft a &6Jade Samurai Set"
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["5BB3F9D46974552E"]
+			id: "588493FEE073402F"
+			tasks: [
+				{
+					id: "6F0A288FB5E68161"
+					type: "item"
+					item: {
+						id: "epicsamurai:green_samurai_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "038C2B5F54772DF8"
+					type: "item"
+					item: {
+						id: "epicsamurai:green_samurai_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "15B2402F5ADFE723"
+					type: "item"
+					item: {
+						id: "epicsamurai:green_samurai_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5115BCE763E77B84"
+					type: "item"
+					item: {
+						id: "epicsamurai:green_samurai_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "23B542EFF816CAD5"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2645938118790146101L
+			}]
+		}
+		{
+			title: "Craft an &6Onyx Samurai Set"
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["5BB3F9D46974552E"]
+			id: "2F81A08B3EBF3154"
+			tasks: [
+				{
+					id: "10A2C0AEEC89897E"
+					type: "item"
+					item: {
+						id: "epicsamurai:gray_samurai_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "45E9B3A92D527502"
+					type: "item"
+					item: {
+						id: "epicsamurai:gray_samurai_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "19E2FF89A1135134"
+					type: "item"
+					item: {
+						id: "epicsamurai:gray_samurai_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5AFD73F42B874DFB"
+					type: "item"
+					item: {
+						id: "epicsamurai:gray_samurai_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "7C8505B630061103"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2645938118790146101L
+			}]
+		}
+		{
+			title: "Craft a &6Tyr Samurai Set"
+			x: 2.0d
+			y: 1.5d
+			dependencies: ["5BB3F9D46974552E"]
+			id: "586E1BFAB6DFB3CF"
+			tasks: [
+				{
+					id: "2D26119F96246C10"
+					type: "item"
+					item: {
+						id: "epicsamurai:tyr_samurai_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "528120DCE0ECA225"
+					type: "item"
+					item: {
+						id: "epicsamurai:tyr_samurai_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4873AB79566F9488"
+					type: "item"
+					item: {
+						id: "epicsamurai:tyr_samurai_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0046946D48CA1E39"
+					type: "item"
+					item: {
+						id: "epicsamurai:tyr_samurai_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "05739622B8057B48"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2645938118790146101L
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			shape: "gear"
+			size: 1.5d
+			id: "5BB3F9D46974552E"
+			tasks: [{
+				id: "71632E50EF21D2C0"
+				type: "checkmark"
+				title: "Armors"
+			}]
+		}
+		{
+			title: "Craft a &6Steel Samurai Set"
+			x: -2.0d
+			y: -0.5d
+			dependencies: ["5BB3F9D46974552E"]
+			id: "397076D1BB184143"
+			tasks: [
+				{
+					id: "6BEE0BAA980CAA5A"
+					type: "item"
+					item: {
+						id: "epicsamurai:steel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3E8FB91AE4FE764A"
+					type: "item"
+					item: {
+						id: "epicsamurai:steel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7AD5E556FC8D3DE7"
+					type: "item"
+					item: {
+						id: "epicsamurai:steel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "15AE5A6C98AD9B6E"
+					type: "item"
+					item: {
+						id: "epicsamurai:steel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "491FD7EBEBD7B95E"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2645938118790146101L
+			}]
+		}
+		{
+			title: "Craft a &6Draco Samurai Set"
+			x: 3.0d
+			y: -0.5d
+			dependencies: ["5BB3F9D46974552E"]
+			id: "1FACFBD13B8E2A70"
+			tasks: [
+				{
+					id: "483EFA92DA2ABACC"
+					type: "item"
+					item: {
+						id: "epicsamurai:draco_samurai_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5BF0369FBB6BB877"
+					type: "item"
+					item: {
+						id: "epicsamurai:draco_samurai_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "257D064664EA7B8D"
+					type: "item"
+					item: {
+						id: "epicsamurai:draco_samurai_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1B267C09B749C3B1"
+					type: "item"
+					item: {
+						id: "epicsamurai:draco_samurai_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "597AAD151C1602C5"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2645938118790146101L
+			}]
+		}
+		{
+			title: "Craft a &6Katana"
+			x: -6.0d
+			y: -0.5d
+			shape: "square"
+			subtitle: "&cThe Katana&r is the main weapon of the Samurai."
+			id: "5D53D06CA16FB6BF"
+			tasks: [{
+				id: "49434BD7B2A9C8C9"
+				type: "item"
+				item: {
+					id: "epicsamurai:katana"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "029DC2BA5B51BCF9"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 7661356219169517173L
+			}]
+		}
+		{
+			title: "Craft a &6Naginata"
+			x: -5.0d
+			y: -0.5d
+			shape: "square"
+			subtitle: "&fThe Naginata &ris a melee weapon with more range. It acts like a&f spear."
+			id: "3361462D3A2FC11E"
+			tasks: [{
+				id: "3F3BD76F36C5378A"
+				type: "item"
+				item: {
+					id: "epicsamurai:naginata"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "562509AA28A69575"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 7661356219169517173L
+			}]
+		}
+		{
+			title: "Craft a &6Nagamaki"
+			x: -4.0d
+			y: -0.5d
+			shape: "square"
+			subtitle: "&bThe Nagamaki&r is a melee weapon with more range. It acts like a &fspear.&r It can be crafted with &cthe Katana."
+			id: "1A5732001301A3D6"
+			tasks: [{
+				id: "2E14474A1745F643"
+				type: "item"
+				item: {
+					id: "epicsamurai:nagamaki"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4AFCADDEC9D6B2FB"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 7661356219169517173L
+			}]
+		}
+		{
+			title: "Craft a &6Kunai"
+			x: -6.0d
+			y: 0.5d
+			shape: "square"
+			subtitle: "&fThe Kunai &ris melee and ranged weapon with more attack speed."
+			id: "61E37C77642C622E"
+			tasks: [{
+				id: "5DCFFB811E57B5FE"
+				type: "item"
+				item: {
+					id: "epicsamurai:kunai"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7AC6F8BF9F9453BC"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 7661356219169517173L
+			}]
+		}
+		{
+			title: "Craft a &6Kana"
+			x: -4.0d
+			y: 0.5d
+			shape: "square"
+			subtitle: "&dThe Kama &ris a sickle like melee weapon with more attack speed."
+			id: "232FAAF05BDFEA44"
+			tasks: [{
+				id: "175FDA1C34BF3BBB"
+				type: "item"
+				item: {
+					id: "epicsamurai:kama"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0D3D70D26AC9F103"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 7661356219169517173L
+			}]
+		}
+		{
+			title: "Craft a &6Sai"
+			x: -4.0d
+			y: 1.5d
+			shape: "square"
+			subtitle: "&aThe Sai&r is a melee weapon with more attack speed."
+			id: "726D7C59A7A72835"
+			tasks: [{
+				id: "5CE117B56C09263B"
+				type: "item"
+				item: {
+					id: "epicsamurai:sai"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1B14FCD69D4769EC"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 7661356219169517173L
+			}]
+		}
+		{
+			title: "Craft a &6Shuriken"
+			x: -6.0d
+			y: 1.5d
+			shape: "square"
+			subtitle: "You can it them by right- clicking them. &fThe Kunai&r uses durability for each throw."
+			id: "6D6CFBDE017DA9CD"
+			tasks: [{
+				id: "2A6D665A937EBD1A"
+				type: "item"
+				item: "epicsamurai:shuriken"
+			}]
+			rewards: [{
+				id: "0F7C7A6EEBD3D1AA"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 7661356219169517173L
+			}]
+		}
+		{
+			title: "Craft the &6Oni Mask"
+			x: -5.0d
+			y: 0.5d
+			shape: "square"
+			id: "5D6469B55AE36C0A"
+			tasks: [{
+				id: "1084AEB8D8B01D23"
+				type: "item"
+				title: "Oni Mask"
+				item: {
+					id: "epicsamurai:oni_mask"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Craft a &6Stray Hat"
+			x: -5.0d
+			y: 1.5d
+			shape: "square"
+			id: "778C4043E8959596"
+			tasks: [{
+				id: "3EF6B777618455DF"
+				type: "item"
+				item: {
+					id: "epicsamurai:straw_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}
