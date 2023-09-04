@@ -1,0 +1,44 @@
+{
+	"name": "Firon Armor",
+	"icon": "distant_worlds:firon_helmet",
+	"category": "distant_worlds:garhenna_armor",
+	"sortnum": 1,
+	"advancement": "distant_worlds:incandescent_forever",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Firon armor doesn't fully protect against exposure to high temperatures, but in full it is able to remove fire from the wearer outside the source of ignition.$(br)Fully equipped, sneak when falling from more than two blocks to deal damage and set nearby entities on fire!"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:firon_helmet",
+			"text": "Can be crafted on Lithum Altar, using $(#ea7f17)$(l)200 000 DE$() and following items:$(li)Netherite Helmet$(o) [Main]$()$(li)Firon Ingot $(o)[x4]$()$(br2)Recovery after full ritual: $(#992032)$(l)2000 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:firon_chestplate",
+			"text": "Can be crafted on Lithum Altar, using $(#ea7f17)$(l)200 000 DE$() and following items:$(li)Netherite Chestplate$(o) [Main]$()$(li)Firon Ingot $(o)[x4]$()$(br2)Recovery after full ritual: $(#992032)$(l)2000 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:firon_leggings",
+			"text": "Can be crafted on Lithum Altar, using $(#ea7f17)$(l)200 000 DE$() and following items:$(li)Netherite Leggings$(o) [Main]$()$(li)Firon Ingot $(o)[x4]$()$(br2)Recovery after full ritual: $(#992032)$(l)2000 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:firon_boots",
+			"text": "Can be crafted on Lithum Altar, using $(#ea7f17)$(l)200 000 DE$() and following items:$(li)Netherite Boots$(o) [Main]$()$(li)Firon Ingot $(o)[x4]$()$(br2)Recovery after full ritual: $(#992032)$(l)2000 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_materials/firon",
+				"distant_worlds:lithum_altar/preparing_for_rituals"
+			]
+		}
+	]
+}
