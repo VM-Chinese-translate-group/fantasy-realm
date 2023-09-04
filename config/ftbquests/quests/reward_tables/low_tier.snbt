@@ -1,0 +1,41 @@
+{
+	id: "1E816A51D92D3214"
+	order_index: 0
+	title: "Low Tier"
+	icon: {
+		id: "minecraft:coal_block"
+		Count: 64b
+		tag: {
+			Enchantments: [{
+				lvl: 1
+				id: "minecraft:aqua_affinity"
+			}]
+		}
+	}
+	loot_size: 1
+	rewards: [
+		{ icon: "minecraft:diamond", item: "minecraft:diamond", count: 2 }
+		{ icon: "minecraft:coal", item: "minecraft:coal", count: 24, weight: 2 }
+		{
+			title: "+10 XP Levels"
+			icon: "minecraft:experience_bottle"
+			xp_levels: 10
+			type: "xp_levels"
+		}
+		{
+			title: "+5 XP Levels"
+			xp_levels: 5
+			type: "xp_levels"
+			weight: 2
+		}
+		{ item: "minecraft:stone", count: 64, weight: 3 }
+		{ item: "minecraft:coal", count: 8, weight: 3 }
+		{ item: "minecraft:oak_log", count: 16, weight: 2 }
+		{ item: "minecraft:iron_ingot", count: 4, weight: 2 }
+		{ item: "minecraft:iron_ingot", count: 8 }
+		{ item: "buzzier_bees:honey_bread", count: 16, weight: 3 }
+		{ item: "minecraft:diamond", weight: 2 }
+		{ item: "minecraft:oak_log", count: 8, weight: 3 }
+		{ item: "magnumtorch:amethyst_magnum_torch", count: 5, weight: 3 }
+	]
+}

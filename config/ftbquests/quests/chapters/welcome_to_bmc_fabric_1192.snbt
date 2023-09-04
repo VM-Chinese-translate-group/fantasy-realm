@@ -1,0 +1,267 @@
+{
+	id: "14E52BBAA4FF868C"
+	group: ""
+	order_index: 0
+	filename: "welcome_to_bmc_fabric_1192"
+	title: " &dTutorial"
+	icon: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "patchouli:textures/items/book_blue.png"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "&eWelcome to Fantasy Realm!"
+			icon: {
+				id: "minecraft:book"
+				Count: 1b
+				tag: {
+					Enchantments: [{
+						lvl: 1
+						id: "aqua_affinity"
+					}]
+				}
+			}
+			x: 1.5d
+			y: 2.0d
+			subtitle: "To start the tutorial, click on this quest and read the description."
+			description: [
+				"This tutorial will guide you through some basic features. Don't worry, it won't take &otoo &rlong!"
+				""
+				"To start, click the checkmark under the word \"&9Tasks&r\" and then claim the &6Quest Reward&r. New quests will start to appear!"
+				""
+				"If new quests do not start appearing, try rejoining your world. Do not eat the bread until the tutorial is finished."
+			]
+			size: 2.0d
+			id: "6C417C23ADE1C42F"
+			tasks: [{
+				id: "6053DFADD8FBB92A"
+				type: "checkmark"
+				title: "Click me!"
+			}]
+			rewards: [{
+				id: "17D82FCD81EBEAEE"
+				type: "item"
+				item: "buzzier_bees:honey_bread"
+				count: 3
+			}]
+		}
+		{
+			title: "&2Inventory"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbteams:textures/teams.png"
+				}
+			}
+			x: 0.5d
+			y: 0.0d
+			subtitle: "Read my description! Make sure to scroll down."
+			description: [
+				"The icon in the top left of the screen is the &aFTB Teams &rmenu. This allows you to add other players to your team."
+				""
+				"On the right of the &aFTB Teams &ricon is the &6Quest Book &ricon, which allows you to access the &6Quest Book &rat any time."
+				""
+				"Under the &6Quest Book &ris the &9FTB Chunks &rmap. By clicking a chunk once, that chunk will be claimed, preventing players and other mobs from destroying it. If you shift click a chaimed chunk, it will become forceloaded. In forceloaded chunks, crops, furnaces, and much more will behave as if a player was present."
+			]
+			dependencies: ["6C417C23ADE1C42F"]
+			id: "2136D40B9108A89C"
+			tasks: [
+				{
+					id: "57EB8BC8922490F1"
+					type: "checkmark"
+					title: "Inventory"
+				}
+				{
+					id: "7648C13081BE355B"
+					type: "item"
+					item: "buzzier_bees:honey_bread"
+				}
+			]
+		}
+		{
+			title: "&6Quests"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbquests:textures/item/book.png"
+				}
+			}
+			x: 1.5d
+			y: 0.0d
+			subtitle: "Read my description!"
+			description: [
+				"&9Tasks &rare things that need to be done to complete a quest. If a task is an item, clicking on it will show its recipe."
+				""
+				"&6Rewards &rare what you get after completing all &9Tasks&r. Click to claim."
+				""
+				"The pin icon at the top right will pin a quest to your screen."
+			]
+			dependencies: ["6C417C23ADE1C42F"]
+			id: "2D26F25187AFCD04"
+			tasks: [
+				{
+					id: "68EC7F5336F9C9F5"
+					type: "checkmark"
+					title: "Quests"
+				}
+				{
+					id: "33AFD9AB55694FE2"
+					type: "item"
+					item: "buzzier_bees:honey_bread"
+				}
+			]
+			rewards: [{
+				id: "53E37BA7D2A1F841"
+				type: "item"
+				item: "minecraft:torch"
+				count: 3
+			}]
+		}
+		{
+			title: "&9Important Controls"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftblibrary:textures/icons/player.png"
+				}
+			}
+			x: 2.5d
+			y: 0.0d
+			subtitle: "Read my description!"
+			description: [
+				"Press &bR &rwhile hovering over an item to view its Recipe"
+				""
+				"Press &bU &rwhile hovering over an item to view its Uses"
+				""
+				"Press &bLeft Alt &rto Crawl"
+				""
+				"Press &bRight Click &rwhile crouching to pick up a block or mob. Two mobs can be stacked."
+				""
+				"Press &bB &rwhile a Backpack is on your Back Slot to open it. Note that you can unbind Narrator in Controls."
+				""
+				"Press &bC &rto Zoom"
+				""
+				"Press &bM &rto open the World Map"
+				""
+				"Press &bF5&r to switch back to First Person if you wish as it gives a big FPS boost and Fullscreen"
+				""
+				"Press &bArrow Keys and Page Keys&r to adjust 3rd Person to your liking."
+			]
+			dependencies: ["6C417C23ADE1C42F"]
+			id: "6DC2A22780776586"
+			tasks: [
+				{
+					id: "6BF58E46A6E551EC"
+					type: "checkmark"
+					title: "Click me!"
+				}
+				{
+					id: "47F43888113343BB"
+					type: "item"
+					item: "buzzier_bees:honey_bread"
+				}
+			]
+		}
+		{
+			title: "&bJust Enough Items (JEI)"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "jei:textures/gui/icons/info.png"
+				}
+			}
+			x: 0.5d
+			y: -1.5d
+			subtitle: "Read my description! Make sure to scroll down."
+			description: [
+				"At the bottom of the inventory, you may have noticed a search bar."
+				"This is the &bJust Enough Items&r, or &bJEI&r, search bar. "
+				"If you type Wood, for example, the &bJEI &ritem list at the right of the screen will show all items with Wood in the name. You can bookmark an item by pressing &bA&r while hovering over it."
+				""
+				"Adding a @ at the start of the search query, it will show the items from a specific mod, for example @Adorn"
+				""
+				"Adding a # at the start of the search query, it will show all items with a specific tag, for example #logs"
+				""
+				"When browsing an item's recipes for a specific workbench, you can click on the workbench's name to see everything that the workbench can craft."
+				"For example, if you are viewing the recipe for Fried Eggplant Pasta, you can click the \"Cooking\" text to see all Cooking Pot recipes."
+			]
+			dependencies: ["2136D40B9108A89C"]
+			hide: true
+			id: "7019C0C2EE4E022C"
+			tasks: [{
+				id: "536964240E8DFB83"
+				type: "checkmark"
+				title: "Just Enough Items"
+			}]
+			rewards: [{
+				id: "2A58E85397FAABFA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftblibrary:textures/icons/check.png"
+				}
+			}
+			x: 2.5d
+			y: -1.5d
+			subtitle: "Read my description!"
+			description: [
+				"The tutorial is now &afinished&r! "
+				""
+				"&a&lMORE QUESTS! &rTo view the rest of the quests, leave this quest screen and put your cursor to the left of the main quest page, where the arrow is."
+				""
+				"Feel free to join our &bDiscord &rfor any other questions you may have: https://lunapixel.studio/discord"
+			]
+			dependencies: ["17BB78B2DFD31DD4"]
+			hide: true
+			id: "062A36D50690CAFE"
+			tasks: [{
+				id: "6DE7A2B2182B7F4A"
+				type: "checkmark"
+				title: "&aTutorial Complete!"
+			}]
+		}
+		{
+			title: "&9Need Help?"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "supplementaries:textures/gui/book/icon/discord.png"
+				}
+			}
+			x: 1.5d
+			y: -1.5d
+			subtitle: "Read me!"
+			description: ["Join &1&lLuna Pixel Studios &9&lDiscord&r&r.              &kff&kfff&r&f&r&l&9=>discord.gg/lunapixel<=&r&kfff&f<="]
+			dependencies: ["7019C0C2EE4E022C"]
+			id: "17BB78B2DFD31DD4"
+			tasks: [{
+				id: "3FDFFA89C92B8FF2"
+				type: "checkmark"
+				title: "Need Help?"
+			}]
+			rewards: [{
+				id: "0D47CF5F8027470A"
+				type: "item"
+				item: "farmersdelight:apple_pie"
+				count: 3
+			}]
+		}
+	]
+	quest_links: [ ]
+}
