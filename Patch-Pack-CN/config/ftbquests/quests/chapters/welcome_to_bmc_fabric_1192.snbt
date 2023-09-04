@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 0
 	filename: "welcome_to_bmc_fabric_1192"
-	title: " &dTutorial"
+	title: " &d教程"
 	icon: {
 		id: "ftbquests:custom_icon"
 		Count: 1b
@@ -15,7 +15,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "&eWelcome to Fantasy Realm!"
+			title: "&e欢迎来到幻想领域！"
 			icon: {
 				id: "minecraft:book"
 				Count: 1b
@@ -28,20 +28,20 @@
 			}
 			x: 1.5d
 			y: 2.0d
-			subtitle: "To start the tutorial, click on this quest and read the description."
+			subtitle: "要开始教程，请单击此任务并阅读说明。"
 			description: [
-				"This tutorial will guide you through some basic features. Don't worry, it won't take &otoo &rlong!"
+				"本教程将指导您了解一些基本功能。别担心，这不会花费&o很长时间&r！"
 				""
-				"To start, click the checkmark under the word \"&9Tasks&r\" and then claim the &6Quest Reward&r. New quests will start to appear!"
+				"要开始，请单击\"&9任务&r\"下的复选标记，然后领取&6任务奖励&r。新任务则开始出现！"
 				""
-				"If new quests do not start appearing, try rejoining your world. Do not eat the bread until the tutorial is finished."
+				"如果新任务没有开始出现，请试着重新加入你的世界。在教程结束之前不要吃面包。"
 			]
 			size: 2.0d
 			id: "6C417C23ADE1C42F"
 			tasks: [{
 				id: "6053DFADD8FBB92A"
 				type: "checkmark"
-				title: "Click me!"
+				title: "点击我！"
 			}]
 			rewards: [{
 				id: "17D82FCD81EBEAEE"
@@ -51,7 +51,7 @@
 			}]
 		}
 		{
-			title: "&2Inventory"
+			title: "&2列表"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -61,13 +61,13 @@
 			}
 			x: 0.5d
 			y: 0.0d
-			subtitle: "Read my description! Make sure to scroll down."
+			subtitle: "阅读我的说明！请确保向下滚动。"
 			description: [
-				"The icon in the top left of the screen is the &aFTB Teams &rmenu. This allows you to add other players to your team."
+				"屏幕左上角的图标是&aFTB团队&r菜单。这允许您将其他玩家加入您的团队。"
 				""
-				"On the right of the &aFTB Teams &ricon is the &6Quest Book &ricon, which allows you to access the &6Quest Book &rat any time."
+				"&aFTB团队&r图标右侧是&6任务书&r图标，你可以随时访问&6任务书&r。"
 				""
-				"Under the &6Quest Book &ris the &9FTB Chunks &rmap. By clicking a chunk once, that chunk will be claimed, preventing players and other mobs from destroying it. If you shift click a chaimed chunk, it will become forceloaded. In forceloaded chunks, crops, furnaces, and much more will behave as if a player was present."
+				"&6任务书&r下面是&9FTB区块&r地图。点击一次区块，该区块将被认领，防止玩家和其他生物破坏它。如果你Shift并点击一个被认领的区块，它将被强加载。在强加载区块中，作物、熔炉等将会表现得像玩家在场一样。"
 			]
 			dependencies: ["6C417C23ADE1C42F"]
 			id: "2136D40B9108A89C"
@@ -75,7 +75,7 @@
 				{
 					id: "57EB8BC8922490F1"
 					type: "checkmark"
-					title: "Inventory"
+					title: "列表"
 				}
 				{
 					id: "7648C13081BE355B"
@@ -85,7 +85,7 @@
 			]
 		}
 		{
-			title: "&6Quests"
+			title: "&6任务道具"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -95,13 +95,13 @@
 			}
 			x: 1.5d
 			y: 0.0d
-			subtitle: "Read my description!"
+			subtitle: "阅读我的说明！"
 			description: [
-				"&9Tasks &rare things that need to be done to complete a quest. If a task is an item, clicking on it will show its recipe."
+				"&9任务&r是完成任务所需要做的事情，如果任务是一个物品，点击它将会显示配方。"
 				""
-				"&6Rewards &rare what you get after completing all &9Tasks&r. Click to claim."
+				"&6奖励&r是指完成所有&9任务&r后获得的奖励。点击进行索取。"
 				""
-				"The pin icon at the top right will pin a quest to your screen."
+				"右上角的徽章图标将会把一个任务固定在你的屏幕上。"
 			]
 			dependencies: ["6C417C23ADE1C42F"]
 			id: "2D26F25187AFCD04"
@@ -109,7 +109,7 @@
 				{
 					id: "68EC7F5336F9C9F5"
 					type: "checkmark"
-					title: "Quests"
+					title: "任务道具"
 				}
 				{
 					id: "33AFD9AB55694FE2"
@@ -125,7 +125,7 @@
 			}]
 		}
 		{
-			title: "&9Important Controls"
+			title: "&9重要按键说明"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -135,25 +135,23 @@
 			}
 			x: 2.5d
 			y: 0.0d
-			subtitle: "Read my description!"
+			subtitle: "阅读我的说明！"
 			description: [
-				"Press &bR &rwhile hovering over an item to view its Recipe"
+				"将鼠标悬停在物品上并按下&bR&r键以查看合成配方。"
 				""
-				"Press &bU &rwhile hovering over an item to view its Uses"
+				"将鼠标悬停在物品上并按下&bU&r键以查看其用途。"
 				""
-				"Press &bLeft Alt &rto Crawl"
+				"按住&b左ALT&r键可爬行。"
 				""
-				"Press &bRight Click &rwhile crouching to pick up a block or mob. Two mobs can be stacked."
+				"蹲下并点击&b鼠标右键&r可抱起一个方块或生物，将抱起的生物放在另一个生物上可堆叠起来。"
 				""
-				"Press &bB &rwhile a Backpack is on your Back Slot to open it. Note that you can unbind Narrator in Controls."
+				"当背包在背部插槽中的时候，按下&bB&r键可打开。"
 				""
-				"Press &bC &rto Zoom"
+				"按下&bM&r键可打开世界地图。"
 				""
-				"Press &bM &rto open the World Map"
+				"如果你想要，你可以按&bF5&r键切换回第一人称， 它可以大幅提升FPS并全屏显示。"
 				""
-				"Press &bF5&r to switch back to First Person if you wish as it gives a big FPS boost and Fullscreen"
-				""
-				"Press &bArrow Keys and Page Keys&r to adjust 3rd Person to your liking."
+				"可以根据您的喜好，按下&b箭头键和Page键&r来调整第三人称。"
 			]
 			dependencies: ["6C417C23ADE1C42F"]
 			id: "6DC2A22780776586"
@@ -161,7 +159,7 @@
 				{
 					id: "6BF58E46A6E551EC"
 					type: "checkmark"
-					title: "Click me!"
+					title: "点击我！"
 				}
 				{
 					id: "47F43888113343BB"
