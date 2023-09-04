@@ -3,7 +3,7 @@
 	group: "5A43EA4A3BF38D32"
 	order_index: 2
 	filename: "farmers_delight"
-	title: " &cFarmer's Delight"
+	title: " &c农夫乐事"
 	icon: {
 		id: "ftbquests:custom_icon"
 		Count: 1b
@@ -27,10 +27,10 @@
 	}]
 	quests: [
 		{
-			title: "Obtain a &cCampfire"
+			title: "获得&c营火"
 			x: -1.5d
 			y: -1.5d
-			subtitle: "Can cook up to &c4 raw meats&r at once."
+			subtitle: "可一次烹饪&c四块生肉&r。"
 			id: "406429586D0D19CA"
 			tasks: [{
 				id: "785816212AE5AE4E"
@@ -52,10 +52,10 @@
 			]
 		}
 		{
-			title: "Craft a &cCooking Pot"
+			title: "制作一个&c厨锅"
 			x: 0.0d
 			y: -2.5d
-			subtitle: "Clicking a &6campfire&r with a cooking pot in hand will put the &6cooking pot over the campfire&r. &fClicking the arrow in the menu will show all recipes.&r  Cooking pots can be broken and used as &bstorage &rfor up to &c64 meal servings. "
+			subtitle: "手持厨锅并点击&6营火&r，将厨锅&6放在营火上&r。&f点击菜单中的箭头来显示所有配方。&r 厨锅可以破坏，而且可以&b存储&r最多&c64份食物。"
 			dependencies: ["452399ECB130AAA0"]
 			id: "7C2C7C59D4D78E9E"
 			tasks: [{
@@ -78,10 +78,10 @@
 			]
 		}
 		{
-			title: "Craft a &cCutting Board"
+			title: "制作&c砧板"
 			x: 3.5d
 			y: -2.5d
-			subtitle: "&fKnives, pickaxes, axes, shovels, and shears &rcan be used to break down items in the &6Cutting Board&r. You can also &ccarve certain tools and weapons&r into the &bcutting board's&r surface for display by shift right-clicking."
+			subtitle: "&f刀具，镐，锹，斧头和剪刀&r都可以用来在&6砧板&r上分解物品。你也可以按住Shift并右键将某些工具或武器&c镶嵌&r在&b砧板&r表面以供展示。"
 			id: "1C9CBE9BBF50B069"
 			tasks: [{
 				id: "155F09EEB6F9E18A"
@@ -103,10 +103,10 @@
 			]
 		}
 		{
-			title: "Craft an&c Iron Knife"
+			title: "制作一把&c铁质刀具"
 			x: 3.5d
 			y: -0.5d
-			subtitle: "&bGrants extra drops&r from &ckilling animals&r and can be used to cut and &aportion meal ingredients."
+			subtitle: "&c击杀动物&r可获取&b额外掉落物&r，且可用于切割和&a分配食物。"
 			id: "335D802D285C29DB"
 			tasks: [{
 				id: "547AC017C92CD5ED"
@@ -134,10 +134,10 @@
 			]
 		}
 		{
-			title: "Craft a &cRope"
+			title: "制作&c绳子"
 			x: 5.0d
 			y: -0.5d
-			subtitle: "&6Reverse scaffolding.&r Can be climbed. &aUseful for ravines."
+			subtitle: "&6反向脚手架，&r可用于攀爬。&a适用于峡谷。"
 			dependencies: ["335D802D285C29DB"]
 			id: "15EBFA508BFFBE6E"
 			tasks: [{
@@ -152,10 +152,10 @@
 			}]
 		}
 		{
-			title: "Craft a &cStove"
+			title: "制作&c炉灶"
 			x: 0.0d
 			y: -0.5d
-			subtitle: "Campfire but with 6 slots."
+			subtitle: "拥有六个槽位的营火"
 			dependencies: [
 				"406429586D0D19CA"
 				"73194F22DB24DB1C"
@@ -181,10 +181,10 @@
 			]
 		}
 		{
-			title: "Craft a &cSkillet"
+			title: "制作&c平底锅"
 			x: 0.0d
 			y: 1.5d
-			subtitle: "&6Cooks 5x times faste&rr than a campfire. When held near a &cheat source&r, will cook any &craw meats held in the offhand&r. Can also be placed by &fshift clicking on a block&r. Will hold and &ccook up to 64 of one item&r, dropping them to the right side, which can be collected with a &fHopper or Basket."
+			subtitle: "烹饪速度是营火的&6五倍&r。当靠近&c热源&r时，将会烤熟&c放置副手的任何生肉&r。也可以通过&f按住Shift并点击一个方块放置平底锅&r。可放置并烹饪&c多达64个食物&r，并将成品扔到右边，可考虑使用&f漏斗或篮子&r收集。"
 			dependencies: ["452399ECB130AAA0"]
 			id: "0B33B3A2305DD4F8"
 			tasks: [{
@@ -213,10 +213,10 @@
 			]
 		}
 		{
-			title: "Craft a &cBasket"
+			title: "制作&c篮子"
 			x: 1.5d
 			y: -0.5d
-			subtitle: "&fCan be placed in any direction&r and works upside down. Items which collide with the open face will be captured and stored. Has &6the size of a Chest&r. Hoppers can extract items from it. When waterlogged, &fwill restrict the water to only flowing from its open side."
+			subtitle: "&f可任意方向放置&r，甚至可以倒置。与开口处相邻的物品将会被收集并储存。拥有&6一个箱子的容量&r。漏斗可从里面收集物品。可存储水，当含水时，&f将限制水只从开口处流出。"
 			id: "6016B7C0E128B797"
 			tasks: [{
 				id: "6B25A88281DD04B4"
@@ -230,10 +230,10 @@
 			}]
 		}
 		{
-			title: "Craft a&c Smoker"
+			title: "制作&c烟熏炉"
 			x: -1.5d
 			y: 0.5d
-			subtitle: "A &fsmoker&r is a block that &csmelts food twice as quickly as a furnace&r but cannot smelt anything else. It also serves as &fa butcher's job site block."
+			subtitle: "&f烟熏炉&r是以&c两倍于炉子的速度烘烤食物&r的方块，但无法烧其他物品。也可以用作&f屠夫的工作方块。"
 			id: "73194F22DB24DB1C"
 			tasks: [{
 				id: "25BEC547D6C55698"
@@ -248,7 +248,7 @@
 			}]
 		}
 		{
-			title: "&cOptional"
+			title: "&c可选任务"
 			x: 3.5d
 			y: 1.0d
 			dependencies: ["335D802D285C29DB"]
@@ -502,10 +502,10 @@
 			}]
 		}
 		{
-			title: "Craft a &cSafety Net"
+			title: "制作&c安全网"
 			x: 6.5d
 			y: -0.5d
-			subtitle: "Prevents all fall&c Damage&r. Acts like a &aslime block"
+			subtitle: "可防止任何&c坠落伤害&r。就像一块&a黏液块"
 			dependencies: ["15EBFA508BFFBE6E"]
 			id: "3CCC7E874E2E2867"
 			tasks: [{
@@ -529,7 +529,7 @@
 			tasks: [{
 				id: "79AADA758EB9FA9E"
 				type: "checkmark"
-				title: "&cFarms Matrix"
+				title: "&c农业可选任务"
 			}]
 			rewards: [{
 				id: "0C265D2DE4B2642E"
@@ -657,7 +657,7 @@
 			}]
 		}
 		{
-			title: "Cook a &cVegetable Soup"
+			title: "烹饪一碗&c蔬菜汤"
 			x: -1.5d
 			y: -4.0d
 			dependencies: ["7C2C7C59D4D78E9E"]
@@ -669,7 +669,7 @@
 			}]
 		}
 		{
-			title: "Cook &cRoasted Mutton Chops"
+			title: "烹制&c烤羊排"
 			x: 1.5d
 			y: -4.0d
 			dependencies: ["7C2C7C59D4D78E9E"]
@@ -681,7 +681,7 @@
 			}]
 		}
 		{
-			title: "Make a &cHot Cocoa"
+			title: "制作一杯&c热可可"
 			x: 0.0d
 			y: -4.0d
 			dependencies: ["7C2C7C59D4D78E9E"]
@@ -693,7 +693,7 @@
 			}]
 		}
 		{
-			title: "Obtain &cTree Bark"
+			title: "获取&c树皮"
 			x: 3.5d
 			y: -4.0d
 			dependencies: ["1C9CBE9BBF50B069"]
@@ -705,7 +705,7 @@
 			}]
 		}
 		{
-			title: "Obtain &crice and Straw"
+			title: "获取&c稻米和草秆"
 			x: 5.0d
 			y: -4.0d
 			dependencies: ["1C9CBE9BBF50B069"]
@@ -724,10 +724,10 @@
 			]
 		}
 		{
-			title: "Craft&c Organic Compost"
+			title: "制作&c有机肥料"
 			x: 5.0d
 			y: -2.5d
-			subtitle: "There are two ways of crafting &6Organic Compost&r. It can be crafted from &f1 Dirt, 2 Straw, 4 Tree Bark, &rand&f 2 Bone Meal. Or 1 Dirt, 2 Rotten Flesh, 2 Straw, and 4 Bone Meal. "
+			subtitle: "制作&6有机肥料&r有两种方法。可由&f一块泥土、两根草秆、四块树皮和两块骨粉&r制成，或者&f一块泥土、两块腐肉、两根草秆和四块骨粉。 "
 			dependencies: ["1C9CBE9BBF50B069"]
 			id: "33ACDE86617E71C4"
 			tasks: [{
@@ -737,10 +737,10 @@
 			}]
 		}
 		{
-			title: "Make &cRich Soil"
+			title: "制作&c沃土"
 			x: 6.5d
 			y: -2.5d
-			subtitle: "Over time, the &6Organic Compost&r will decompose, and it will eventually turn into &6Organic Compost&r. To ease this process, ensure that the &6Organic Compost&r is placed in&e sunlight&r, and that there is water nearby for moisture."
+			subtitle: "随着时间推移，&6有机肥料&r会分解，最终会变成了&6沃土&r。为了简化这过程，请确保&6有机肥料&r放置在&e阳光&r下，并且附近有水以保湿。"
 			dependencies: ["33ACDE86617E71C4"]
 			id: "5B4AD7D2C0076EC8"
 			tasks: [{
@@ -750,10 +750,10 @@
 			}]
 		}
 		{
-			title: "Craft&c Dog Food"
+			title: "烹制&c狗粮"
 			x: 1.5d
 			y: -2.5d
-			subtitle: "best dawwwgg food"
+			subtitle: "最美味的食物！！"
 			dependencies: ["7C2C7C59D4D78E9E"]
 			id: "6B68FC30D4AE73AD"
 			tasks: [{
@@ -1047,7 +1047,7 @@
 			tasks: [{
 				id: "1B68A8BA68C4B5E0"
 				type: "checkmark"
-				title: "&cCrates"
+				title: "&c板条箱"
 			}]
 			rewards: [{
 				id: "39C426292FA163D5"
