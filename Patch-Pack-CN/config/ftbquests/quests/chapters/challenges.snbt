@@ -3,13 +3,13 @@
 	group: "5A43EA4A3BF38D32"
 	order_index: 1
 	filename: "challenges"
-	title: " &6Challenges"
+	title: " &6挑战"
 	icon: "minecraft:gold_block"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "100,000 Damage Dealt"
+			title: "造成100,000点伤害"
 			icon: {
 				id: "minecraft:netherite_sword"
 				Count: 1b
