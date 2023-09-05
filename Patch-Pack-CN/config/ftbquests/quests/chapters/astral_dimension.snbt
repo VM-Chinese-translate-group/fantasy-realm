@@ -3,7 +3,7 @@
 	group: "47EF6B1E1AEB6949"
 	order_index: 1
 	filename: "astral_dimension"
-	title: " &dAstral Dimension"
+	title: " &d星体维度"
 	icon: "astral_dimension:void_gem"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -31,7 +31,7 @@
 			x: -2.5d
 			y: 3.0d
 			shape: "circle"
-			subtitle: "To access the &5Astral dimension&r  you need to build the Astral Portal. The portal is built like the &5nether portal."
+			subtitle: "要进入&5星体维度&r，你需要建造一个星之传送门。它的建造方式与&5下界传送门&r一样。"
 			dependencies: [
 				"0FB9D2D7E39824BA"
 				"09EEFAB91CAA377D"
@@ -41,7 +41,7 @@
 			tasks: [{
 				id: "386C075603E3B42C"
 				type: "dimension"
-				title: "Enter &dthe Astral Dimension"
+				title: "进入&d星体维度"
 				icon: {
 					id: "astral_dimension:astral_amulet"
 					Count: 1b
@@ -59,7 +59,7 @@
 			}]
 		}
 		{
-			title: "Obtain &d10x Glowing Obsidian"
+			title: "获得&d10个发光的黑曜石"
 			x: 0.0d
 			y: 1.5d
 			shape: "circle"
@@ -79,7 +79,7 @@
 			}]
 		}
 		{
-			title: "Craft a &dSteel and Dust"
+			title: "合成一个&d星尘打火石"
 			x: -5.0d
 			y: 1.5d
 			shape: "circle"
@@ -107,18 +107,18 @@
 			x: 2.5d
 			y: 5.0d
 			shape: "square"
-			subtitle: "Click"
+			subtitle: "点击"
 			description: [
-				"-Contains dead bushes, Astral Gold Ore, Small cacti and Fiery cacti"
+				"-有枯死的灌木、星际金矿石、小型仙人掌和火焰仙人掌"
 				""
-				"-Generates Glowstone craters, Red Sandstone towers, Mineshafts"
+				"-生成荧石火山、红砂岩塔、废弃矿井"
 			]
 			size: 1.5d
 			id: "07AA7C5DE0FC587A"
 			tasks: [{
 				id: "14221C221D3077AF"
 				type: "biome"
-				title: "Visit &dthe Astral Badlands"
+				title: "访问&d星际恶地"
 				icon: "minecraft:red_sand"
 				biome: "astral_dimesion:astral_badlands"
 			}]
@@ -127,11 +127,11 @@
 			x: 5.5d
 			y: 5.0d
 			shape: "square"
-			subtitle: "Click"
+			subtitle: "点击"
 			description: [
-				"-Generates Luminous Trees, Lava Wells, Huge Fiery Mushrooms."
+				"-生成荧光树、熔岩井、巨型火焰蘑菇"
 				""
-				"-Spawns Magma Cubes, Fiery Hummingbirds and Fiery Cows."
+				"-生成岩浆怪、火焰蜂鸟和火焰奶牛"
 			]
 			hide: false
 			size: 1.5d
@@ -139,7 +139,7 @@
 			tasks: [{
 				id: "086CC74C54DF79C4"
 				type: "biome"
-				title: "Visit &dthe Fiery Forest"
+				title: "访问&d炽热森林"
 				icon: "minecraft:magma_block"
 				biome: "astral_dimension:fiery_forest"
 			}]
@@ -148,18 +148,18 @@
 			x: 4.0d
 			y: 6.5d
 			shape: "square"
-			subtitle: "Click"
+			subtitle: "点击"
 			description: [
-				"-Generates fiery birch trees, fiery bushes, lava wells"
+				"-生成火焰桦树、火焰灌木、熔岩井"
 				""
-				"-Spawns Fiery Cows, Fiery Hummingbirds and Magma Cubes"
+				"-生成火焰奶牛、火焰蜂鸟和岩浆怪"
 			]
 			size: 1.5d
 			id: "24452017E8EAE273"
 			tasks: [{
 				id: "059B493A44ACC76B"
 				type: "biome"
-				title: "Visit &dthe Fiery Birch Forest"
+				title: "访问&d炽热桦林"
 				icon: "quark:red_blossom_leaves"
 				biome: "astral_dimesion:fiery_birch_forest"
 			}]
@@ -168,20 +168,20 @@
 			x: 2.5d
 			y: 6.5d
 			shape: "square"
-			subtitle: "Click"
+			subtitle: "点击"
 			description: [
-				"-Generates ocean ruins"
+				"-生成海洋遗迹"
 				""
-				"-Spawns bonefishes at night"
+				"-夜晚生成骨鱼"
 				""
-				"-Contains dead corals, dead seageass, dead kelp and soul themed blocks"
+				"-有失活的珊瑚、枯死的海草、枯死的海带和灵魂主题的方块"
 			]
 			size: 1.5d
 			id: "1845F1B977198B02"
 			tasks: [{
 				id: "67F8A95A2D41AC7B"
 				type: "biome"
-				title: "Visit &dthe Dead Coral Reef"
+				title: "访问&d失活珊瑚礁"
 				icon: "minecraft:smooth_basalt"
 				biome: "astral_dimension:dead_coral_reef"
 			}]
@@ -190,40 +190,40 @@
 			x: 5.5d
 			y: 6.5d
 			shape: "square"
-			subtitle: "Click"
+			subtitle: "点击"
 			description: [
-				"-Generates Amethyst spikes, Amethyst geodes, Wisteria Trees"
+				"-生成紫晶簇、紫晶洞、紫藤树"
 				""
-				"-Spawns Amethyst crawlers"
+				"-生成紫晶爬虫"
 				""
-				"-Generates Amethyst Sanctuaries"
+				"-生成紫晶圣殿"
 			]
 			size: 1.5d
 			id: "0EFC988621DB9593"
 			tasks: [{
 				id: "5B275680A9DAFA63"
 				type: "biome"
-				title: "Visit &dthe Amethyst Meadow"
+				title: "访问&d紫晶草甸"
 				icon: "astral_dimension:crystallized_astral_stone"
 				biome: "astral_dimension:amethyst_meadow"
 			}]
 		}
 		{
-			title: "Defeat &dthe Void Titan"
+			title: "击败&d虚空泰坦"
 			x: -2.5d
 			y: 9.0d
 			shape: "hexagon"
 			subtitle: "Click"
 			description: [
-				"To summon it first you have to locate a Void Egg."
+				"要召唤它，你必须找到一个虚空蛋。"
 				""
-				"These structures can generate rarely in Amethyst Meadows, Lunar Spikes and Astral Badlands."
+				"这种结构有极小概率在紫晶草甸、月球尖峰和星际荒原上生成。"
 				""
-				"Every Void Egg contains a Void Portal on top of it."
+				"每个虚空蛋的顶端都有一个虚空门。"
 				""
-				"Place a Void Pillar above the portal, then place an Astral Altar on top of the Pillar"
+				"在门的上方放置一个虚空柱，虚空柱上方再放置一个星体祭坛"
 				""
-				"After you place the Altar the Void Titan will appear with a huge explosion very soon..."
+				"放好祭坛之后，虚空泰坦很快就会伴随着巨大的爆炸出现……"
 				""
 			]
 			size: 1.5d
@@ -251,7 +251,7 @@
 			]
 		}
 		{
-			title: "Obtain&d Raw Astranite"
+			title: "获得&d粗星钢矿"
 			x: -8.5d
 			y: 5.0d
 			id: "7181F83986752C5B"
@@ -268,7 +268,7 @@
 			}]
 		}
 		{
-			title: "Obtain &dAstranite Ingot"
+			title: "获得&d星钢锭"
 			x: -8.5d
 			y: 6.5d
 			dependencies: ["7181F83986752C5B"]
@@ -286,7 +286,7 @@
 			}]
 		}
 		{
-			title: "Craft &dAstranite Full Armor Set"
+			title: "合成&d星钢套装"
 			x: -8.5d
 			y: 8.0d
 			dependencies: ["71C8A00C4FC3DFA1"]
@@ -357,7 +357,7 @@
 			}]
 		}
 		{
-			title: "Craft &dAstranite Tools"
+			title: "合成&d星钢工具"
 			x: -10.0d
 			y: 6.5d
 			dependencies: ["71C8A00C4FC3DFA1"]
@@ -438,7 +438,7 @@
 			}]
 		}
 		{
-			title: "Obtain&d Harsh Leather and Void Shards"
+			title: "获得&d粗砺皮革和虚空碎片"
 			x: -11.5d
 			y: 5.0d
 			id: "7979F2826503A12D"
@@ -462,7 +462,7 @@
 			}]
 		}
 		{
-			title: "Defeat &dthe Void Centipede"
+			title: "击败&d虚空蜈蚣"
 			x: -3.0d
 			y: 10.5d
 			id: "40C499F7600FDE81"
@@ -481,7 +481,7 @@
 			}]
 		}
 		{
-			title: "Defeat &dthe Void Visage"
+			title: "击败&d虚空之面"
 			x: -2.0d
 			y: 11.5d
 			shape: "rsquare"
@@ -501,7 +501,7 @@
 			}]
 		}
 		{
-			title: "Craft a &dHarsh Armor Set"
+			title: "合成&d粗砺盔甲套装"
 			x: -11.5d
 			y: 6.5d
 			dependencies: ["7979F2826503A12D"]
@@ -572,10 +572,10 @@
 			}]
 		}
 		{
-			title: "Craft a &dVoid Trophy"
+			title: "合成一个&d虚空奖杯"
 			x: -3.0d
 			y: 5.0d
-			subtitle: "FLEX FLEX"
+			subtitle: "活 动 活 动"
 			id: "1E2273AC47EF153B"
 			tasks: [{
 				id: "08925F0015CC3C11"
@@ -590,7 +590,7 @@
 			}]
 		}
 		{
-			title: "Craft a Shade Chest"
+			title: "合成一个影之箱"
 			x: -3.0d
 			y: 7.0d
 			id: "26434559521E1FBD"
@@ -607,7 +607,7 @@
 			}]
 		}
 		{
-			title: "Defeat &dthe Amethyst Knight "
+			title: "击败&d紫晶骑士"
 			x: -3.0d
 			y: 11.5d
 			shape: "rsquare"
@@ -627,7 +627,7 @@
 			}]
 		}
 		{
-			title: "Obtain a &dTitan Helmet"
+			title: "获得&d泰坦头盔"
 			x: -13.0d
 			y: 6.5d
 			id: "1E7DBF610FA4E919"
@@ -661,7 +661,7 @@
 			tasks: [{
 				id: "655014D7DBB80659"
 				type: "advancement"
-				title: "Find &dthe Infested Cathedral"
+				title: "找到&d被侵蚀的教堂"
 				advancement: "astral_dimension:deep_beneath"
 				criterion: ""
 			}]
@@ -673,7 +673,7 @@
 			}]
 		}
 		{
-			title: "Craft a &dFull Tormented Skull Armor Set"
+			title: "合成&d骨质折磨盔甲套装"
 			x: -13.0d
 			y: 5.0d
 			id: "593B2877FC58E523"
@@ -743,7 +743,7 @@
 			}]
 		}
 		{
-			title: "&dCraft a Thunder Clock"
+			title: "&d合成一个雷电之钟"
 			x: -4.5d
 			y: 6.0d
 			id: "01D24AC4C0659CF8"
@@ -766,7 +766,7 @@
 			}]
 		}
 		{
-			title: "Obtain a&d Totem of Decay"
+			title: "获得一个&d腐朽图腾"
 			x: -3.5d
 			y: 6.0d
 			id: "1F3F82BC2F4B306D"
@@ -789,7 +789,7 @@
 			}]
 		}
 		{
-			title: "Defeat &dthe Slurker"
+			title: "击败&d潜匿者"
 			x: 0.5d
 			y: 11.5d
 			id: "07329CBB974F69CE"
@@ -808,7 +808,7 @@
 			}]
 		}
 		{
-			title: "Defeat &dthe Void Mine"
+			title: "击败&d虚空地雷"
 			x: 0.5d
 			y: 10.5d
 			id: "64AE9567BE033AF4"
@@ -827,7 +827,7 @@
 			}]
 		}
 		{
-			title: "Defeat &dthe Overworl Visage Portal"
+			title: "击败&d主世界之门"
 			x: -0.5d
 			y: 11.5d
 			id: "45CBEED79946AEBD"
@@ -846,7 +846,7 @@
 			}]
 		}
 		{
-			title: "Defeat&d the Nether Visage Portal"
+			title: "击败&d下界之门"
 			x: -4.5d
 			y: 11.5d
 			id: "7ADF26E6058B75BE"
@@ -865,7 +865,7 @@
 			}]
 		}
 		{
-			title: "Defeat&d Wrencked Guard"
+			title: "击败&d毁灭守卫"
 			icon: "astral_dimension:wrecked_guard_spawn_egg"
 			x: -5.5d
 			y: 10.5d
@@ -885,7 +885,7 @@
 			}]
 		}
 		{
-			title: "Defeat &dthe Void Menace"
+			title: "击败&d虚空威胁"
 			x: -5.5d
 			y: 11.5d
 			shape: "rsquare"
@@ -905,7 +905,7 @@
 			}]
 		}
 		{
-			title: "Craft a &dVoid Easter"
+			title: "合成一个&d虚空吞噬者"
 			x: -0.5d
 			y: 6.0d
 			id: "08942092349CB53C"
@@ -928,10 +928,10 @@
 			}]
 		}
 		{
-			title: "Craft an &dAstral Altar"
+			title: "合成一个&d星体祭坛"
 			x: -2.0d
 			y: 5.0d
-			subtitle: "used to &5Summon the Void Titan"
+			subtitle: "用于&5召唤虚空泰坦"
 			id: "57FBBC2D6937FD05"
 			tasks: [{
 				id: "50F38DFF7E689B1D"
@@ -946,10 +946,10 @@
 			}]
 		}
 		{
-			title: "Obtain an &dAmethyst Key"
+			title: "获得一把&d紫晶之钥"
 			x: -2.0d
 			y: 7.0d
-			subtitle: "An item used to open a&3  Lock Block&r.. Dropped by killing &5AAmethyst Knight."
+			subtitle: "用于打开&3锁方块&r……击杀&5紫晶骑士&r掉落"
 			id: "010A09EE2030C55E"
 			tasks: [{
 				id: "2BD33ED8E47DB9EF"
@@ -964,10 +964,10 @@
 			}]
 		}
 		{
-			title: "Obtain an &dAmethyst Helmet"
+			title: "获得一个&d紫晶头盔"
 			x: -2.5d
 			y: 6.0d
-			subtitle: "Flex Flex"
+			subtitle: "活动活动"
 			id: "2CCFDF1F622E27D9"
 			tasks: [{
 				id: "4B56D8F4C84E1D86"
@@ -985,18 +985,18 @@
 			x: 4.0d
 			y: 5.0d
 			shape: "square"
-			subtitle: "Click"
+			subtitle: "点击"
 			description: [
-				"-Spawns Ghost Jellyfish, Void Centipedes."
+				"-生成幽魂水母、虚空蜈蚣。"
 				""
-				"-Generates Fossiles, Tormented Trees, White Pumpkins, Tormented Mansions"
+				"-生成化石、折磨之树、苍白南瓜、折磨府邸"
 			]
 			size: 1.5d
 			id: "7D1225947EA852CB"
 			tasks: [{
 				id: "4CB650EB584B3746"
 				type: "biome"
-				title: "Visit&d the Sludgy Wasteland"
+				title: "访问&d污泥荒原"
 				icon: "astral_dimension:sludge_block"
 				biome: "astral_dimension:sludgy_wasteland"
 			}]
@@ -1006,20 +1006,20 @@
 			x: 7.0d
 			y: 6.5d
 			shape: "square"
-			subtitle: "Click"
+			subtitle: "点击"
 			description: [
-				"-Generates Electric trees, Fossils, Huge Mushrooms and Oak trees"
+				"-生成电树、化石、巨型蘑菇和橡树"
 				""
-				"-Spawns Pigails and Storm Wisps"
+				"-生成蜗猪和雷暴恶魂"
 				""
-				"-Contains gravel patches, flowers, electric vines and mushrooms"
+				"-有沙砾堆、花、电蔓和蘑菇"
 			]
 			size: 1.5d
 			id: "27D0097BF89B34AC"
 			tasks: [{
 				id: "260BA820FE5C23E0"
 				type: "biome"
-				title: "Visit&d the Electric Swamp"
+				title: "访问&d雷电沼泽"
 				icon: "astral_dimension:overgrown_faded_stone"
 				biome: "astral_dimesion:electric_swamp"
 			}]
@@ -1028,28 +1028,28 @@
 			x: 7.0d
 			y: 5.0d
 			shape: "square"
-			subtitle: "Click"
+			subtitle: "点击"
 			description: [
-				"-Contains floating islands made out of Faded Stone"
+				"-有褪色石构成的浮岛"
 				""
-				"-Generates Faded Fortresses, Infested Cathedrals"
+				"-生成褪色要塞、被侵蚀的教堂"
 				""
-				"-Contains sand patches, Lush Bulbs, Lush Bushes, Faded spikes"
+				"-有沙堆、繁茂花蕾、繁茂灌木、褪色尖刺"
 				""
-				"-Spawns Void centipedes"
+				"-生成虚空蜈蚣"
 			]
 			size: 1.5d
 			id: "0BEE0F56AE2BE522"
 			tasks: [{
 				id: "16A6E21DDE62426C"
 				type: "biome"
-				title: "Visit &dthe Faded Islands"
+				title: "访问&d褪色之岛"
 				icon: "astral_dimension:overgrown_faded_stone"
 				biome: "astral_dimesion:faded_islands"
 			}]
 		}
 		{
-			title: "Defeat &dthe Amethyst Crawler"
+			title: "击败&d紫晶爬虫"
 			icon: "astral_dimension:amethyst_crawler_spawn_egg"
 			x: -2.0d
 			y: 10.5d
@@ -1069,7 +1069,7 @@
 			}]
 		}
 		{
-			title: "Craft an &dObsidian Bucket"
+			title: "合成一个&d黑曜石桶"
 			x: -1.5d
 			y: 6.0d
 			id: "4341BCE8E3C4A911"
