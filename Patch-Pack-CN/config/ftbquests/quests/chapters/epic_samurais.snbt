@@ -3,7 +3,7 @@
 	group: "1E5E40F7A856E564"
 	order_index: 0
 	filename: "epic_samurais"
-	title: " &6Epic Samurai's"
+	title: " &6史诗武士"
 	icon: {
 		id: "epicsamurai:red_samurai_helmet"
 		Count: 1b
@@ -27,10 +27,10 @@
 	}]
 	quests: [
 		{
-			title: "Obtain &6Ruby"
+			title: "获得&6红宝石"
 			x: 7.0d
 			y: -2.5d
-			subtitle: "&4The Ruby &rcan be found in the&a Overworld &rfrom &4Y: -64 to Y: 30.&r It can be mined via an Iron Pickaxe."
+			subtitle: "&4红宝石&r可从&a主世界&r的&4Y：-64 ~ 30&r范围内找到。可通过铁镐开采。"
 			dependencies: ["558D0B3EA892B567"]
 			id: "499638A25891A35C"
 			tasks: [{
@@ -40,10 +40,10 @@
 			}]
 		}
 		{
-			title: "Obtain &6Jade"
+			title: "获得&6翡翠"
 			x: 7.0d
 			y: 1.5d
-			subtitle: "&2The Jade &rcan be found in the &aOverworld &rfrom &4Y: -64 to Y:&r 30. It can be mined via an Iron Pickaxe."
+			subtitle: "&2翡翠&r可从&a主世界&r的&4Y：-64 ~ 30&r范围内找到。可通过铁镐开采。"
 			dependencies: ["558D0B3EA892B567"]
 			id: "305A1458225092C6"
 			tasks: [{
@@ -53,10 +53,10 @@
 			}]
 		}
 		{
-			title: "Obtain an &6Aquamarine"
+			title: "获得&6海蓝宝石"
 			x: 5.0d
 			y: -0.5d
-			subtitle: "&bThe Aquamarine &rcan be found in the &2Overworld&r from &4Y: -64&r to &4Y: 30&r. It can be mined via an &fIron Pickaxe."
+			subtitle: "&b海蓝宝石&r可从&2主世界&r的&4Y：-64 ~ 30&r范围内找到。可通过铁镐开采。"
 			dependencies: ["558D0B3EA892B567"]
 			id: "2FF1181C88A27DD6"
 			tasks: [{
@@ -66,10 +66,10 @@
 			}]
 		}
 		{
-			title: "Obtain &6Onyx"
+			title: "获得&6缟玛瑙"
 			x: 9.0d
 			y: -0.5d
-			subtitle: "&eThe Onyx &rcan be found in the &aOverworld&r from &4Y: -64 to Y: 30&r. It can be mined via an Iron Pickaxe."
+			subtitle: "&e缟玛瑙&r可从&a主世界&r的&4Y：-64 ~ 30&r范围内找到。可通过铁镐开采。"
 			dependencies: ["558D0B3EA892B567"]
 			id: "6733D21099E640C6"
 			tasks: [{
@@ -79,10 +79,10 @@
 			}]
 		}
 		{
-			title: "Obtain a &6Silver Ingot"
+			title: "制造&6银锭"
 			x: 8.5d
 			y: -2.0d
-			subtitle: "&8Silver &rcan be found in the &aOverworld &rfrom &4Y: -64 to Y: 30.&r It can be mined via an Iron Pickaxe."
+			subtitle: "&8粗银&r可从&a主世界&r的&4Y: -64 ~ 30&r范围内找到。可通过铁镐开采并烧制。"
 			dependencies: ["558D0B3EA892B567"]
 			id: "383D230B247F1950"
 			tasks: [{
@@ -92,10 +92,10 @@
 			}]
 		}
 		{
-			title: "Make Steel Ingots"
+			title: "制造钢锭"
 			x: 8.5d
 			y: 1.0d
-			subtitle: "You need to smelt &fIron Ingots&r to get some &8Steel."
+			subtitle: "您需要使用&f铁锭&r烧制成&8钢锭&r。"
 			dependencies: ["558D0B3EA892B567"]
 			id: "601FE61A5EA647EB"
 			tasks: [{
@@ -105,10 +105,10 @@
 			}]
 		}
 		{
-			title: "Craft an &6Anethyst-Coated Steel Ingot"
+			title: "制造&6紫水晶覆层钢锭"
 			x: 5.5d
 			y: -2.0d
-			subtitle: "&8Steel &rcan be combined with&5 Amethyst in &rthe Smithing Table."
+			subtitle: "&8钢锭&r可以通过锻造台和&5紫水晶&r合成。"
 			dependencies: ["558D0B3EA892B567"]
 			id: "758ED6BAE8AB682E"
 			tasks: [{
@@ -118,10 +118,10 @@
 			}]
 		}
 		{
-			title: "Craft &6Quartz-Coated Steel Ingot"
+			title: "制造&6石英覆层钢锭"
 			x: 5.5d
 			y: 1.0d
-			subtitle: "&8Steel &rcan be combined with &fQuartz&r in the Smithing Table."
+			subtitle: "&8钢锭&r可以通过锻造台和&f石英&r合成。"
 			dependencies: ["558D0B3EA892B567"]
 			id: "061FC23FDC02018A"
 			tasks: [{
@@ -143,11 +143,11 @@
 			}]
 		}
 		{
-			title: "Defeat &6the Akaname"
+			title: "击杀&6垢尝"
 			x: -4.0d
 			y: -2.5d
 			shape: "circle"
-			subtitle: "Wanders around the &4nether &rto &6scare the humans&r. It will attack with his long&a tongue to slow his &4enemy."
+			subtitle: "游荡在&4地狱&r当中以&6吓唬人类&r。它会使用它的&a长舌&r来&4减缓敌人。"
 			id: "7377ECA5B975A70F"
 			tasks: [{
 				id: "12287D0411D56966"
@@ -164,11 +164,11 @@
 			}]
 		}
 		{
-			title: "Defeat &6 the Enenra"
+			title: "击杀&6烟烟罗"
 			x: -6.0d
 			y: -2.5d
 			shape: "circle"
-			subtitle: "Wanders around &8the caves&r to &6hunt the humans.&r Because of it's&0 dark colors&r it is hard to see him in the &8caves."
+			subtitle: "游荡在&8洞穴&r当中以&6攻击人类&r。因为它外观呈&0暗色&r，以至于很难在&8洞穴&r中看见它。"
 			id: "6F1F0937EF19FF7C"
 			tasks: [{
 				id: "4EB9B255AC0B6122"
@@ -185,11 +185,11 @@
 			}]
 		}
 		{
-			title: "Defeat&6 the Oni"
+			title: "击杀&6鬼魂"
 			x: -5.0d
 			y: -2.0d
 			shape: "circle"
-			subtitle: "Wanders around the&4 nether&r to &6scare the humans.&r It is very slow but&c deals a lot of damage."
+			subtitle: "游荡在&4地狱&r当中以&6吓唬人类&r。它虽然很慢，但&c攻击很疼。"
 			id: "2D091861C4810369"
 			tasks: [{
 				id: "3BA286930692F7AE"
@@ -206,11 +206,11 @@
 			}]
 		}
 		{
-			title: "Defeat&6 the Kitsune"
+			title: "击杀&6妖狐"
 			x: -5.0d
 			y: -3.0d
 			shape: "circle"
-			subtitle: "Wanders around the &aoverworld &r&6to scare the humans.&r If a human gets too close to it, it will&c fire a projectile called will-o'-the-wisp."
+			subtitle: "游荡在&a主世界&r当中以&6吓唬人类&r。如果有人离它太近，它会&c发射炮弹。"
 			id: "6C8F7D241495872B"
 			tasks: [{
 				id: "0A910EAE17AA6389"
@@ -227,7 +227,7 @@
 			}]
 		}
 		{
-			title: "Craft an&6 Iron Samurai set"
+			title: "制作&6铁武士套装"
 			x: -1.0d
 			y: -2.5d
 			dependencies: ["5BB3F9D46974552E"]
@@ -286,7 +286,7 @@
 			}]
 		}
 		{
-			title: "Craft a &6Silver Samurai Set"
+			title: "制作&6银武士套装"
 			x: 1.0d
 			y: 2.0d
 			dependencies: ["5BB3F9D46974552E"]
@@ -345,7 +345,7 @@
 			}]
 		}
 		{
-			title: "Craft a &6Gold Samurai Set"
+			title: "制作&6金武士套装"
 			x: 2.0d
 			y: -2.5d
 			dependencies: ["5BB3F9D46974552E"]
@@ -404,7 +404,7 @@
 			}]
 		}
 		{
-			title: "Craft a &6Diamond Samurai Set"
+			title: "制作&6钻石武士套装"
 			x: 1.0d
 			y: -3.0d
 			dependencies: ["5BB3F9D46974552E"]
@@ -463,7 +463,7 @@
 			}]
 		}
 		{
-			title: "Craft a &6Netherite Samurai Set"
+			title: "制作&6下界合金武士套装"
 			x: -2.0d
 			y: -1.5d
 			dependencies: ["5BB3F9D46974552E"]
@@ -522,7 +522,7 @@
 			}]
 		}
 		{
-			title: "Craft an &6Amethyst Samurai Set"
+			title: "制作&6紫水晶武士套装"
 			x: -2.0d
 			y: 0.5d
 			dependencies: ["5BB3F9D46974552E"]
@@ -581,7 +581,7 @@
 			}]
 		}
 		{
-			title: "Craft a &6Quartz Samurai Set"
+			title: "制作&6石英武士套装"
 			x: 3.0d
 			y: 0.5d
 			dependencies: ["5BB3F9D46974552E"]
@@ -640,7 +640,7 @@
 			}]
 		}
 		{
-			title: "Craft a &6Ruby Samurai Set"
+			title: "制作&6红宝石武士套装"
 			x: 3.0d
 			y: -1.5d
 			dependencies: ["5BB3F9D46974552E"]
@@ -699,7 +699,7 @@
 			}]
 		}
 		{
-			title: "Craft an &6Aquamarine Samurai Set"
+			title: "制作&6海蓝宝石武士套装"
 			x: -1.0d
 			y: 1.5d
 			dependencies: ["5BB3F9D46974552E"]
@@ -758,7 +758,7 @@
 			}]
 		}
 		{
-			title: "Craft a &6Jade Samurai Set"
+			title: "制作&6翡翠武士套装"
 			x: 0.0d
 			y: 2.0d
 			dependencies: ["5BB3F9D46974552E"]
@@ -817,7 +817,7 @@
 			}]
 		}
 		{
-			title: "Craft an &6Onyx Samurai Set"
+			title: "制作&6缟玛瑙武士套装"
 			x: 0.0d
 			y: -3.0d
 			dependencies: ["5BB3F9D46974552E"]
@@ -876,7 +876,7 @@
 			}]
 		}
 		{
-			title: "Craft a &6Tyr Samurai Set"
+			title: "制作&6战神提尔套装"
 			x: 2.0d
 			y: 1.5d
 			dependencies: ["5BB3F9D46974552E"]
@@ -943,11 +943,11 @@
 			tasks: [{
 				id: "71632E50EF21D2C0"
 				type: "checkmark"
-				title: "Armors"
+				title: "防具"
 			}]
 		}
 		{
-			title: "Craft a &6Steel Samurai Set"
+			title: "制作&6钢武士套装"
 			x: -2.0d
 			y: -0.5d
 			dependencies: ["5BB3F9D46974552E"]
@@ -1006,7 +1006,7 @@
 			}]
 		}
 		{
-			title: "Craft a &6Draco Samurai Set"
+			title: "制作&6天龙神秘武士套装"
 			x: 3.0d
 			y: -0.5d
 			dependencies: ["5BB3F9D46974552E"]
@@ -1065,11 +1065,11 @@
 			}]
 		}
 		{
-			title: "Craft a &6Katana"
+			title: "制作&6武士刀"
 			x: -6.0d
 			y: -0.5d
 			shape: "square"
-			subtitle: "&cThe Katana&r is the main weapon of the Samurai."
+			subtitle: "&c武士刀&r是武士的主要武器。"
 			id: "5D53D06CA16FB6BF"
 			tasks: [{
 				id: "49434BD7B2A9C8C9"
@@ -1090,11 +1090,11 @@
 			}]
 		}
 		{
-			title: "Craft a &6Naginata"
+			title: "制作&6薙刀"
 			x: -5.0d
 			y: -0.5d
 			shape: "square"
-			subtitle: "&fThe Naginata &ris a melee weapon with more range. It acts like a&f spear."
+			subtitle: "&f薙刀&r是一种攻击距离更长的近战武器，就像一把&f长矛。"
 			id: "3361462D3A2FC11E"
 			tasks: [{
 				id: "3F3BD76F36C5378A"
@@ -1115,11 +1115,11 @@
 			}]
 		}
 		{
-			title: "Craft a &6Nagamaki"
+			title: "制作&6长卷刀"
 			x: -4.0d
 			y: -0.5d
 			shape: "square"
-			subtitle: "&bThe Nagamaki&r is a melee weapon with more range. It acts like a &fspear.&r It can be crafted with &cthe Katana."
+			subtitle: "&b长卷刀&r是攻击距离更长的近战武器，它可由&c武士刀&r制作而成。"
 			id: "1A5732001301A3D6"
 			tasks: [{
 				id: "2E14474A1745F643"
@@ -1140,11 +1140,11 @@
 			}]
 		}
 		{
-			title: "Craft a &6Kunai"
+			title: "制作&6苦无"
 			x: -6.0d
 			y: 0.5d
 			shape: "square"
-			subtitle: "&fThe Kunai &ris melee and ranged weapon with more attack speed."
+			subtitle: "&f苦无&r可用于近战，也可远程，攻击速度更快。"
 			id: "61E37C77642C622E"
 			tasks: [{
 				id: "5DCFFB811E57B5FE"
@@ -1165,11 +1165,11 @@
 			}]
 		}
 		{
-			title: "Craft a &6Kana"
+			title: "制作&6镰刀"
 			x: -4.0d
 			y: 0.5d
 			shape: "square"
-			subtitle: "&dThe Kama &ris a sickle like melee weapon with more attack speed."
+			subtitle: "&d镰刀&r是一种镰刀状的近战武器，攻击速度更快。"
 			id: "232FAAF05BDFEA44"
 			tasks: [{
 				id: "175FDA1C34BF3BBB"
@@ -1190,11 +1190,11 @@
 			}]
 		}
 		{
-			title: "Craft a &6Sai"
+			title: "制作&6穿孔刀"
 			x: -4.0d
 			y: 1.5d
 			shape: "square"
-			subtitle: "&aThe Sai&r is a melee weapon with more attack speed."
+			subtitle: "&a穿孔刀&r是一种攻击速度更快的近战武器。"
 			id: "726D7C59A7A72835"
 			tasks: [{
 				id: "5CE117B56C09263B"
@@ -1215,11 +1215,11 @@
 			}]
 		}
 		{
-			title: "Craft a &6Shuriken"
+			title: "制作&6手里剑"
 			x: -6.0d
 			y: 1.5d
 			shape: "square"
-			subtitle: "You can it them by right- clicking them. &fThe Kunai&r uses durability for each throw."
+			subtitle: "使用鼠标右键投掷。&f手里剑&r每次投掷都消耗耐久。"
 			id: "6D6CFBDE017DA9CD"
 			tasks: [{
 				id: "2A6D665A937EBD1A"
@@ -1234,7 +1234,7 @@
 			}]
 		}
 		{
-			title: "Craft the &6Oni Mask"
+			title: "制作&6鬼面具"
 			x: -5.0d
 			y: 0.5d
 			shape: "square"
@@ -1242,7 +1242,7 @@
 			tasks: [{
 				id: "1084AEB8D8B01D23"
 				type: "item"
-				title: "Oni Mask"
+				title: "鬼面具"
 				item: {
 					id: "epicsamurai:oni_mask"
 					Count: 1b
@@ -1253,7 +1253,7 @@
 			}]
 		}
 		{
-			title: "Craft a &6Stray Hat"
+			title: "制作&6稻草帽"
 			x: -5.0d
 			y: 1.5d
 			shape: "square"

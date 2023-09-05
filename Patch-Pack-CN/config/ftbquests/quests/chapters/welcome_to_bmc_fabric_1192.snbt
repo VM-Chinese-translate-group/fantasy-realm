@@ -51,7 +51,7 @@
 			}]
 		}
 		{
-			title: "&2列表"
+			title: "&2物品栏"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -169,7 +169,7 @@
 			]
 		}
 		{
-			title: "&bJust Enough Items (JEI)"
+			title: "&bJEI"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -179,18 +179,18 @@
 			}
 			x: 0.5d
 			y: -1.5d
-			subtitle: "Read my description! Make sure to scroll down."
+			subtitle: "阅读我的说明！请确保向下滚动。"
 			description: [
-				"At the bottom of the inventory, you may have noticed a search bar."
-				"This is the &bJust Enough Items&r, or &bJEI&r, search bar. "
-				"If you type Wood, for example, the &bJEI &ritem list at the right of the screen will show all items with Wood in the name. You can bookmark an item by pressing &bA&r while hovering over it."
+				"在物品栏的底部，您可能已经注意到一个搜索栏。"
+				"这是&bJEI&r搜索栏。"
+				"例如您输入原木，屏幕右侧的&bJEI &r列表将显示名称中包含原木的所有物品。您也可以将鼠标悬停在物品上同时按下&bA&r键可添加书签。"
 				""
-				"Adding a @ at the start of the search query, it will show the items from a specific mod, for example @Adorn"
+				"在查询时前面加一个 @ ，它将显示特定模组中的物品，例如 @thenexus（查询关于幽匿维度的模组）。"
 				""
-				"Adding a # at the start of the search query, it will show all items with a specific tag, for example #logs"
+				"在查询时前面加一个 # ，它将显示带有特定tag的所有物品，例如 #logs。"
 				""
-				"When browsing an item's recipes for a specific workbench, you can click on the workbench's name to see everything that the workbench can craft."
-				"For example, if you are viewing the recipe for Fried Eggplant Pasta, you can click the \"Cooking\" text to see all Cooking Pot recipes."
+				"当浏览特定工作台的合成配方时，您可以单击工作台的名称来查看工作台可以合成的所有物品。"
+				"例如，您如果正在查看熟牛肉的合成配方，您可以点击顶部\"熔炉\"来查看该熔炉的所有合成配方。"
 			]
 			dependencies: ["2136D40B9108A89C"]
 			hide: true
@@ -198,7 +198,7 @@
 			tasks: [{
 				id: "536964240E8DFB83"
 				type: "checkmark"
-				title: "Just Enough Items"
+				title: "JEI"
 			}]
 			rewards: [{
 				id: "2A58E85397FAABFA"
@@ -216,13 +216,13 @@
 			}
 			x: 2.5d
 			y: -1.5d
-			subtitle: "Read my description!"
+			subtitle: "阅读我的说明！"
 			description: [
-				"The tutorial is now &afinished&r! "
+				"教程现在已经&a完成&r了！"
 				""
-				"&a&lMORE QUESTS! &rTo view the rest of the quests, leave this quest screen and put your cursor to the left of the main quest page, where the arrow is."
+				"&a&l更多任务！&r 要查看其他任务，请离开任务详细页，将光标放在任务页面左侧的箭头所在位置。"
 				""
-				"Feel free to join our &bDiscord &rfor any other questions you may have: https://lunapixel.studio/discord"
+				"若有其他疑问，请随时加入我们的 &bDiscord &r：https://lunapixel.studio/discord"
 			]
 			dependencies: ["17BB78B2DFD31DD4"]
 			hide: true
@@ -230,11 +230,11 @@
 			tasks: [{
 				id: "6DE7A2B2182B7F4A"
 				type: "checkmark"
-				title: "&aTutorial Complete!"
+				title: "&a教程完成！"
 			}]
 		}
 		{
-			title: "&9Need Help?"
+			title: "&9需要帮助？"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -244,14 +244,14 @@
 			}
 			x: 1.5d
 			y: -1.5d
-			subtitle: "Read me!"
-			description: ["Join &1&lLuna Pixel Studios &9&lDiscord&r&r.              &kff&kfff&r&f&r&l&9=>discord.gg/lunapixel<=&r&kfff&f<="]
+			subtitle: "阅读我！"
+			description: ["加入 &1&lLuna Pixel 工作室&9&l Discord&r&r.              &kff&kfff&r&f&r&l&9=>discord.gg/lunapixel<=&r&kfff&f<="]
 			dependencies: ["7019C0C2EE4E022C"]
 			id: "17BB78B2DFD31DD4"
 			tasks: [{
 				id: "3FDFFA89C92B8FF2"
 				type: "checkmark"
-				title: "Need Help?"
+				title: "需要帮助？"
 			}]
 			rewards: [{
 				id: "0D47CF5F8027470A"
