@@ -3,7 +3,7 @@
     "key.category.isleofberk": "博克岛",
     "item.isleofberk.belzium": "紫晶钻",
     "item.isleofberk.gronckle_iron": "葛伦科龙铁锭",
-    "item.isleofberk.raw_gronckle_iron": "生葛伦科龙铁锭",
+    "item.isleofberk.raw_gronckle_iron": "生葛伦科龙铁",
     "item.isleofberk.gronckle_iron_pickaxe": "毛霍里根镐",
     "item.isleofberk.gronckle_iron_axe": "毛霍里根斧",
     "item.isleofberk.gronckle_iron_doubleaxe": "毛霍里根双刃斧",
@@ -64,8 +64,8 @@
     "item.isleofberk.skrill_egg": "§d雷龙蛋",
     "block.isleofberk.belzium_ore": "紫晶钻矿石",
     "block.isleofberk.belzium_block": "紫晶钻块",
-    "block.isleofberk.gronckle_iron_block": "蝎子龙铁块",
-    "block.isleofberk.raw_gronckle_iron_block": "生蝎子龙铁块",
+    "block.isleofberk.gronckle_iron_block": "葛伦科龙铁块",
+    "block.isleofberk.raw_gronckle_iron_block": "生葛伦科龙铁块",
     "iob.belzium.warn": "龙的负重过高，减少背包内的物品至四个",
     "iob.belzium.not own": "抱歉，你不是这头龙的主人",
     "iob.dragonAir.needSaddle": "骑龙需要鞍，否则它会在半空中把你甩下去",
@@ -135,6 +135,6 @@
     "advancement.night_fury.desc": "闪电和死亡的邪恶产物",
     "advancement.light_fury.title": "另一头？！",
     "advancement.light_fury.desc": "不，不完全是。它更像一头……光煞。",
-    "taming.phase1.25": "驯龙",
+    "taming.phase1.25": "已驯服",
     "effect.isleofberk.shock": "触电"
 }

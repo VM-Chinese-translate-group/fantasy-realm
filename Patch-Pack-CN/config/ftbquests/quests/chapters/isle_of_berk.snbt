@@ -3,7 +3,7 @@
 	group: "2F85EA47D6AE998C"
 	order_index: 2
 	filename: "isle_of_berk"
-	title: " &fIsle of Berk"
+	title: " &f博克岛"
 	icon: "isleofberk:lightfury_spawn_egg"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -23,13 +23,13 @@
 		{
 			x: -5.0d
 			y: -7.5d
-			subtitle: "The Night Fury can be Found in &fSnowy Slopes / Jagged Peaks / Snowy Peaks / Windswept Hills / Windswept Gravelly Hills / Stony Peaks"
+			subtitle: "夜煞出现在&f积雪山坡、尖峭山峰、风袭丘陵、风袭沙砾丘陵和裸岩山峰"
 			dependencies: ["38B40432CEB032ED"]
 			id: "57BD4A3BCDCBD939"
 			tasks: [{
 				id: "54E78A246681B402"
 				type: "advancement"
-				title: "Tame &lthe Night Fury"
+				title: "驯服&l夜煞"
 				advancement: "isleofberk:night_fury"
 				criterion: ""
 			}]
@@ -43,13 +43,13 @@
 		{
 			x: -7.0d
 			y: -7.5d
-			subtitle: "The Light Fury Can be Found in &fFrozen Peaks / Jagged Peaks /Snowy Peaks / Windswept Forest / Windswept Gravelly Hills / Birch Forest / Old Growth Birch Forest"
+			subtitle: "光煞出现在&f冰封山峰、尖峭山峰、风袭森林、风袭沙砾丘陵、桦木森林和原始桦木森林"
 			dependencies: ["38B40432CEB032ED"]
 			id: "60AD2F48690CE32D"
 			tasks: [{
 				id: "7896D2B5CE4E243A"
 				type: "advancement"
-				title: "Tame &lthe Kight Fury"
+				title: "驯服&l光煞"
 				advancement: "isleofberk:light_fury"
 				criterion: ""
 			}]
@@ -63,13 +63,13 @@
 		{
 			x: -4.0d
 			y: -4.0d
-			subtitle: "The Monstrous Nightmare can be Found in &fBadlands / Wooded Badlands / Eroded Badlands / Windswept Hills / Windswept Gravelly Hills / Windswept Forest"
+			subtitle: "烈焰狂魔出现在&f恶地、疏林恶地、风蚀恶地、风袭丘陵、	风袭沙砾丘陵和风袭森林"
 			dependencies: ["38B40432CEB032ED"]
 			id: "4645015C238858F2"
 			tasks: [{
 				id: "51221625DD58FD31"
 				type: "advancement"
-				title: "Tame &lthe Monstrous Nightmare"
+				title: "驯服&l烈焰狂魔"
 				advancement: "isleofberk:stoker"
 				criterion: ""
 			}]
@@ -83,13 +83,13 @@
 		{
 			x: -8.0d
 			y: -4.0d
-			subtitle: "The Speed Stinger can be Found in &fStony Peaks / Jagged Peaks / Meadow / Deep Frozen Ocean / Frozen Ocean / Ice Spikes / Snowy Planes / Jungle / Bamboo Jungle / Sparse Jungle / Taiga / Old Growth Spruce Jungle"
+			subtitle: "风刺龙出现在&f裸岩山峰、尖峭山峰、草甸、冰冻深海、冻洋、冰刺之地、雪原丛林、竹林、稀疏丛林、针叶林和原始云杉针叶林"
 			dependencies: ["38B40432CEB032ED"]
 			id: "7E7865CFAF415E81"
 			tasks: [{
 				id: "63583D56AEDEBDE0"
 				type: "advancement"
-				title: "Tame &lthe Speed Stinger"
+				title: "驯服&l风刺龙"
 				advancement: "isleofberk:sharp"
 				criterion: ""
 			}]
@@ -103,13 +103,13 @@
 		{
 			x: -4.0d
 			y: -6.0d
-			subtitle: "The Gronckle can be Found in &fSnowy Plains / Swamp / Meadow / Old Growth Birch Forest / Savanna Plateau / Windswept Savanna / Plains / Grove / Sunflower Plains / Savanna"
+			subtitle: "葛伦科龙出现在&f雪原、沼泽、草甸、原始桦木森林、热带高原、风袭热带草原、平原、雪林、向日葵平原和热带草原"
 			dependencies: ["38B40432CEB032ED"]
 			id: "1B0B14F589C8F88C"
 			tasks: [{
 				id: "4CFDD6766EF5A00E"
 				type: "advancement"
-				title: "Tame &lThe Gronckle"
+				title: "驯服&l葛伦科龙"
 				advancement: "isleofberk:boulder"
 				criterion: ""
 			}]
@@ -123,13 +123,13 @@
 		{
 			x: -6.0d
 			y: -2.5d
-			subtitle: "The Deadly Nadder can be Found in &fSnowy Plains / Meadow / Windswept Hills / Windswept Gravelly Hills / Windswept Forest / Sparse Jungle / Savanna / Savanna Plateau / Grove / Forest / Flower Forest / Birch Forest / Old Growth Birch Forest / Windswept Savanna"
+			subtitle: "致命纳德出现在&f雪原、草甸、风袭丘陵、风袭沙砾丘陵、风袭森林、稀疏丛林、热带草原、热带高原、雪林、森林、繁花森林、桦木森林、原始桦木森林和风袭热带草原"
 			dependencies: ["38B40432CEB032ED"]
 			id: "42BF4F7BE304A784"
 			tasks: [{
 				id: "4C0BAD1482DAA5A6"
 				type: "advancement"
-				title: "Tame &lthe Deadly Nadder"
+				title: "驯服&l致命纳德"
 				advancement: "isleofberk:tracker"
 				criterion: ""
 			}]
@@ -143,13 +143,13 @@
 		{
 			x: -8.0d
 			y: -6.0d
-			subtitle: "The Hideous Zippleback can be Found  in &fIce Spikes / Snowy Plains / Swamp"
+			subtitle: "双头龙出现在&f冰刺之地、雪原和沼泽"
 			dependencies: ["38B40432CEB032ED"]
 			id: "6EBBC7FE0E044CA8"
 			tasks: [{
 				id: "2FEF256BA913E94C"
 				type: "advancement"
-				title: "Tame &lThe Hideous Zippleback"
+				title: "驯服&l双头龙"
 				advancement: "isleofberk:mystery"
 				criterion: ""
 			}]
@@ -168,7 +168,7 @@
 			tasks: [{
 				id: "2ED558045E1C2710"
 				type: "item"
-				title: "Obtain &lNight Fury Egg"
+				title: "获取&l夜煞蛋"
 				item: "isleofberk:night_fury_egg"
 			}]
 			rewards: [{
@@ -186,7 +186,7 @@
 			tasks: [{
 				id: "7B9F7FCCEF4FDB46"
 				type: "item"
-				title: "Obtain &lTriple Stryke Egg"
+				title: "获取&l蝎子龙蛋"
 				item: "isleofberk:triple_stryke_egg"
 			}]
 			rewards: [{
@@ -204,7 +204,7 @@
 			tasks: [{
 				id: "3235876A099FDECD"
 				type: "item"
-				title: "Obtain &lSpeed Stinger Egg "
+				title: "获取&l风刺龙蛋"
 				item: "isleofberk:speed_stinger_egg"
 			}]
 			rewards: [{
@@ -222,7 +222,7 @@
 			tasks: [{
 				id: "468DD9536B4608C0"
 				type: "item"
-				title: "Obtain &lDeadly Nadder Egg"
+				title: "获取&l致命纳德蛋"
 				item: "isleofberk:nadder_egg"
 			}]
 			rewards: [{
@@ -240,7 +240,7 @@
 			tasks: [{
 				id: "56A598EF6154DAC2"
 				type: "item"
-				title: "Obtain &lthe Night Light Egg"
+				title: "获取&l夜光龙蛋"
 				item: "isleofberk:night_light_egg"
 			}]
 			rewards: [{
@@ -258,7 +258,7 @@
 			tasks: [{
 				id: "324697272307B583"
 				type: "item"
-				title: "Obtain &lGronckle Egg"
+				title: "获取&l葛伦科龙蛋"
 				item: "isleofberk:gronckle_egg"
 			}]
 			rewards: [{
@@ -276,7 +276,7 @@
 			tasks: [{
 				id: "5B7B7F55E54755A7"
 				type: "item"
-				title: "Obtain &lSkrill Egg"
+				title: "获取&l雷龙蛋"
 				item: "isleofberk:skrill_egg"
 			}]
 			rewards: [{
@@ -294,7 +294,7 @@
 			tasks: [{
 				id: "70C0F12529052F19"
 				type: "item"
-				title: "Obtain &lLight Fury Egg"
+				title: "获取&l光煞蛋"
 				item: "isleofberk:light_fury_egg"
 			}]
 			rewards: [{
@@ -312,7 +312,7 @@
 			tasks: [{
 				id: "3AED6776C69E676E"
 				type: "item"
-				title: "Obtain &lHideous Zippleback Egg"
+				title: "获取&l双头龙蛋"
 				item: "isleofberk:zippleback_egg"
 			}]
 			rewards: [{
@@ -330,7 +330,7 @@
 			tasks: [{
 				id: "571B80619CB7DE2E"
 				type: "item"
-				title: "Obtain &lMonstrous Nightmare Egg"
+				title: "获取&l烈焰狂魔蛋"
 				item: "isleofberk:monstrous_nightmare_egg"
 			}]
 			rewards: [{
@@ -348,7 +348,7 @@
 			tasks: [{
 				id: "1B91BDB491A3FEA9"
 				type: "item"
-				title: "Obtain &lTerrible terror Egg"
+				title: "获取&l恐怖龙蛋"
 				item: "isleofberk:terrible_terror_egg"
 			}]
 			rewards: [{
@@ -366,7 +366,7 @@
 			tasks: [{
 				id: "6F944E5BC42AF8EA"
 				type: "item"
-				title: "Obtain &lFloutscout Speed Stinger Egg "
+				title: "获取&l学舌龙蛋"
 				item: "isleofberk:speed_stinger_egg_floutscout"
 			}]
 			rewards: [{
@@ -384,7 +384,7 @@
 			tasks: [{
 				id: "38E4EC80E20967FD"
 				type: "item"
-				title: "Obtain &lIce Breaker Speed Stinger Egg"
+				title: "获取&l冰破龙蛋"
 				item: "isleofberk:speed_stinger_egg_ice_breaker"
 			}]
 			rewards: [{
@@ -402,7 +402,7 @@
 			tasks: [{
 				id: "70E6F81B0E17E5B9"
 				type: "item"
-				title: "Obtain &lSting Speed Stinger Egg "
+				title: "获取&l速度龙蛋"
 				item: "isleofberk:speed_stinger_egg_sweet_sting"
 			}]
 			rewards: [{
@@ -416,17 +416,17 @@
 			x: -21.0d
 			y: -5.0d
 			shape: "circle"
-			subtitle: "Mom?"
+			subtitle: "妈妈？"
 			size: 1.5d
 			id: "3A03B3186A9C2FE2"
 			tasks: [{
 				id: "579B34D16B6A65C3"
 				type: "checkmark"
-				title: "The Isle of Berk Dragon Egg Hunt."
+				title: "博克岛龙蛋狩猎之旅。"
 			}]
 		}
 		{
-			title: "Craft &fvarious Hooligan Iron tools."
+			title: "制作&f多种毛霍里根工具"
 			x: -10.5d
 			y: -3.5d
 			dependencies: ["23C3830FC22DB4BC"]
@@ -474,7 +474,7 @@
 			}]
 		}
 		{
-			title: "Craft &lvarious reinforced Hooligan tools."
+			title: "制作&l多种强化毛霍里根工具。"
 			x: -16.5d
 			y: -3.5d
 			dependencies: ["46968EEBB4B5E3B6"]
@@ -522,7 +522,7 @@
 			}]
 		}
 		{
-			title: "Craft &fvarious Hooligan weapons."
+			title: "制作&f多种毛霍里根武器。"
 			x: -12.0d
 			y: -2.0d
 			dependencies: ["23C3830FC22DB4BC"]
@@ -581,7 +581,7 @@
 			}]
 		}
 		{
-			title: "Craft &lvarious Reinforced Hooligan weapons."
+			title: "制作&l多种强化毛霍里根武器。"
 			x: -15.0d
 			y: -2.0d
 			dependencies: ["46968EEBB4B5E3B6"]
@@ -640,10 +640,10 @@
 			}]
 		}
 		{
-			title: "Make &fRaw Gronckle Iron "
+			title: "制作&c生葛伦科龙铁"
 			x: -12.0d
 			y: -5.0d
-			subtitle: "To obtain &cGronckle Iron&r: Harness the&c Gronckle dragon's&r unique ability to &6forge powerful Gronckle Iron."
+			subtitle: "获取&c生葛伦科龙铁&r：使用&c葛伦科龙&r的独特能力以&6锻造强大的葛伦科龙铁。"
 			dependencies: ["475238C88164D307"]
 			id: "59D4CEA0DBF12300"
 			tasks: [
@@ -666,7 +666,7 @@
 			}]
 		}
 		{
-			title: "Craft a &fGronckle Iron Ingot"
+			title: "制作&f葛伦科龙铁锭"
 			x: -12.0d
 			y: -3.5d
 			dependencies: ["59D4CEA0DBF12300"]
@@ -692,7 +692,7 @@
 			tasks: [{
 				id: "540F4B03B7FB1AF7"
 				type: "checkmark"
-				title: "Just to make things Symmetrical"
+				title: "让任务对称"
 			}]
 			rewards: [{
 				id: "40D43DBFF6549365"
@@ -702,7 +702,7 @@
 			}]
 		}
 		{
-			title: "Obtain &lBelzium"
+			title: "获取&l紫晶钻"
 			x: -15.0d
 			y: -3.5d
 			dependencies: [
@@ -723,17 +723,17 @@
 			}]
 		}
 		{
-			title: "Isle of Berk"
+			title: "博克岛"
 			x: -13.5d
 			y: -6.5d
 			shape: "circle"
-			subtitle: "Welcome to &bIsle of Berk !&r The land where &6players&r and&6 dragons&r coexist in the infinite &4Fantasy Realm."
+			subtitle: "欢迎来到&b博克岛！&r在&4幻想领域&r中&6玩家&r与&6龙&r在这片土地上共同生活。"
 			size: 1.5d
 			id: "475238C88164D307"
 			tasks: [{
 				id: "4FA4EE223C3A40AA"
 				type: "checkmark"
-				title: "Welcome to &lIsle of Berk"
+				title: "欢迎来到博克岛"
 			}]
 			rewards: [{
 				id: "55F5CF81DFF17A7D"
@@ -751,7 +751,7 @@
 			tasks: [{
 				id: "01A7B84CD1C0D97C"
 				type: "checkmark"
-				title: "Tame Isles of Berk Dragons"
+				title: "博克岛驯龙之旅"
 			}]
 		}
 		{
@@ -763,7 +763,7 @@
 			tasks: [{
 				id: "5AF19146BA9A5F32"
 				type: "structure"
-				title: "Find a &lCave Nest"
+				title: "寻找&l洞穴龙巢"
 				icon: "twilightforest:tower_key"
 				structure: "isleofberk:ss_cave_nest"
 			}]
@@ -783,7 +783,7 @@
 			tasks: [{
 				id: "6707F8ACE580D37A"
 				type: "structure"
-				title: "Find an &lIce Nest"
+				title: "寻找&l冰霜龙巢"
 				icon: "twilightforest:tower_key"
 				structure: "isleofberk:ss_ice_nest"
 			}]
@@ -803,7 +803,7 @@
 			tasks: [{
 				id: "4564D39E00A22AE2"
 				type: "structure"
-				title: "Find &lJungle Nest"
+				title: "寻找&l丛林龙巢"
 				icon: "twilightforest:tower_key"
 				structure: "isleofberk:ss_jungle_nest"
 			}]
@@ -823,7 +823,7 @@
 			tasks: [{
 				id: "380437B9B8EAB647"
 				type: "structure"
-				title: "Find a &lTaiga Nest"
+				title: "寻找&l针叶林龙巢"
 				icon: "twilightforest:tower_key"
 				structure: "isleofberk:ss_taiga_nest"
 			}]
