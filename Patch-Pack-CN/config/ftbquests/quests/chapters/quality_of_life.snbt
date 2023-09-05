@@ -3,16 +3,16 @@
 	group: "5A43EA4A3BF38D32"
 	order_index: 4
 	filename: "quality_of_life"
-	title: " &3Curiosities"
+	title: " &3珍品"
 	icon: "supplementaries:globe"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Craft a &4Inventory Cable"
+			title: "合成&4存储线缆"
 			x: -4.5d
 			y: -3.0d
-			subtitle: "&cConnects&r inventories across long distances. Inventory &cCable Connectors&r have to be used to attach &cinventories&r. One &cInventory Connector&r must be present in the network."
+			subtitle: "长距离&c连接&r物品容器。存储&c线缆接线器&r被用来连接&c物品容器&r。&c存储整合器&r必须放在当前网络。"
 			id: "59CB251120618BAA"
 			tasks: [{
 				id: "05CF1F73040EF485"
@@ -26,10 +26,10 @@
 			}]
 		}
 		{
-			title: "Craft a &4Storage Terminal"
+			title: "合成&4存储终端"
 			x: -5.5d
 			y: -0.5d
-			subtitle: "Gives access to your &citems&r. Place it on an &cinventory&r."
+			subtitle: "给予存取&c物品&r的通道。把它放在&c存储网络&r。"
 			dependencies: ["59CB251120618BAA"]
 			id: "6671FBB9B8E5D554"
 			tasks: [{
@@ -44,10 +44,10 @@
 			}]
 		}
 		{
-			title: "Craft a &4Inventory Connector "
+			title: "合成&4存储整合器 "
 			x: -3.5d
 			y: -0.5d
-			subtitle: "&cConnects all&r of the touching &cinventories&r into one. Use the &cStorage Terminal&r to access all of your &citens&r. &cTrins&r can connect the gaps."
+			subtitle: "&c连接所有&r&c存储容器&r使之成为一个容器。使用&c存储终端&r存取所有的&c物品&r。&c桥连方块&r可以连接空缺的地方。"
 			dependencies: ["59CB251120618BAA"]
 			id: "42404A9B98C40EE2"
 			tasks: [{
@@ -62,10 +62,10 @@
 			}]
 		}
 		{
-			title: "Craft a &4Wireless Terminal"
+			title: "合成&4无线终端"
 			x: -4.5d
 			y: 1.5d
-			subtitle: "Allows you to access the linked &cstorage network&r from anywhere, in any &cdimension&r. The chunk that has the &cNetwork Root&r must be loaded for this to work. This can be accomplished by clicking the map icon in the top left of your &cinventory&r, clicking to claim the chunk, then shift-clicking it to &cforceload&r. The &cremote&r can also be put into a &cBaubles&r slot, allowing you to open the remote with the press of a button. This can be found in Controls under (&cOpen Remote Curio&r).."
+			subtitle: "无论在哪都允许连接进入&c存储网络&r，也可以在任何&c维度&r进入。需要加载区块&c网络控制器&r才能工作。可以通过点击&c物品栏&r左上角的地图图标，点击认领区块，然后shift+左键点击它&c强制加载&r来完成。The &cremote&r can also be put into a &cBaubles&r slot, allowing you to open the remote with the press of a button. This can be found in Controls under (&cOpen Remote Curio&r).."
 			dependencies: [
 				"6671FBB9B8E5D554"
 				"42404A9B98C40EE2"
