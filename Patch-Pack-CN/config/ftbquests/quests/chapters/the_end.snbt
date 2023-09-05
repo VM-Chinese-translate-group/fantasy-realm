@@ -3,7 +3,7 @@
 	group: "47EF6B1E1AEB6949"
 	order_index: 6
 	filename: "the_end"
-	title: " &eThe End"
+	title: " &e末影之眼"
 	icon: "minecraft:end_stone"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -436,7 +436,7 @@
 			x: -2.5d
 			y: -2.5d
 			shape: "square"
-			subtitle: "Requires all&c twelve eyes&r in the end&6 portal frames."
+			subtitle: "需要全部&c12个眼睛&r放在末地&6传送门框架。"
 			dependencies: [
 				"4D14F335B0861604"
 				"3CBFA86FE37B5A3D"
@@ -455,7 +455,7 @@
 			tasks: [{
 				id: "117169B67AD06D8D"
 				type: "dimension"
-				title: "Enter&e The End"
+				title: "进入&e末地"
 				icon: "minecraft:end_crystal"
 				dimension: "minecraft:the_end"
 			}]
@@ -696,7 +696,7 @@
 			tasks: [{
 				id: "5083048BF80196ED"
 				type: "advancement"
-				title: "Discover a End City"
+				title: "探索末地城"
 				advancement: "minecraft:end/find_end_city"
 				criterion: ""
 			}]
