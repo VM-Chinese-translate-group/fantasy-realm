@@ -90,7 +90,7 @@
 			}
 			x: 2.5d
 			y: -5.5d
-			subtitle: "开始一个&f袭击&r，通过击杀&b掠夺者袭击队长&r来获得&c不祥之兆效果。"
+			subtitle: "想要开始一个&f袭击&r，需要通过击杀&b掠夺者袭击队长&r来获得&c不祥之兆效果。"
 			dependencies: ["6D7F20CB5DD3EEDA"]
 			dependency_requirement: "one_started"
 			id: "20ED8543DB3BC55C"
@@ -238,7 +238,7 @@
 			}
 			x: 2.5d
 			y: -4.0d
-			subtitle: "开始一个&f袭击&r，通过击杀&b掠夺者袭击队长&r来获得&c不祥之兆效果。"
+			subtitle: "想要开始一个&f袭击&r，需要通过击杀&b掠夺者袭击队长&r来获得&c不祥之兆效果。"
 			dependencies: ["2165149BD434F0A2"]
 			dependency_requirement: "one_started"
 			id: "6D7F20CB5DD3EEDA"
@@ -405,7 +405,7 @@
 			}
 			x: 2.5d
 			y: -2.5d
-			subtitle: "开始一个&f袭击&r，通过击杀&b掠夺者袭击队长&r来获得&c不祥之兆效果。"
+			subtitle: "想要开始一个&f袭击&r，需要通过击杀&b掠夺者袭击队长&r来获得&c不祥之兆效果。"
 			id: "2165149BD434F0A2"
 			tasks: [{
 				id: "309028D8AF47EDFD"
