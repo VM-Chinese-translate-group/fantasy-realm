@@ -3,7 +3,7 @@
 	group: "2F85EA47D6AE998C"
 	order_index: 0
 	filename: "relics"
-	title: " &fRelics"
+	title: " &f遗物"
 	icon: {
 		id: "relics:magic_mirror"
 		Count: 1b
@@ -38,7 +38,7 @@
 		{
 			x: 2.0d
 			y: -2.0d
-			subtitle: "Found in &8Fletcher&r and &8Butcher villager houses."
+			subtitle: "可在村庄中&8制箭师&r和&8屠夫&r的房子中找到。"
 			id: "41DD51248ECFE4C8"
 			tasks: [{
 				id: "52CA071635CC8B99"
@@ -65,14 +65,14 @@
 			]
 		}
 		{
-			title: "Belts"
+			title: "腰带"
 			x: 5.5d
 			y: 2.0d
-			subtitle: "Obtain all three belts."
+			subtitle: "获得全部3种腰带。"
 			description: [
-				"Hunter Belt - Found in &8butcher villager houses&r. Has special attributes. &cCan fit 1 talisman."
-				"Drowned Belt - Found in &bunderwater ruins&r and &8shipwrecks&r. Has special attributes. &cCan fit 1 talisman."
-				"Leather Belt - Found in &6village chests&r. Has no special attributes. &cCan fit 3 talismans."
+				"猎人腰带 - 可在村庄中&8屠夫的房子&r中找到。具有特殊属性。&c可安装1个咒符。"
+				"溺尸腰带 - 可在&b水下遗迹&r和&8沉船&r中找到。具有特殊属性。&c可安装1个咒符。"
+				"皮革腰带 - 可在&6村庄的箱子&r中找到。无特殊属性。&c可安装3个咒符。"
 				""
 			]
 			id: "40929E8896937F0D"
@@ -126,13 +126,13 @@
 		{
 			x: 1.0d
 			y: 6.0d
-			subtitle: "Found in &eDesert Pyramids&r and &eDesert Villages."
+			subtitle: "可在&e沙漠神殿&r和&e沙漠村庄&r中找到。"
 			dependency_requirement: "one_completed"
 			id: "1CFF969A9374AA07"
 			tasks: [{
 				id: "5D007636F292BC5D"
 				type: "item"
-				title: "Scarab Talisman"
+				title: "圣甲虫咒符"
 				item: {
 					id: "relics:scarab_talisman"
 					Count: 1b
@@ -156,13 +156,13 @@
 		{
 			x: 1.0d
 			y: 7.0d
-			subtitle: "Found in &8Bastions &rand&b Ruined Portals."
+			subtitle: "可在&8堡垒遗迹&r和&b废弃传送门&r中找到。"
 			dependency_requirement: "one_completed"
 			id: "403019CC4E043AE1"
 			tasks: [{
 				id: "322B3C2DEC92E4A7"
 				type: "item"
-				title: "Ghost Skin Talisman"
+				title: "鬼魂咒符"
 				item: {
 					id: "relics:ghost_skin_talisman"
 					Count: 1b
@@ -186,13 +186,13 @@
 		{
 			x: 0.0d
 			y: 7.0d
-			subtitle: "Found in&e End Cities."
+			subtitle: "可在&e末地城&r中找到。"
 			dependency_requirement: "one_completed"
 			id: "329F360A60FD3B2C"
 			tasks: [{
 				id: "7697A854A0D8F150"
 				type: "item"
-				title: "Stellar Catalyst"
+				title: "星辰催化剂"
 				item: {
 					id: "relics:stellar_catalyst"
 					Count: 1b
@@ -216,7 +216,7 @@
 		{
 			x: 1.0d
 			y: 8.0d
-			subtitle: "Found in &eEnd Cities."
+			subtitle: "可在&e末地城&r中找到。"
 			dependency_requirement: "one_completed"
 			id: "7F61E6CBF41959E4"
 			tasks: [{
@@ -245,13 +245,13 @@
 		{
 			x: 2.0d
 			y: 8.0d
-			subtitle: "Found in&e Shepherd villager houses."
+			subtitle: "可在村庄中&e牧羊人的房子&r中找到。"
 			dependency_requirement: "one_completed"
 			id: "48AFD07F830F43FE"
 			tasks: [{
 				id: "5CFC4E7DBD5981A5"
 				type: "item"
-				title: "Lucky Horseshoe"
+				title: "幸运马蹄"
 				item: {
 					id: "relics:lucky_horseshoe"
 					Count: 1b
@@ -275,13 +275,13 @@
 		{
 			x: 2.0d
 			y: 7.0d
-			subtitle: "Found in &eEnd Cities."
+			subtitle: "可在&e末地城&r中找到。"
 			dependency_requirement: "one_completed"
 			id: "7955AAE57489E153"
 			tasks: [{
 				id: "44F2FB5D24B4DF68"
 				type: "item"
-				title: "Soul Devourer"
+				title: "灵魂吞噬者"
 				item: {
 					id: "relics:soul_devourer"
 					Count: 1b
@@ -305,7 +305,7 @@
 		{
 			x: 0.0d
 			y: 8.0d
-			subtitle: "Found in &8Bastions &rand &cRuined Portals."
+			subtitle: "可在&8堡垒遗迹&r和&b废弃传送门&r中找到。"
 			dependency_requirement: "one_completed"
 			id: "17CCC01CCBDF5E57"
 			tasks: [{
@@ -334,7 +334,7 @@
 		{
 			x: 0.0d
 			y: 6.0d
-			subtitle: "Found in &aJungle Temples."
+			subtitle: "可在&a丛林神庙&r中找到。"
 			dependency_requirement: "one_completed"
 			id: "026E757B655DA1C0"
 			tasks: [{
@@ -363,13 +363,13 @@
 		{
 			x: 2.0d
 			y: 6.0d
-			subtitle: "Found in &6Mineshafts."
+			subtitle: "可在&6废弃矿井&r中找到。"
 			dependency_requirement: "one_completed"
 			id: "0F2CE6F48E9A00EE"
 			tasks: [{
 				id: "1ECBA169D18A0E61"
 				type: "item"
-				title: "Slime Heart"
+				title: "史莱姆之心"
 				item: {
 					id: "relics:slime_heart"
 					Count: 1b
@@ -393,7 +393,7 @@
 		{
 			x: 1.0d
 			y: 0.0d
-			subtitle: "Found in &bUnderwater Ruins &rand &eShipwrecks."
+			subtitle: "可在&b水下遗迹&r和&e沉船&r中找到。"
 			id: "3720CA699718F38F"
 			tasks: [{
 				id: "1A470EC453898279"
@@ -427,7 +427,7 @@
 		{
 			x: 5.5d
 			y: 4.0d
-			subtitle: "Found in &eEnd Cities."
+			subtitle: "可在&e末地城&r中找到。"
 			id: "15D341A4611D3C4B"
 			tasks: [{
 				id: "1C1B337B73CE06DE"
@@ -455,7 +455,7 @@
 		{
 			x: 5.5d
 			y: 3.0d
-			subtitle: "Found in &bUnderwater Ruins&r and &eShipwreck Treasures."
+			subtitle: "可在&b水下遗迹&r和&e沉船宝藏&r中找到。"
 			id: "4856D6053349703B"
 			tasks: [{
 				id: "6DD9456D13AB5AC7"
@@ -494,7 +494,7 @@
 		{
 			x: 2.0d
 			y: -1.0d
-			subtitle: "Found in &8Bastions &rand &cNether Fortresses."
+			subtitle: "可在&8堡垒遗迹&r和&c下界要塞&r中找到。"
 			id: "284B4A84F4238EBE"
 			tasks: [{
 				id: "3A412DC1BDF48502"
@@ -522,12 +522,12 @@
 		{
 			x: -2.0d
 			y: 2.0d
-			subtitle: "Found in &aJungle Temples."
+			subtitle: "可在&a丛林神庙&r中找到。"
 			id: "4FB930CC14F0B665"
 			tasks: [{
 				id: "5A1D51D82B4E6832"
 				type: "item"
-				title: "Camouflage Ring"
+				title: "伪装戒指"
 				item: {
 					id: "relics:camouflage_ring"
 					Count: 1b
@@ -551,12 +551,12 @@
 		{
 			x: -2.0d
 			y: 3.0d
-			subtitle: "Found in &eEnd Cities."
+			subtitle: "可在&e末地城&r中找到。"
 			id: "3B9EF3DEC7CE5F5A"
 			tasks: [{
 				id: "1377294EEB0606A5"
 				type: "item"
-				title: "Delay Ring"
+				title: "迟缓戒指"
 				item: {
 					id: "relics:delay_ring"
 					Count: 1b
@@ -580,7 +580,7 @@
 		{
 			x: 4.5d
 			y: 3.0d
-			subtitle: "Found in &eEnd Cities &rand&e Strongholds."
+			subtitle: "可在&e末地城&r和&e要塞&r中找到。"
 			id: "7ED4132AEEF53074"
 			tasks: [{
 				id: "664C7F759700CC9A"
@@ -608,12 +608,12 @@
 		{
 			x: 4.5d
 			y: 4.0d
-			subtitle: "Found in&a Jungle Temples&r and &eMineshafts."
+			subtitle: "可在&a丛林神庙&r和&e废弃矿井&r中找到。"
 			id: "7D416AC815E077EF"
 			tasks: [{
 				id: "2494C0C1DFB69485"
 				type: "item"
-				title: "Fragant Flower"
+				title: "芳香花朵"
 				item: {
 					id: "relics:fragrant_flower"
 					Count: 1b
@@ -637,7 +637,7 @@
 		{
 			x: 1.0d
 			y: -3.0d
-			subtitle: "Found in &eDesert Pyramids&r and &eDesert Villages."
+			subtitle: "可在&e沙漠神殿&r和&e沙漠村庄&r中找到。"
 			id: "46F5DCDB89822694"
 			tasks: [{
 				id: "06109C2F5487A032"
@@ -665,7 +665,7 @@
 		{
 			x: 1.0d
 			y: -2.0d
-			subtitle: "Found in&f Igloos, Snowy Villages, &rand &fTundra Villages."
+			subtitle: "可在&f雪屋、雪原村庄&r中找到。"
 			id: "4D9E1DDF038DBAE7"
 			tasks: [{
 				id: "06566A72231713D6"
@@ -693,7 +693,7 @@
 		{
 			x: 1.0d
 			y: -1.0d
-			subtitle: "Found in&f Snowy Villages, Taiga Villages, &rand &fIgloos."
+			subtitle: "可在&f雪原村庄、针叶林村庄&r和&f雪屋&r中找到。"
 			id: "57E93F8CC029EBAA"
 			tasks: [{
 				id: "402579ED5C5CFEF8"
@@ -721,7 +721,7 @@
 		{
 			x: -3.0d
 			y: 2.0d
-			subtitle: "Found in&b Underwater Ruins&r and &eShipwreck Treasures."
+			subtitle: "可在&b水下遗迹&r和&e沉船宝藏&r中找到。"
 			id: "3BE6A431BC290FDA"
 			tasks: [{
 				id: "2E77F0B2C3B9FC34"
@@ -749,7 +749,7 @@
 		{
 			x: -3.0d
 			y: 3.0d
-			subtitle: "Found in&e Mineshafts &rand &8Strongholds."
+			subtitle: "可在&e废弃矿井&r和&8要塞&r中找到。"
 			id: "5567E9269DCC71DD"
 			tasks: [{
 				id: "0A48767E5ADF9870"
@@ -782,7 +782,7 @@
 		{
 			x: 3.5d
 			y: 3.0d
-			subtitle: "Found in &8Bastions, &cNether Fortresses, &rand &8Ruined Portals."
+			subtitle: "可在&8堡垒遗迹、&c下界要塞&r和&8废弃传送门&r中找到。"
 			id: "7E0716A1A8DE4CC4"
 			tasks: [{
 				id: "560759334AECC9EE"
@@ -821,7 +821,7 @@
 		{
 			x: 3.5d
 			y: 4.0d
-			subtitle: "Found in &eEnd Cities."
+			subtitle: "可在&e末地城&r中找到。"
 			id: "2BB0AA0D923A3769"
 			tasks: [{
 				id: "62A9A3CFC18153A7"
@@ -849,12 +849,12 @@
 		{
 			x: 0.0d
 			y: -2.0d
-			subtitle: "Obtained by &bFishing."
+			subtitle: "通过&b钓鱼&r获得。"
 			id: "2F499F3C99B2A2DC"
 			tasks: [{
 				id: "14AC939E5D163B4B"
 				type: "item"
-				title: "Old Boots"
+				title: "旧靴子"
 				item: {
 					id: "relics:old_boot"
 					Count: 1b
@@ -878,7 +878,7 @@
 		{
 			x: 0.0d
 			y: -1.0d
-			subtitle: "Found in &8Bastions&r and &cNether Fortresses."
+			subtitle: "可在&8堡垒遗迹&r和&c下界要塞&r中找到。"
 			id: "09D544A227A6F57F"
 			tasks: [{
 				id: "16F0237D8C4267FB"
@@ -906,7 +906,7 @@
 		{
 			x: -4.0d
 			y: 2.0d
-			subtitle: "Found in &8Bastions &rand &cNether Fortresses."
+			subtitle: "可在&8堡垒遗迹&r和&c下界要塞&r中找到。"
 			id: "27BB7583398E1A88"
 			tasks: [{
 				id: "134AC94754ED99F8"
@@ -934,7 +934,7 @@
 		{
 			x: -4.0d
 			y: 3.0d
-			subtitle: "Found in &eEnd Cities."
+			subtitle: "可在&e末地城&r中找到。"
 			id: "78F0693A84EDA7E5"
 			tasks: [{
 				id: "7394086C9800FF74"
@@ -963,7 +963,7 @@
 		{
 			x: -4.0d
 			y: 4.0d
-			subtitle: "Found in &8Mineshafts &rand &eStrongholds."
+			subtitle: "可在&e废弃矿井&r和&8要塞&r中找到。"
 			id: "682F52146539FCED"
 			tasks: [{
 				id: "5FC68394E5CA41AB"
@@ -991,12 +991,12 @@
 		{
 			x: -3.0d
 			y: 4.0d
-			subtitle: "Found in &eEnd Cities."
+			subtitle: "可在&e末地城&r中找到。"
 			id: "2C92BC1B7BD6EF1E"
 			tasks: [{
 				id: "197BC2C7C497F1D9"
 				type: "item"
-				title: "Space Dissector"
+				title: "空间切割器"
 				item: {
 					id: "relics:space_dissector"
 					Count: 1b
@@ -1020,12 +1020,12 @@
 		{
 			x: -2.0d
 			y: 4.0d
-			subtitle: "Found in &8Mineshafts&r and&e Strongholds."
+			subtitle: "可在&e废弃矿井&r和&8要塞&r中找到。"
 			id: "12561B0A3756BB21"
 			tasks: [{
 				id: "2657E2EB6BDAA5DD"
 				type: "item"
-				title: "Spider Necklace"
+				title: "蜘蛛项链"
 				item: {
 					id: "relics:spider_necklace"
 					Count: 1b
@@ -1049,7 +1049,7 @@
 		{
 			x: 3.5d
 			y: 2.0d
-			subtitle: "Found in&e villager houses."
+			subtitle: "可在&e村民的房子&r中找到。"
 			id: "12333D34809BA97E"
 			tasks: [{
 				id: "3912C1B294C9144C"
@@ -1077,7 +1077,7 @@
 		{
 			x: 4.5d
 			y: 2.0d
-			subtitle: "Found in &8Strongholds &rand &eMineshafts."
+			subtitle: "可在&8要塞&r和&e废弃矿井&r中找到。"
 			id: "642845359F4827ED"
 			tasks: [{
 				id: "613DD6DC28541F9A"
