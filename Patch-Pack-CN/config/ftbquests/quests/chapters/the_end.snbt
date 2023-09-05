@@ -127,7 +127,7 @@
 			title: "获得&e腐化之眼"
 			x: -1.0d
 			y: -5.0d
-			subtitle: "Found in &8Pillager Outposts"
+			subtitle: "在&8掠夺者前哨站&r中寻得"
 			id: "699DE7CF5BFCB0E6"
 			tasks: [{
 				id: "03E791C4DD868EA1"
@@ -165,10 +165,10 @@
 			]
 		}
 		{
-			title: "Obtain &ethe Cold Eye"
+			title: "获得&e寒冰之眼"
 			x: 0.0d
 			y: -1.0d
-			subtitle: "Found in &fIgloos"
+			subtitle: "在&f雪屋&r中寻得"
 			id: "3CBFA86FE37B5A3D"
 			tasks: [{
 				id: "189789FAACB52179"
@@ -206,10 +206,10 @@
 			]
 		}
 		{
-			title: "Obtain &ethe Nether Eye"
+			title: "获得&e下界之眼"
 			x: -4.0d
 			y: 0.0d
-			subtitle: "Found in &cNether Fortresses"
+			subtitle: "在&c下界要塞&r中寻得"
 			id: "4A0184E39A3D7A79"
 			tasks: [{
 				id: "07138394313FED24"
@@ -248,10 +248,10 @@
 			]
 		}
 		{
-			title: "Obtain&e the Rogue Eye"
+			title: "获得&e无赖之眼"
 			x: -5.0d
 			y: -1.0d
-			subtitle: "Found in &aJungle Pyramids"
+			subtitle: "在&a丛林神庙&r中寻得"
 			id: "090CE90AEEEA06E4"
 			tasks: [{
 				id: "2DED3B98D6B685B1"
@@ -284,10 +284,10 @@
 			]
 		}
 		{
-			title: "Obtain &ethe Old Eye"
+			title: "获得&e远古之眼"
 			x: -5.0d
 			y: -4.0d
-			subtitle: "Found in &eDesert Pyramids"
+			subtitle: "在&e沙漠神殿&r中寻得"
 			id: "10400E64866EE3B3"
 			tasks: [{
 				id: "17470A2B36302B86"
@@ -320,10 +320,10 @@
 			]
 		}
 		{
-			title: "Obtain &ethe Guardian Eye"
+			title: "获得&e守卫者之眼"
 			x: -5.0d
 			y: 0.0d
-			subtitle: "Dropped by the &bElder Guardian"
+			subtitle: "由&b远古守卫者&r掉落"
 			id: "309E772F7DC294AC"
 			tasks: [{
 				id: "683B470802B762F9"
@@ -362,10 +362,10 @@
 			]
 		}
 		{
-			title: "Obtain&e the Wither Eye"
+			title: "获得&e凋零之眼"
 			x: 0.0d
 			y: 0.0d
-			subtitle: "Dropped by &0The Wither"
+			subtitle: "由&0凋灵&r掉落"
 			id: "5ED78D3225DB6663"
 			tasks: [{
 				id: "7EE61523C37E1652"
@@ -393,10 +393,10 @@
 			]
 		}
 		{
-			title: "Obtain&e the Magical Eye"
+			title: "获得&e魔力之眼"
 			x: 0.0d
 			y: -4.0d
-			subtitle: "Dropped by &1Evokers&r (found during village raids and inside Woodland Mansions)"
+			subtitle: "由&1唤魔师&r掉落（可以在村庄袭击和林地府邸中找到他们）"
 			id: "3811E1E4138320DC"
 			tasks: [{
 				id: "0D6B794D4B8525B4"
@@ -478,12 +478,12 @@
 			]
 		}
 		{
-			title: "Defeat&e the Ender Dragon"
+			title: "击杀&e末影龙"
 			disable_toast: true
 			x: 2.5d
 			y: -2.5d
 			shape: "diamond"
-			subtitle: "Found on the main &eEnd island."
+			subtitle: "在主&e末影岛&r找到他。"
 			dependencies: ["7F41D75D67DA0940"]
 			size: 2.0d
 			id: "596B416B113E0576"
@@ -508,18 +508,18 @@
 			]
 		}
 		{
-			title: "Defeat&e the Void Worm"
+			title: "击杀&e虚空蠕虫"
 			x: 5.0d
 			y: -2.5d
 			shape: "circle"
-			subtitle: "Summoned by dropping a &9Mysterious Worm&r into &fthe void&r. &9The Mysterious Worm&r is obtained by &cputting a Crimson Mosquito Larva into a Capsid."
+			subtitle: "通过把&9神秘蠕虫&r丢进&f虚空&r来召唤。&9神秘蠕虫&r通过&c把绯红孑孓放入衣壳体来&r获取。"
 			dependencies: ["596B416B113E0576"]
 			size: 1.5d
 			id: "36E9FDF55975F42B"
 			tasks: [{
 				id: "13B0B8ABB8C746F6"
 				type: "kill"
-				title: "Defeat the Void Worm"
+				title: "击杀虚空蠕虫"
 				icon: "alexsmobs:void_worm_eye"
 				entity: "alexsmobs:void_worm"
 				value: 1L
@@ -540,10 +540,10 @@
 			]
 		}
 		{
-			title: "Obtain &eCursed Eye"
+			title: "获得&e诅咒之眼"
 			x: -4.0d
 			y: -5.0d
-			subtitle: "Found in &4Bastions treasure chest"
+			subtitle: "在&4堡垒宝藏室箱子&r中寻得"
 			id: "5CCF2679CC38A5ED"
 			tasks: [{
 				id: "7FB5C52267982A9F"
@@ -579,7 +579,7 @@
 			tasks: [{
 				id: "096B4ED20C16B146"
 				type: "observation"
-				title: "Discover a Sentinal Dungeon"
+				title: "探索哨卫地牢"
 				icon: "endlessbiomes:encased_radon"
 				timer: 0L
 				observe_type: 0
@@ -595,22 +595,22 @@
 			tasks: [{
 				id: "1FA012E6DFFCB343"
 				type: "advancement"
-				title: "Discover a Ruined Citadel"
+				title: "探索废弃堡垒"
 				advancement: "cataclysm:find_ruined_citadel"
 				criterion: ""
 			}]
 		}
 		{
-			title: "Defeat the &6Ender Golem"
+			title: "击杀&6末影傀儡"
 			x: 2.5d
 			y: 1.0d
-			subtitle: "Found in Ruined Citadels in &5The End &rislands."
+			subtitle: "在&5末地&r岛屿的废弃堡垒中找到。"
 			dependencies: ["50005EDB08DE420A"]
 			id: "66F2BEC53139D7B6"
 			tasks: [{
 				id: "1440C2C0F03610DE"
 				type: "kill"
-				title: "Kill a Ender Golem"
+				title: "击杀末影傀儡"
 				icon: "cataclysm:void_core"
 				entity: "cataclysm:ender_golem"
 				value: 1L
@@ -629,16 +629,16 @@
 			]
 		}
 		{
-			title: "Defeat the &3Ender Guardian"
+			title: "击杀&3末影守卫"
 			x: 2.5d
 			y: 2.5d
-			subtitle: "Found at the bottom of Ruined Citadels."
+			subtitle: "在废弃堡垒底端找到。"
 			dependencies: ["66F2BEC53139D7B6"]
 			id: "45530826FC27190A"
 			tasks: [{
 				id: "39F5AF723AE274FF"
 				type: "kill"
-				title: "Kill the Ender Guardian"
+				title: "击杀末影守卫"
 				icon: "cataclysm:gauntlet_of_guard"
 				entity: "cataclysm:ender_guardian"
 				value: 1L
@@ -657,7 +657,7 @@
 			tasks: [{
 				id: "184EC2BFF52421F6"
 				type: "kill"
-				title: "Kill a Riftite Sentinal"
+				title: "击杀裂隙哨卫"
 				icon: "endlessbiomes:riftite_sentinel_spawn_egg"
 				entity: "endlessbiomes:riftite_sentinel"
 				value: 1L
@@ -676,7 +676,7 @@
 			tasks: [{
 				id: "16951743CA03A6F6"
 				type: "kill"
-				title: "Kill a Radon Sentinal"
+				title: "击杀氡哨位"
 				icon: "endlessbiomes:radon_sentinel_spawn_egg"
 				entity: "endlessbiomes:radon_sentinel"
 				value: 1L
