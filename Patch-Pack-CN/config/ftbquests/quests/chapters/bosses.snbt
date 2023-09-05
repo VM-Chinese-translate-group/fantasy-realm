@@ -3,21 +3,21 @@
 	group: "5A43EA4A3BF38D32"
 	order_index: 0
 	filename: "bosses"
-	title: " &fBosses"
+	title: " &fBoss"
 	icon: "minecraft:nether_star"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "The easier Cyclops"
+			title: "弱鸡独眼巨人"
 			x: -3.5d
 			y: -1.0d
-			subtitle: "Defeat a &cCyclops&r that &2spawns on land."
+			subtitle: "击败一只&2生成在陆地上&r的&c独眼巨人。"
 			id: "73F430830D8157A9"
 			tasks: [{
 				id: "090933F82E209D45"
 				type: "kill"
-				title: "Defeat the &ceasier Cyclops"
+				title: "击败&c弱鸡独眼巨人"
 				entity: "trouble_rpg:cyclops"
 				value: 1L
 			}]
@@ -30,12 +30,12 @@
 		{
 			x: -2.0d
 			y: -2.5d
-			subtitle: "Defeat a &cCyclops&r that &2spawns in a cave."
+			subtitle: "击败一只&2生成在洞穴中&r的&c独眼巨人"
 			id: "0587347DEFF8C9D7"
 			tasks: [{
 				id: "31162AA8D8FAFF26"
 				type: "kill"
-				title: "Defeat the &charder Cyclops"
+				title: "击败&c更强大的独眼巨人"
 				icon: {
 					id: "iceandfire:cyclops_eye"
 					Count: 1b
@@ -53,7 +53,7 @@
 			}]
 		}
 		{
-			title: "Defeat Barako, the Sun Chief"
+			title: "击败太阳酋长Barako"
 			icon: {
 				id: "mowziesmobs:barakoa_mask_fury"
 				Count: 1b
@@ -63,12 +63,12 @@
 			}
 			x: -0.5d
 			y: -2.5d
-			subtitle: "Typically found in &2Savannahs&r. Kill his &cminions first."
+			subtitle: "通常生成于&2热带草原&r。先击杀他的&c随从。"
 			id: "73159F32CDC23FD9"
 			tasks: [{
 				id: "3A6E54D9087A3B0E"
 				type: "advancement"
-				title: "Defeat Barako, the Sun Chief"
+				title: "击败太阳酋长Barako"
 				advancement: "mowziesmobs:kill_barako"
 				criterion: ""
 			}]
@@ -86,16 +86,16 @@
 			]
 		}
 		{
-			title: "Defeat The Wither"
+			title: "击败凋灵"
 			icon: "minecraft:wither_skeleton_skull"
 			x: -3.5d
 			y: 3.5d
-			subtitle: "Summoned using &cSoul Stone&r from the &f\"Bygone Nether\" mod&f instead of &2soul sand&r. Make sure there are &2no blocks around it&r, or &cit will not spawn."
+			subtitle: "使用&f“Bygone Nether”模组的&f&c灵魂石&r代替&2灵魂沙&r召唤。请确保&2附近没有方块&r，否则&c它无法生成。"
 			id: "1E7EF04230D1092F"
 			tasks: [{
 				id: "2D45C02437D7DA56"
 				type: "kill"
-				title: "Defeat The Wither"
+				title: "击败凋灵"
 				icon: "minecraft:wither_skeleton_skull"
 				entity: "minecraft:wither"
 				value: 1L
@@ -119,16 +119,16 @@
 			]
 		}
 		{
-			title: "Defeat the Ender Dragon"
+			title: "击败末影龙"
 			x: -2.0d
 			y: 3.5d
-			subtitle: "Entering the &2End&r requires &2twelve special eyes."
+			subtitle: "进入&2末地&r需要&212种特殊的眼睛。"
 			dependencies: ["1E7EF04230D1092F"]
 			id: "7D59D555F9325A81"
 			tasks: [{
 				id: "53A550C9B8308970"
 				type: "kill"
-				title: "Defeat the Ender Dragon"
+				title: "击败末影龙"
 				icon: "minecraft:dragon_head"
 				entity: "minecraft:ender_dragon"
 				value: 1L
@@ -166,15 +166,15 @@
 			]
 		}
 		{
-			title: "Defeat the &cGhost of Captain Corneila"
+			title: "击败&cCorneila船长的鬼魂"
 			x: 1.0d
 			y: -1.0d
-			subtitle: "Summoned with the Shell Horn"
+			subtitle: "使用贝壳号角召唤"
 			id: "71B647609B7686D1"
 			tasks: [{
 				id: "2A58E85D2B182712"
 				type: "kill"
-				title: "Defeat the Ghost of Captain Corneila"
+				title: "击败Corneila船长的鬼魂"
 				icon: {
 					id: "aquamirae:three_bolt_helmet"
 					Count: 1b
@@ -194,12 +194,12 @@
 		{
 			x: -0.5d
 			y: -1.0d
-			subtitle: "Found randomly &2underground in all biomes."
+			subtitle: "随机生成于&2任意地形的地下。"
 			id: "017A5A989035B4C4"
 			tasks: [{
 				id: "6BA77BDD53606590"
 				type: "advancement"
-				title: "Defeat the Ferrous Wroughtnaut"
+				title: "击败钢铁守护者"
 				advancement: "mowziesmobs:kill_ferrous_wroughtnaut"
 				criterion: ""
 			}]
@@ -217,15 +217,15 @@
 			]
 		}
 		{
-			title: "Defeat the Netherite Monstrosity"
+			title: "击败下界合金巨兽"
 			x: -2.0d
 			y: 0.5d
-			subtitle: "Found in &cSoul Blacksmiths&r in &2The Nether."
+			subtitle: "生成于&2下界&r中的&c灵魂锻造厂&r中。"
 			id: "16814C3135262085"
 			tasks: [{
 				id: "299C1B276DE9FB71"
 				type: "kill"
-				title: "Defeat the Netherite Monstrosity"
+				title: "击败下界合金巨兽"
 				icon: "minecraft:netherite_block"
 				entity: "cataclysm:netherite_monstrosity"
 				value: 1L
@@ -244,15 +244,15 @@
 			]
 		}
 		{
-			title: "Defeat the Summoner"
+			title: "击败召唤师"
 			x: -0.5d
 			y: 0.5d
-			subtitle: "Found in &cBlinding Dungeons&r in the &2Everbright dimension."
+			subtitle: "生成于&2永昼之地维度&r中的&c惑乱高塔&r中"
 			id: "1CA4F0E85EF2E79F"
 			tasks: [{
 				id: "5CA7732576E06A09"
 				type: "kill"
-				title: "Defeat the Summoner"
+				title: "击败召唤师"
 				icon: "blue_skies:summoner_spawn_egg"
 				entity: "blue_skies:summoner"
 				value: 1L
@@ -264,10 +264,10 @@
 			}]
 		}
 		{
-			title: "Defeat the Starlit Crusher"
+			title: "击败星荧粉碎者"
 			x: 1.0d
 			y: 0.5d
-			subtitle: "Found in &2Nature Dungeons&r in the &2Everbright dimension."
+			subtitle: "生成于&2永昼之地维度&r中的&2自然城堡&r中"
 			id: "4587DB35FD05BC62"
 			tasks: [{
 				id: "2FB539A38142B1F5"
@@ -285,12 +285,12 @@
 		{
 			x: -3.5d
 			y: 0.5d
-			subtitle: "Found inside of &2Gorgon Temples&r. Drops a one time use &2Gorgon Head&r which can be used to turn any mob, except the &cEnder Dragon&r, into stone. "
+			subtitle: "生成于&2蛇发女妖神庙&r内。会掉落一个一次性的&2蛇发女妖头颅&r，可将任意除&c末影龙&r之外的生物石化。"
 			id: "52B9D38FD6A5A312"
 			tasks: [{
 				id: "10BB5E309452A862"
 				type: "kill"
-				title: "Defeat the Gorgon"
+				title: "击败蛇发女妖"
 				icon: {
 					id: "iceandfire:gorgon_head"
 					Count: 1b
@@ -308,10 +308,10 @@
 			}]
 		}
 		{
-			title: "Defeat the Alchemist"
+			title: "击败炼金师"
 			x: -2.0d
 			y: 2.0d
-			subtitle: "Found in &cBlinding Dungeons&r in the &2Everdawn dimension."
+			subtitle: "生成于&2永昼之地维度&r中的&c惑乱高塔&r中"
 			id: "4F89D4C5807E8FF5"
 			tasks: [{
 				id: "60273D9A4156D713"
@@ -327,10 +327,10 @@
 			}]
 		}
 		{
-			title: "Defeat the Arachnarch"
+			title: "击败幽咽蛛王"
 			x: -3.5d
 			y: 2.0d
-			subtitle: "Found in &cPoison Dungeons &rin the &2Everdawn dimension."
+			subtitle: "生成于&2恒晓之地维度&r中的&c猛毒地牢&r中"
 			id: "7E3B7BA9E4897E8B"
 			tasks: [{
 				id: "1CC7A3887DF27EE0"
@@ -352,10 +352,10 @@
 			}]
 		}
 		{
-			title: "Defeat the Ender Golem"
+			title: "击败末影傀儡"
 			x: -0.5d
 			y: 3.5d
-			subtitle: "Spawns in the &2Ruined Citadel."
+			subtitle: "生成于&2废弃堡垒&r中。"
 			dependencies: [
 				"7D59D555F9325A81"
 				"723F20E7B960E5A8"
@@ -364,7 +364,7 @@
 			tasks: [{
 				id: "2D744B6722584AF6"
 				type: "kill"
-				title: "Defeat the Ender Golem"
+				title: "击败末影傀儡"
 				icon: "cataclysm:void_core"
 				entity: "cataclysm:ender_golem"
 				value: 1L
@@ -376,16 +376,16 @@
 			}]
 		}
 		{
-			title: "Defeat the Ender Guardian"
+			title: "击败末影守卫"
 			x: 1.0d
 			y: 3.5d
-			subtitle: "Found at the bottom of the &2Ruined Citadel."
+			subtitle: "生成于&2废弃堡垒&r的底层。"
 			dependencies: ["7D59D555F9325A81"]
 			id: "723F20E7B960E5A8"
 			tasks: [{
 				id: "051CD6D4C44990F2"
 				type: "kill"
-				title: "Defeat the Ender Guardian"
+				title: "击败末影守卫"
 				entity: "cataclysm:ender_guardian"
 				value: 1L
 			}]
@@ -405,13 +405,13 @@
 		{
 			x: -2.0d
 			y: 5.0d
-			subtitle: "Summoned by dropping a &cMysterious Worm&r into &2the void&r. &cThe Mysterious Worm&r is obtained by putting a &cCrimson Mosquito Larva&r into a &2Capsid."
+			subtitle: "将&c神秘蠕虫&r丢进&2虚空&r以召唤。将一只&c绯红孑孓&r放入&2衣壳体&r以获得&c神秘蠕虫&r"
 			dependencies: ["7D59D555F9325A81"]
 			id: "6DAA16C90459588C"
 			tasks: [{
 				id: "556840B50A00650E"
 				type: "kill"
-				title: "Defeat the Void Worm"
+				title: "击败神秘蠕虫"
 				icon: "alexsmobs:void_worm_eye"
 				entity: "alexsmobs:void_worm"
 				value: 1L
@@ -430,15 +430,15 @@
 			]
 		}
 		{
-			title: "Defeat the Conjurer"
+			title: "击败魔术师"
 			x: -0.5d
 			y: 2.0d
-			subtitle: "Spawns in &cTheaters&r, which can be found in &2Roofed Forest biomes&r. Drops the Conjurer hat which prevents the wearer from getting &3Bad Omen &rafter killing a &cRaid Captain."
+			subtitle: "生成于&2黑森林&r中的&c剧院&r中。掉落的魔术师帽可使玩家免疫击败&c袭击队长&r获得的&3不祥之兆。"
 			id: "5FA2EE2F3F419225"
 			tasks: [{
 				id: "539762B5FCE230F0"
 				type: "kill"
-				title: "Defeat the Conjurer"
+				title: "击败魔术师"
 				icon: {
 					id: "ftbquests:custom_icon"
 					Count: 1b
@@ -458,12 +458,12 @@
 		{
 			x: 1.0d
 			y: 2.0d
-			subtitle: "Spawns in &cHydra Lairs&r in &2Swamp biomes&r. Fire damage is necessary to kill the &cHydra."
+			subtitle: "生成于&2沼泽地形&r中的&c九头蛇巢穴&r中。击杀&c九头蛇&r需要火焰伤害。"
 			id: "1F82DAB6661F56F3"
 			tasks: [{
 				id: "3E8678692E2BEE96"
 				type: "kill"
-				title: "Defeat the Hydra"
+				title: "击败九头蛇"
 				icon: "iceandfire:hydra_heart"
 				entity: "iceandfire:hydra"
 				value: 1L
@@ -475,10 +475,10 @@
 			}]
 		}
 		{
-			title: "Defeat a Land Golem"
+			title: "击败大地傀儡"
 			x: -2.0d
 			y: -1.0d
-			subtitle: "Found in &2Battle Towers"
+			subtitle: "生成于&2战斗高塔&r中"
 			id: "1C63059A4259EA5F"
 			tasks: [{
 				id: "758C5CEC55E6272F"
