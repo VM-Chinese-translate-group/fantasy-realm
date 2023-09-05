@@ -3,13 +3,13 @@
 	group: "1E5E40F7A856E564"
 	order_index: 2
 	filename: "malum"
-	title: " &dMalum"
+	title: " &d灵灾"
 	icon: "malum:stained_spirit_resonator"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Obtain&d Processed Soulstone"
+			title: "获得&d精致灵魂石"
 			x: 0.5d
 			y: 1.0d
 			shape: "hexagon"
@@ -28,11 +28,11 @@
 			}]
 		}
 		{
-			title: "Craft Crude Scythe"
+			title: "制作粗制镰刀"
 			x: -2.0d
 			y: 1.0d
 			shape: "gear"
-			subtitle: "Check the &dEncyclopedia Arcana!&r or Use &bJEI"
+			subtitle: "查看&d奥术全典！&r或者求助&bJEI"
 			dependencies: ["0522DCEE5BFD33F1"]
 			size: 1.5d
 			id: "4A29DBE79611F9C2"
@@ -55,11 +55,11 @@
 			}]
 		}
 		{
-			title: "Craft &dEncyclopedia Arcana"
+			title: "制作&d奥术全典"
 			x: 3.0d
 			y: 1.0d
 			shape: "circle"
-			subtitle: "This is you're bro now"
+			subtitle: "现在这玩意是你的了"
 			dependencies: ["0522DCEE5BFD33F1"]
 			size: 1.75d
 			id: "73FB2C0F495C989C"
@@ -76,11 +76,11 @@
 			}]
 		}
 		{
-			title: "Craft Spirit Altar"
+			title: "制作精魂祭坛"
 			x: 0.5d
 			y: 6.5d
 			shape: "hexagon"
-			subtitle: "Check the &dEncyclopedia Arcana!&r or Use &bJEI"
+			subtitle: "查看&d奥术全典！&r或者求助&bJEI"
 			dependencies: ["0522DCEE5BFD33F1"]
 			size: 1.5d
 			id: "25AB665ACF66D6ED"
@@ -97,11 +97,11 @@
 			}]
 		}
 		{
-			title: "Obtain &dHex Ash"
+			title: "获得&d咒灰"
 			x: 5.0d
 			y: 6.5d
 			shape: "circle"
-			subtitle: "Check the &dEncyclopedia Arcana!&r or Use &bJEI"
+			subtitle: "查看&d奥术全典！&r或者求助&bJEI"
 			dependencies: ["25AB665ACF66D6ED"]
 			size: 1.2d
 			id: "1F95E91A6C96EBEC"
@@ -118,11 +118,11 @@
 			}]
 		}
 		{
-			title: "Craft Base Totem"
+			title: "制作图腾基座"
 			x: 7.5d
 			y: 6.5d
 			shape: "hexagon"
-			subtitle: "Check the &dEncyclopedia Arcana!&r or Use &bJEI"
+			subtitle: "查看&d奥术全典！&r或者求助&bJEI"
 			dependencies: ["1F95E91A6C96EBEC"]
 			size: 1.5d
 			id: "3478836F2FE3A38E"
@@ -139,7 +139,7 @@
 			}]
 		}
 		{
-			title: "Obtain &dSacred Spirit"
+			title: "获得&d神圣精魂"
 			x: -3.5d
 			y: 0.5d
 			dependencies: ["4A29DBE79611F9C2"]
@@ -157,7 +157,7 @@
 			}]
 		}
 		{
-			title: "Obtain &dWicked Spirit"
+			title: "获得&d邪恶精魂"
 			x: -3.5d
 			y: 1.5d
 			dependencies: ["4A29DBE79611F9C2"]
@@ -175,7 +175,7 @@
 			}]
 		}
 		{
-			title: "Obtain &dEldritch Spirit"
+			title: "获得&d奥术精魂"
 			x: -1.0d
 			y: -0.5d
 			dependencies: ["4A29DBE79611F9C2"]
@@ -193,7 +193,7 @@
 			}]
 		}
 		{
-			title: "Obtain &dEldritch Spirit"
+			title: "获得&d邪术精魂"
 			x: -2.0d
 			y: -0.5d
 			dependencies: ["4A29DBE79611F9C2"]
@@ -211,7 +211,7 @@
 			}]
 		}
 		{
-			title: "Obtain&d Sacred Spirit"
+			title: "获得&d大地精魂"
 			x: -3.0d
 			y: -0.5d
 			dependencies: ["4A29DBE79611F9C2"]
@@ -229,7 +229,7 @@
 			}]
 		}
 		{
-			title: "Obtain &dInfernal Spirit"
+			title: "获得&d狱火精魂"
 			x: -2.0d
 			y: 2.5d
 			dependencies: ["4A29DBE79611F9C2"]
@@ -247,7 +247,7 @@
 			}]
 		}
 		{
-			title: "Obtain &dAerial Spirit"
+			title: "获得&d澄空精魂"
 			x: -3.0d
 			y: 2.5d
 			dependencies: ["4A29DBE79611F9C2"]
@@ -265,7 +265,7 @@
 			}]
 		}
 		{
-			title: "Obtain &dAqueous Spirit"
+			title: "获得&d碧水精魂"
 			x: -1.0d
 			y: 2.5d
 			dependencies: ["4A29DBE79611F9C2"]
@@ -283,7 +283,7 @@
 			}]
 		}
 		{
-			title: "Craft Runewood Item Stand"
+			title: "制作符文木物品基座"
 			x: 7.5d
 			y: 1.0d
 			dependencies: ["576888993139767B"]
@@ -301,7 +301,7 @@
 			}]
 		}
 		{
-			title: "Craft Runewood Item Pedestal"
+			title: "制作符文木物品台"
 			x: 5.5d
 			y: -1.0d
 			dependencies: ["576888993139767B"]
@@ -319,7 +319,7 @@
 			}]
 		}
 		{
-			title: "Obtain &dRunelog"
+			title: "获得&d符文木"
 			x: 5.5d
 			y: 1.0d
 			shape: "hexagon"
@@ -353,7 +353,7 @@
 			]
 		}
 		{
-			title: "Obtain&d SoulLog"
+			title: "获得&d灵魂木"
 			x: 3.0d
 			y: -1.5d
 			shape: "hexagon"
@@ -379,7 +379,7 @@
 			}]
 		}
 		{
-			title: "Craft Soulwood Item Pedestal"
+			title: "制作灵魂木物品台"
 			x: 3.0d
 			y: -3.5d
 			dependencies: ["0305BD721BE8E033"]
@@ -397,11 +397,11 @@
 			}]
 		}
 		{
-			title: "Obtain&d Tainted Rock"
+			title: "获得&d污秽石"
 			x: 2.0d
 			y: 4.0d
 			shape: "gear"
-			subtitle: "Check the &dEncyclopedia Arcana!&r or Use &bJEI"
+			subtitle: "查看&d奥术全典！&r或者求助&bJEI"
 			dependencies: ["25AB665ACF66D6ED"]
 			id: "190280B92033CE59"
 			tasks: [{
@@ -417,11 +417,11 @@
 			}]
 		}
 		{
-			title: "Obtain &dSpirit Fabric"
+			title: "获得&d精魂布匹"
 			x: 2.0d
 			y: 7.5d
 			shape: "gear"
-			subtitle: "Check the &dEncyclopedia Arcana!&r or Use &bJEI"
+			subtitle: "查看&d奥术全典！&r或者求助&bJEI"
 			dependencies: ["25AB665ACF66D6ED"]
 			id: "443C9F93792182A1"
 			tasks: [{
@@ -437,7 +437,7 @@
 			}]
 		}
 		{
-			title: "Craft &dSoulHunter Armor Set"
+			title: "制作&d灵魂猎手套装"
 			x: 3.5d
 			y: 7.5d
 			dependencies: ["443C9F93792182A1"]
@@ -496,10 +496,10 @@
 			}]
 		}
 		{
-			title: "Craft&d Spirit Set"
+			title: "制作&d全套精华工作站"
 			x: 3.5d
 			y: 4.0d
-			subtitle: "Check the &dEncyclopedia Arcana!&r or Use &bJEI"
+			subtitle: "查看&d奥术全典！&r或者求助&bJEI"
 			dependencies: ["190280B92033CE59"]
 			id: "50E4C3DB6DAEC59B"
 			tasks: [
@@ -527,7 +527,7 @@
 			}]
 		}
 		{
-			title: "Craft &dBelts"
+			title: "制作&d全套腰带"
 			x: 1.5d
 			y: 11.0d
 			shape: "circle"
@@ -558,11 +558,11 @@
 			}]
 		}
 		{
-			title: "Obtain &dSoulstained Steel"
+			title: "获得&d魂染钢"
 			x: -1.0d
 			y: 6.5d
 			shape: "gear"
-			subtitle: "Check the &dEncyclopedia Arcana!&r or Use &bJEI"
+			subtitle: "查看&d奥术全典！&r或者求助&bJEI"
 			dependencies: ["25AB665ACF66D6ED"]
 			size: 1.1d
 			id: "0D741D461640890B"
@@ -579,7 +579,7 @@
 			}]
 		}
 		{
-			title: "Craft &dNecklace"
+			title: "制作&d全套项链"
 			x: -3.5d
 			y: 5.5d
 			shape: "diamond"
@@ -620,7 +620,7 @@
 			}]
 		}
 		{
-			title: "Craft &dRings"
+			title: "制作&d全套戒指"
 			x: -3.5d
 			y: 7.5d
 			shape: "diamond"
@@ -651,7 +651,7 @@
 			}]
 		}
 		{
-			title: "Craft &dOrnate Necklace"
+			title: "制作&d华丽项链"
 			x: -2.5d
 			y: 5.5d
 			shape: "circle"
@@ -670,7 +670,7 @@
 			}]
 		}
 		{
-			title: "Craft &dOrnate Ring"
+			title: "制作&d华丽戒指"
 			x: -2.5d
 			y: 7.5d
 			shape: "circle"
@@ -689,7 +689,7 @@
 			}]
 		}
 		{
-			title: "Craft&d Gilded Ring"
+			title: "制作&d镀金戒指"
 			x: -0.5d
 			y: 10.0d
 			shape: "square"
@@ -708,7 +708,7 @@
 			}]
 		}
 		{
-			title: "Craft &dGilded Belt"
+			title: "制作&d镀金腰带"
 			x: 1.5d
 			y: 10.0d
 			shape: "square"
@@ -727,7 +727,7 @@
 			}]
 		}
 		{
-			title: "Craft &dSoulstained Steel Armor Set"
+			title: "制作&d全套魂染钢盔甲"
 			x: -2.5d
 			y: 6.5d
 			shape: "circle"
@@ -831,7 +831,7 @@
 			}]
 		}
 		{
-			title: "Craft &dSoulstained Steel Scythe"
+			title: "制作&d魂染钢镰刀"
 			x: -1.0d
 			y: 5.5d
 			shape: "circle"
@@ -856,11 +856,11 @@
 			}]
 		}
 		{
-			title: "Obtain &dIron Node"
+			title: "获得&d铁节点"
 			x: 2.0d
 			y: 5.5d
 			shape: "gear"
-			subtitle: "Check the &dEncyclopedia Arcana!&r or Use &bJEI"
+			subtitle: "查看&d奥术全典！&r或者求助&bJEI"
 			dependencies: ["25AB665ACF66D6ED"]
 			id: "5191012C2D4AAF85"
 			tasks: [{
@@ -876,7 +876,7 @@
 			}]
 		}
 		{
-			title: "Craft Iron Impetus"
+			title: "制作铁促符"
 			x: 3.5d
 			y: 5.5d
 			dependencies: ["5191012C2D4AAF85"]
@@ -946,11 +946,11 @@
 			}]
 		}
 		{
-			title: "Obtain &dCorrupted Resonance"
+			title: "获得&d腐化谐振石"
 			x: -1.0d
 			y: 4.0d
 			shape: "gear"
-			subtitle: "Check the &dEncyclopedia Arcana!&r or Use &bJEI"
+			subtitle: "查看&d奥术全典！&r或者求助&bJEI"
 			dependencies: ["25AB665ACF66D6ED"]
 			id: "557AA4B50F3FFB10"
 			tasks: [{
@@ -966,7 +966,7 @@
 			}]
 		}
 		{
-			title: "Craft&d Hallowed Spirit Resonator"
+			title: "制作&d神圣金精魂共振器"
 			x: 0.5d
 			y: 10.0d
 			shape: "square"
@@ -985,10 +985,10 @@
 			}]
 		}
 		{
-			title: "Obtain &dHallowed Gold"
+			title: "获得&d神圣金锭"
 			x: 0.5d
 			y: 8.5d
-			subtitle: "Check the &dEncyclopedia Arcana!&r or Use &bJEI"
+			subtitle: "查看&d奥术全典！&r或者求助&bJEI"
 			dependencies: ["25AB665ACF66D6ED"]
 			id: "0AED7E76BD67853E"
 			tasks: [{
@@ -1004,7 +1004,7 @@
 			}]
 		}
 		{
-			title: "Craft &dStained Spirit Resonator"
+			title: "制作&d魂染钢精魂共振器"
 			x: -1.0d
 			y: 7.5d
 			shape: "circle"
@@ -1023,7 +1023,7 @@
 			}]
 		}
 		{
-			title: "Craft &dTyrving"
+			title: "制作&d提尔锋"
 			x: -2.5d
 			y: 4.0d
 			dependencies: ["557AA4B50F3FFB10"]
@@ -1047,7 +1047,7 @@
 			}]
 		}
 		{
-			title: "Craft &dRings"
+			title: "制作&d全套戒指"
 			x: -0.5d
 			y: 11.0d
 			shape: "circle"
@@ -1083,11 +1083,11 @@
 			}]
 		}
 		{
-			title: "&cSacred Rites"
+			title: "&c神圣仪式"
 			x: 6.5d
 			y: 5.0d
 			shape: "rsquare"
-			subtitle: "Check the &dEncyclopedia Arcana"
+			subtitle: "详见&d奥术全典"
 			dependencies: ["3478836F2FE3A38E"]
 			id: "6FB6ABE8B33E9632"
 			tasks: [
@@ -1111,11 +1111,11 @@
 			}]
 		}
 		{
-			title: "&5Wicked Rites"
+			title: "&5邪恶仪式"
 			x: 7.5d
 			y: 5.0d
 			shape: "rsquare"
-			subtitle: "Check the &dEncyclopedia Arcana"
+			subtitle: "详见&d奥术全典"
 			dependencies: ["3478836F2FE3A38E"]
 			id: "4DC52689E03EE552"
 			tasks: [
@@ -1139,10 +1139,10 @@
 			}]
 		}
 		{
-			title: "&6Infernal Rites"
+			title: "&6狱火仪式"
 			x: 7.5d
 			y: 8.0d
-			subtitle: "Check the &dEncyclopedia Arcana"
+			subtitle: "详见&d奥术全典"
 			dependencies: ["3478836F2FE3A38E"]
 			id: "6EF759A31AEED553"
 			tasks: [
@@ -1166,10 +1166,10 @@
 			}]
 		}
 		{
-			title: "&bAerial Rites"
+			title: "&b澄空仪式"
 			x: 8.5d
 			y: 8.0d
-			subtitle: "Check the &dEncyclopedia Arcana"
+			subtitle: "详见&d奥术全典"
 			dependencies: ["3478836F2FE3A38E"]
 			id: "0A6A1A6F94CD3692"
 			tasks: [
@@ -1193,10 +1193,10 @@
 			}]
 		}
 		{
-			title: "&2Earthen Rites"
+			title: "&2大地仪式"
 			x: 6.5d
 			y: 8.0d
-			subtitle: "Check the &dEncyclopedia Arcana"
+			subtitle: "详见&d奥术全典"
 			dependencies: ["3478836F2FE3A38E"]
 			id: "296280EDB061151A"
 			tasks: [
@@ -1220,11 +1220,11 @@
 			}]
 		}
 		{
-			title: "&1Aqueous Rites"
+			title: "&1碧水仪式"
 			x: 8.5d
 			y: 5.0d
 			shape: "rsquare"
-			subtitle: "Check the &dEncyclopedia Arcana"
+			subtitle: "详见&d奥术全典"
 			dependencies: ["3478836F2FE3A38E"]
 			id: "1A37B128AE28D6E3"
 			tasks: [
@@ -1248,11 +1248,11 @@
 			}]
 		}
 		{
-			title: "Corrupting the &cSacred Rites"
+			title: "扭曲&c神圣仪式"
 			x: 6.5d
 			y: 4.0d
 			shape: "rsquare"
-			subtitle: "Check the &dEncyclopedia Arcana"
+			subtitle: "详见&d奥术全典"
 			dependencies: ["6FB6ABE8B33E9632"]
 			id: "6A2E11DE6BB17915"
 			tasks: [
@@ -1276,10 +1276,10 @@
 			}]
 		}
 		{
-			title: "Corrupting the &5Wicked Rites"
+			title: "腐化&5邪恶仪式"
 			x: 7.5d
 			y: 4.0d
-			subtitle: "Check the &dEncyclopedia Arcana"
+			subtitle: "详见&d奥术全典"
 			dependencies: ["4DC52689E03EE552"]
 			id: "535D985188805BD1"
 			tasks: [
@@ -1303,10 +1303,10 @@
 			}]
 		}
 		{
-			title: "Corrupting the&6 Infernal Rites"
+			title: "扭曲&6狱火仪式"
 			x: 7.5d
 			y: 9.0d
-			subtitle: "Check the &dEncyclopedia Arcana"
+			subtitle: "详见&d奥术全典"
 			dependencies: ["6EF759A31AEED553"]
 			id: "7B31EF3E115B404A"
 			tasks: [
@@ -1330,10 +1330,10 @@
 			}]
 		}
 		{
-			title: "Corrupting the&b Aerial Rites"
+			title: "腐化&b澄空仪式"
 			x: 8.5d
 			y: 9.0d
-			subtitle: "Check the &dEncyclopedia Arcana"
+			subtitle: "详见&d奥术全典"
 			dependencies: ["0A6A1A6F94CD3692"]
 			id: "759FDF448A577E74"
 			tasks: [
@@ -1357,10 +1357,10 @@
 			}]
 		}
 		{
-			title: "Corrupting the &2Earthen Rites"
+			title: "腐化&2大地仪式"
 			x: 6.5d
 			y: 9.0d
-			subtitle: "Check the &dEncyclopedia Arcana"
+			subtitle: "详见&d奥术全典"
 			dependencies: ["296280EDB061151A"]
 			id: "12D7A6E052B0D3B8"
 			tasks: [
@@ -1384,10 +1384,10 @@
 			}]
 		}
 		{
-			title: "Corrupting the &1Aqueous Rites"
+			title: "扭曲&1碧水仪式"
 			x: 8.5d
 			y: 4.0d
-			subtitle: "Check the &dEncyclopedia Arcana"
+			subtitle: "详见&d奥术全典"
 			dependencies: ["1A37B128AE28D6E3"]
 			id: "13FC9666DD3DE985"
 			tasks: [

@@ -21,7 +21,7 @@
 	}]
 	quests: [
 		{
-			title: "Craft an Inscription Table"
+			title: "制作法术抄写台"
 			x: -6.0d
 			y: -7.5d
 			shape: "circle"
@@ -40,11 +40,11 @@
 			}]
 		}
 		{
-			title: "Craft a &bScroll Forge"
+			title: "制作&b法术撰写台"
 			x: -6.0d
 			y: -1.5d
 			shape: "circle"
-			subtitle: "&3The Scroll Forge&r is a new crafting station that allows the player to &ccraft scrolls by using ink&r, &cpaper&r, and a&c focus&r. &2The ink determines the rarity/level&r, and the&2 focus determines what school of spells you can craft&r."
+			subtitle: "&3法术撰写台&r是一种新的工作站，用于&c通过墨水&r，&c纸张&r，和&c魔力源来制作法术卷轴&r。&2墨水质量决定了制作法术卷轴的稀有等级&r，&2魔力源决定了你制作法术卷轴的流派&r。"
 			dependencies: ["238B661D1EFA703D"]
 			size: 2.0d
 			id: "2DBB6CAB6195F92B"
@@ -61,10 +61,10 @@
 			}]
 		}
 		{
-			title: "Obtain a &bLegendary Ink"
+			title: "获得&b传奇墨水"
 			x: 3.5d
 			y: -4.0d
-			subtitle: "Found very &6rarely in magic structures&r or from &ckilling powerful magic mobs&r. Can Craft Legendary Scrolls"
+			subtitle: "被少量发现于&6魔法结构中&r，也可以通过&c杀死强大的魔法生物&r获得。 用于制作传说等级的卷轴。"
 			id: "65AD193BFD7ED21B"
 			tasks: [{
 				id: "364E24295C2E9AE3"
@@ -73,19 +73,19 @@
 			}]
 		}
 		{
-			title: "Craft an &bArcane Anvil"
+			title: "制作&b奥术铁砧"
 			x: 3.5d
 			y: -1.5d
 			shape: "circle"
-			subtitle: "Click"
+			subtitle: "点击一下"
 			description: [
-				"The Arcane Anvil is a new crafting station that is used to combine magic items together, such as:"
+				"奥术铁砧是一种新的工作站，用于组合和拼接奥术材料，例如："
 				""
-				"- Upgrading scrolls (just like enchanted books)"
+				"- 升级法术卷轴（和升级附魔书差不多）"
 				""
-				"- Upgrade school armor and Spell Books using upgrade orbs"
+				"- 使用强化法球来强化对应学派的盔甲和法术"
 				""
-				"- Imbue swords with a spell (only one at a time, scrolls cannot be retrieved after imbuing them)"
+				"- 为武器注入法术（只能注入一个法术，且法术卷轴再灌注后不可取回）"
 				""
 			]
 			dependencies: ["2DBB6CAB6195F92B"]
@@ -104,10 +104,10 @@
 			}]
 		}
 		{
-			title: "Obtain a&b Blaze Rod"
+			title: "获得&b烈焰棒"
 			x: -10.0d
 			y: -2.0d
-			subtitle: "Dropped from &6Blazes"
+			subtitle: "掉落于&6烈焰人"
 			dependencies: ["2DBB6CAB6195F92B"]
 			id: "2ACD82E2FB102BE6"
 			tasks: [{
@@ -117,10 +117,10 @@
 			}]
 		}
 		{
-			title: "Obtain an&b Ender Pearl"
+			title: "获得&b末影珍珠"
 			x: -9.5d
 			y: 0.0d
-			subtitle: "Dropped by &dEnder Man"
+			subtitle: "掉落于&d末影人"
 			dependencies: ["2DBB6CAB6195F92B"]
 			id: "5C52C791B05535E2"
 			tasks: [{
@@ -130,10 +130,10 @@
 			}]
 		}
 		{
-			title: "Obtain a Blood Vial"
+			title: "获得鲜血精华"
 			x: -7.5d
 			y: 0.5d
-			subtitle: "Place a lit &ccampfire beneath a cauldron&r, and put a &cmob in the cauldron to cook the mob&r. This will fill the cauldron with &4blood&r, which can be withdrawn with &3glass bottles&r to obtain &4vials of blood."
+			subtitle: "将&c炼药锅置于点燃的营火上方&r，之后&c将受害者扔进锅中炖煮&r。之后受害者的&4鲜血&r将填满炼药锅。最后使用&3玻璃瓶&r去承装内容物，便可以得到&4鲜血精华。"
 			dependencies: ["2DBB6CAB6195F92B"]
 			id: "002D63B7E6C0C8FF"
 			tasks: [{
@@ -143,7 +143,7 @@
 			}]
 		}
 		{
-			title: "Obtain a&b Poisonous Potato"
+			title: "获得&b毒马铃薯"
 			x: -8.5d
 			y: 0.5d
 			dependencies: ["2DBB6CAB6195F92B"]
@@ -155,10 +155,10 @@
 			}]
 		}
 		{
-			title: "Obtain a &bBottle o' Lightning"
+			title: "获得&b雷电瓶"
 			x: -8.5d
 			y: -3.5d
-			subtitle: "Use an &3empty bottle&r on a &2charged creepe&rr to obtain. You can use the &bLightning Bolt Spell&r, lightning rod or trident to charge a creeper."
+			subtitle: "对着&2闪电苦力怕&r使用&2玻璃瓶&r以获取。 你可以使用&b雷电法术&r，避雷针或附魔三叉戟为苦力怕充能。"
 			dependencies: ["2DBB6CAB6195F92B"]
 			id: "4B3B70DFE292B36C"
 			tasks: [{
@@ -168,10 +168,10 @@
 			}]
 		}
 		{
-			title: "Obtain a&b Frozen Bone"
+			title: "获得&b冰封骨骸"
 			x: -9.5d
 			y: -3.0d
-			subtitle: "Dropped from &fstrays"
+			subtitle: "掉落于&f流浪者"
 			dependencies: ["2DBB6CAB6195F92B"]
 			id: "3CF2065756F9FF85"
 			tasks: [{
@@ -181,7 +181,7 @@
 			}]
 		}
 		{
-			title: "Craft a &bDivine Pearl"
+			title: "制作&b神祈宝珠"
 			x: -7.5d
 			y: -3.5d
 			dependencies: ["2DBB6CAB6195F92B"]
@@ -193,7 +193,7 @@
 			}]
 		}
 		{
-			title: "Obtain an&b Emerald"
+			title: "获得&b绿宝石"
 			x: -10.0d
 			y: -1.0d
 			dependencies: ["2DBB6CAB6195F92B"]
@@ -213,7 +213,7 @@
 			tasks: [{
 				id: "2C65AB296CBB58EE"
 				type: "structure"
-				title: "Find &bthe Mountain Tower"
+				title: "发现&bthe Mountain Tower"
 				icon: "twilightforest:tower_key"
 				structure: "irons_spellbooks:mountain_tower"
 			}]
@@ -232,7 +232,7 @@
 			tasks: [{
 				id: "15A3B296FAFE2ACE"
 				type: "structure"
-				title: "Find &bthe The Catacombs"
+				title: "发现&bthe The Catacombs"
 				icon: "twilightforest:tower_key"
 				structure: "irons_spellbooks:catacombs"
 			}]
@@ -251,7 +251,7 @@
 			tasks: [{
 				id: "69F22C8DCF91C84D"
 				type: "structure"
-				title: "Find &bthe Mangrove Hut"
+				title: "发现&bthe Mangrove Hut"
 				icon: "twilightforest:tower_key"
 				structure: "irons_spellbooks:mangrove_hut"
 			}]
@@ -270,7 +270,7 @@
 			tasks: [{
 				id: "309A12D788962A22"
 				type: "structure"
-				title: "Find &bthe Evoker Fort"
+				title: "发现&bthe Evoker Fort"
 				icon: "twilightforest:tower_key"
 				structure: "irons_spellbooks:evoker_fort"
 			}]
@@ -289,7 +289,7 @@
 			tasks: [{
 				id: "3E645F30619D064B"
 				type: "structure"
-				title: "Find &bthe Ancient Battlegrounds"
+				title: "发现&bthe Ancient Battlegrounds"
 				icon: "twilightforest:tower_key"
 				structure: "irons_spellbooks:ancient_battleground"
 			}]
@@ -300,7 +300,7 @@
 			}]
 		}
 		{
-			title: "Craft an &bEnchanted Spell Book"
+			title: "制作&b附魔法术书"
 			x: -4.5d
 			y: -9.5d
 			dependencies: ["238B661D1EFA703D"]
@@ -322,7 +322,7 @@
 			}]
 		}
 		{
-			title: "Craft an &bApprentice's Spell Book"
+			title: "制作&b学徒法术书"
 			x: -3.5d
 			y: -7.5d
 			dependencies: ["238B661D1EFA703D"]
@@ -344,7 +344,7 @@
 			}]
 		}
 		{
-			title: "Craft a &bRotten Spell Book"
+			title: "制作&b破旧法术书"
 			x: -8.5d
 			y: -6.5d
 			dependencies: ["238B661D1EFA703D"]
@@ -366,7 +366,7 @@
 			}]
 		}
 		{
-			title: "Craft a &bDragonskin Spell Book"
+			title: "制作&b龙皮法术书"
 			x: -8.5d
 			y: -8.5d
 			dependencies: ["238B661D1EFA703D"]
@@ -388,11 +388,11 @@
 			}]
 		}
 		{
-			title: "Obtain a &bBlank Runestone"
+			title: "获得&b空白符文"
 			x: -6.0d
 			y: 4.0d
 			shape: "circle"
-			subtitle: "&lThe base for all other runes to be crafted from&r. Can be found &6rarely in some vanilla structures&r, or more &2commonly in magic structures&r. Each school mage drops one for their school on death."
+			subtitle: "&l这是用于制作其他符文的，最基础的符文&r。在&6原版结构中&r极少量生成，通常在&2魔法结构&r中出现。任意学派的巫师们会在他们死去时掉落属于他们学派的符文。"
 			dependencies: ["2DBB6CAB6195F92B"]
 			size: 1.5d
 			id: "704435187B4BD245"
@@ -403,7 +403,7 @@
 			}]
 		}
 		{
-			title: "Craft a &bFire Rune"
+			title: "制作&b炽焰符文"
 			x: -6.0d
 			y: 5.5d
 			dependencies: ["704435187B4BD245"]
@@ -429,7 +429,7 @@
 			]
 		}
 		{
-			title: "Craft an &bIce Rune"
+			title: "制作&b冰霜符文"
 			x: -4.5d
 			y: 5.5d
 			dependencies: ["704435187B4BD245"]
@@ -455,7 +455,7 @@
 			]
 		}
 		{
-			title: "Craft a&b Lightning Rune"
+			title: "制作&b雷霆符文"
 			x: -3.0d
 			y: 5.5d
 			dependencies: ["704435187B4BD245"]
@@ -481,7 +481,7 @@
 			]
 		}
 		{
-			title: "Craft an &bEnder Rune"
+			title: "制作&b末影符文"
 			x: -9.0d
 			y: 4.0d
 			dependencies: ["704435187B4BD245"]
@@ -507,10 +507,10 @@
 			]
 		}
 		{
-			title: "Craft a &bHoly Rune"
+			title: "制作&b神圣符文"
 			x: -3.0d
 			y: 2.5d
-			subtitle: "When used for Upgrade: +3% Holy Spell Power"
+			subtitle: "当用于升级时获得： +3%神圣法术强度"
 			dependencies: ["704435187B4BD245"]
 			id: "66630803C9EA0DEA"
 			tasks: [{
@@ -534,7 +534,7 @@
 			]
 		}
 		{
-			title: "Craft&b Blood Rune"
+			title: "制作&b血腥符文"
 			x: -7.5d
 			y: 5.5d
 			dependencies: ["704435187B4BD245"]
@@ -560,7 +560,7 @@
 			]
 		}
 		{
-			title: "Craft an &bEvocation Rune"
+			title: "制作&b唤魔符文"
 			x: -9.0d
 			y: 2.5d
 			dependencies: ["704435187B4BD245"]
@@ -586,7 +586,7 @@
 			]
 		}
 		{
-			title: "Craft an &bArcane Rune"
+			title: "制作&b奥术符文"
 			x: -9.0d
 			y: 5.5d
 			dependencies: ["704435187B4BD245"]
@@ -612,7 +612,7 @@
 			]
 		}
 		{
-			title: "Craft a &bRecovery Rune"
+			title: "制作&b冷却缩减符文"
 			x: -4.5d
 			y: 2.5d
 			dependencies: ["704435187B4BD245"]
@@ -638,7 +638,7 @@
 			]
 		}
 		{
-			title: "Craft a &bProtective Rune"
+			title: "制作&b抗魔符文"
 			x: -7.5d
 			y: 2.5d
 			dependencies: ["704435187B4BD245"]
@@ -664,7 +664,7 @@
 			]
 		}
 		{
-			title: "Craft a&b Poison Rune"
+			title: "制作&b剧毒符文"
 			x: -3.0d
 			y: 4.0d
 			dependencies: ["704435187B4BD245"]
@@ -690,7 +690,7 @@
 			]
 		}
 		{
-			title: "Craft a &bPyromancer Armor Set"
+			title: "制作&b炽焰术士套装"
 			x: -6.0d
 			y: 7.0d
 			dependencies: ["6073AB1A816E845F"]
@@ -749,7 +749,7 @@
 			}]
 		}
 		{
-			title: "Craft an&b Electromancer Armor Set"
+			title: "制作&b雷霆术士套装"
 			x: -1.5d
 			y: 5.5d
 			dependencies: ["1C60254EAE960673"]
@@ -808,7 +808,7 @@
 			}]
 		}
 		{
-			title: "Craft an &bArchevoker Armor Set"
+			title: "制作&b唤魔师套装"
 			x: -10.5d
 			y: 2.5d
 			dependencies: ["2E4D0196673FCE5A"]
@@ -867,7 +867,7 @@
 			}]
 		}
 		{
-			title: "Craft a &bCultist Armor Set"
+			title: "制作&b血腥教徒套装"
 			x: -7.5d
 			y: 7.0d
 			dependencies: ["12506A200E56E7E9"]
@@ -926,7 +926,7 @@
 			}]
 		}
 		{
-			title: "Craft a&b Cryomancer Armor Set"
+			title: "制作&b冰霜术士套装"
 			x: -4.5d
 			y: 7.0d
 			dependencies: ["3D0F9F9B2B945E7A"]
@@ -985,7 +985,7 @@
 			}]
 		}
 		{
-			title: "Craft a&b Shadow-Walker Armor Set"
+			title: "制作&b暗影行者套装"
 			x: -10.5d
 			y: 4.0d
 			dependencies: ["43B06E3FFE5FE8EB"]
@@ -1044,7 +1044,7 @@
 			}]
 		}
 		{
-			title: "Craft a&b Priest Armor Set"
+			title: "制作&b圣职者套装"
 			x: -1.5d
 			y: 2.5d
 			dependencies: ["66630803C9EA0DEA"]
@@ -1103,7 +1103,7 @@
 			}]
 		}
 		{
-			title: "Craft a &bPlagued Armor Set"
+			title: "制作&b瘟疫术士套装"
 			x: -1.5d
 			y: 4.0d
 			dependencies: ["5EC30214D9EE2A0C"]
@@ -1162,11 +1162,11 @@
 			}]
 		}
 		{
-			title: "Craft a &bWandering Magician"
+			title: "制作&b流浪法师套装"
 			x: -6.0d
 			y: -12.0d
 			shape: "gear"
-			subtitle: "An early game source of &3additional mana"
+			subtitle: "游戏早期凑合用的&3额外魔力来源"
 			size: 1.5d
 			id: "2F8CF63F17CCB859"
 			tasks: [
@@ -1217,10 +1217,10 @@
 			]
 		}
 		{
-			title: "Obtain a &bCommon Ink"
+			title: "获得&b普通墨水"
 			x: 2.5d
 			y: -3.0d
-			subtitle: "Found &6commonly in magic structures&r or from &ckilling powerful magic mobs&r. Can Craft Common Scrolls"
+			subtitle: "被发现于&6魔法结构中&r，也可以通过&c杀死强大的魔法生物&r获得。 用于制作普通等级的卷轴。"
 			id: "5079E26F162E39E4"
 			tasks: [{
 				id: "398C95296DB15ED2"
@@ -1229,10 +1229,10 @@
 			}]
 		}
 		{
-			title: "Obtain an &bUncommon Ink"
+			title: "获得&b非凡墨水"
 			x: 2.5d
 			y: -5.0d
-			subtitle: "Found in &6magic structures&r or from &ckilling powerful magic mobs&r. Can Craft Uncommon Scrolls"
+			subtitle: "被发现于&6魔法结构中&r，也可以通过&c杀死强大的魔法生物&r获得。用于制作非凡等级的卷轴。"
 			id: "209964A61BC6CB8D"
 			tasks: [{
 				id: "579711B0DC1CC6BA"
@@ -1241,10 +1241,10 @@
 			}]
 		}
 		{
-			title: "Obtain a&b Rare Ink"
+			title: "获得&b稀有墨水"
 			x: 4.5d
 			y: -5.0d
-			subtitle: "Found &6rarely in magic structures&r or from &ckilling powerful magic mobs&r. Can Craft Rare Scrolls"
+			subtitle: "被发现于&6魔法结构中&r，也可以通过&c杀死强大的魔法生物&r获得。用于制作稀有等级的卷轴。"
 			id: "278D8127E3198BB7"
 			tasks: [{
 				id: "4AC54EFCD3997880"
@@ -1253,10 +1253,10 @@
 			}]
 		}
 		{
-			title: "Obtain an&b Epic Ink"
+			title: "获得&b史诗墨水"
 			x: 4.5d
 			y: -3.0d
-			subtitle: "Found &6rarely in magic structures&r or from &ckilling powerful magic mobs&r. Can Craft Epic Scrolls"
+			subtitle: "被发现于&6魔法结构中&r，也可以通过&c杀死强大的魔法生物&r获得。用于制作史诗等级的卷轴。"
 			hide: false
 			id: "6B3750716FF3FEC7"
 			tasks: [{
@@ -1266,7 +1266,7 @@
 			}]
 		}
 		{
-			title: "Craft an &bArcane Cloth"
+			title: "制作&b奥术布匹"
 			x: 2.5d
 			y: -7.5d
 			shape: "square"
@@ -1284,11 +1284,11 @@
 			}]
 		}
 		{
-			title: "Obtain an &bArcane Essence"
+			title: "获得&b奥术源质"
 			x: 2.5d
 			y: -6.5d
 			shape: "square"
-			subtitle: "A &2common magic material &rused in many recipes. Can be found sparsely in &2vanilla structures&r, but much more &fcommonly in magic structures&r or from killing &cmagic mobs."
+			subtitle: "一种&2非常常见的魔法材料&r，用于各种配方中。 在&2原版结构&r中少量生成，在&f魔法结构&r中大量出现，在&c魔法生物的掉落物&r中同样常见。"
 			id: "75CCE275178C6B0E"
 			tasks: [{
 				id: "595A0DEA7D7110B6"
@@ -1311,7 +1311,7 @@
 			tasks: [{
 				id: "138E5246C0F3E04F"
 				type: "kill"
-				title: "Defeat &bAncient Knight"
+				title: "杀死&b远古骑士"
 				icon: "irons_spellbooks:keeper_spawn_egg"
 				entity: "irons_spellbooks:citadel_keeper"
 				value: 1L
@@ -1332,7 +1332,7 @@
 			tasks: [{
 				id: "19DCB9BD57D5FD34"
 				type: "kill"
-				title: "Defeat &bThe Dead King"
+				title: "杀死&b亡灵大帝"
 				icon: "irons_spellbooks:dead_king_corpse_spawn_egg"
 				entity: "irons_spellbooks:dead_king"
 				value: 1L
@@ -1353,7 +1353,7 @@
 			tasks: [{
 				id: "6C3B0BD7CF7AA238"
 				type: "kill"
-				title: "Defeat &bArchevoker"
+				title: "杀死&b灾厄术士"
 				icon: "irons_spellbooks:archevoker_spawn_egg"
 				entity: "irons_spellbooks:archevoker"
 				value: 1L
@@ -1374,7 +1374,7 @@
 			tasks: [{
 				id: "72EB230C60AB5F30"
 				type: "kill"
-				title: "Defeat &bNecromancer"
+				title: "杀死&b亡灵术士"
 				icon: "irons_spellbooks:necromancer_spawn_egg"
 				entity: "irons_spellbooks:necromancer"
 				value: 1L
@@ -1395,7 +1395,7 @@
 			tasks: [{
 				id: "27D43257FB23ED55"
 				type: "kill"
-				title: "Defeat &bCryomancer"
+				title: "杀死&b冰霜术士"
 				icon: "irons_spellbooks:cryomancer_spawn_egg"
 				entity: "irons_spellbooks:cryomancer"
 				value: 1L
@@ -1416,7 +1416,7 @@
 			tasks: [{
 				id: "29B582F92F833072"
 				type: "kill"
-				title: "Defeat &bPyromancer"
+				title: "杀死&b炽焰术士"
 				icon: "irons_spellbooks:pyromancer_spawn_egg"
 				entity: "irons_spellbooks:pyromancer"
 				value: 1L
@@ -1429,11 +1429,11 @@
 			}]
 		}
 		{
-			title: "Craft a &bWayward Compass"
+			title: "制作&b归途指针"
 			x: 3.5d
 			y: -7.5d
 			shape: "square"
-			subtitle: "Once crafted, it finds the&2 nearest Catacombs&r and &3leads you towards it&r. The trapped soul points toward its home"
+			subtitle: "当被合成，它会指向&2最近的两个地下墓穴&r并&3引领你前往那儿&r。迷失的灵魂无时无刻不渴望回到自己的家。"
 			id: "25F8D49B732EF7C7"
 			tasks: [{
 				id: "615B5BD499A95CCE"
@@ -1452,10 +1452,10 @@
 			}]
 		}
 		{
-			title: "Obtain a &bHeavy Chain"
+			title: "获得&b沉重枷锁"
 			x: 6.0d
 			y: 0.5d
-			subtitle: "When around neck: &4+15% Spell Resistance"
+			subtitle: "佩戴项链时： &4+15%法术抗性"
 			id: "391E94F1938AC865"
 			tasks: [{
 				id: "61D1BADBF45C2982"
@@ -1470,10 +1470,10 @@
 			}]
 		}
 		{
-			title: "Obtain a &bConjurer's Talisman"
+			title: "获得&b召唤师护符"
 			x: 7.0d
 			y: -4.5d
-			subtitle: "When arnoud neck: &4+10% Summon Damage"
+			subtitle: "佩戴项链时： &4+10%召唤强度"
 			id: "0051AD1BF14F9EC9"
 			tasks: [{
 				id: "7FFF4B00C3A4D205"
@@ -1488,10 +1488,10 @@
 			}]
 		}
 		{
-			title: "Obtain a &bRing of Mana"
+			title: "获得&b魔力之戒"
 			x: 7.0d
 			y: 1.5d
-			subtitle: "When worn as ring: &4+100 Max Mana"
+			subtitle: "佩戴戒指时： &4+100最大法力值"
 			id: "203CEDAC6E1CAB91"
 			tasks: [{
 				id: "770A01BA267E113B"
@@ -1508,12 +1508,12 @@
 		{
 			x: 2.5d
 			y: 1.5d
-			subtitle: "The base for all other &4upgrade orbs&r to be crafted from"
+			subtitle: "最基础的&4升级法球&r，仅用于合成"
 			id: "1AC0396518806B66"
 			tasks: [{
 				id: "447DA1334A5BB7BF"
 				type: "item"
-				title: "Craft an &bEmpty Upgrade Orb"
+				title: "制作&b空白升级法球"
 				item: "irons_spellbooks:upgrade_orb"
 			}]
 			rewards: [{
@@ -1524,10 +1524,10 @@
 			}]
 		}
 		{
-			title: "Craft a&b Fire Upgrade Orb"
+			title: "制作&b炽焰升级法球"
 			x: 3.5d
 			y: 1.5d
-			subtitle: "When used for Upgrade: &4+3% Fire Spell Power"
+			subtitle: "当用于升级时获得： &4+3%火焰法术强度"
 			id: "422A888D3F7C4665"
 			tasks: [{
 				id: "3D350BF17045AF6B"
@@ -1542,10 +1542,10 @@
 			}]
 		}
 		{
-			title: "Craft an &bIce Upgrade Orb"
+			title: "制作 &b冰霜升级法球"
 			x: 4.5d
 			y: 1.5d
-			subtitle: "When used for Upgrade: &4+3% Ice Spell Power"
+			subtitle: "当用于升级时获得： &4+3%冰霜法术强度"
 			id: "7EF4A265C25EFF12"
 			tasks: [{
 				id: "14D6C2660C93E4E3"
@@ -1560,10 +1560,10 @@
 			}]
 		}
 		{
-			title: "Craft a&b Lightning Upgrade Orb"
+			title: "制作&b雷电升级法球"
 			x: 3.5d
 			y: 0.5d
-			subtitle: "When used for Upgrade: &4+3% Lightning Spell Power"
+			subtitle: "当用于升级时获得： &4+3%雷电法术强度"
 			id: "4D308AD544372410"
 			tasks: [{
 				id: "21A55AD1E51B55BC"
@@ -1578,10 +1578,10 @@
 			}]
 		}
 		{
-			title: "Craft a &bHoly Upgrade Orb"
+			title: "制作&b神圣升级法球"
 			x: 2.5d
 			y: 2.5d
-			subtitle: "When used for Upgrade: &4+3% Holy Spell Power"
+			subtitle: "当用于升级时获得： &4+3%神圣法术强度"
 			id: "6C90039BB1651603"
 			tasks: [{
 				id: "74E398F946B1E6D7"
@@ -1596,10 +1596,10 @@
 			}]
 		}
 		{
-			title: "Craft an &bEnder Upgrade Orb"
+			title: "制作&b末影升级法球"
 			x: 1.5d
 			y: 2.5d
-			subtitle: "When used for Upgrade: &4+3% Ender Spell Power"
+			subtitle: "当用于升级时获得： &4+3%末影法术强度"
 			id: "544A301047565927"
 			tasks: [{
 				id: "75E04291D457EA03"
@@ -1614,10 +1614,10 @@
 			}]
 		}
 		{
-			title: "Craft a&b Blood Upgrade Orb"
+			title: "制作&b血腥升级法球"
 			x: 4.5d
 			y: 2.5d
-			subtitle: "When used for Upgrade: &4+3% Blood Spell Power"
+			subtitle: "当用于升级时获得： &4+3%鲜血法术强度"
 			id: "14E9C287665C6AD4"
 			tasks: [{
 				id: "59AE68357B7EDD47"
@@ -1632,10 +1632,10 @@
 			}]
 		}
 		{
-			title: "Craft an &bEvocation Upgrade Orb"
+			title: "制作&b唤魔升级法球"
 			x: 3.5d
 			y: 4.5d
-			subtitle: "When used for Upgrade: &4+3% Evocation Spell Power"
+			subtitle: "当用于升级时获得： &4+3%唤魔法术强度"
 			id: "0DDCE73E115DCE86"
 			tasks: [{
 				id: "17863785F3BE648C"
@@ -1650,10 +1650,10 @@
 			}]
 		}
 		{
-			title: "Craft a&b Poison Upgrade Orb"
+			title: "制作&b剧毒升级法球"
 			x: 2.5d
 			y: 3.5d
-			subtitle: "When used for Upgrade: &4+3% Poison Spell Power"
+			subtitle: "当用于升级时获得： &4+3%剧毒法术强度"
 			id: "4070652999DD3249"
 			tasks: [{
 				id: "3A8FF12F49FE29EC"
@@ -1668,10 +1668,10 @@
 			}]
 		}
 		{
-			title: "Craft a &bMana Upgrade Orb"
+			title: "制作&b魔力升级法球"
 			x: 3.5d
 			y: 3.5d
-			subtitle: "When used for Upgrade: &4+50 Max Mana"
+			subtitle: "当用于升级时获得： &4+50最大法力值"
 			id: "20EAD0D76E8C2683"
 			tasks: [{
 				id: "1CB9B5FDAA60B570"
@@ -1686,10 +1686,10 @@
 			}]
 		}
 		{
-			title: "Craft a &bCooldown Upgrade Orb"
+			title: "制作&b冷却缩减升级法球"
 			x: 4.5d
 			y: 3.5d
-			subtitle: "When used for Upgrade: &4+6% Cooldown Reduction"
+			subtitle: "当用于升级时获得： &4+5%冷却缩减"
 			id: "5391C1240C677127"
 			tasks: [{
 				id: "65D4BF8C649C51A8"
@@ -1704,10 +1704,10 @@
 			}]
 		}
 		{
-			title: "Craft a&b Protection Upgrade Orb"
+			title: "制作&b抗魔升级法球"
 			x: 5.5d
 			y: 2.5d
-			subtitle: "When used for Upgrade: &4+6% Spell Resistance"
+			subtitle: "当用于升级时获得： &4+2.5%法术抗性"
 			id: "75813E7A5E88D3B8"
 			tasks: [{
 				id: "2A36D50F582A1EBD"
@@ -1722,10 +1722,10 @@
 			}]
 		}
 		{
-			title: "Obtain a &bSilver Ring"
+			title: "获得&b银制指环"
 			x: 6.0d
 			y: -3.5d
-			subtitle: "When worn as ring: &4+25 Max Mana"
+			subtitle: "佩戴戒指时： &4+25最大法力值"
 			id: "5D284522BCE51032"
 			tasks: [{
 				id: "43BBA1146DB39E63"
@@ -1740,10 +1740,10 @@
 			}]
 		}
 		{
-			title: "Obtain a&b Ring of Recovery"
+			title: "获得&b回溯之戒"
 			x: 7.0d
 			y: -3.5d
-			subtitle: "When worn as ring: &4+15% Cooldown Reduction"
+			subtitle: "佩戴戒指时： &4+15%冷却缩减"
 			id: "50A74C04350493E0"
 			tasks: [{
 				id: "72F13FB06F43CA5B"
@@ -1758,10 +1758,10 @@
 			}]
 		}
 		{
-			title: "Obtain a&b Ring of Expediency"
+			title: "获得&b变通之戒"
 			x: 8.0d
 			y: 0.5d
-			subtitle: "When worn as ring: &4+15% Cast Time Reduction"
+			subtitle: "佩戴戒指时：&4+15%吟唱缩减"
 			id: "153FB224571B339A"
 			tasks: [{
 				id: "3DC23A4D52A4DAC6"
@@ -1776,10 +1776,10 @@
 			}]
 		}
 		{
-			title: "Obtain an &bEmerald Stoneplate Ring"
+			title: "获得&b绿宝石之戒"
 			x: 7.0d
 			y: -2.5d
-			subtitle: "When worn as ring: Slain creatures drop &4+25% experience."
+			subtitle: "佩戴戒指时：击杀生物额外掉落&4+25%的经验"
 			id: "26FB758B3706B935"
 			tasks: [{
 				id: "4609A0ABAC9884D8"
@@ -1794,10 +1794,10 @@
 			}]
 		}
 		{
-			title: "Obtain a &bFireward Ring"
+			title: "获得&b炎狱护卫之戒"
 			x: 7.0d
 			y: -0.5d
-			subtitle: "When worn as ring: &4Grants fire resistance."
+			subtitle: "佩戴戒指时：&4免疫燃烧伤害"
 			id: "4AE320F63741FBF0"
 			tasks: [{
 				id: "27612E2CA9C8F0CB"
@@ -1812,10 +1812,10 @@
 			}]
 		}
 		{
-			title: "Obtain a &bFrostward Ring"
+			title: "获得&b凛冬护卫之戒"
 			x: 8.0d
 			y: -3.5d
-			subtitle: "When worn as ring: Grants &bfreezing immunity."
+			subtitle: "佩戴戒指时：免疫冰冻伤害"
 			id: "5F7FBCB758D54981"
 			tasks: [{
 				id: "4AAA00B24C0164EB"
@@ -1830,10 +1830,10 @@
 			}]
 		}
 		{
-			title: "Obtain a &bPoisonward Ring"
+			title: "获得&b剧毒术士之戒"
 			x: 7.0d
 			y: 0.5d
-			subtitle: "When worn as ring: Grants &2poison immunity."
+			subtitle: "佩戴戒指时：免疫&2剧毒伤害"
 			id: "6423F47740F77C70"
 			tasks: [{
 				id: "746556E09BF7D7A9"
@@ -1848,11 +1848,11 @@
 			}]
 		}
 		{
-			title: "Make some &bArcane Salvage"
+			title: "制作&b奥术残骸碎片"
 			x: 3.5d
 			y: -6.5d
 			shape: "square"
-			subtitle: "A late game material used for&c upgrade orbs&r, smelted from &3Arcane Debris&r. Power still radiates from this forgotten material"
+			subtitle: "一种游戏后期的重要材料，用于合成&c升级法球&r, 烧炼&3奥术残骸&r获得。这种被掩埋在历史深处的材料时至今日仍然散发着能量。"
 			id: "5AA9A2B135AA9F0D"
 			tasks: [{
 				id: "20A1AEEA6D025FA4"
@@ -1867,11 +1867,11 @@
 			}]
 		}
 		{
-			title: "Obtain a &bHogskin"
+			title: "获得&b疣猪皮"
 			x: 4.5d
 			y: -6.5d
 			shape: "square"
-			subtitle: "Dropped from&5 hoglins"
+			subtitle: "掉落于&5疣猪兽"
 			id: "1D0FC01B85A5A9BC"
 			tasks: [{
 				id: "503F6CC842C7FAA1"
@@ -1886,11 +1886,11 @@
 			}]
 		}
 		{
-			title: "Craft a &bShriving Stone"
+			title: "制作&b忏悔石"
 			x: 4.5d
 			y: -7.5d
 			shape: "square"
-			subtitle: "Use in Smithing Table to remove &4Imbuement or Upgrades"
+			subtitle: "用于在奥术铁砧中移除&4装备升级"
 			id: "0206507E91CB74CB"
 			tasks: [{
 				id: "08F5ED1EF47CC3E2"
@@ -1905,7 +1905,7 @@
 			}]
 		}
 		{
-			title: "Craft an &bAncient Codex"
+			title: "制作&b远古法典"
 			x: -3.5d
 			y: -6.5d
 			dependencies: ["238B661D1EFA703D"]
@@ -1927,7 +1927,7 @@
 			}]
 		}
 		{
-			title: "Craft an &bIronbound Tome"
+			title: "制作&b铁箍卷册"
 			x: -3.5d
 			y: -8.5d
 			dependencies: ["238B661D1EFA703D"]
@@ -1949,7 +1949,7 @@
 			}]
 		}
 		{
-			title: "Craft a &bFlimsy Journal"
+			title: "制作&b初学者日志"
 			x: -4.5d
 			y: -6.0d
 			dependencies: ["238B661D1EFA703D"]
@@ -1971,7 +1971,7 @@
 			}]
 		}
 		{
-			title: "Craft a &bGrimoire of Evokation"
+			title: "制作&b唤魔者魔典"
 			x: -7.5d
 			y: -6.0d
 			dependencies: ["238B661D1EFA703D"]
@@ -2009,7 +2009,7 @@
 			}]
 		}
 		{
-			title: "Craft a &bVillager Bible"
+			title: "制作&b村民圣经"
 			x: -7.5d
 			y: -9.5d
 			dependencies: ["238B661D1EFA703D"]
@@ -2031,7 +2031,7 @@
 			}]
 		}
 		{
-			title: "Craft a &bBlaze Instruction Manual"
+			title: "制作&b烈焰术士手册"
 			x: -8.5d
 			y: -7.5d
 			dependencies: ["238B661D1EFA703D"]
