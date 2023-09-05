@@ -3,7 +3,7 @@
 	group: "47EF6B1E1AEB6949"
 	order_index: 3
 	filename: "deeper_and_darker"
-	title: " &9The Nexus"
+	title: " &9幽暗世界"
 	icon: "wildbackport:sculk_shrieker"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -21,18 +21,18 @@
 	}]
 	quests: [
 		{
-			title: "Enter &2The Nexus"
+			title: "进入&2幽暗世界"
 			x: 7.0d
 			y: 4.0d
 			shape: "circle"
-			subtitle: "You can enter and &2escape this dimension&r through a &cgateway&r found &2deep underground."
+			subtitle: "你可以在通过&2地下深处&r找到的&c传送门&r进入和&2逃离这个维度&r."
 			dependencies: ["738E714A92C5A830"]
 			size: 2.0d
 			id: "704CCA2CEAB23B4D"
 			tasks: [{
 				id: "474D2D76F2256297"
 				type: "dimension"
-				title: "Enter The Otherside"
+				title: "进入另一边"
 				icon: "wildbackport:sculk_shrieker"
 				dimension: "thenexus:the_nexus"
 			}]
@@ -43,7 +43,7 @@
 			}]
 		}
 		{
-			title: "Defeat &2the Wardling"
+			title: "击败&2监守之灵"
 			icon: "thenexus:wardling_spawn_egg"
 			x: 9.5d
 			y: 3.0d
@@ -77,11 +77,11 @@
 			]
 		}
 		{
-			title: "Defeat &2the Ancient Sentinel"
+			title: "击败&2远古哨兵"
 			x: 10.5d
 			y: 4.0d
 			shape: "circle"
-			subtitle: "Find &3Ancient Shards&r to fill &2Ancient Frames&r and &cfight the final boss of this dimension!"
+			subtitle: "寻找&3远古碎片&r来填充&2远古框架&r然后&c和这个世界的最终Boss战斗吧!"
 			dependencies: ["704CCA2CEAB23B4D"]
 			size: 1.5d
 			id: "192EE909C57F390A"
@@ -113,10 +113,10 @@
 			]
 		}
 		{
-			title: "Defeat&2 the Whisperer"
+			title: "击败&2夜语者"
 			x: 9.5d
 			y: 5.0d
-			subtitle: "Spawn by stepping on &2Infested Sculk"
+			subtitle: "通过踩踏&2被虫蚀的幽匿块&r生成"
 			dependencies: ["704CCA2CEAB23B4D"]
 			id: "3CBDB45D65737212"
 			tasks: [{
@@ -141,7 +141,7 @@
 			]
 		}
 		{
-			title: "Craft &2Lustre Wood "
+			title: "合成&2幽暗木 "
 			x: 8.0d
 			y: 6.0d
 			dependencies: ["704CCA2CEAB23B4D"]
@@ -188,7 +188,7 @@
 			]
 		}
 		{
-			title: "&2Protect Your Base"
+			title: "&2保卫你的基地"
 			x: 7.0d
 			y: 6.0d
 			dependencies: ["704CCA2CEAB23B4D"]
@@ -221,7 +221,7 @@
 			tasks: [{
 				id: "188C7F075660665E"
 				type: "item"
-				title: "Eat &2Lustre Berries"
+				title: "食用&2幽暗浆果"
 				item: "thenexus:lustre_berries"
 			}]
 			rewards: [
@@ -246,7 +246,7 @@
 			tasks: [{
 				id: "3B472DB0BB0B9C80"
 				type: "biome"
-				title: "Visit&2 Gloomstone Wastes"
+				title: "进入&2阴郁荒原"
 				icon: "thenexus:gloomstone"
 				biome: "thenexus:gloomstone_wastes"
 			}]
@@ -271,7 +271,7 @@
 			tasks: [{
 				id: "43308345B2BF07D9"
 				type: "biome"
-				title: "Visit &2Sculk Undergrowth"
+				title: "进入&2幽匿地下花园"
 				icon: "thenexus:overgrown_gloomstone"
 				biome: "thenexus:sculk_undergrowth"
 			}]
@@ -289,7 +289,7 @@
 			tasks: [{
 				id: "591F9988E1A6618D"
 				type: "biome"
-				title: "Visit &2The Lustre Biome"
+				title: "进入&2幽暗群系"
 				icon: "thenexus:lustre_light"
 				biome: "thenexus:the_lustre"
 			}]
@@ -307,7 +307,7 @@
 			tasks: [{
 				id: "0FBC0950DF2A97EB"
 				type: "observation"
-				title: "Find a &2Sculk Gateway"
+				title: "找到&2幽匿传送门"
 				icon: "thenexus:sculk_gateway"
 				timer: 0L
 				observe_type: 0
@@ -315,7 +315,7 @@
 			}]
 		}
 		{
-			title: "Defeat &2The Warden"
+			title: "击败&2监守者"
 			x: 1.5d
 			y: 4.0d
 			shape: "circle"
