@@ -9,10 +9,10 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Obtain &ethe Witch Eye"
+			title: "获得&e巫师之眼"
 			x: 0.0d
 			y: -5.0d
-			subtitle: "Craftable"
+			subtitle: "可合成"
 			id: "4CDDBF47260A90FB"
 			tasks: [{
 				id: "14BDC1C810474D13"
@@ -45,11 +45,11 @@
 			]
 		}
 		{
-			title: "Obtain&e the Lost Eye"
+			title: "获得&e迷离之眼"
 			x: -1.0d
 			y: 0.0d
 			shape: "rsquare"
-			subtitle: "Found in &6Mineshafts"
+			subtitle: "在&6废弃矿井&r中寻得"
 			id: "776A70EB046AF156"
 			tasks: [{
 				id: "023E9945AB0DFC8D"
@@ -88,10 +88,10 @@
 			]
 		}
 		{
-			title: "Obtain&e the Black Eye"
+			title: "获得&e漆黑之眼"
 			x: -5.0d
 			y: -5.0d
-			subtitle: "Found in&e Buried Treasure chests"
+			subtitle: "在&e埋葬的宝藏箱子&r中寻得"
 			id: "4D14F335B0861604"
 			tasks: [{
 				id: "641B0530AC06B707"
@@ -124,7 +124,7 @@
 			]
 		}
 		{
-			title: "Obtain &ethe Corrupted Eye"
+			title: "获得&e腐化之眼"
 			x: -1.0d
 			y: -5.0d
 			subtitle: "Found in &8Pillager Outposts"
