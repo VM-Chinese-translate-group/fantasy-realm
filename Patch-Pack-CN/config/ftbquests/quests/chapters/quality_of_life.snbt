@@ -264,7 +264,8 @@
 			title: "合成&4笼子"
 			x: -1.5d
 			y: -1.5d
-			subtitle: "可以关押&c小动物和怪物&r。"
+			subtitle: "可以捕捉&c小动物和怪物&r。"
+
 			id: "68CB4DDBF4B2212A"
 			tasks: [{
 				id: "0DA8A3C72E45EB5D"
