@@ -512,7 +512,8 @@
 			x: 5.0d
 			y: -2.5d
 			shape: "circle"
-			subtitle: "通过把&9神秘蠕虫&r丢进&f虚空&r来召唤。&9神秘蠕虫&r通过&c把绯红孑孓放入衣壳体来&r获取。"
+			subtitle: "通过把&9神秘蠕虫&r丢进&f虚空&r来召唤。通过&c把绯红孑孓放入衣壳体来&r获取&9神秘蠕虫&r。"
+
 			dependencies: ["596B416B113E0576"]
 			size: 1.5d
 			id: "36E9FDF55975F42B"
