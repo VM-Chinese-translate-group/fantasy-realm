@@ -3,16 +3,16 @@
 	group: "5A43EA4A3BF38D32"
 	order_index: 4
 	filename: "quality_of_life"
-	title: " &3奇怪的小玩意"
+	title: " &3Curiosities"
 	icon: "supplementaries:globe"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "合成&4存储线缆"
+			title: "Craft a &4Inventory Cable"
 			x: -4.5d
 			y: -3.0d
-			subtitle: "长距离&c连接&r物品容器。存储&c线缆接线器&r被用来连接&c物品容器&r。&c存储整合器&r必须放在当前网络。"
+			subtitle: "&cConnects&r inventories across long distances. Inventory &cCable Connectors&r have to be used to attach &cinventories&r. One &cInventory Connector&r must be present in the network."
 			id: "59CB251120618BAA"
 			tasks: [{
 				id: "05CF1F73040EF485"
@@ -26,10 +26,10 @@
 			}]
 		}
 		{
-			title: "合成&4存储终端"
+			title: "Craft a &4Storage Terminal"
 			x: -5.5d
 			y: -0.5d
-			subtitle: "给予存取&c物品&r的通道。把它放在&c存储网络&r。"
+			subtitle: "Gives access to your &citems&r. Place it on an &cinventory&r."
 			dependencies: ["59CB251120618BAA"]
 			id: "6671FBB9B8E5D554"
 			tasks: [{
@@ -44,10 +44,10 @@
 			}]
 		}
 		{
-			title: "合成&4存储整合器 "
+			title: "Craft a &4Inventory Connector "
 			x: -3.5d
 			y: -0.5d
-			subtitle: "&c连接所有&r&c存储容器&r使之成为一个容器。使用&c存储终端&r存取所有的&c物品&r。&c桥连方块&r可以连接空缺的地方。"
+			subtitle: "&cConnects all&r of the touching &cinventories&r into one. Use the &cStorage Terminal&r to access all of your &citens&r. &cTrins&r can connect the gaps."
 			dependencies: ["59CB251120618BAA"]
 			id: "42404A9B98C40EE2"
 			tasks: [{
@@ -62,10 +62,10 @@
 			}]
 		}
 		{
-			title: "合成&4无线终端"
+			title: "Craft a &4Wireless Terminal"
 			x: -4.5d
 			y: 1.5d
-			subtitle: "无论在哪都允许连接进入&c存储网络&r，也可以在任何&c维度&r进入。需要加载区块&c网络控制器&r才能工作。可以通过点击&c物品栏&r左上角的地图图标，点击认领区块，然后shift+左键点击它&c强制加载&r来完成。The &cremote&r can also be put into a &cBaubles&r slot, allowing you to open the remote with the press of a button. This can be found in Controls under (&cOpen Remote Curio&r).."
+			subtitle: "Allows you to access the linked &cstorage network&r from anywhere, in any &cdimension&r. The chunk that has the &cNetwork Root&r must be loaded for this to work. This can be accomplished by clicking the map icon in the top left of your &cinventory&r, clicking to claim the chunk, then shift-clicking it to &cforceload&r. The &cremote&r can also be put into a &cBaubles&r slot, allowing you to open the remote with the press of a button. This can be found in Controls under (&cOpen Remote Curio&r).."
 			dependencies: [
 				"6671FBB9B8E5D554"
 				"42404A9B98C40EE2"
@@ -83,10 +83,10 @@
 			}]
 		}
 		{
-			title: "合成&4贸易站"
+			title: "Craft a &4Trading Post"
 			x: -1.5d
 			y: -3.0d
-			subtitle: "允许和附近多个&c村民&r交易。"
+			subtitle: "Allows you to trade with multiple nearby &cvillagers&r at once."
 			id: "3C6E255DDA266E4C"
 			tasks: [{
 				id: "2F95FA4278CA4B7B"
@@ -100,10 +100,10 @@
 			}]
 		}
 		{
-			title: "合成&4白色睡袋"
+			title: "Craft a &4White Bedroll"
 			x: -1.5d
 			y: 1.5d
-			subtitle: "允许睡觉时不会设置&c重生点&r."
+			subtitle: "Allows you to sleep without setting your &cspawnpoint&r."
 			id: "009270E82ED95A71"
 			tasks: [{
 				id: "5BCD98CB1D33DDC5"
@@ -117,10 +117,10 @@
 			}]
 		}
 		{
-			title: "合成&4指路石"
+			title: "Craft a &4Waystone"
 			x: -7.5d
 			y: -3.0d
-			subtitle: "可以在俩个&c指路石&r间传送。远距离需要花费&c经验&r。"
+			subtitle: "You can teleport between &cwaystones&r. Longer distances may require &cexperience points&r."
 			id: "05618A1C415ECE44"
 			tasks: [{
 				id: "7B037C7307DAB4C0"
@@ -135,10 +135,10 @@
 			}]
 		}
 		{
-			title: "合成&4酒桶"
+			title: "Craft a &4Keg"
 			x: -1.5d
 			y: 0.0d
-			subtitle: "用来酿可以给你多种药水效果的&c啤酒&r。"
+			subtitle: "Used to create &cbeer&r, which can give a variety of &cpotion effects&r."
 			id: "0A71A0235393CC36"
 			tasks: [{
 				id: "4A12DB76A35AB658"
@@ -152,10 +152,10 @@
 			}]
 		}
 		{
-			title: "合成&4日历"
+			title: "Craft a &4Calendar"
 			x: -6.0d
 			y: 3.0d
-			subtitle: "显示当前&c季节&r。作物生长，还有别的信息，这取决于&c季节&r。"
+			subtitle: "Shows what &cseason&r it is. Crop growth, among other things, is dependent on the &cseason&r."
 			id: "205B796FCB6C80D2"
 			tasks: [{
 				id: "419129ACEDA5C7A2"
@@ -178,10 +178,10 @@
 			}]
 		}
 		{
-			title: "合成&4训练人偶"
+			title: "Craft a &4Target Dummy"
 			x: -1.5d
 			y: 3.0d
-			subtitle: "显示武器所造成的&c伤害&r。"
+			subtitle: "Shows how much &cdamage&r your weapons do."
 			id: "0FD3FF386819743B"
 			tasks: [{
 				id: "0B7F86858CDBDAD4"
@@ -195,10 +195,10 @@
 			}]
 		}
 		{
-			title: "&4牛奶"
+			title: "&4Milk"
 			x: -7.5d
 			y: 0.0d
-			subtitle: "hmmm……这让我想起来一个人。"
+			subtitle: "hmmm... this reminds me of someone"
 			id: "2FD0E5C81B006BF7"
 			tasks: [{
 				id: "26DE682B352F0C74"
@@ -207,10 +207,10 @@
 			}]
 		}
 		{
-			title: "合成&4弹弓"
+			title: "Craft a &4Slingshot"
 			x: -7.5d
 			y: 1.5d
-			subtitle: "&c弹弓&r是一个远程武器。"
+			subtitle: "A &cSlingshot&r is a ranged weapon."
 			id: "53B05358029C74A2"
 			tasks: [{
 				id: "59522575713D2547"
@@ -225,10 +225,10 @@
 			}]
 		}
 		{
-			title: "合成&4史莱姆桶"
+			title: "Craft a &4Slime in a Bucket"
 			x: -7.5d
 			y: 3.0d
-			subtitle: "当玩家在0&c史莱姆区块&r时桶中的史莱姆将会跳动，一个可以生成史莱姆的区域。"
+			subtitle: "The slime will start jumping inside the bucket when the player is inside a &cslime chunk&r, an area in which slimes can spawn."
 			id: "73961B5F83647F30"
 			tasks: [{
 				id: "682D47FD5D306CD6"
@@ -237,10 +237,10 @@
 			}]
 		}
 		{
-			title: "合成&4建筑工具"
+			title: "Craft a &4Building Tool"
 			x: -4.5d
 			y: 3.0d
-			subtitle: "你可以放置所有的&c建筑，工人小屋，等等&r。"
+			subtitle: "You can place all the &cbuildings, worker huts, etc&r."
 			id: "07297CA3134FD640"
 			tasks: [{
 				id: "36BEE17E965457C7"
@@ -249,10 +249,10 @@
 			}]
 		}
 		{
-			title: "合成&4传送石盘"
+			title: "Craft a &4Warp Plate"
 			x: -3.0d
 			y: 3.0d
-			subtitle: "&c传送石盘&r可以看作是传送压力板。站在上面将会传送到另一个&c传送石盘&r。"
+			subtitle: "&cWarp Plates&r can be compared to teleporting pressure plates. Stand on one and you will get teleported to another &cwarp plate&r."
 			id: "69EFF001BBE8DEF9"
 			tasks: [{
 				id: "5103385A22126505"
@@ -261,10 +261,10 @@
 			}]
 		}
 		{
-			title: "合成&4笼子"
+			title: "Craft a &4Cage"
 			x: -1.5d
 			y: -1.5d
-			subtitle: "可以关押&c小动物和怪物&r。"
+			subtitle: "Can be used to capture &csmall animals and mobs&r."
 			id: "68CB4DDBF4B2212A"
 			tasks: [{
 				id: "0DA8A3C72E45EB5D"
@@ -278,10 +278,10 @@
 			}]
 		}
 		{
-			title: "合成&4拆解台"
+			title: "Craft an &4Uncrafting Table"
 			x: -7.5d
 			y: -1.5d
-			subtitle: "&f拆解台&r是一个可以&3拆解物品&r并且花费玩家的&2等级&r把它们拆解成&3起始资源&r的东西"
+			subtitle: "&fThe Uncrafting Table &ris an item which allows you to &3uncraft certain items&r back into their &3original resources&r at the cost of player &2levels"
 			id: "1115853A9E012318"
 			tasks: [{
 				id: "4407E6F850E79C9F"
