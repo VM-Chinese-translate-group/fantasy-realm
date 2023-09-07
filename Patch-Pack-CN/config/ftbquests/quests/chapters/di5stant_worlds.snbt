@@ -3,7 +3,7 @@
 	group: "47EF6B1E1AEB6949"
 	order_index: 5
 	filename: "di5stant_worlds"
-	title: " &5Distant Worlds"
+	title: " &5遥远世界"
 	icon: "distant_worlds:charged_wither_totem"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -21,7 +21,7 @@
 	}]
 	quests: [
 		{
-			title: "Craft a&5 Lithum Tools Set"
+			title: "制作一套&5锂装备"
 			x: -13.0d
 			y: -0.5d
 			dependencies: ["0625BA52540D9044"]
@@ -85,7 +85,7 @@
 			]
 		}
 		{
-			title: "Defeat a &5Wither"
+			title: "击杀&5凋零"
 			x: -12.0d
 			y: 5.0d
 			shape: "gear"
@@ -100,7 +100,7 @@
 			}]
 		}
 		{
-			title: "Craft a &5Salmoran Armor Set"
+			title: "制作一套&5萨尔莫兰盔甲"
 			x: -4.0d
 			y: 7.0d
 			dependencies: ["2B966531971F677A"]
@@ -159,7 +159,7 @@
 			}]
 		}
 		{
-			title: "Craft a &5Fralite Tools Set"
+			title: "制作一套&5弗莱特装备"
 			x: -14.0d
 			y: 0.5d
 			dependencies: ["0625BA52540D9044"]
@@ -223,7 +223,7 @@
 			]
 		}
 		{
-			title: "Craft a &5Noarhorn Axe"
+			title: "制作一把&5纳尔霍恩斧"
 			x: -15.5d
 			y: 10.0d
 			dependencies: ["3A7481B832B09216"]
@@ -247,7 +247,7 @@
 			}]
 		}
 		{
-			title: "Craft a &5Noarhorn Armor Set"
+			title: "制作一套&5纳尔霍恩盔甲"
 			x: -17.0d
 			y: 10.0d
 			dependencies: ["3A7481B832B09216"]
@@ -306,7 +306,7 @@
 			}]
 		}
 		{
-			title: "Craft a &5Vairis Sword"
+			title: "制作一把&5威利斯剑"
 			x: -16.0d
 			y: -5.5d
 			dependencies: ["623E85A99D7223A0"]
@@ -330,7 +330,7 @@
 			}]
 		}
 		{
-			title: "Craft a &5Vairis Armor Set"
+			title: "制作一套&5威利斯盔甲"
 			x: -16.0d
 			y: -2.5d
 			dependencies: ["623E85A99D7223A0"]
@@ -389,7 +389,7 @@
 			}]
 		}
 		{
-			title: "Craft &5Helyst Tools"
+			title: "制作一套&5海利斯特装备"
 			x: -8.0d
 			y: -5.5d
 			dependencies: ["7146A16805AC45B0"]
@@ -459,7 +459,7 @@
 			}]
 		}
 		{
-			title: "Craft &5Helyst Armor Set"
+			title: "制作一套&5海利斯特盔甲"
 			x: -8.0d
 			y: -2.5d
 			dependencies: ["7146A16805AC45B0"]
@@ -518,7 +518,7 @@
 			}]
 		}
 		{
-			title: "Craft &5Firon Tools Set"
+			title: "制作一套&5菲隆装备"
 			x: -13.0d
 			y: -8.0d
 			dependencies: ["1FF0E69BC456F207"]
@@ -599,7 +599,7 @@
 			}]
 		}
 		{
-			title: "Craft &5Firon Armor Set"
+			title: "制作一套&5菲隆盔甲"
 			x: -14.5d
 			y: -6.5d
 			dependencies: ["1FF0E69BC456F207"]
@@ -658,18 +658,18 @@
 			}]
 		}
 		{
-			title: "Enter &5the Garhenna Dimension"
+			title: "进入&5加尔赫纳"
 			x: -12.0d
 			y: 1.5d
 			shape: "circle"
-			subtitle: "Descend below &bheight 5&r in the &4Nether&r and use &fthe charged wither totem&r while holding it in your hand to teleport to &5Garhenna dimension"
+			subtitle: "到达&4地狱&r&b高度 5 以下&r，并手持&f充满能量的凋零图腾&r，使用它传送到加尔赫纳的维度"
 			dependencies: ["77079B0912D31BDD"]
 			size: 2.0d
 			id: "0625BA52540D9044"
 			tasks: [{
 				id: "5B6639F2861606FD"
 				type: "dimension"
-				title: "Distant Worlds"
+				title: "遥远世界"
 				icon: "distant_worlds:charged_wither_totem"
 				dimension: "distant_worlds:garhenna"
 			}]
@@ -694,79 +694,79 @@
 			]
 		}
 		{
-			title: "Visit &5the Molten Hills"
+			title: "参观&5熔岩丘陵"
 			x: -17.0d
 			y: 5.5d
 			shape: "circle"
-			subtitle: "A biome, the cover of which consists of&c overgrown fralite&r, where &6dalite ore&r is often found."
+			subtitle: "一种生物群落，其表层由&c生长茂盛的弗莱特&r组成，其中会经常发现&6达利特矿石&r。"
 			dependencies: ["0625BA52540D9044"]
 			size: 1.5d
 			id: "2AC23D311FA9AC34"
 			tasks: [{
 				id: "3F6EB1C2A6413D19"
 				type: "biome"
-				title: "Molten Hills"
+				title: "熔岩丘陵"
 				icon: "distant_worlds:culafite_shroomlight"
 				biome: "distant_worlds:molten_hills"
 			}]
 		}
 		{
-			title: "Visit &5the Burning Plains"
+			title: "参观&5燃烧平原"
 			x: -16.0d
 			y: 1.5d
 			shape: "circle"
-			subtitle: "Looking at this biome from afar, one gets the &aimpression that its lands&r are endlessly &cburning&r, because each &anative plant&r looks like a separate &cliving fire&r, not even taking into account the &cmagma faults."
+			subtitle: "放眼望去，这个&a生物群落&r给人的印象是它的土地在&c无休止地燃烧&r，因为每种&a本土植物&r看起来都像一团&c独立的火&r，甚至没有考虑到&a岩浆问题&r。"
 			dependencies: ["0625BA52540D9044"]
 			size: 1.5d
 			id: "368DA4E910DF193F"
 			tasks: [{
 				id: "141E8E9E29DD3CE3"
 				type: "biome"
-				title: "Burning Plains"
+				title: "燃烧平原"
 				icon: "distant_worlds:lifeless_grass"
 				biome: "distant_worlds:burning_plains"
 			}]
 		}
 		{
-			title: "Visit &5the Sticky Marshes"
+			title: "参观&5粘性沼泽"
 			x: -8.0d
 			y: 1.5d
 			shape: "circle"
-			subtitle: "&ePollen flies&r everywhere here, and the soils of this biome are sticky from the &cslime of the local plants&r, and especially the &agarsale trees&r. Local creatures &btoran and loteress&r are plants themselves."
+			subtitle: "这里到处都是&e花粉&r，这个群系的土壤由于因为&c本土植物的粘液&r，导致是粘性的，尤其是&a伽萨尔树&r。本土生物&b托兰、洛特雷斯&r本身就是植物。"
 			dependencies: ["0625BA52540D9044"]
 			size: 1.5d
 			id: "159E7815DFA905FD"
 			tasks: [{
 				id: "37907BC57A791C00"
 				type: "biome"
-				title: "Sticky Marshes"
+				title: "粘性沼泽"
 				icon: "distant_worlds:sticky_layered_mud"
 				biome: "distant_worlds:sticky_marshes"
 			}]
 		}
 		{
-			title: "Visit &5the Dead Valley"
+			title: "参观&5死亡山谷"
 			x: -7.0d
 			y: 5.5d
 			shape: "circle"
-			subtitle: "&0Scary place&r where s&balmorans always watch over you from the air. Features of this &abiome are unusual plants&r, among which &bWokamire, Fuzianna and wiltum trees&r. The local &8lithum rocks&r are more resistant than others, and growths of this stone protect the helyst ore inside."
+			subtitle: "这是一个&0恐怖的地方&r，那里的&b萨尔莫兰&r总是在空中看着你。该生物群落的特征是&a不寻常的植物&r，其中包括&b沃卡米尔，富西安娜和威尔顿树&r。当地的&8锂石&r比其他石头更为坚硬，且这种石头的生长保护了里面的海利斯特矿石。"
 			dependencies: ["0625BA52540D9044"]
 			size: 1.5d
 			id: "1A3166EDC8271265"
 			tasks: [{
 				id: "709EAFEB9D4CB140"
 				type: "biome"
-				title: "Dead Valley"
+				title: "死亡山谷"
 				icon: "distant_worlds:wiltum_core"
 				biome: "distant_worlds:dead_valley"
 			}]
 		}
 		{
-			title: "Defeat &5the Druth "
+			title: "击杀&5德鲁塔"
 			x: -18.5d
 			y: 1.5d
 			shape: "square"
-			subtitle: "&cDruth&r is a&f large golem &rand has a lot of health. It will also be difficult for you to &bknock him back&r with your &cattacks."
+			subtitle: "&c德鲁塔&r是一种&f巨大的傀儡&r，它拥有很多生命。你也很难用&c攻击&r来&b击退&r它。"
 			dependencies: ["368DA4E910DF193F"]
 			id: "1D9536B1FCAF96BC"
 			tasks: [{
@@ -784,11 +784,11 @@
 			}]
 		}
 		{
-			title: "Defeat &5the Crouthil"
+			title: "击杀&5克劳蒂尔"
 			x: -17.5d
 			y: 0.0d
 			shape: "square"
-			subtitle: "&cCouthil&r is a small golem with more movement speed than the others. They prefer to attack in &agroups &rand can apply a &blow-level Ignition effect&r to you."
+			subtitle: "&c克劳蒂尔&r是一种移动速度比其他生物更快的小傀儡。它们更喜欢&a组团攻击&r，也可以对你施加&b低级点燃效果&r。"
 			dependencies: ["368DA4E910DF193F"]
 			id: "12DD972C9309DD9B"
 			tasks: [{
@@ -806,11 +806,11 @@
 			}]
 		}
 		{
-			title: "Defeat a &5Shrullot"
+			title: "击杀&5史鲁洛特"
 			x: -17.5d
 			y: 3.0d
 			shape: "square"
-			subtitle: "&cShrullot&r is a &fflying golem&r capable of &blong-range air attacks&r by throwing &cexplosive fralite stones.&r You can get &4molten fralite &rand &4fralite balls from it."
+			subtitle: "&c史鲁洛特&r是一种&f能飞行的傀儡&r，能够通过投掷&c易爆的弗莱特石&r进行&b远程攻击&r。你可以从中获得&4炽热弗莱特&r和&4弗莱特之球。"
 			dependencies: ["368DA4E910DF193F"]
 			id: "54F80E231B3763E5"
 			tasks: [{
@@ -831,13 +831,13 @@
 			x: -17.0d
 			y: 8.5d
 			shape: "square"
-			subtitle: "&4Noarhorns with spikes&r are hostile towards players."
+			subtitle: "&4带刺的纳尔霍恩&r对玩家充满敌意。"
 			dependencies: ["2AC23D311FA9AC34"]
 			id: "3A7481B832B09216"
 			tasks: [{
 				id: "13EDC7F6A65D7FEB"
 				type: "kill"
-				title: "Defeat &5Armored Noarhorn"
+				title: "击杀&5装甲纳尔霍恩"
 				icon: "distant_worlds:armored_noarhorn_spawn_egg"
 				entity: "distant_worlds:armored_noarhorn"
 				value: 1L
@@ -858,7 +858,7 @@
 			tasks: [{
 				id: "1498439F4FD650F1"
 				type: "checkmark"
-				title: "Tame a &5Noarhorn"
+				title: "驯服一只&5纳尔霍恩"
 			}]
 			rewards: [{
 				id: "47293B3BACD0609B"
@@ -868,7 +868,7 @@
 			}]
 		}
 		{
-			title: "&5MIAM MIAM"
+			title: "&5吧唧 吧唧"
 			x: -18.5d
 			y: 10.0d
 			dependencies: ["3A7481B832B09216"]
@@ -886,10 +886,10 @@
 			}]
 		}
 		{
-			title: "Craft a &5Culafite Mushroom on a Stick"
+			title: "制作一把&5库拉菲菇钓竿"
 			x: -14.0d
 			y: 7.0d
-			subtitle: "&4Noarhorns&r can be tamed with &aculafite mushroom&r and &chealth boosted&r with &fculafite mushroom stew."
+			subtitle: "&4纳尔霍恩&r可以通过&a库拉菲菇&r驯服，且制作的&f库拉菲蘑菇煲&r&c可食用&r。"
 			dependencies: ["1BCE2C50DEE6EF7E"]
 			id: "10F528284C59C4F4"
 			tasks: [{
@@ -911,7 +911,7 @@
 			}]
 		}
 		{
-			title: "Defeat a &5Booglian"
+			title: "击杀&5布格林"
 			x: -18.5d
 			y: 7.0d
 			shape: "square"
@@ -932,7 +932,7 @@
 			}]
 		}
 		{
-			title: "Craft an &5Bbricite Ingot"
+			title: "制作&5乌布利特锭"
 			x: -20.0d
 			y: 7.0d
 			dependencies: ["2171E5F9B3887472"]
@@ -950,11 +950,11 @@
 			}]
 		}
 		{
-			title: "Defeat a &5Salmoran"
+			title: "击杀&5萨尔莫兰"
 			x: -8.5d
 			y: 7.0d
 			shape: "square"
-			subtitle: "&3Salmoran&r is a flying mob that is often found in the &8Dead Valley biome."
+			subtitle: "&3萨尔莫兰&r是一种飞行生物，可在&8死亡山谷群系&r中发现。"
 			dependencies: ["1A3166EDC8271265"]
 			id: "34B7604F17AEEF42"
 			tasks: [{
@@ -972,7 +972,7 @@
 			}]
 		}
 		{
-			title: "&5miam miam"
+			title: "&5哧溜 哧溜"
 			x: -10.0d
 			y: 7.0d
 			dependencies: ["34B7604F17AEEF42"]
@@ -986,14 +986,14 @@
 		{
 			x: -8.5d
 			y: 8.5d
-			subtitle: "&fPlayers &rcan tame them with the&b salmoran treat&r. But you should be &ccareful, because wild salmorans&r will still try to attack you."
+			subtitle: "&f玩家&r可使用&b萨尔莫兰餐&r来驯服它们。但请小心，因为野生的萨尔莫兰仍然会试图&c攻击你&r。"
 			dependencies: ["34B7604F17AEEF42"]
 			id: "34A4290036051948"
 			tasks: [
 				{
 					id: "7C20E470BC6CEF8F"
 					type: "checkmark"
-					title: "&5Tame a Salmoran "
+					title: "&5驯服一只萨尔莫兰"
 				}
 				{
 					id: "3F83470841F30D9E"
@@ -1009,11 +1009,11 @@
 			}]
 		}
 		{
-			title: "Defeat an &5Alpha Salmoran"
+			title: "击杀&5萨尔莫兰之王"
 			x: -5.5d
 			y: 7.0d
 			shape: "square"
-			subtitle: "&bAlpha salmoran&r is much &clarger and stronger than usual&r. Their powerful blow pierces the &fshield, dealing significant damage &rto it."
+			subtitle: "&b萨尔莫兰之王&r跟普通相比，&c体型更大，且更为强壮&r。它们强有力的攻击能&f击穿盾牌，从而造成巨大伤害&r。"
 			dependencies: ["1A3166EDC8271265"]
 			id: "2B966531971F677A"
 			tasks: [{
@@ -1031,10 +1031,10 @@
 			}]
 		}
 		{
-			title: "Craft a &5Salmoran Crown"
+			title: "制作&5萨尔莫兰王冠"
 			x: -5.5d
 			y: 5.5d
-			subtitle: "&fThe crown&r, when worn, will protect you from &bSalmorans attacks&r until you hit them. &bThe salmorans&r will consider the player with the&6 crown as one of the leaders&r, but this will not save them from other alphas."
+			subtitle: "当你戴上&f萨尔莫兰王冠&r时，它会保护你免受&b萨尔莫兰们&r的攻击，除非你伤害它们。这些&b萨尔莫兰&r会将佩戴王冠的玩家视为&6领导者&r之一，但并不代表能避免其他首领。"
 			dependencies: ["2B966531971F677A"]
 			id: "757C33916243FCB5"
 			tasks: [{
@@ -1056,10 +1056,10 @@
 			}]
 		}
 		{
-			title: "Craft a &5Garsale Couch"
+			title: "制作一个&5伽萨尔坐垫"
 			x: -15.5d
 			y: 8.5d
-			subtitle: "You can create a &6comfortable couch&r where tamed &cNarhorns &rwill be waiting for you."
+			subtitle: "你可以创造一个&6舒适的坐垫&r，驯服的&c纳尔霍恩&r会在那里等你。"
 			dependencies: ["1BCE2C50DEE6EF7E"]
 			id: "007B16C5FE011C75"
 			tasks: [{
@@ -1081,10 +1081,10 @@
 			}]
 		}
 		{
-			title: "Craft a &5Wiltum Couch"
+			title: "制作一个&5威尔顿栖息架"
 			x: -5.5d
 			y: 8.5d
-			subtitle: "You can create a &6comfortable couch&r where tamed &bSalmorans &rwill be waiting for you."
+			subtitle: "你可以创造一个&6舒适的栖息架&r，驯服的&b萨尔莫兰&r会在那里等你。"
 			dependencies: ["2B966531971F677A"]
 			id: "2C9E7BBD4BA84704"
 			tasks: [{
@@ -1106,7 +1106,7 @@
 			}]
 		}
 		{
-			title: "Craft a &5Distant Worlds Book"
+			title: "制作一本&5遥远世界之书"
 			x: -12.0d
 			y: 6.75d
 			shape: "diamond"
@@ -1131,7 +1131,7 @@
 			}]
 		}
 		{
-			title: "Craft &5 27 Garsale Bookshelf"
+			title: "制作&5 27个伽萨尔书架"
 			x: -13.5d
 			y: 4.0d
 			shape: "circle"
@@ -1149,7 +1149,7 @@
 			}]
 		}
 		{
-			title: "raft &5Garhenna Researches Table"
+			title: "制作&5加尔赫纳研究台"
 			x: -10.5d
 			y: 4.0d
 			shape: "circle"
@@ -1166,11 +1166,11 @@
 			}]
 		}
 		{
-			title: "Defeat a &5Toran"
+			title: "击杀&5托兰"
 			x: -6.5d
 			y: 3.0d
 			shape: "square"
-			subtitle: "&4Toran &ris a large &aground mob&r found in the &cSticky Marshes biome."
+			subtitle: "&4托兰&r是一种大型&a地面生物&r，可从&c粘性沼泽群系&r发现。"
 			dependencies: ["159E7815DFA905FD"]
 			id: "771995F4EEED4DF3"
 			tasks: [{
@@ -1188,11 +1188,11 @@
 			}]
 		}
 		{
-			title: "Defeat a &5Loteress"
+			title: "击杀&5洛特雷斯"
 			x: -6.5d
 			y: 0.0d
 			shape: "square"
-			subtitle: "&bLoteress&r is a &fflying support mob&r. They are found in the &cSticky Marshes biome&r and &fwill not be hostile to the player by themselves."
+			subtitle: "&b洛特雷斯&r是一种&f飞行支援型生物&r。它们可从&c粘性沼泽群系&r中发现，且不会&f对玩家产生敌意。"
 			dependencies: ["159E7815DFA905FD"]
 			id: "40BF9CA8C5883CD6"
 			tasks: [{
@@ -1210,10 +1210,10 @@
 			}]
 		}
 		{
-			title: "Craft a &5Glowing Pollen Jar"
+			title: "制作&5发光花粉罐"
 			x: -5.0d
 			y: 0.0d
-			subtitle: "From these &fcreatures &ryou can get &6glowing pollen&r and &csticky garsale bark&r with a small chance."
+			subtitle: "从那些&f生物&r身上，有小概率你可获得&6发光花粉&r和&c粘性伽萨尔树皮&r。"
 			dependencies: ["40BF9CA8C5883CD6"]
 			id: "5744669EC422A84B"
 			tasks: [{
@@ -1235,7 +1235,7 @@
 			}]
 		}
 		{
-			title: "Obtain&5 Garsale Slime "
+			title: "获得&5伽萨尔粘液"
 			x: -5.0d
 			y: 3.0d
 			dependencies: ["771995F4EEED4DF3"]
@@ -1247,15 +1247,15 @@
 			}]
 		}
 		{
-			title: "Build a &5Lithium Altar"
+			title: "建造&5锂祭坛"
 			x: -12.0d
 			y: -1.5d
 			shape: "gear"
-			subtitle: "click here"
+			subtitle: "点击这里"
 			description: [
-				"To create advanced equipment, you will need to build a special structure"
+				"为了创造先进设备，您需要建造一个特殊的建筑物。"
 				""
-				"You can find the Structure in the Garhenna Book Lithium Alta => Dalite Staff and then Press Visualize "
+				"您可以在加尔赫纳之书，锂祭坛 => 达利特权杖中找到结构，并按下投影"
 			]
 			dependencies: ["0625BA52540D9044"]
 			size: 1.5d
@@ -1334,11 +1334,11 @@
 			}]
 		}
 		{
-			title: "&5Expelliarmus"
+			title: "&5除你武器！"
 			x: -12.0d
 			y: -4.0d
 			shape: "circle"
-			subtitle: "&6All the ritual recipes&r available on this altar are written on the pages of &f&lthe Garhenna book."
+			subtitle: "这祭坛上&6所有可用仪式秘诀&r都写在&f&l加尔赫纳之书&r上。"
 			dependencies: ["186CB7980978D4D0"]
 			size: 1.5d
 			id: "50663099ECC5E9C6"
@@ -1356,11 +1356,11 @@
 			}]
 		}
 		{
-			title: "&5Return"
+			title: "&5返回"
 			x: -10.5d
 			y: 0.0d
 			shape: "square"
-			subtitle: "&5Other portals&r won't work here either, which is why you &ashould bring the Return Ring&r with you. Use it to return to your &aworld from any other"
+			subtitle: "&5任何传送门&r在这里不起作用，这就是为什么你应该带上&a回归戒指&r。使用它从&a任何世界&r回到&a主世界&r。"
 			dependencies: ["0625BA52540D9044"]
 			id: "2CA56BD38447D65E"
 			tasks: [{
@@ -1433,7 +1433,7 @@
 			}]
 		}
 		{
-			title: "Craft &5Ubricite Armor Set"
+			title: "制作一套&5乌布利特盔甲"
 			x: -9.5d
 			y: -6.5d
 			dependencies: ["317DD8D3A79A6E34"]
@@ -1509,7 +1509,7 @@
 			}]
 		}
 		{
-			title: "Craft an &5Ubricite Hammer"
+			title: "制造一把&5乌布利特锤"
 			x: -11.0d
 			y: -8.0d
 			dependencies: ["317DD8D3A79A6E34"]
