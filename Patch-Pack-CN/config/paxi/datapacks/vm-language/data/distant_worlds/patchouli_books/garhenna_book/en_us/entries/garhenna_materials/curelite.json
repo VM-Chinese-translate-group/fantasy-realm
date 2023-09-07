@@ -1,5 +1,5 @@
 {
-	"name": "Curelite",
+	"name": "卡瑞利特",
 	"icon": "distant_worlds:curelite",
 	"category": "distant_worlds:garhenna_materials",
 	"sortnum": 5,
@@ -8,7 +8,7 @@
 		{
 			"type": "patchouli:smelting",
 			"recipe": "distant_worlds:curelite",
-			"text": "Curelite ores are often found in the Burning Plains biome. By destroying it, you will get Raw Curelite, which can already be used as fuel to maintain fire in conventional and Lithum Furnaces. Raw Curelite can be made into a more saturated form of this material, which is able to give off more energy."
+			"text": "卡瑞利特矿石经常生成在燃烧平原群系中。通过采集矿物获得粗卡瑞利特，它可以作为燃料，也可以作为锂熔炉的能源。粗卡瑞利特可以冶炼成更为饱和的形式，从而释放更多的能量。"
 		},
 		{
 			"type": "patchouli:crafting",

@@ -6,12 +6,12 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "I would be grateful if you tell me about the bugs you find, share your ideas or help with localization. If you can offer your help, please contact me on social networks."
+			"text": "如果你能够告诉我你所发现的错误，分享你的想法或帮助本地化，我将不胜感激。如果你能提供帮助，请在社交网上上与我联系。"
 		},
 		{
 			"type": "patchouli:text",
-			"title": "Links",
-			"text": "Click on the text to follow the link!$(br2)$(l:https://www.curseforge.com/minecraft/mc-mods/distant-worlds)Distant Worlds | Curseforge$(/l)$(br2)$(l:https://modrinth.com/mod/distant-worlds)Distant Worlds | Modrinth(/l)$(br2)$(l:https://mcreator.net/modification/92563/distant-worlds)Distant Worlds | MCreator$(/l)$(br2)$(l:https://discord.com/invite/PmYRE6Y)Discord Server$(/l)$(br2)$(l:https://patreon.com/TANC57)Patreon Page$(/l)"
+			"title": "链接",
+			"text": "点击此处链接！$(br2)$(l:https://www.curseforge.com/minecraft/mc-mods/distant-worlds)Distant Worlds | Curseforge$(/l)$(br2)$(l:https://modrinth.com/mod/distant-worlds)Distant Worlds | Modrinth(/l)$(br2)$(l:https://mcreator.net/modification/92563/distant-worlds)Distant Worlds | MCreator$(/l)$(br2)$(l:https://discord.com/invite/PmYRE6Y)Discord Server$(/l)$(br2)$(l:https://patreon.com/TANC57)Patreon Page$(/l)"
 		}
 	]
 }

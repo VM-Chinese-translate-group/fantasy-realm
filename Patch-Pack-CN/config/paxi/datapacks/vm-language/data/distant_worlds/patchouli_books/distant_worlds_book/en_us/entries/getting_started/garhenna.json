@@ -1,5 +1,5 @@
 {
-	"name": "Garhenna",
+	"name": "加尔赫纳",
 	"icon": "distant_worlds:charged_wither_totem",
 	"category": "distant_worlds:getting_started",
 	"turnin": "distant_worlds:burning_world",
@@ -7,57 +7,57 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "This world called Garhenna in its structure resembles boundless spacious caves. It belongs to the hot dimensions, where water evaporates, and most of the entities are immune to fire."
+			"text": "这个名为加尔赫纳的世界，在结构上类似于无止境的宽敞洞穴。它类似地狱的维度，比较闷热，因此水在那边会蒸发，大多数生物对火免疫。"
 		},
 		{
 			"type": "patchouli:spotlight",
 			"item": "distant_worlds:wither_totem",
 			"link_recipe": "true",
-			"text": "Defeat the wither to get a new unique artifact - Wither Totem.$(br2)It will be given with a 75% chance to the player who kills the boss with the final blow."
+			"text": "击败凋零来获得一件新的神器 —— 凋零图腾$（br2）最后一击杀死凋零的玩家将获得75%的机会。"
 		},
 		{
 			"type": "patchouli:crafting",
-			"title": "Garhenna Eye",
+			"title": "加尔赫纳之眼",
 			"recipe": "distant_worlds:garhenna_eye",
-			"text": "Craft Garhenna Eye using an Ender Eye and 3 Fire Charges."
+			"text": "使用一只末影之眼和三个火焰弹来制作加尔赫纳之眼。"
 		},
 		{
 			"type": "patchouli:crafting",
-			"title": "Charged Wither Totem",
+			"title": "充能的凋零图腾",
 			"recipe": "distant_worlds:charged_wither_totem",
-			"text": "Combine the Wither Totem and 2 Garhenna Eyes to get a Charged Wither Totem.$(br)Descend below height 5 in the Nether and use the Charged Wither Totem while holding it in your hand to teleport to the new dimension - Garhenna."
+			"text": "将凋零图腾和2只加尔赫纳之眼组合，会获得一个充能的凋零图腾$（br）在地狱中到达到高度5以下，并握在手中，使用充能的凋零图腾，来传送到新的维度 —— 加尔赫纳。"
 		},
 		{
 			"type": "patchouli:text",
-			"title": "Researches",
-			"text": "Find abandoned libraries, look for Ancient Garhenna Papers, and do your own researches to find out more about what you've come across in this dimension. New entries will appear in your book.$(br2)Check them out to learn more."
+			"title": "研究",
+			"text": "寻找废弃的图书馆，寻找古老的加尔赫纳手记，并进行研究，以了解更多关于你在这个维度上所遇到的东西。新目录将出现在您的书中。$（br2）检索以了解更多信息。"
 		},
 		{
 			"type": "patchouli:crafting",
-			"title": "Research Equipment",
+			"title": "研究设备",
 			"recipe": "distant_worlds:garsale_bookshelf_recipe",
 			"recipe2": "distant_worlds:garhenna_researches_table_recipe"
 		},
 		{
 			"type": "patchouli:crafting",
-			"title": "Dalite Indicator",
+			"title": "达利特定位器",
 			"recipe": "distant_worlds:dalite_indicator_recipe",
-			"text": "This dimension is dangerous for you! Craft a device that will allow you to track the process of depletion, adaptation and permanent immunity. On it you can see three indicators, namely: Depletion, Adaptation and Permanent Immunity."
+			"text": "这个维度对你来说很危险！制作一种设备，让你能够跟进损耗、适应和永久免疫的进度。在上面你可以看到三个指标，即：损耗、适应和永久免疫。"
 		},
 		{
 			"type": "patchouli:text",
-			"text": "While in the Garhenna Dimension, the level of depletion will increase and cause more and more negative effects. The adaptation level will increase with some chance after using the elixir depending on its rarity, but will be completely lost after the death of the player. The level of permanent immunity will increase after reaching 5 points of adaptation and is not lost after death. Permanent immunity slows down the negative effects of garhenna depletion, but does not fully protect. Some elixirs are able to lower the level of permanent immunity."
+			"text": "而在加尔赫纳维度中，损耗等级会增加，并造成越来越多的负面影响。使用灵药后，根据其稀有程度，适应水平会有一定的提高，但在玩家死亡后会完全丧失。达到5个适应点后，永久免疫水平会增加，死亡后不会丧失。永久免疫减缓了加尔赫纳损耗的负面影响，但并不能完全起到保护作用。一些灵药能够降低永久免疫。"
 		},
 		{
 			"type": "patchouli:text",
-			"title": "Elixirs",
-			"text": "Find and use healing plants to create special elixirs. It will help you last much longer before negative effects appear.$(br)Keep using elixirs to increase the level of adaptation, and in the future, the level of permanent immunity. But be careful, some plants and elixirs from them have the opposite effect!"
+			"title": "灵药",
+			"text": "找到并使用植物来制造特殊的灵药。它将帮助你在出现负面影响之前持续更长的时间。$(br)继续使用灵药来提高适应水平，并在将来提高永久免疫。但是要注意，有的植物和它的灵药有相反的效果！"
 		},
 		{
 			"type": "patchouli:crafting",
-			"title": "Return Ring",
+			"title": "返回戒指",
 			"recipe": "distant_worlds:return_ring_recipe",
-			"text": "Use Return Ring to return to your home. It has 8 durability which can be increased by combining ring and Ender Eye on the crafting table.$(br)This artifact can be found with a small chance in various structures of Garhenna dimension."
+			"text": "使用返回戒指返回您的家。它有8点耐久，可以通过在工作台上结合戒指和末影之眼来提高耐久。$(br)这种物品可以在加尔赫纳维度的各种建筑中有几率找到。"
 		}
 	]
 }

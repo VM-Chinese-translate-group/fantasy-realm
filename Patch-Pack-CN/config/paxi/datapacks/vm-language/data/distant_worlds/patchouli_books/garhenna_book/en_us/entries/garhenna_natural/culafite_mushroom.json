@@ -1,5 +1,5 @@
 {
-	"name": "Culafite Mushroom",
+	"name": "库拉菲菇",
 	"icon": "distant_worlds:culafite_mushroom",
 	"category": "distant_worlds:garhenna_natural",
 	"sortnum": 6,
@@ -9,17 +9,17 @@
 			"type": "patchouli:spotlight",
 			"link_recipe": "true",
 			"item": "distant_worlds:culafite_mushroom",
-			"text": "Culafite Mushrooms are found in the Molten Hills biome. These plants have negative properties that can be slightly weakened in Culafite Mushroom Stew, or strengthened in Culafite Elixir, which can lower the level of permanent immunity. Culafite Mushrooms can also be stored in small boxes."
+			"text": "库拉菲菇位于熔岩丘陵群系中。这些植物具有负面特性，能在库拉菲菇柄中轻微减弱，也可以在库拉菲灵药中增强，这会降低永久免疫等级。库拉菲菇也可以储存在箱子里。"
 		},
 		{
 			"type": "patchouli:crafting",
-			"title": "Related Recipes",
+			"title": "相关食材",
 			"recipe": "distant_worlds:culafite_mushroom_stew_recipe",
 			"recipe2": "distant_worlds:culafite_elixir_recipe"
 		},
 		{
 			"type": "patchouli:crafting",
-			"title": "Storage in Boxes",
+			"title": "箱子储存",
 			"recipe": "distant_worlds:culafite_mushrooms_box_recipe",
 			"recipe2": "distant_worlds:culafite_mushroom_recipe"
 		},

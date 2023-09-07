@@ -1,5 +1,5 @@
 {
-	"name": "Wiltum Fruit",
+	"name": "威尔顿果",
 	"icon": "distant_worlds:wiltum_fruit",
 	"category": "distant_worlds:garhenna_natural",
 	"sortnum": 5,
@@ -9,17 +9,17 @@
 			"type": "patchouli:spotlight",
 			"item": "distant_worlds:wiltum_fruit",
 			"link_recipe": "true",
-			"text": "Wiltum Tree leaves have a small chance to drop Wiltum Fruit, which can reduce Garhenna depletion due to its strong healing properties. From it you can craft a Wiltum Cocktail, which is able to neutralize certain types of poisons. You can also craft a Wiltum Elixir that will lower your depletion level and give temporary Garhenna protection for a long time. Wiltum Fruits can also be stored in large boxes."
+			"text": "威尔顿树叶有几率掉落威尔顿果，由于其强大的愈合特性，可以减少加尔赫纳损耗。从中你可以制作出一种能够中和某些类型毒药的威尔顿拼盘。你也可以制作一种可以降低损耗等级的威尔顿灵药，并在很长一段时间内为玩家提供在加尔赫纳的临时保护。威尔顿果也可以储存在箱子里。"
 		},
 		{
 			"type": "patchouli:crafting",
-			"title": "Related Recipes",
+			"title": "相关食材",
 			"recipe": "distant_worlds:wiltum_cocktail_recipe",
 			"recipe2": "distant_worlds:wiltum_elixir_recipe"
 		},
 		{
 			"type": "patchouli:crafting",
-			"title": "Storage in Boxes",
+			"title": "箱子储存",
 			"recipe": "distant_worlds:wiltum_fruit_box_recipe",
 			"recipe2": "distant_worlds:wiltum_fruit_recipe"
 		},

@@ -1,5 +1,5 @@
 {
-	"name": "Noarhorn Armor",
+	"name": "纳尔霍恩盔甲",
 	"icon": "distant_worlds:noarhorn_armor_helmet",
 	"category": "distant_worlds:garhenna_armor",
 	"sortnum": 5,
@@ -7,7 +7,7 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Also from these spikes and other resources you can create elements of the Noarhorn Armor. With some chance, depending on the number of pieces of this armor equipped, it will return damage similar to the thorns enchantment."
+			"text": "同样的，从这些尖刺和其他材料，你可以制作纳尔霍恩盔甲。另外如果有机会，你也可以通过装备数量的多少，来决定返回类似荆棘附魔的伤害。"
 		},
 		{
 			"type": "patchouli:crafting",

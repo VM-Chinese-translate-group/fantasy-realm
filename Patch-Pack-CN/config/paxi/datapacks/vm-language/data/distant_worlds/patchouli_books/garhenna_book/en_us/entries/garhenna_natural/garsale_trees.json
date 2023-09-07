@@ -1,5 +1,5 @@
 {
-	"name": "Garsale Trees",
+	"name": "伽萨尔树",
 	"icon": "distant_worlds:garsale_sapling",
 	"category": "distant_worlds:garhenna_natural",
 	"sortnum": 2,
@@ -9,18 +9,18 @@
 			"type": "patchouli:spotlight",
 			"item": "distant_worlds:garsale_sapling",
 			"link_recipe": "true",
-			"text": "Garsale Trees are often found in the Sticky Marshes biome and can be grown by you from saplings, including wide species of trees from 4 adjacent saplings. These trees are made from Garsale Wood, which can be stripped or recycled into a variety of other decorative and functional blocks. Cracked garsale wood can occasionally spawn on trees, and over time it becomes covered in a layer of leaking slime, turning into sticky garsale wood. Slime on sticky wood can be neatly picked up in small quantities many times, or just once along with the sticky bark when stripped."
+			"text": "伽萨尔树经常生成在粘性沼泽群系中，你可以用树苗种植，包括4棵相邻树苗的各种树木。这些树是由伽萨尔木制成的，可以剥离或回收成各种其他装饰和功能方块。碎裂的伽萨尔原木偶尔会在树上生成，随着时间的推移，它会被一层泄漏的黏液覆盖，变成粘稠的伽萨尔原木。粘木上的粘液可以被少量地收集多次，或者在剥离时和粘树皮一起收集一次。"
 		},
 		{
 			"type": "patchouli:smelting",
 			"recipe": "distant_worlds:garsale_slime",
-			"text": "Garsale slime can also be taken from the sticky bark at high temperatures."
+			"text": "伽萨尔粘液也可以通过高温烧炼粘性伽萨尔树皮获得。"
 		},
 		{
 			"type": "patchouli:spotlight",
 			"item": "distant_worlds:garsale_lantern",
 			"link_recipe": "true",
-			"text": "The tops of garsal trees often grow Garsale Lanterns, which can be used as decoration, or to produce glowing pollen with a small chance."
+			"text": "伽萨尔树的顶部经常生长出伽萨尔灯笼，可以用作装饰，也有小概率产生发光花粉。"
 		},
 		{
 			"type": "patchouli:relations",

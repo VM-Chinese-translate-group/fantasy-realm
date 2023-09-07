@@ -1,5 +1,5 @@
 {
-	"name": "Lithum Converter",
+	"name": "锂转换器",
 	"icon": "distant_worlds:lithum_converter",
 	"category": "distant_worlds:lithum_altar",
 	"sortnum": 4,
@@ -8,7 +8,7 @@
 		{
 			"type": "patchouli:crafting",
 			"recipe": "distant_worlds:lithum_converter_recipe",
-			"text": "Lithium Converters form a charge in dalite crystals using a different kind of energy. This is an alternative and not the most stable way to get dalite energy."
+			"text": "锂转换器使用不同类型的能量在达利特晶体中形成电荷。但这是一种替代方法，而不是获得达利特能量的最稳定方法。"
 		},
 		{
 			"type": "patchouli:relations",

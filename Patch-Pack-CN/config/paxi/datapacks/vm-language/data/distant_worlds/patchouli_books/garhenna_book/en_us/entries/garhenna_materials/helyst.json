@@ -1,5 +1,5 @@
 {
-	"name": "Helyst",
+	"name": "海利斯特",
 	"icon": "distant_worlds:helyst_crystal",
 	"category": "distant_worlds:garhenna_materials",
 	"sortnum": 2,
@@ -8,7 +8,7 @@
 		{
 			"type": "patchouli:smelting",
 			"recipe": "distant_worlds:helyst_nugget",
-			"text": "Helyst - bewitching multi-faceted blue crystals. Don't stare into them for too long, or you might catch eye contact with one of the souls imprisoned there. Valuable Helyst ore is most often found in lithum outgrowths of the Dead Valley biome. By destroying the ore, you will get Raw Helyst, which must later be smelted into a Helyst Nugget. A single Helyst Crystal can be crafted from 9 nuggets."
+			"text": "海利斯特 - 迷人的蓝色多面体水晶。不要盯着它们太久，否则你可能会和其中一个被囚禁的灵魂发生眼神交流。具有价值的海利斯特矿石最常见于死亡山谷群系的锂衍生物中。通过采集矿石，你将获得粗海利斯特，然后必须将其冶炼成海利斯特碎片，一颗海利斯特水晶由九块碎片合成。"
 		},
 		{
 			"type": "patchouli:crafting",

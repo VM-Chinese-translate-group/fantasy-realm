@@ -1,16 +1,16 @@
 {
-	"name": "Message To Player",
+	"name": "致玩家",
 	"icon": "minecraft:writable_book",
 	"category": "distant_worlds:misc_information",
 	"sortnum": 1,
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Greetings, $(playername) !$(br2)This book, first of all, is a message from the author of the Distant Worlds mod to new players and those who have long been familiar with the modification. Here you will find all the information you need to help you start exploring new worlds, and even a little more."
+			"text": "你好，$(playername)！$(br2)首先，这是遥远世界模组的作者向新玩家和那些熟悉模组的人传达的信息。在这里，你会找到你需要的信息，帮助你开始探索新世界，甚至更多。"
 		},
 		{
 			"type": "patchouli:text",
-			"text": "We still have many adventures ahead, so I continue to work on new content, and you, in turn, can support my project in the comments on the official website or tell your friends about it.$(br)Be sure to also look at the other pages of the book so you don't miss anything.$(br2)I wish you a pleasant game!"
+			"text": "我们仍然有很多冒险，所以我会继续这个模组的工作，另外，你可以在官网上通过评论来支持我的项目，或者分享给你的朋友。$(br)一定要看看书的其他页面，这样你就不会错过任何页面！$(br2)游玩愉快！"
 		}
 	]
 }

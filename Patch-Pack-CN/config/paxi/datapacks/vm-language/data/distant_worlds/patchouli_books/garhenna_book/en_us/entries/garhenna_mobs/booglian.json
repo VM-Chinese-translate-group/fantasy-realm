@@ -1,5 +1,5 @@
 {
-	"name": "Booglian",
+	"name": "布洛林",
 	"icon": "distant_worlds:ubricite_crystal",
 	"category": "distant_worlds:garhenna_mobs",
 	"sortnum": 2,
@@ -7,15 +7,15 @@
 	"pages": [
 		{
 			"type": "patchouli:spotlight",
-			"title": "Booglian",
+			"title": "布洛林",
 			"item": "distant_worlds:booglian_spawn_egg",
-			"text": "$(l)$(#990000)Health: 15$(#336600)$(br)Armor: 6$(#660066)$(br)Attack: 4$()$(br)Booglian is a ground mob with good protection in the form of a shell consisting of Ubricite Crystals. If you try to attack him, he will hide in his impenetrable shell.",
+			"text": "$(l)$(#990000)生命值: 15$(#336600)$(br)护甲值: 6$(#660066)$(br)攻击力: 4$()$(br)布格林是一种地面生物，有很高的护甲值，它是由乌布利特水晶组成的外壳。如果你试图攻击他，他会躲在他那牢不可破的壳里。",
 			"link_recipe": "true"
 		},
 		{
 			"type": "patchouli:crafting",
 			"recipe": "distant_worlds:ubricite_ingot_recipe",
-			"text": "From it you can get Ubricite Crystals, which are used in the craft of Ubricite Ingots."
+			"text": "你可从中得到用于制作乌布利特锭的乌布利特水晶。"
 		},
 		{
 			"type": "patchouli:empty",

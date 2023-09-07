@@ -1,5 +1,5 @@
 {
-	"name": "Noarhorn",
+	"name": "纳尔霍恩",
 	"icon": "distant_worlds:noarhorn_spike",
 	"category": "distant_worlds:garhenna_mobs",
 	"sortnum": 3,
@@ -7,34 +7,34 @@
 	"pages": [
 		{
 			"type": "patchouli:spotlight",
-			"title": "Noarhorn",
+			"title": "纳尔霍恩",
 			"item": "distant_worlds:noarhorn_spawn_egg",
-			"text": "$(l)$(#990000)Health: 20$(#336600)$(br)Armor: 2$(#660066)$(br)Attack: 4$()$(br)Noarhorns are ground mobs from the Molten Hills biome. This mob is neutral towards the player and will run away when you hit them. From these mobs, you can get raw meat that can be cooked.",
+			"text": "$(l)$(#990000)生命值: 20$(#336600)$(br)护甲值: 2$(#660066)$(br)攻击力: 4$()$(br)纳尔霍恩是来自熔岩丘陵群系的地面生物。这群生物对玩家是中立的，当你打他们时会逃跑。从这些生物那里，你可以得到生肉，且可以煮熟。",
 			"link_recipe": "true"
 		},
 		{
 			"type": "patchouli:spotlight",
-			"title": "Armored Noarhorn",
+			"title": "装甲纳尔霍恩",
 			"item": "distant_worlds:armored_noarhorn_spawn_egg",
-			"text": "$(l)$(#990000)Health: 20$(#336600)$(br)Armor: 4$(#660066)$(br)Attack: 4$()$(br)Noarhorns with spikes will be hostile towards the player A feature of these mobs are incredibly strong spikes and growths on the back. They allow these creatures to partially return damage to the enemy that attacked them. From these mobs, you can get raw meat that can be cooked, and small fragments of their spikes.",
+			"text": "$(l)$(#990000)生命值: 20$(#336600)$(br)护甲值: 4$(#660066)$(br)攻击力: 4$()$(br)带有尖刺的纳尔霍恩会敌对玩家。这些生物的特点是背部生长有令人难以置信的强大尖刺，这些生物会对攻击它们的敌人造成反伤。从这些生物那里，你可以得到可煮熟的生肉，以及它们尖刺碎片。",
 			"link_recipe": "true"
 		},
 		{
 			"type": "patchouli:crafting",
 			"recipe": "distant_worlds:noarhorn_spikes_block_recipe",
-			"text": "Noarhorn Spikes can also be used to create a block that will deal damage to all entities nearby. And if there is lava in the immediate vicinity of the block, it will set fire to the victim."
+			"text": "纳尔霍恩之刺也可以用来制作一个对附近所有实体造成伤害的方块。若附近有岩浆，则会点燃受伤害的实体。"
 		},
 		{
 			"type": "patchouli:crafting",
 			"advancement": "distant_worlds:experienced_mushroom_picker",
 			"recipe": "distant_worlds:culafite_mushroom_on_a_stick_recipe",
-			"title": "Cul. Mushroom on a Stick",
-			"text": "Noarhorns can be tamed with Culafite Mushroom and health boosted with Culafite Mushroom Stew. Tamed Noarhorn can be armed using Naorhorn Spikes. Spikeless Noarhorn can be saddled and controlled with a Culafite Mushroom on a Stick. Shake the bait to make Noarhorn $(t:RMB)$(o)attack the nearest target$() or $(t:Ctrl + RMB)$(o)temporarily speed up$(). This tool can also be found in the structures of the Molten Hills biome."
+			"title": "库拉菲菇钓竿",
+			"text": "野生的纳尔霍恩可以用库拉菲菇驯服，用库拉菲蘑菇煲可以增强生命，驯服的纳尔霍恩可以使用纳尔霍恩之刺武装。无尖刺的纳尔霍恩可以用库拉菲菇钓竿进行控制。摇动诱饵使纳尔霍恩$(t:RMB)$(o)攻击附近目标$() 或 $(t:Ctrl + RMB)$(o)暂时加速$()。这种工具也可以在熔岩丘陵群系的建筑物中找到。"
 		},
 		{
 			"type": "patchouli:crafting",
 			"recipe": "distant_worlds:red_garsale_couch_recipe",
-			"text": "You can create a comfortable couch where tamed Narhorns will be waiting for you.$(br)It can also be used by players, or just be a nice decoration for your home as it can be dyed like beds"
+			"text": "你可以制作一个舒适的坐垫，驯服的纳尔霍恩会在那里等你。$(br)它也可以被玩家使用，或者作为你家不错的装饰物，因为它可以像床一样染色。"
 		},
 		{
 			"type": "patchouli:relations",

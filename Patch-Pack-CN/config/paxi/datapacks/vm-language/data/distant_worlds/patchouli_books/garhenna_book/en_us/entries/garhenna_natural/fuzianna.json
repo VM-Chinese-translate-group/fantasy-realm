@@ -1,5 +1,5 @@
 {
-	"name": "Fuzianna",
+	"name": "富西安娜",
 	"icon": "distant_worlds:fuzianna",
 	"category": "distant_worlds:garhenna_natural",
 	"sortnum": 8,
@@ -9,7 +9,7 @@
 			"type": "patchouli:spotlight",
 			"item": "distant_worlds:fuzianna",
 			"link_recipe": "true",
-			"text": "Fuzianna are tall plants found in the the Dead Valley biome. When harvested, you will receive this plant and can extract edible fucianna jelly from it. For convenience, you can plant a fucianna stick in a flower pot and get fucianna jelly some time after using bone meal. And poisoned potatoes, when used, will stop the release of jelly."
+			"text": "富西安娜是死亡山谷群系中发现的高大植物。收集时你会获得这种植物，并可以从中提取可使用的富西安娜凝胶。为了方便，你可以在花盆中种植一根富西安娜，并在使用骨粉后一段时间内可获得富西安娜凝胶。使用毒马铃薯可阻止生产凝胶。"
 		},
 		{
 			"type": "patchouli:crafting",

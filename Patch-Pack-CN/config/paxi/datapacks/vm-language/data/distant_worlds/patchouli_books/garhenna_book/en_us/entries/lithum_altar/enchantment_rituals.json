@@ -1,5 +1,5 @@
 {
-	"name": "Enchantment Rituals",
+	"name": "附魔仪式",
 	"icon": "minecraft:enchanted_book",
 	"category": "distant_worlds:lithum_altar",
 	"sortnum": 10,
@@ -7,65 +7,65 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "On the Lithum Altar, you can perform rituals that will enhance some of the enchantments which the item has. For each ritual, the level will increase by one and can reach values higher than you can get on the enchanting table or with a combination on the anvil."
+			"text": "在锂祭坛上，你可以进行一些仪式，以增强物品的一些附魔。对于每一个仪式，等级都会增加，并且可以达到比你在附魔台上或在铁砧上组合更高的等级。"
 		},
 		{
 			"type": "patchouli:text",
-			"text": "To start the enchantment rituals, you will also need:$(br)$(li)$(#ea7f17)$(l)10 000 DE$()$(li)$(#59983a)$(l)Experience levels$(), which is five times higher than the current level of the desired enchantment$(br2)Recovery after full ritual: $(#992032)$(l)500 DRP$()"
+			"text": "要开始附魔仪式，你还需要：$(br)$(li)$(#ea7f17)$(l)10 000 DE$()$(li)$(#59983a)$(l)比当前所需附魔等级高出五倍的经验等级。$()$(br2)完整仪式后恢复时间：$(#992032)$(l)500 DRP$()"
 		},
 		{
 			"type": "patchouli:spotlight",
-			"title": "Sharpness",
+			"title": "锋利",
 			"item": "minecraft:iron_sword{Enchantments:[{id:sharpness,lvl:7}]}",
-			"text": "Can be upgraded on Lithum Altar, using following items:$(br)$(li)Enchanted Item$(o) [Main]$()$(li)Lapis Lazuli $(o)[x4]$()$(li)Noarhorn Spike $(o)[x4]$()$(br2)Max enchantment lvl: VII"
+			"text": "可以在锂祭坛上升级，使用以下物品：$(br)$(li)附魔物$(o) [主要]$()$(li)青金石 $(o)[x4]$()$(li)纳尔霍恩之刺 $(o)[x4]$()$(br2)最高附魔等级：VII"
 		},
 		{
 			"type": "patchouli:spotlight",
-			"title": "Thorns",
+			"title": "荆棘",
 			"item": "minecraft:iron_helmet{Enchantments:[{id:thorns,lvl:5}]}",
-			"text": "Can be upgraded on Lithum Altar, using following items:$(br)$(li)Enchanted Item$(o) [Main]$()$(li)Lapis Lazuli $(o)[x4]$()$(li)Noarhorn Spike $(o)[x4]$()$(br2)Max enchantment lvl: V"
+			"text": "可以在锂祭坛上升级，使用以下物品：$(br)$(li)附魔物$(o) [主要]$()$(li)青金石 $(o)[x4]$()$(li)纳尔霍恩之刺 $(o)[x4]$()$(br2)最高附魔等级：V"
 		},
 		{
 			"type": "patchouli:spotlight",
-			"title": "Fire Aspect",
+			"title": "火焰附加",
 			"item": "minecraft:iron_sword{Enchantments:[{id:fire_aspect,lvl:4}]}",
-			"text": "Can be upgraded on Lithum Altar, using following items:$(br)$(li)Enchanted Item$(o) [Main]$()$(li)Lapis Lazuli $(o)[x4]$()$(li)Fralite Heart $(o)[x2]$()$(li)Molten Fralite $(o)[x2]$()$(br2)Max enchantment lvl: IV"
+			"text": "可以在锂祭坛上升级，使用以下物品：$(br)$(li)附魔物$(o) [主要]$()$(li)青金石 $(o)[x4]$()$(li)弗莱特之心 $(o)[x2]$()$(li)炽热弗莱特 $(o)[x2]$()$(br2)最高附魔等级：IV"
 		},
 		{
 			"type": "patchouli:spotlight",
-			"title": "Fire Protection",
+			"title": "火焰保护",
 			"item": "minecraft:iron_helmet{Enchantments:[{id:fire_protection,lvl:6}]}",
-			"text": "Can be upgraded on Lithum Altar, using following items:$(br)$(li)Enchanted Item$(o) [Main]$()$(li)Lapis Lazuli $(o)[x4]$()$(li)Fralite Heart $(o)[x2]$()$(li)Molten Fralite $(o)[x2]$()$(br2)Max enchantment lvl: VI"
+			"text": "可以在锂祭坛上升级，使用以下物品：$(br)$(li)附魔物$(o) [主要]$()$(li)青金石 $(o)[x4]$()$(li)弗莱特之心 $(o)[x2]$()$(li)炽热弗莱特 $(o)[x2]$()$(br2)最高附魔等级：VI"
 		},
 		{
 			"type": "patchouli:spotlight",
-			"title": "Projectile Protection",
+			"title": "弹射物保护",
 			"item": "minecraft:iron_helmet{Enchantments:[{id:projectile_protection,lvl:6}]}",
-			"text": "Can be upgraded on Lithum Altar, using following items:$(br)$(li)Enchanted Item$(o) [Main]$()$(li)Lapis Lazuli $(o)[x4]$()$(li)Fralite Ball $(o)[x4]$()$(br2)Max enchantment lvl: VI"
+			"text": "可以在锂祭坛上升级，使用以下物品：$(br)$(li)附魔物$(o) [主要]$()$(li)青金石 $(o)[x4]$()$(li)弗莱特之球 $(o)[x4]$()$(br2)最高附魔等级：VI"
 		},
 		{
 			"type": "patchouli:spotlight",
-			"title": "Blast Protection",
+			"title": "爆炸保护",
 			"item": "minecraft:iron_helmet{Enchantments:[{id:blast_protection,lvl:6}]}",
-			"text": "Can be upgraded on Lithum Altar, using following items:$(br)$(li)Enchanted Item$(o) [Main]$()$(li)Lapis Lazuli $(o)[x4]$()$(li)Fralite Ball $(o)[x4]$()$(br2)Max enchantment lvl: VI"
+			"text": "可以在锂祭坛上升级，使用以下物品：$(br)$(li)附魔物$(o) [主要]$()$(li)青金石 $(o)[x4]$()$(li)弗莱特之球 $(o)[x4]$()$(br2)最高附魔等级：VI"
 		},
 		{
 			"type": "patchouli:spotlight",
-			"title": "Fortune",
+			"title": "时运",
 			"item": "minecraft:iron_pickaxe{Enchantments:[{id:fortune,lvl:5}]}",
-			"text": "Can be upgraded on Lithum Altar, using following items:$(br)$(li)Enchanted Item$(o) [Main]$()$(li)Lapis Lazuli $(o)[x4]$()$(li)Glowing Pollen $(o)[x4]$()$(br2)Max enchantment lvl: V"
+			"text": "可以在锂祭坛上升级，使用以下物品：$(br)$(li)附魔物$(o) [主要]$()$(li)青金石 $(o)[x4]$()$(li)发光花粉 $(o)[x4]$()$(br2)最高附魔等级：V"
 		},
 		{
 			"type": "patchouli:spotlight",
-			"title": "Feather Falling",
+			"title": "摔落保护",
 			"item": "minecraft:iron_boots{Enchantments:[{id:feather_falling,lvl:6}]}",
-			"text": "Can be upgraded on Lithum Altar, using following items:$(br)$(li)Enchanted Item$(o) [Main]$()$(li)Lapis Lazuli $(o)[x4]$()$(li)Glowing Pollen $(o)[x4]$()$(br2)Max enchantment lvl: VI"
+			"text": "可以在锂祭坛上升级，使用以下物品：$(br)$(li)附魔物$(o) [主要]$()$(li)青金石 $(o)[x4]$()$(li)发光花粉 $(o)[x4]$()$(br2)最高附魔等级：VI"
 		},
 		{
 			"type": "patchouli:spotlight",
-			"title": "Salmoran Sting",
+			"title": "萨尔莫兰之蛰",
 			"item": "minecraft:iron_sword{Enchantments:[{id:\"distant_worlds:salmoran_sting\",lvl:5}]}",
-			"text": "Can be upgraded on Lithum Altar, using following items:$(br)$(li)Enchanted Item$(o) [Main]$()$(li)Lapis Lazuli $(o)[x4]$()$(li)Salmoran Eye $(o)[x2]$()$(li)Salmoran Scales $(o)[x2]$()$(br2)Max enchantment lvl: V"
+			"text": "可以在锂祭坛上升级，使用以下物品：$(br)$(li)附魔物$(o) [主要]$()$(li)青金石 $(o)[x4]$()$(li)萨尔莫兰之眼 $(o)[x2]$()$(li)萨尔莫兰鳞片 $(o)[x2]$()$(br2)最高附魔等级：V"
 		},
 		{
 			"type": "patchouli:relations",

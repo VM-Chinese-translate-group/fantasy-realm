@@ -1,5 +1,5 @@
 {
-	"name": "Helyst Armor",
+	"name": "海利斯特盔甲",
 	"icon": "distant_worlds:helyst_helmet",
 	"category": "distant_worlds:garhenna_armor",
 	"sortnum": 2,
@@ -7,30 +7,30 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Helyst Armor is very durable and, based on the Salmoran armor, it is able to protect you even more effectively from the poisonous Salmoran stings."
+			"text": "海利斯特盔甲基于萨尔莫兰盔甲，它非常耐用，且能够更为有效地保护你免受有毒的萨尔莫兰之蛰。"
 		},
 		{
 			"type": "patchouli:spotlight",
 			"item": "distant_worlds:helyst_helmet",
-			"text": "Can be crafted on Lithum Altar, using $(#ea7f17)$(l)120 000 DE$() and following items:$(li)Salmoran Helmet$(o) [Main]$()$(li)Helyst Crystal $(o)[x4]$()$(br2)Recovery after full ritual: $(#992032)$(l)1200 DRP$()",
+			"text": "可通过锂祭坛制作，花费 $(#ea7f17)$(l)120 000 DE$() 和以下物品：$(li)萨尔莫兰头盔$(o) [主要]$()$(li)海利斯特水晶 $(o)[x4]$()$(br2)完整仪式后恢复时间：$(#992032)$(l)1200 DRP$()",
 			"link_recipe": "true"
 		},
 		{
 			"type": "patchouli:spotlight",
 			"item": "distant_worlds:helyst_chestplate",
-			"text": "Can be crafted on Lithum Altar, using $(#ea7f17)$(l)120 000 DE$() and following items:$(li)Salmoran Chestplate$(o) [Main]$()$(li)Helyst Crystal $(o)[x4]$()$(br2)Recovery after full ritual: $(#992032)$(l)1200 DRP$()",
+			"text": "可通过锂祭坛制作，花费 $(#ea7f17)$(l)120 000 DE$() 和以下物品：$(li)萨尔莫兰胸甲$(o) [主要]$()$(li)海利斯特水晶 $(o)[x4]$()$(br2)完整仪式后恢复时间：$(#992032)$(l)1200 DRP$()",
 			"link_recipe": "true"
 		},
 		{
 			"type": "patchouli:spotlight",
 			"item": "distant_worlds:helyst_leggings",
-			"text": "Can be crafted on Lithum Altar, using $(#ea7f17)$(l)120 000 DE$() and following items:$(li)Salmoran Leggings$(o) [Main]$()$(li)Helyst Crystal $(o)[x4]$()$(br2)Recovery after full ritual: $(#992032)$(l)1200 DRP$()",
+			"text": "可通过锂祭坛制作，花费 $(#ea7f17)$(l)120 000 DE$() 和以下物品：$(li)萨尔莫兰护腿$(o) [主要]$()$(li)海利斯特水晶 $(o)[x4]$()$(br2)完整仪式后恢复时间：$(#992032)$(l)1200 DRP$()",
 			"link_recipe": "true"
 		},
 		{
 			"type": "patchouli:spotlight",
 			"item": "distant_worlds:helyst_boots",
-			"text": "Can be crafted on Lithum Altar, using $(#ea7f17)$(l)120 000 DE$() and following items:$(li)Salmoran Boots$(o) [Main]$()$(li)Helyst Crystal $(o)[x4]$()$(br2)Recovery after full ritual: $(#992032)$(l)1200 DRP$()",
+			"text": "可通过锂祭坛制作，花费 $(#ea7f17)$(l)120 000 DE$() 和以下物品：$(li)萨尔莫兰靴子$(o) [主要]$()$(li)海利斯特水晶 $(o)[x4]$()$(br2)完整仪式后恢复时间：$(#992032)$(l)1200 DRP$()",
 			"link_recipe": "true"
 		},
 		{

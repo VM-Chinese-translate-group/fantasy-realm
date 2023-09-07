@@ -1,5 +1,5 @@
 {
-	"name": "Vairis Tools",
+	"name": "威利斯工具组",
 	"icon": "distant_worlds:vairis_sword",
 	"category": "distant_worlds:garhenna_tools",
 	"sortnum": 3,
@@ -8,7 +8,7 @@
 		{
 			"type": "patchouli:spotlight",
 			"item": "distant_worlds:vairis_sword",
-			"text": "A nimble twin-bladed Vairis sword allows you to quickly deal damage to the enemy and can apply the Sticky Shackles effect to them.$(br)Can be crafted on Lithum Altar, using $(#ea7f17)$(l)80 000 DE$() and following items:$(li)Vairis Crystal$(o) [Main]$()$(li)Vairis Crystal $(o)[x3]$()$(li)Stick $(o)[x2]$()$(br2)Recovery after full ritual: $(#992032)$(l)1000 DRP$()",
+			"text": "一把灵活的双刃威利斯剑可以使你快速对敌人造成伤害，并且施加粘性枷锁的效果。$(br)可通过锂祭坛制作，花费 $(#ea7f17)$(l)80 000 DE$() 和以下物品：$(li)威利斯水晶$(o) [主要]$()$(li)威利斯水晶 $(o)[x3]$()$(li)木棍 $(o)[x2]$()$(br2)完整仪式后恢复时间：$(#992032)$(l)1000 DRP$()",
 			"link_recipe": "true"
 		},
 		{

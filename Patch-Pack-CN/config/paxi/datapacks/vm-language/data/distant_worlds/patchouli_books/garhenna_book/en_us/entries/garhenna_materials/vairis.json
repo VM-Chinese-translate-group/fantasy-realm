@@ -1,5 +1,5 @@
 {
-	"name": "Vairis",
+	"name": "威利斯",
 	"icon": "distant_worlds:vairis_crystal",
 	"category": "distant_worlds:garhenna_materials",
 	"sortnum": 3,
@@ -8,7 +8,7 @@
 		{
 			"type": "patchouli:smelting",
 			"recipe": "distant_worlds:vairis_crystal",
-			"text": "Vairis is a metal with strange properties that is formed from glowing pollen and garsale slime combined together at high temperatures."
+			"text": "威利斯是一种具有奇异特性的金属，由发光花粉和伽萨尔粘液合成，在高温下冶炼而成。"
 		},
 		{
 			"type": "patchouli:crafting",

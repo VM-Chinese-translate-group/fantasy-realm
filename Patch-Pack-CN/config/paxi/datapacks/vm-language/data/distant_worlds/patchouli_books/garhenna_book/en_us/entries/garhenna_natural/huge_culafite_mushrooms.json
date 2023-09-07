@@ -7,7 +7,7 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "The expanse of the Molten Hills biome has become a great place for the growth of Culafite Mushrooms, where they have grown to huge sizes and filled all open areas.$(br)Their stems can be harvested and crafted into decorative blocks, and you can get several Culafite Mushrooms from each part of the top.$(br)Culafite Shroomlight is an excellent source of illumination of dark corners of the world and will fit for decoration."
+			"text": "广阔的熔岩丘陵群系已经成为库拉菲菇生长的好地方，它们在那里大规模生长，并已填满了所有空地。$(br)它们的茎可收集并制作成装饰方块，你可以从顶部的每部分获得几个库拉菲菇。$(br)库拉菲菇是这个世界黑暗角落的绝佳照明源，适合装饰。"
 		},
 		{
 			"type": "patchouli:relations",

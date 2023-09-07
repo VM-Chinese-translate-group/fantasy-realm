@@ -1,6 +1,6 @@
 {
-	"name": "Getting Started",
-	"description": "This category contains a summary of all the dimensions added by the mod. Here you will find instructions for moving to new worlds and other tips for surviving them.",
+	"name": "入门",
+	"description": "该目录包含模组添加所有维度的摘要。在这里，你可以找到前往新世界的说明和其他生存技巧。",
 	"icon": "distant_worlds:textures/screens/getting_started_icon.png",
 	"sortnum": 2
 }

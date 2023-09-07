@@ -1,6 +1,6 @@
 {
-	"name": "Lithum Altar",
-	"description": "To create advanced equipment, you will need to build a special structure, as shown in the scheme. More information is described on the following entries.",
+	"name": "锂祭坛",
+	"description": "要创造先进设备，您需要建造一个特殊的建筑物，如方案所示。以下条目介绍了更多信息。",
 	"icon": "distant_worlds:textures/screens/lithum_altar_icon.png",
 	"sortnum": 6
 }

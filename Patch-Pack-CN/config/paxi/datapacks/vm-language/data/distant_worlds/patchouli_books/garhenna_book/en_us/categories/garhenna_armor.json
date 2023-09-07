@@ -1,6 +1,6 @@
 {
-	"name": "Armor",
-	"description": "This category contains a summary of all Armor added by the Garhenna dimension.",
+	"name": "盔甲",
+	"description": "该目录包含加尔赫纳维度中添加的一些盔甲描述。",
 	"icon": "distant_worlds:textures/screens/garhenna_armor_icon.png",
 	"sortnum": 3
 }

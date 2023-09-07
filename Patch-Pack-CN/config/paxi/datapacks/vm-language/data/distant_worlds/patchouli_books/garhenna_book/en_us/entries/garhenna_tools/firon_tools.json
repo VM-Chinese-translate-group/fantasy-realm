@@ -1,5 +1,5 @@
 {
-	"name": "Firon Tools",
+	"name": "菲隆工具组",
 	"icon": "distant_worlds:firon_sword",
 	"category": "distant_worlds:garhenna_tools",
 	"sortnum": 1,
@@ -7,42 +7,42 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Firon Tools are highly durable and efficient.$(br)When a block is destroyed, they are able to melt it down, losing some of their durability, and upon impact, they are able to set fire to living creatures susceptible to fire.$(br)Firon Sword, with enough durability, is able to lose some of it and launch a fire charge in the direction of your swing, after which it will need time before using this ability again. The Firon Multi-Tool combines all Firon Tools with their abilities and is capable of launching a whole volley of fire charges."
+			"text": "菲隆工具具备高耐久和高效性。$(br)当方块被摧毁时，它们能够通过损失一些耐久来将其熔化，并且在受到撞击时，它们可以点燃易受火焰影响的生物。$(br)菲隆剑拥有足够的耐久性，有能力消耗一些耐久来向你攻击方向发动火力冲锋，之后需要一段冷却时间才能再次发动该技能。菲隆万能工具是结合了所有工具以及能力相结合，能够发动一系列活力。"
 		},
 		{
 			"type": "patchouli:spotlight",
 			"item": "distant_worlds:firon_sword",
-			"text": "Can be crafted on Lithum Altar, using $(#ea7f17)$(l)200 000 DE$() and following items:$(li)Netherite Sword$(o) [Main]$()$(li)Firon Ingot $(o)[x4]$()$(br2)Recovery after full ritual: $(#992032)$(l)2000 DRP$()",
+			"text": "可通过锂祭坛制作，花费 $(#ea7f17)$(l)200 000 DE$() 和以下物品：$(li)下界合金剑$(o) [主要]$()$(li)菲隆锭 $(o)[x4]$()$(br2)完整仪式后恢复时间：$(#992032)$(l)2000 DRP$()",
 			"link_recipe": "true"
 		},
 		{
 			"type": "patchouli:spotlight",
 			"item": "distant_worlds:firon_pickaxe",
-			"text": "Can be crafted on Lithum Altar, using $(#ea7f17)$(l)200 000 DE$() and following items:$(li)Netherite Pickaxe$(o) [Main]$()$(li)Firon Ingot $(o)[x4]$()$(br2)Recovery after full ritual: $(#992032)$(l)2000 DRP$()",
+			"text": "可通过锂祭坛制作，花费 $(#ea7f17)$(l)200 000 DE$() 和以下物品：$(li)下界合金镐$(o) [主要]$()$(li)菲隆锭 $(o)[x4]$()$(br2)完整仪式后恢复时间：$(#992032)$(l)2000 DRP$()",
 			"link_recipe": "true"
 		},
 		{
 			"type": "patchouli:spotlight",
 			"item": "distant_worlds:firon_axe",
-			"text": "Can be crafted on Lithum Altar, using $(#ea7f17)$(l)200 000 DE$() and following items:$(li)Netherite Axe$(o) [Main]$()$(li)Firon Ingot $(o)[x4]$()$(br2)Recovery after full ritual: $(#992032)$(l)2000 DRP$()",
+			"text": "可通过锂祭坛制作，花费 $(#ea7f17)$(l)200 000 DE$() 和以下物品：$(li)下界合金斧$(o) [主要]$()$(li)菲隆锭 $(o)[x4]$()$(br2)完整仪式后恢复时间：$(#992032)$(l)2000 DRP$()",
 			"link_recipe": "true"
 		},
 		{
 			"type": "patchouli:spotlight",
 			"item": "distant_worlds:firon_shovel",
-			"text": "Can be crafted on Lithum Altar, using $(#ea7f17)$(l)200 000 DE$() and following items:$(li)Netherite Shovel$(o) [Main]$()$(li)Firon Ingot $(o)[x4]$()$(br2)Recovery after full ritual: $(#992032)$(l)2000 DRP$()",
+			"text": "可通过锂祭坛制作，花费 $(#ea7f17)$(l)200 000 DE$() 和以下物品：$(li)下界合金锹$(o) [主要]$()$(li)菲隆锭 $(o)[x4]$()$(br2)完整仪式后恢复时间：$(#992032)$(l)2000 DRP$()",
 			"link_recipe": "true"
 		},
 		{
 			"type": "patchouli:spotlight",
 			"item": "distant_worlds:firon_hoe",
-			"text": "Can be crafted on Lithum Altar, using $(#ea7f17)$(l)200 000 DE$() and following items:$(li)Netherite Hoe$(o) [Main]$()$(li)Firon Ingot $(o)[x4]$()$(br2)Recovery after full ritual: $(#992032)$(l)2000 DRP$()",
+			"text": "可通过锂祭坛制作，花费 $(#ea7f17)$(l)200 000 DE$() 和以下物品：$(li)下界合金锄$(o) [主要]$()$(li)菲隆锭 $(o)[x4]$()$(br2)完整仪式后恢复时间：$(#992032)$(l)2000 DRP$()",
 			"link_recipe": "true"
 		},
 		{
 			"type": "patchouli:spotlight",
 			"item": "distant_worlds:firon_multitool",
-			"text": "Can be crafted on Lithum Altar, using $(#ea7f17)$(l)200 000 DE$() and following items:$(li)Firon Ingot$(o) [Main]$()$(li)Firon Sword$(li)Firon Pickaxe$(li)Firon Axe$(li)Firon Shovel$(li)Firon Hoe$(br2)Recovery after full ritual: $(#992032)$(l)2000 DRP$()",
+			"text": "可通过锂祭坛制作，花费 $(#ea7f17)$(l)200 000 DE$() 和以下物品：$(li)菲隆锭$(o) [主要]$()$(li)菲隆剑$(li)菲隆镐$(li)菲隆斧$(li)菲隆锹$(li)菲隆锄$(br2)完整仪式后恢复时间：$(#992032)$(l)2000 DRP$()",
 			"link_recipe": "true"
 		},
 		{

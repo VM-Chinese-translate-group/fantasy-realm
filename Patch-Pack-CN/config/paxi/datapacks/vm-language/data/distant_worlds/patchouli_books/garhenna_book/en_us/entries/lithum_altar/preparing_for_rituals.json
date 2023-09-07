@@ -1,5 +1,5 @@
 {
-	"name": "Preparing for Rituals",
+	"name": "为仪式做准备",
 	"icon": "distant_worlds:dalite_staff",
 	"category": "distant_worlds:lithum_altar",
 	"sortnum": 1,
@@ -8,12 +8,12 @@
 		{
 			"type": "patchouli:crafting",
 			"recipe": "distant_worlds:dalite_staff_recipe",
-			"text": "Craft a Dalite Staff to start your rituals. Each time it will lose a little durability."
+			"text": "制作一根达利特权杖开始你的仪式。每次使用都会失去一点耐久。"
 		},
 		{
 			"type": "patchouli:multiblock",
 			"name": "Lithum Altar",
-			"text": "Shown here is the simplest version of the lithum altar, but some of its elements can be replaced in future.",
+			"text": "这里展示的是最简单的锂祭坛，但它的一些元素可以在将来被替换。",
 			"multiblock": {
 				"pattern": [
 					[ "T   T", "     ", "     ", "     ", "T   T" ], 

@@ -1,5 +1,5 @@
 {
-	"name": "Helyst Tools",
+	"name": "海利斯特工具组",
 	"icon": "distant_worlds:helyst_sword",
 	"category": "distant_worlds:garhenna_tools",
 	"sortnum": 2,
@@ -8,31 +8,31 @@
 		{
 			"type": "patchouli:spotlight",
 			"item": "distant_worlds:helyst_sword",
-			"text": "Can be crafted on Lithum Altar, using $(#ea7f17)$(l)120 000 DE$() and following items:$(li)Lithum Sword$(o) [Main]$()$(li)Helyst Crystal $(o)[x4]$()$(br2)Recovery after full ritual: $(#992032)$(l)1200 DRP$()",
+			"text": "可通过锂祭坛制作，花费 $(#ea7f17)$(l)120 000 DE$() 和以下物品：$(li)锂剑$(o) [主要]$()$(li)海利斯特水晶 $(o)[x4]$()$(br2)完整仪式后恢复时间：$(#992032)$(l)1200 DRP$()",
 			"link_recipe": "true"
 		},
 		{
 			"type": "patchouli:spotlight",
 			"item": "distant_worlds:helyst_pickaxe",
-			"text": "Can be crafted on Lithum Altar, using $(#ea7f17)$(l)120 000 DE$() and following items:$(li)Lithum Pickaxe$(o) [Main]$()$(li)Helyst Crystal $(o)[x4]$()$(br2)Recovery after full ritual: $(#992032)$(l)1200 DRP$()",
+			"text": "可通过锂祭坛制作，花费 $(#ea7f17)$(l)120 000 DE$() 和以下物品：$(li)锂镐$(o) [主要]$()$(li)海利斯特水晶 $(o)[x4]$()$(br2)完整仪式后恢复时间：$(#992032)$(l)1200 DRP$()",
 			"link_recipe": "true"
 		},
 		{
 			"type": "patchouli:spotlight",
 			"item": "distant_worlds:helyst_axe",
-			"text": "Can be crafted on Lithum Altar, using $(#ea7f17)$(l)120 000 DE$() and following items:$(li)Lithum Axe$(o) [Main]$()$(li)Helyst Crystal $(o)[x4]$()$(br2)Recovery after full ritual: $(#992032)$(l)1200 DRP$()",
+			"text": "可通过锂祭坛制作，花费 $(#ea7f17)$(l)120 000 DE$() 和以下物品：$(li)锂斧$(o) [主要]$()$(li)海利斯特水晶 $(o)[x4]$()$(br2)完整仪式后恢复时间：$(#992032)$(l)1200 DRP$()",
 			"link_recipe": "true"
 		},
 		{
 			"type": "patchouli:spotlight",
 			"item": "distant_worlds:helyst_shovel",
-			"text": "Can be crafted on Lithum Altar, using $(#ea7f17)$(l)120 000 DE$() and following items:$(li)Lithum Shovel$(o) [Main]$()$(li)Helyst Crystal $(o)[x4]$()$(br2)Recovery after full ritual: $(#992032)$(l)1200 DRP$()",
+			"text": "可通过锂祭坛制作，花费 $(#ea7f17)$(l)120 000 DE$() 和以下物品：$(li)锂锹$(o) [主要]$()$(li)海利斯特水晶 $(o)[x4]$()$(br2)完整仪式后恢复时间：$(#992032)$(l)1200 DRP$()",
 			"link_recipe": "true"
 		},
 		{
 			"type": "patchouli:spotlight",
 			"item": "distant_worlds:helyst_hoe",
-			"text": "Can be crafted on Lithum Altar, using $(#ea7f17)$(l)120 000 DE$() and following items:$(li)Lithum Hoe$(o) [Main]$()$(li)Helyst Crystal $(o)[x4]$()$(br2)Recovery after full ritual: $(#992032)$(l)1200 DRP$()",
+			"text": "可通过锂祭坛制作，花费 $(#ea7f17)$(l)120 000 DE$() 和以下物品：$(li)锂锄$(o) [主要]$()$(li)海利斯特水晶 $(o)[x4]$()$(br2)完整仪式后恢复时间：$(#992032)$(l)1200 DRP$()",
 			"link_recipe": "true"
 		},
 		{

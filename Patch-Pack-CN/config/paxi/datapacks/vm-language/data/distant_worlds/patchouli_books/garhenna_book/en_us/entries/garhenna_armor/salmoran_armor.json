@@ -1,5 +1,5 @@
 {
-	"name": "Salmoran Armor",
+	"name": "萨尔莫兰盔甲",
 	"icon": "distant_worlds:salmoran_armor_helmet",
 	"category": "distant_worlds:garhenna_armor",
 	"sortnum": 6,
@@ -7,7 +7,7 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Using Salmoran Scales you can craft the Salmoran Armor, which does not have very high strength and durability, but each part of it protects you a little from the poisonous sting of the Salmorans."
+			"text": "通过使用萨尔莫兰鳞片，你可以制作成萨尔莫兰盔甲，他虽然没有高防御和高耐久，但它的每一部分都能够保护你免受萨尔莫兰的毒刺。"
 		},
 		{
 			"type": "patchouli:crafting",
