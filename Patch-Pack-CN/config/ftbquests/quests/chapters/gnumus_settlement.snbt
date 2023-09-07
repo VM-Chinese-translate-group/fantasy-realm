@@ -3,7 +3,7 @@
 	group: "2F85EA47D6AE998C"
 	order_index: 1
 	filename: "gnumus_settlement"
-	title: " &6Gnumus Settlement"
+	title: " &6角魔部落"
 	icon: "gnumus:spawnstructuresgnumussettlement"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -21,7 +21,7 @@
 	}]
 	quests: [
 		{
-			title: "Craft &6Gnumus Clay Block"
+			title: "合成&6角魔黏土方块"
 			x: -6.0d
 			y: 2.0d
 			dependencies: ["2FE0A81D8CD44132"]
@@ -55,7 +55,7 @@
 			]
 		}
 		{
-			title: "Craft &6Baked Patterned Gnumus Clay"
+			title: "合成&6饰纹角魔陶土y"
 			x: -3.0d
 			y: 2.0d
 			dependencies: ["6D067D83E1C19B0C"]
@@ -96,21 +96,21 @@
 		{
 			x: -4.5d
 			y: 0.5d
-			subtitle: "You can find &6vases scattered&r throughout the various&6 Gnumus Settlement&r structures."
+			subtitle: "你可以在&6角魔部落&r的各个建筑中找到散落的&6角魔陶罐&r"
 			id: "6E4369035D8AE298"
 			tasks: [{
 				id: "3FA6F4FA3212D39C"
 				type: "advancement"
-				title: "Break a Vase"
+				title: "打碎陶罐"
 				advancement: "gnumus:vasebreaker"
 				criterion: ""
 			}]
 		}
 		{
-			title: "Obtain a Common Gnumus Pouch"
+			title: "获得一个普通级角魔行囊"
 			x: -6.0d
 			y: 3.5d
-			subtitle: "You can get them by killing &6Gnumus&r, breaking &6pots&r, or in the &6chests of Gnumus settlements&r. &fBags come in three types of rarity&r, the higher the rarity of the bag, the more valuable the loot, but the smallest bag may be empty."
+			subtitle: "你可以通过击杀&6角魔&r, 打碎&6罐子&r, 或者在&6角魔部落的箱子中&r找到它们. &f行囊有三种稀有度&r, 行囊的稀有度越高，战利品越值钱, 但最小的行囊可能是空的."
 			id: "120B1BC89B178475"
 			tasks: [{
 				id: "6E8C6742D99018E1"
@@ -119,7 +119,7 @@
 			}]
 		}
 		{
-			title: "Obtain a Rare Gnumus Pouch"
+			title: "获得一个稀有级角魔行囊"
 			x: -4.5d
 			y: 3.5d
 			dependencies: ["120B1BC89B178475"]
@@ -131,7 +131,7 @@
 			}]
 		}
 		{
-			title: "Obtain a Legendary Gnumus Pouch"
+			title: "获得一个传说级角魔行囊"
 			x: -3.0d
 			y: 3.5d
 			dependencies: ["7FDE9804E97F6AB7"]
@@ -149,10 +149,10 @@
 			}]
 		}
 		{
-			title: "Obtain &6Gnumus Clay"
+			title: "获得角魔黏土"
 			x: -6.0d
 			y: 0.5d
-			subtitle: "Can be used to Craft Different &fClay Gnumus Blocks"
+			subtitle: "可以用来制作不同的&f角魔黏土方块"
 			id: "2FE0A81D8CD44132"
 			tasks: [{
 				id: "463B6A0F78221AA1"
@@ -161,10 +161,10 @@
 			}]
 		}
 		{
-			title: "Obtain &6Gnumus Cheese"
+			title: "获得&6角魔奶酪"
 			x: -3.0d
 			y: 0.5d
-			subtitle: "Can be obtained from &6Gnumus Bags&r, by breaking &6Pots&r, or from &6chests in Gnumus Settlement&r. Removes all effects when eaten like &fmilk. You can giveit to the &fMarsupial Mouse and get a random r&5eward."
+			subtitle: "可以通过&6角魔行囊&r,打破&6管子&r,或者从&6角魔部落的箱子中&r获得.像&f牛奶&r一样食用后会移除所有的效果.你可以把它交给&f有袋鼠&r以获取随机&5奖励."
 			id: "03377F70E74B2277"
 			tasks: [{
 				id: "3DDE455E9A8BC2E6"
@@ -173,10 +173,10 @@
 			}]
 		}
 		{
-			title: "Craft a &6Gnumus Cutlass"
+			title: "合成&6角魔砍刀"
 			x: -12.0d
 			y: 2.0d
-			subtitle: "Possessing a special property when crafting an item, It will receive &5Looting &rfor a &fCutlass of the third level "
+			subtitle: "制作它时会获得特殊属性, 砍刀会自动获得&f三级&r&5掠夺"
 			dependencies: ["0D1035D5C594C23C"]
 			id: "07C1AF1EB277EF62"
 			tasks: [{
@@ -197,10 +197,10 @@
 			}]
 		}
 		{
-			title: "Craft a &6Vintage Gnumus Cutlass"
+			title: "合成&6复古角魔砍刀"
 			x: -9.0d
 			y: 3.5d
-			subtitle: "&6Vintage Gnumus Claws&r are an &5improved version of the Gnumus Claws&r, boasting increased durability and effectiveness."
+			subtitle: "&6复古角魔砍刀&r是&5角魔砍刀的改良版&r,耐久和效果都有所提高."
 			dependencies: ["07094DDE4AAC492F"]
 			id: "4836E276644BFBFD"
 			tasks: [{
@@ -221,10 +221,10 @@
 			}]
 		}
 		{
-			title: "Craft a &6Gnumus Pickaxe"
+			title: "合成&6角魔镐"
 			x: -15.0d
 			y: 2.0d
-			subtitle: "Possessing a &aspecial property &rwhen crafting an item, It will receive the &aFortune enchantment"
+			subtitle: "制作它时会获得&a特殊属性&,镐子将获得&a时运附魔"
 			dependencies: ["0D1035D5C594C23C"]
 			id: "3901825031F8162F"
 			tasks: [{
@@ -245,10 +245,10 @@
 			}]
 		}
 		{
-			title: "Craft a &6Vintage Gnumus Pickaxe"
+			title: "合成&6复古角魔镐"
 			x: -7.5d
 			y: 3.5d
-			subtitle: "&6Vintage Gnumus Pickaxe&r are an improved version of the&f Gnumus Claws,&r boasting &cincreased durability and effectiveness."
+			subtitle: "&6复古角魔镐&r是&f角魔镐&r的改良版，&c增加了耐久和效果."
 			dependencies: ["07094DDE4AAC492F"]
 			id: "178AEB9523371D43"
 			tasks: [{
@@ -269,10 +269,10 @@
 			}]
 		}
 		{
-			title: "Craft a &6Vintage Universal Tool"
+			title: "合成&6复古复合工具"
 			x: -10.5d
 			y: 3.5d
-			subtitle: "An extremely effective tool &ccapable of mining any type of blocks."
+			subtitle: "极为有效的工具，可以&c挖掘任何类型的方块."
 			dependencies: ["07094DDE4AAC492F"]
 			id: "2A0149B5F05EE0F1"
 			tasks: [{
@@ -293,10 +293,10 @@
 			}]
 		}
 		{
-			title: "Craft a &6Vintage Rifle"
+			title: "合成&6复古步枪"
 			x: -10.5d
 			y: 2.0d
-			subtitle: "Powerful ranged weapon. Uses &6Vintage Bullet as ammo."
+			subtitle: "强大的远程武器.使用&6复古弹丸作为弹药."
 			dependencies: ["07094DDE4AAC492F"]
 			id: "69E2B94EFEEEA7EF"
 			tasks: [
@@ -324,10 +324,10 @@
 			}]
 		}
 		{
-			title: "Obtain a &6Vintage Metal"
+			title: "获得&6复古金属"
 			x: -9.0d
 			y: 0.5d
-			subtitle: "This rare and precious metal can be obtained from &6Gnumus bags &rand &6chests&r, but the most efficient way is to feed the &fMarsupial Mouse with &eGnumus Cheese. "
+			subtitle: "这种稀有且珍贵的金属可以从&6角魔行囊&r和&6箱子&r中获得,但最有效的鹅方法用&e角魔奶酪&r喂养&f有袋鼠. "
 			id: "1CF251B06CA6060A"
 			tasks: [{
 				id: "42529CFC74AB3D04"
@@ -336,10 +336,10 @@
 			}]
 		}
 		{
-			title: "Craft a &6Vintage Ingot Alloy"
+			title: "合成&6复古合金锭"
 			x: -9.0d
 			y: 2.0d
-			subtitle: "When combining several pieces with&6 copper,&r you will receive an &fingot &rthat can be used to craft and &fimprove new tools."
+			subtitle: "将多个复古金属和&6铜&r组合在一起，你将获得一个&f合金&r可以用来制作和&f改良新工具."
 			dependencies: ["1CF251B06CA6060A"]
 			id: "07094DDE4AAC492F"
 			tasks: [{
@@ -365,10 +365,10 @@
 			}]
 		}
 		{
-			title: "Obtain a &6Gnumus Claw"
+			title: "获得&6角魔利爪"
 			x: -13.5d
 			y: 0.5d
-			subtitle: "&fGnumus Claws bring &agood luck, imbuing items made from them&r with special properties. These &fclaws &rcan be obtained through &6Wrapped Goods &ror by defeating a &cGnumus Hunter."
+			subtitle: "&f角魔利爪能带来&a好运, 使用它制作的物品拥有特殊属性. 这些&f爪子&r可以从&6角魔行囊&r或击败&c角魔猎人&r获得."
 			id: "0D1035D5C594C23C"
 			tasks: [{
 				id: "0B85C18D593F14CD"
@@ -377,10 +377,10 @@
 			}]
 		}
 		{
-			title: "Craft a &6Lucky Hat"
+			title: "合成&6好运之帽"
 			x: -1.5d
 			y: 0.5d
-			subtitle: "Brings &agood luck &rto whoever wears it."
+			subtitle: "为佩戴者带来&a好运&r."
 			id: "0DFA385C495D5072"
 			tasks: [{
 				id: "167E042E45C5BC5E"
@@ -403,10 +403,10 @@
 			}]
 		}
 		{
-			title: "Obtain a &6Business Hat"
+			title: "获得&6经商之帽"
 			x: 0.0d
 			y: 0.5d
-			subtitle: "Gives permanent discounts to &6villagers&r while equipped.                                                        Dropped as a &5rare goods&r when trading with &6Gnumus Merchant."
+			subtitle: "装备后与&6村民&r交易时获得折扣.与&6角魔商贩&r交易时作为&5奖励&r掉落."
 			id: "5764665B48C4A94B"
 			tasks: [{
 				id: "793592EF08F0856C"
@@ -429,10 +429,10 @@
 			}]
 		}
 		{
-			title: "Obtain an &6Overripe Carrot"
+			title: "获得&6过熟胡萝卜"
 			x: 0.0d
 			y: 3.5d
-			subtitle: "Will occasionally drop when &6harvesting fully grown carrots&r.Used to breed&d Big Snout."
+			subtitle: "在&6收获完全成熟的胡萝卜&r时偶尔掉落.用于喂养&d猪鼻兽."
 			id: "1D4147E9E471F589"
 			tasks: [{
 				id: "28A5EC06C00B331D"
@@ -446,10 +446,10 @@
 			}]
 		}
 		{
-			title: "Trade with a &6Gnumus Merchant"
+			title: "与&6角魔商贩&r交易"
 			x: -13.5d
 			y: 3.5d
-			subtitle: "You can trade with him by giving him (right-click) &6Gnumus Doubloons &ror&6 Gnumus Doubloon Pile&r. In return, he will give you the&c Wrapped Goods."
+			subtitle: "你可以通过给他(右击)&6角魔钱币&r或&6角魔钱币堆&r来进行交易. 作为回报，他会给你&c货物包裹."
 			id: "26ECE32889A80FBA"
 			tasks: [{
 				id: "2AE921C241B42A9A"
@@ -458,10 +458,10 @@
 			}]
 		}
 		{
-			title: "Obtain &6Wrapped goods"
+			title: "获得&6货物包裹"
 			x: -15.0d
 			y: 3.5d
-			subtitle: "Obtained by trading with &cGnumus Merchant."
+			subtitle: "通过与&c角魔商贩&r交易获得."
 			dependencies: ["26ECE32889A80FBA"]
 			id: "131E0EDD158160A0"
 			tasks: [{
@@ -476,10 +476,10 @@
 			}]
 		}
 		{
-			title: "Obtain &6Wrapped goods"
+			title: "获得&6货物包裹"
 			x: -12.0d
 			y: 3.5d
-			subtitle: "Obtained by trading with &6Gnumus Merchant."
+			subtitle: "通过与&c角魔商贩&r交易获得."
 			dependencies: ["26ECE32889A80FBA"]
 			id: "2DC892D22AAE40F8"
 			tasks: [{
@@ -494,10 +494,10 @@
 			}]
 		}
 		{
-			title: "Obtain &6Gnumus Doubloons"
+			title: "获得&6角魔钱币"
 			x: -1.5d
 			y: 2.0d
-			subtitle: "Can be smelted into&6 gold nuggets&r, when smelted it gives quite a lot of &aexperience.&r More &aexperience&r is given in the &fsmelting furnace&r.Also used to trade with &6Gnumus Merchant."
+			subtitle: "可以熔炼成&6金粒&r,熔炼后获得大量&a经验.&r在&f高炉&r中熔炼可以获得更多&a经验&r.也可以用来与&6角魔商贩&r交易."
 			id: "71E346BA14DEAF3A"
 			tasks: [{
 				id: "4FEBD26367CA1A8D"
@@ -511,7 +511,7 @@
 			}]
 		}
 		{
-			title: "Craft a &6Pile of Gnumus Doubloons"
+			title: "合成&6角魔钱币堆"
 			x: 0.0d
 			y: 2.0d
 			dependencies: ["71E346BA14DEAF3A"]
@@ -528,11 +528,11 @@
 			}]
 		}
 		{
-			title: "Defeat the &6Gnumus Shaman"
+			title: "击败&6角魔萨满"
 			x: -16.5d
 			y: 0.5d
 			shape: "square"
-			subtitle: "It is found only in the &alargest settlements&r. Can fight in &cboth melee and ranged combat."
+			subtitle: "它只能在&a角魔部落&r里找到.可以使用&c近战与远程两种方式战斗."
 			id: "4A528D1C7D21F4A0"
 			tasks: [{
 				id: "13992889FC4BF746"
@@ -549,11 +549,11 @@
 			}]
 		}
 		{
-			title: "Defeat the &6Gnumus Hunter"
+			title: "击败&6角魔猎人"
 			x: -16.5d
 			y: 2.0d
 			shape: "square"
-			subtitle: "It can be found both in &6settlements&r and at &6night&r as ordinary&c monsters"
+			subtitle: "它会在&6部落&r中出现，也会在&6夜晚&r作为&c普通怪物&r出现"
 			id: "5FD12751918FB42A"
 			tasks: [{
 				id: "06D45C472629E9D8"
@@ -570,11 +570,11 @@
 			}]
 		}
 		{
-			title: "Defeat the &6Gnumus Worker"
+			title: "击败&6角魔工人"
 			x: -16.5d
 			y: 3.5d
 			shape: "square"
-			subtitle: "&6Unlike hunters&r, it is found only in &asettlements &rand is not particularly willing to rush into &cbattle, &rspotting a &fplayer from a shorter distance,&r which is much &bweaker in battle."
+			subtitle: "&6与猎人不同&r,它只会出现在&a部落&r里，并且不是特别愿意加入&c战斗, &r在&f较近的距离&r才会发现玩家, 在战斗中&b非常弱."
 			id: "34270FFBABE14D86"
 			tasks: [{
 				id: "41F550D5DF03C408"
@@ -591,10 +591,10 @@
 			}]
 		}
 		{
-			title: "Make me SOME &6Juicy Meat NOW!!!!"
+			title: "现在！！！马上给我做一些&6多汁肉！"
 			x: -1.5d
 			y: 3.5d
-			subtitle: "Obtained by &ckilling Big Snout.&r When eaten fried, gives a&f short-term effect&r that will keep your &bsaturation at the maximum value."
+			subtitle: "通过&c击杀猪鼻兽&r获得.油煎后食用, 会获得一个&f短时效果&r使你的&b饱和度保持在最高值."
 			id: "76039C8D92AB48F6"
 			tasks: [{
 				id: "5467BEF28158524B"
