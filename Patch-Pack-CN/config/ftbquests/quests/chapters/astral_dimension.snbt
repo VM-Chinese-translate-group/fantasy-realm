@@ -1043,7 +1043,7 @@
 			tasks: [{
 				id: "16A6E21DDE62426C"
 				type: "biome"
-				title: "访问&d褪色之岛"
+				title: "访问&d消逝浮岛"
 				icon: "astral_dimension:overgrown_faded_stone"
 				biome: "astral_dimesion:faded_islands"
 			}]
