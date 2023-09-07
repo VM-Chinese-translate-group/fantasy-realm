@@ -29,7 +29,8 @@
 			title: "合成&4存储终端"
 			x: -5.5d
 			y: -0.5d
-			subtitle: "给予存取&c物品&r的通道。把它放在&c存储网络&r。"
+			subtitle: "把它放在&c容器&r旁，可以存取你的&c物品&r。"
+
 			dependencies: ["59CB251120618BAA"]
 			id: "6671FBB9B8E5D554"
 			tasks: [{
