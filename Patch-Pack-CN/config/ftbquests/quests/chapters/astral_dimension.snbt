@@ -139,7 +139,7 @@
 			tasks: [{
 				id: "086CC74C54DF79C4"
 				type: "biome"
-				title: "访问&d炽热森林"
+				title: "访问&d烈焰森林"
 				icon: "minecraft:magma_block"
 				biome: "astral_dimension:fiery_forest"
 			}]
