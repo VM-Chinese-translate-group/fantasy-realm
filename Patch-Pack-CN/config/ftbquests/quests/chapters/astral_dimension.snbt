@@ -31,7 +31,7 @@
 			x: -2.5d
 			y: 3.0d
 			shape: "circle"
-			subtitle: "要进入&5星体维度&r，你需要建造一个星之传送门。它的建造方式与&5下界传送门&r一样。"
+			subtitle: "要进入&5星体维度&r，你需要建造一个星体传送门。它的建造方式与&5下界传送门&r一样。"
 			dependencies: [
 				"0FB9D2D7E39824BA"
 				"09EEFAB91CAA377D"
