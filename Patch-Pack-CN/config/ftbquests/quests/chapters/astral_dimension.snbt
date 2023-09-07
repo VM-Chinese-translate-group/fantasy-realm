@@ -118,7 +118,7 @@
 			tasks: [{
 				id: "14221C221D3077AF"
 				type: "biome"
-				title: "访问&d星际恶地"
+				title: "访问&d星体恶地"
 				icon: "minecraft:red_sand"
 				biome: "astral_dimesion:astral_badlands"
 			}]
