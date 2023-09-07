@@ -159,7 +159,7 @@
 			tasks: [{
 				id: "059B493A44ACC76B"
 				type: "biome"
-				title: "访问&d炽热桦林"
+				title: "访问&d烈焰桦木森林"
 				icon: "quark:red_blossom_leaves"
 				biome: "astral_dimesion:fiery_birch_forest"
 			}]
@@ -170,18 +170,18 @@
 			shape: "square"
 			subtitle: "点击"
 			description: [
-				"-生成海洋遗迹"
+				"-生成海底废墟"
 				""
 				"-夜晚生成骨鱼"
 				""
-				"-有失活的珊瑚、枯死的海草、枯死的海带和灵魂主题的方块"
+				"-有失活的珊瑚、失活的海草、失活的海带和灵魂主题的方块"
 			]
 			size: 1.5d
 			id: "1845F1B977198B02"
 			tasks: [{
 				id: "67F8A95A2D41AC7B"
 				type: "biome"
-				title: "访问&d失活珊瑚礁"
+				title: "访问&d失活的珊瑚礁"
 				icon: "minecraft:smooth_basalt"
 				biome: "astral_dimension:dead_coral_reef"
 			}]
@@ -192,9 +192,9 @@
 			shape: "square"
 			subtitle: "点击"
 			description: [
-				"-生成紫晶簇、紫晶洞、紫藤树"
+				"-生成紫水晶簇、紫晶洞、紫藤树"
 				""
-				"-生成紫晶爬虫"
+				"-生成紫水晶爬虫"
 				""
 				"-生成紫晶圣殿"
 			]
@@ -203,7 +203,7 @@
 			tasks: [{
 				id: "5B275680A9DAFA63"
 				type: "biome"
-				title: "访问&d紫晶草甸"
+				title: "访问&d紫水晶草甸"
 				icon: "astral_dimension:crystallized_astral_stone"
 				biome: "astral_dimension:amethyst_meadow"
 			}]
@@ -217,7 +217,7 @@
 			description: [
 				"要召唤它，你必须找到一个虚空蛋。"
 				""
-				"这种结构有极小概率在紫晶草甸、月球尖峰和星际荒原上生成。"
+				"这种结构有极小概率在紫水晶草甸、月刺之地和星体恶地上生成。"
 				""
 				"每个虚空蛋的顶端都有一个虚空门。"
 				""
@@ -251,7 +251,7 @@
 			]
 		}
 		{
-			title: "获得&d粗星钢矿"
+			title: "获得&d粗星钢"
 			x: -8.5d
 			y: 5.0d
 			id: "7181F83986752C5B"
@@ -481,7 +481,7 @@
 			}]
 		}
 		{
-			title: "击败&d虚空之面"
+			title: "击败&d虚空巨面"
 			x: -2.0d
 			y: 11.5d
 			shape: "rsquare"
@@ -590,7 +590,7 @@
 			}]
 		}
 		{
-			title: "合成一个影之箱"
+			title: "合成一个阴暗箱"
 			x: -3.0d
 			y: 7.0d
 			id: "26434559521E1FBD"
@@ -607,7 +607,7 @@
 			}]
 		}
 		{
-			title: "击败&d紫晶骑士"
+			title: "击败&d紫水晶骑士"
 			x: -3.0d
 			y: 11.5d
 			shape: "rsquare"
@@ -673,7 +673,7 @@
 			}]
 		}
 		{
-			title: "合成&d骨质折磨盔甲套装"
+			title: "合成&d痛苦盔甲套装"
 			x: -13.0d
 			y: 5.0d
 			id: "593B2877FC58E523"
@@ -743,7 +743,7 @@
 			}]
 		}
 		{
-			title: "&d合成一个雷电之钟"
+			title: "&d合成一个雷霆钟"
 			x: -4.5d
 			y: 6.0d
 			id: "01D24AC4C0659CF8"
@@ -766,7 +766,7 @@
 			}]
 		}
 		{
-			title: "获得一个&d腐朽图腾"
+			title: "获得一个&d衰败图腾"
 			x: -3.5d
 			y: 6.0d
 			id: "1F3F82BC2F4B306D"
@@ -808,7 +808,7 @@
 			}]
 		}
 		{
-			title: "击败&d虚空地雷"
+			title: "击败&d虚空傀儡"
 			x: 0.5d
 			y: 10.5d
 			id: "64AE9567BE033AF4"
@@ -827,7 +827,7 @@
 			}]
 		}
 		{
-			title: "击败&d主世界之门"
+			title: "击败&d主世界传送之面"
 			x: -0.5d
 			y: 11.5d
 			id: "45CBEED79946AEBD"
@@ -846,7 +846,7 @@
 			}]
 		}
 		{
-			title: "击败&d下界之门"
+			title: "击败&d下界传送之面"
 			x: -4.5d
 			y: 11.5d
 			id: "7ADF26E6058B75BE"
@@ -949,7 +949,7 @@
 			title: "获得一把&d紫晶之钥"
 			x: -2.0d
 			y: 7.0d
-			subtitle: "用于打开&3锁方块&r……击杀&5紫晶骑士&r掉落"
+			subtitle: "用于打开&3锁方块&r……击杀&5紫水晶骑士&r掉落"
 			id: "010A09EE2030C55E"
 			tasks: [{
 				id: "2BD33ED8E47DB9EF"
@@ -964,7 +964,7 @@
 			}]
 		}
 		{
-			title: "获得一个&d紫晶头盔"
+			title: "获得一个&d紫水晶头盔"
 			x: -2.5d
 			y: 6.0d
 			subtitle: "活动活动"
@@ -989,14 +989,14 @@
 			description: [
 				"-生成幽魂水母、虚空蜈蚣。"
 				""
-				"-生成化石、折磨之树、苍白南瓜、折磨府邸"
+				"-生成化石、痛苦树、苍白南瓜、痛苦府邸"
 			]
 			size: 1.5d
 			id: "7D1225947EA852CB"
 			tasks: [{
 				id: "4CB650EB584B3746"
 				type: "biome"
-				title: "访问&d污泥荒原"
+				title: "访问&d污泥荒地"
 				icon: "astral_dimension:sludge_block"
 				biome: "astral_dimension:sludgy_wasteland"
 			}]
@@ -1010,16 +1010,16 @@
 			description: [
 				"-生成电树、化石、巨型蘑菇和橡树"
 				""
-				"-生成蜗猪和雷暴恶魂"
+				"-生成蜗猪和风暴游魂"
 				""
-				"-有沙砾堆、花、电蔓和蘑菇"
+				"-有沙砾堆、花、电涌藤和蘑菇"
 			]
 			size: 1.5d
 			id: "27D0097BF89B34AC"
 			tasks: [{
 				id: "260BA820FE5C23E0"
 				type: "biome"
-				title: "访问&d雷电沼泽"
+				title: "访问&d电涌沼泽"
 				icon: "astral_dimension:overgrown_faded_stone"
 				biome: "astral_dimesion:electric_swamp"
 			}]
