@@ -90,7 +90,8 @@
 			title: "合成&4贸易站"
 			x: -1.5d
 			y: -3.0d
-			subtitle: "允许和附近多个&c村民&r交易。"
+			subtitle: "可同时和附近多个&c村民&r进行交易。"
+
 			id: "3C6E255DDA266E4C"
 			tasks: [{
 				id: "2F95FA4278CA4B7B"
