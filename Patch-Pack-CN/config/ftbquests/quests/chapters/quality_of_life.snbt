@@ -108,7 +108,8 @@
 			title: "合成&4白色睡袋"
 			x: -1.5d
 			y: 1.5d
-			subtitle: "允许睡觉时不会设置&c重生点&r."
+			subtitle: "可以睡觉，且不会设置&c重生点&r。"
+
 			id: "009270E82ED95A71"
 			tasks: [{
 				id: "5BCD98CB1D33DDC5"
