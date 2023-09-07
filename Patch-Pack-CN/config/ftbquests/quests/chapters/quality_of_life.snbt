@@ -68,7 +68,8 @@
 			title: "合成&4无线终端"
 			x: -4.5d
 			y: 1.5d
-			subtitle: "无论在哪都允许连接进入&c存储网络&r，也可以在任何&c维度&r进入。需要加载区块&c网络控制器&r才能工作。可以通过点击&c物品栏&r左上角的地图图标，点击认领区块，然后shift+左键点击它&c强制加载&r来完成。The &cremote&r can also be put into a &cBaubles&r slot, allowing you to open the remote with the press of a button. This can be found in Controls under (&cOpen Remote Curio&r).."
+			subtitle: "在任何地方，任何&c维度&r都能连接&c存储网络&r。前提是&c网络控制器&r所在的区块被加载。可以通过点击&c物品栏&r左上角的地图图标，点击认领区块，然后shift+左键点击它可以&c强制加载&r区块。&c远程终端&r可以放入&c饰品栏&r中，之后你可以使用按键打开远程终端。按键可以在控制选项中找到 (&c打开远程终端&r)……"
+
 			dependencies: [
 				"6671FBB9B8E5D554"
 				"42404A9B98C40EE2"
