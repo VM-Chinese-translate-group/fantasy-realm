@@ -79,10 +79,10 @@
 			}]
 		}
 		{
-			title: "制造&6银锭"
+			title: "获得&6银锭"
 			x: 8.5d
 			y: -2.0d
-			subtitle: "&8粗银&r可从&a主世界&r的&4Y: -64 ~ 30&r范围内找到。可通过铁镐开采并烧制。"
+			subtitle: "&8粗银&r可从&a主世界&r的&4Y: -64 ~ 30&r范围内找到。可通过铁镐开采。"
 			dependencies: ["558D0B3EA892B567"]
 			id: "383D230B247F1950"
 			tasks: [{
@@ -92,10 +92,10 @@
 			}]
 		}
 		{
-			title: "制造钢锭"
+			title: "获得钢锭"
 			x: 8.5d
 			y: 1.0d
-			subtitle: "您需要使用&f铁锭&r烧制成&8钢锭&r。"
+			subtitle: "你需要使用&f铁锭&r烧炼成&8钢锭&r。"
 			dependencies: ["558D0B3EA892B567"]
 			id: "601FE61A5EA647EB"
 			tasks: [{
@@ -108,7 +108,7 @@
 			title: "制造&6紫水晶覆层钢锭"
 			x: 5.5d
 			y: -2.0d
-			subtitle: "&8钢锭&r可以通过锻造台和&5紫水晶&r合成。"
+			subtitle: "&8钢锭&r可以通过在锻造台中与&5紫水晶&r制造。"
 			dependencies: ["558D0B3EA892B567"]
 			id: "758ED6BAE8AB682E"
 			tasks: [{
@@ -121,7 +121,7 @@
 			title: "制造&6石英覆层钢锭"
 			x: 5.5d
 			y: 1.0d
-			subtitle: "&8钢锭&r可以通过锻造台和&f石英&r合成。"
+			subtitle: "&8钢锭&r可以通过在锻造台中与&f石英&r制造。"
 			dependencies: ["558D0B3EA892B567"]
 			id: "061FC23FDC02018A"
 			tasks: [{
@@ -147,7 +147,7 @@
 			x: -4.0d
 			y: -2.5d
 			shape: "circle"
-			subtitle: "游荡在&4地狱&r当中以&6吓唬人类&r。它会使用它的&a长舌&r来&4减缓敌人。"
+			subtitle: "游荡在&4下界&r当中&6吓唬人类&r。它会使用它的&a长舌&r来&4减缓敌人。"
 			id: "7377ECA5B975A70F"
 			tasks: [{
 				id: "12287D0411D56966"
@@ -168,7 +168,7 @@
 			x: -6.0d
 			y: -2.5d
 			shape: "circle"
-			subtitle: "游荡在&8洞穴&r当中以&6攻击人类&r。因为它外观呈&0暗色&r，以至于很难在&8洞穴&r中看见它。"
+			subtitle: "游荡在&8洞穴&r当中&6攻击人类&r。因为它外观呈&0暗色&r，以至于很难在&8洞穴&r中看见它。"
 			id: "6F1F0937EF19FF7C"
 			tasks: [{
 				id: "4EB9B255AC0B6122"
@@ -185,11 +185,11 @@
 			}]
 		}
 		{
-			title: "击杀&6鬼魂"
+			title: "击杀&6鬼"
 			x: -5.0d
 			y: -2.0d
 			shape: "circle"
-			subtitle: "游荡在&4地狱&r当中以&6吓唬人类&r。它虽然很慢，但&c攻击很疼。"
+			subtitle: "游荡在&4地狱&r当中&6吓唬人类&r。它虽然很慢，但&c造成伤害很高。"
 			id: "2D091861C4810369"
 			tasks: [{
 				id: "3BA286930692F7AE"
@@ -210,7 +210,7 @@
 			x: -5.0d
 			y: -3.0d
 			shape: "circle"
-			subtitle: "游荡在&a主世界&r当中以&6吓唬人类&r。如果有人离它太近，它会&c发射炮弹。"
+			subtitle: "游荡在&a主世界&r当中&6吓唬人类&r。如果有人离它太近，它会&c发射弹射物。"
 			id: "6C8F7D241495872B"
 			tasks: [{
 				id: "0A910EAE17AA6389"
@@ -943,7 +943,7 @@
 			tasks: [{
 				id: "71632E50EF21D2C0"
 				type: "checkmark"
-				title: "防具"
+				title: "盔甲"
 			}]
 		}
 		{
@@ -1190,11 +1190,11 @@
 			}]
 		}
 		{
-			title: "制作&6穿孔刀"
+			title: "制作&6钗"
 			x: -4.0d
 			y: 1.5d
 			shape: "square"
-			subtitle: "&a穿孔刀&r是一种攻击速度更快的近战武器。"
+			subtitle: "&a钗&r是一种攻击速度更快的近战武器。"
 			id: "726D7C59A7A72835"
 			tasks: [{
 				id: "5CE117B56C09263B"
@@ -1219,7 +1219,7 @@
 			x: -6.0d
 			y: 1.5d
 			shape: "square"
-			subtitle: "使用鼠标右键投掷。&f手里剑&r每次投掷都消耗耐久。"
+			subtitle: "右击以投掷。每次投掷&f手里剑&r都消耗耐久。"
 			id: "6D6CFBDE017DA9CD"
 			tasks: [{
 				id: "2A6D665A937EBD1A"
@@ -1253,7 +1253,7 @@
 			}]
 		}
 		{
-			title: "制作&6稻草帽"
+			title: "制作&6斗笠"
 			x: -5.0d
 			y: 1.5d
 			shape: "square"
