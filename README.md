@@ -1,10 +1,9 @@
-# Modpack Name 汉化补丁
-CurseForge|Modrinth|Modpack Version|Status
-:-|:-|:-|:-
-[ModpackName]()|[ModpackName]()|Version|*Active*|
+# 幻想领域汉化补丁
+CurseForge|Modpack Version|Status
+:-|:-|:-
+[Fantasy Realm](https://www.curseforge.com/minecraft/modpacks/fantasy-realm/files)|1.5|*Active*|
 # 译者
 查看贡献者列表以获得完整译者名单
-# 鸣谢
 
 # 仓库统计数据
   ![Alt]()
