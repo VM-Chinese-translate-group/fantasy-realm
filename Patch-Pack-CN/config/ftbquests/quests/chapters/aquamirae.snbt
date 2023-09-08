@@ -21,7 +21,7 @@
 	}]
 	quests: [
 		{
-			title: "找到&3冰冻迷宫"
+			title: "找到&3寒冰迷宫"
 			x: -4.5d
 			y: 4.0d
 			subtitle: "使用&2自然指南针&r可以更容易找到"
@@ -29,7 +29,7 @@
 			tasks: [{
 				id: "0D10353AEEB9F202"
 				type: "advancement"
-				title: "找到冰冻迷宫"
+				title: "找到寒冰迷宫"
 				advancement: "aquamirae:adventure/find_ice_maze"
 				criterion: ""
 			}]

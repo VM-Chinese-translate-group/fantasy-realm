@@ -191,7 +191,7 @@
 			title: "获取&2巨人之锤"
 			x: -8.0d
 			y: 2.0d
-			subtitle: "对&a地面&r右键会发动&f强有力的冲击波攻击。"
+			subtitle: "对&a地面&r右击会发动&f强有力的冲击波攻击。"
 			dependencies: ["7766939D461DD187"]
 			id: "120CA102A693EDBA"
 			tasks: [{
