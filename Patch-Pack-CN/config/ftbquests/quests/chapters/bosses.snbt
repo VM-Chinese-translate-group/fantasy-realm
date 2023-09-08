@@ -68,7 +68,7 @@
 			tasks: [{
 				id: "3A6E54D9087A3B0E"
 				type: "advancement"
-				title: "击败太阳酋长Barako"
+			title: "击败太阳酋长"
 				advancement: "mowziesmobs:kill_barako"
 				criterion: ""
 			}]
