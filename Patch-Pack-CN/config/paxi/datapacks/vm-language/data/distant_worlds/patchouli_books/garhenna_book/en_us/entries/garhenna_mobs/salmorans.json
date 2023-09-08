@@ -16,7 +16,7 @@
 			"type": "patchouli:spotlight",
 			"title": "抑制",
 			"item": "minecraft:potion{Potion:\"distant_worlds:suppression_potion\"}",
-			"text": "如果它们设法击中你，那么你将受到一种叫做抑制的负面影响，这将不允许你恢复健康。五级效果完全阻断生命再生。"
+			"text": "如果它们击中了你，你将受到一种叫做抑制的负面影响，这影响你自然回血的效率。五级的该效果会使你完全无法自然回血。"
 		},
 		{
 			"type": "patchouli:crafting",
