@@ -9,7 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "获得&d精致灵魂石"
+			title: "获得&d精制灵魂石"
 			x: 0.5d
 			y: 1.0d
 			shape: "hexagon"
@@ -496,7 +496,7 @@
 			}]
 		}
 		{
-			title: "制作&d全套精华工作站"
+			title: "制作&d全套精魂工作站"
 			x: 3.5d
 			y: 4.0d
 			subtitle: "查看&d奥术全典！&r或者求助&bJEI"
@@ -856,7 +856,7 @@
 			}]
 		}
 		{
-			title: "获得&d铁节点"
+			title: "获得&d铁结点"
 			x: 2.0d
 			y: 5.5d
 			shape: "gear"
@@ -985,7 +985,7 @@
 			}]
 		}
 		{
-			title: "获得&d神圣金锭"
+			title: "获得&d神圣金"
 			x: 0.5d
 			y: 8.5d
 			subtitle: "查看&d奥术全典！&r或者求助&bJEI"
