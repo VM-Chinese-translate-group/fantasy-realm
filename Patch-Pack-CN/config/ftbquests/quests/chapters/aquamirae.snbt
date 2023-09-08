@@ -83,7 +83,7 @@
 		{
 			x: -1.0d
 			y: 4.5d
-			subtitle: "可从&6搁浅舰船&r和&6塔楼&r中找到"
+			subtitle: "可从&6掠夺者舰船&r和&6掠夺者塔楼&r中找到"
 			dependencies: ["0435FFEC49A90ADE"]
 			id: "0F2EFEBD0E38BC33"
 			tasks: [{
@@ -102,7 +102,7 @@
 			title: "获得&3熟棘鱼"
 			x: -1.0d
 			y: 3.5d
-			subtitle: "可从&6搁浅舰船&r和&6塔楼&r中找到"
+			subtitle: "可从&6掠夺者舰船&r和&6掠夺者塔楼&r中找到"
 			dependencies: ["0435FFEC49A90ADE"]
 			id: "4B151E9B9D335F58"
 			tasks: [{
@@ -120,7 +120,7 @@
 			title: "获取&3氧化凝胶"
 			x: -1.0d
 			y: 2.5d
-			subtitle: "可从&3海底&r的&3冰冻迷宫&r中找到"
+			subtitle: "可从&3海底&r的&3寒冰迷宫&r中找到"
 			dependencies: ["0435FFEC49A90ADE"]
 			id: "5DA842AB9C97DEC4"
 			tasks: [{
@@ -138,7 +138,7 @@
 			title: "&3鳍"
 			x: -1.0d
 			y: 5.5d
-			subtitle: "可从&6搁浅舰船&r找到或由&2深渊巨口&r掉落"
+			subtitle: "可从&6掠夺者舰船&r找到，或由&2深渊巨口&r掉落"
 			dependencies: ["0435FFEC49A90ADE"]
 			id: "151C15C67529323B"
 			tasks: [{
@@ -156,7 +156,7 @@
 			title: "获得&3贝壳号角"
 			x: -6.0d
 			y: 4.0d
-			subtitle: "可从&2搁浅帆船&r中找到。用于在&3冰冻深海群系&r中召唤&f科妮莉亚船长亡灵&r。"
+			subtitle: "可从&2掠夺者帆船&r中找到。点击&3冰块&r召唤&f科妮莉亚船长亡灵&r。"
 			dependencies: ["0435FFEC49A90ADE"]
 			id: "375556A5B5427F23"
 			tasks: [{
@@ -265,7 +265,7 @@
 			title: "击败&3迷宫之母"
 			x: -10.5d
 			y: 4.0d
-			subtitle: "当您在聊天栏中看到&d\"您感受到冰底下的震动\"&r的信息时，它会&3生成在水中&r。"
+			subtitle: "当您在聊天栏中看到&d“你感受到冰下的震动……”&r的信息时，它会&3在水中生成&r。"
 			dependencies: ["0435FFEC49A90ADE"]
 			id: "179D7B104EF48EDB"
 			tasks: [{
@@ -283,11 +283,11 @@
 			}]
 		}
 		{
-			title: "打开&3冰冻箱"
+			title: "打开&3冰冻箱子"
 			disable_toast: true
 			x: -7.5d
 			y: 5.5d
-			subtitle: "&3冰冻箱&r藏在&2避难所中。"
+			subtitle: "&3冰冻箱子&r藏在&2掠夺者避难所中。"
 			dependencies: ["58ADADF729514289"]
 			id: "0CD5322B0E413E55"
 			tasks: [
@@ -299,7 +299,7 @@
 				{
 					id: "093BCD0DCC8FCA5C"
 					type: "observation"
-					title: "打开冰冻箱"
+					title: "打开冰冻箱子"
 					icon: "aquamirae:frozen_chest"
 					timer: 0L
 					observe_type: 0
