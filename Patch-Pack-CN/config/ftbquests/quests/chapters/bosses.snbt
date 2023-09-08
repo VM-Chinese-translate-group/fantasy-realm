@@ -174,7 +174,7 @@
 			tasks: [{
 				id: "2A58E85D2B182712"
 				type: "kill"
-				title: "击败Corneila船长的鬼魂"
+				title: "击败船长科妮莉亚亡灵"
 				icon: {
 					id: "aquamirae:three_bolt_helmet"
 					Count: 1b
