@@ -1,6 +1,6 @@
 {
-	"name": "Mobs",
-	"description": "This category contains a summary of Mobs added by the Garhenna dimension.",
+	"name": "生物",
+	"description": "该目录包含加尔赫纳维度中添加的一些生物摘要。",
 	"icon": "distant_worlds:textures/screens/garhenna_mobs_icon.png",
 	"sortnum": 4
 }

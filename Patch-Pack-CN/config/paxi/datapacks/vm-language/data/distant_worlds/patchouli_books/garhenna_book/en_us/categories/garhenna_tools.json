@@ -1,6 +1,6 @@
 {
-	"name": "Tools",
-	"description": "This category contains a summary of all Tools added by the Garhenna dimension.",
+	"name": "工具",
+	"description": "该目录包含加尔赫纳维度中添加的所有工具描述。",
 	"icon": "distant_worlds:textures/screens/garhenna_tools_icon.png",
 	"sortnum": 2
 }

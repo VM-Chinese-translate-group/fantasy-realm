@@ -1,5 +1,5 @@
 {
-	"name": "Lithum Transmitter",
+	"name": "锂发射器",
 	"icon": "distant_worlds:lithum_transmitter",
 	"category": "distant_worlds:lithum_altar",
 	"sortnum": 6,
@@ -8,7 +8,7 @@
 		{
 			"type": "patchouli:crafting",
 			"recipe": "distant_worlds:lithum_transmitter_recipe",
-			"text": "Lithum Transmitters are needed to shape the flow of dalite energy from the storages to the core, where it will be used directly to support the current ritual."
+			"text": "需要锂发射器来塑造从存储器到核心的达利特能量流，在那里它将直接用于支持当前的仪式。"
 		},
 		{
 			"type": "patchouli:relations",

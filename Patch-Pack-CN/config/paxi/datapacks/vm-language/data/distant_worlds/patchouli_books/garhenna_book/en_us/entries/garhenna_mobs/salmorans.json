@@ -1,5 +1,5 @@
 {
-	"name": "Salmorans",
+	"name": "萨尔莫兰",
 	"icon": "distant_worlds:salmoran_eye",
 	"category": "distant_worlds:garhenna_mobs",
 	"sortnum": 4,
@@ -7,52 +7,52 @@
 	"pages": [
 		{
 			"type": "patchouli:spotlight",
-			"title": "Salmoran",
+			"title": "萨尔莫兰",
 			"item": "distant_worlds:salmoran_spawn_egg",
-			"text": "$(l)$(#990000)Health: 30$(#336600)$(br)Armor: 4$(#660066)$(br)Attack: 5$()$(br)Salmoran is a flying mob that is often found in the Dead Valley biome.They do not tolerate strangers in their home, so when they see you, even from afar, they will try to get closer and hit with their strong tail with a poisonous spike at the end. Scales and meat that can be cooked can be derived from them.",
+			"text": "$(l)$(#990000)生命值: 30$(#336600)$(br)护甲值: 4$(#660066)$(br)攻击力: 5$()$(br)萨尔莫兰是是一种发现于死亡山谷群系的飞行生物。它们不会容忍领地里有入侵者，所以当它们发现你时，即使是距离较远，它们也会试图接近你，并使用它们那根带毒尖刺的尾巴击打你。鳞片和萨尔莫兰肉可以从中提取。",
 			"link_recipe": "true"
 		},
 		{
 			"type": "patchouli:spotlight",
-			"title": "Suppression",
+			"title": "抑制",
 			"item": "minecraft:potion{Potion:\"distant_worlds:suppression_potion\"}",
-			"text": "If they manage to hit you, then you will, among other things, be subjected to a new negative effect named Suppression, which will not allow you to regenerate your health. Level 5 effect completely blocks regeneration."
+			"text": "如果它们击中了你，你将受到一种叫做抑制的负面影响，这影响你自然回血的效率。五级的该效果会使你完全无法自然回血。"
 		},
 		{
 			"type": "patchouli:crafting",
 			"advancement": "distant_worlds:at_the_very_top",
 			"recipe": "distant_worlds:salmoran_treat_recipe",
-			"text": "Players can tame them with the Salmoran Treat. But you should be careful, because wild Salmorans will still try to attack you. The chance of taming is 20%, otherwise you will be able to make the next attempt only after a while. Attacked Salmorans will also become angry at the player and taming will be impossible for some time. The health level of tamed Salmorans can be increased by using wilthum fruit."
+			"text": "玩家可以用萨尔莫兰餐驯服它们。但你应该小心，因为野生的萨尔莫兰仍然会试图攻击你。驯服的几率是20%，失败后你只能在一段时间后再次尝试。被攻击的萨尔莫兰也会对玩家敌对，在一段时间内无法驯服。驯化后的萨尔莫兰可以通过使用威尔顿果来提高其生命。"
 		},
 		{
 			"type": "patchouli:spotlight",
-			"title": "Baby Salmoran",
+			"title": "萨尔莫兰宝宝",
 			"item": "distant_worlds:baby_salmoran_spawn_egg",
-			"text": "$(l)$(#990000)Health: 10$(#336600)$(br)Armor: 1$(#660066)$(br)Attack: 2$()$(br)After hatching from the egg, small salmorans still cannot use their wings, and move by crawling on the ground. If you were close enough at the time of hatching, baby salmonorans will be tamed by you, otherwise, they just won't be hostile towards you. But if you hit them, they will start attacking you, moving by jumping. When turning into an adult, small salmorans leaves behind scales, which is an ingredient for crafting new armor.",
+			"text": "$(l)$(#990000)生命值: 10$(#336600)$(br)护甲值: 1$(#660066)$(br)攻击力: 2$()$(br)从蛋中孵化出来后，萨尔莫兰宝宝仍然不能使用它们的翅膀，只能在地上爬行。如果在孵化时离你足够近，萨尔莫兰宝宝就会被你驯服。除此以外，它们不会对你怀有敌意。但如果你打了它们，它们就会开始攻击你，通过跳跃来移动。成年后，萨尔莫兰宝宝会留下鳞片，这是制作新盔甲的一种材料。",
 			"link_recipe": "true"
 		},
 		{
 			"type": "patchouli:spotlight",
-			"title": "Alpha Salmoran",
+			"title": "萨尔莫兰之王",
 			"item": "distant_worlds:alpha_salmoran_spawn_egg",
-			"text": "$(l)$(#990000)Health: 45$(#336600)$(br)Armor: 6$(#660066)$(br)Attack: 7$()$(br)Alpha Salmoran is much larger and stronger than usual. Their powerful blow pierces the shield, dealing significant damage to it. Upon death, they can drop an eye, which is used in crafting a special accessory - Salmoran Crown. A Salmoran you tamed can be turned into an Alpha using the Eye of Salmoran, and will also protect you from other Salmorans.",
+			"text": "$(l)$(#990000)生命值: 45$(#336600)$(br)护甲值: 6$(#660066)$(br)攻击力: 7$()$(br)萨尔莫兰之王跟普通相比，体型更大，且更为强壮。它们强有力的攻击能击穿盾牌，从而造成巨大伤害。死亡后，它们会掉落一只眼睛，这只眼睛用于制作一个特殊的配件 —— 萨尔莫兰王冠。你驯服的萨尔莫兰可以用萨尔莫兰之眼变成萨尔莫兰之王，也可以保护你免受其他萨尔莫兰的伤害。",
 			"link_recipe": "true"
 		},
 		{
 			"type": "patchouli:crafting",
 			"recipe": "distant_worlds:salmoran_crown_recipe",
-			"text": "The crown, when worn, will protect you from Salmorans attacks until you hit them. The Salmorans will consider the player with the crown as one of the leaders, but this will not save them from other alphas. Crown can be rapaired with Salmoran Eye on crafting table."
+			"text": "当你戴上萨尔莫兰王冠时，它会保护你免受萨尔莫兰们的攻击，除非你伤害它们。这些萨尔莫兰会将佩戴王冠的玩家视为领导者之一，但并不代表能避免其他首领。王冠可以在工作台上用萨尔莫兰之眼制作。"
 		},
 		{
 			"type": "patchouli:crafting",
 			"recipe": "distant_worlds:red_wiltum_couch_recipe",
-			"text": "You can create a comfortable couch where tamed Salmorans will be waiting for you.$(br)It can also be just a nice decoration for your home as it can be dyed like beds."
+			"text": "你可以制作一个舒适的栖息架，驯服的萨尔莫兰会在那里等你。$(br)它也可以作为你家的一种装饰物，因为它也可以像床一样染色。"
 		},
 		{
 			"type": "patchouli:crafting",
 			"advancement": "distant_worlds:encased_soul",
 			"recipe": "distant_worlds:helyst_bell_recipe",
-			"text": "Sometimes it happens that your salmorans flies too far. Use Helyst Bell to make them follow you."
+			"text": "如果你的萨尔莫兰飞的太远了，你可以使用海利斯特铃铛让它们跟着你。"
 		},
 		{
 			"type": "patchouli:empty",

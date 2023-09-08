@@ -1,5 +1,5 @@
 {
-	"name": "Lithum Pedestal",
+	"name": "锂基座",
 	"icon": "distant_worlds:lithum_pedestal",
 	"category": "distant_worlds:lithum_altar",
 	"sortnum": 7,
@@ -8,7 +8,7 @@
 		{
 			"type": "patchouli:crafting",
 			"recipe": "distant_worlds:lithum_pedestal_recipe",
-			"text": "Lithium Pedestals are additional places to store items that will be used at the beginning of the ritual. A pedestal containing a certain item will emit a small amount of dalite sparks into the air. Prematurely ending the ritual will not return items to their pedestals."
+			"text": "锂基座是用于存放仪式开始时所使用物品的额外场所，一个装有某种物品的基座会向空中发射少量的达利特火花。过早结束仪式不会将物品送回基座。"
 		},
 		{
 			"type": "patchouli:relations",

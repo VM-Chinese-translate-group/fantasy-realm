@@ -1,5 +1,5 @@
 {
-	"name": "Noarhorn Tools",
+	"name": "纳尔霍恩工具组",
 	"icon": "distant_worlds:noarhorn_axe",
 	"category": "distant_worlds:garhenna_tools",
 	"sortnum": 5,
@@ -8,7 +8,7 @@
 		{
 			"type": "patchouli:crafting",
 			"recipe": "distant_worlds:noarhorn_axe_recipe",
-			"text": "You can also use Noarhorn Spikes to craft the Noarhorn Axe, which will slightly increase the drop rate of rare fruits."
+			"text": "你可以使用纳尔霍恩之刺来制作成纳尔霍恩斧，这会略微增加稀有水果的掉落率。"
 		},
 		{
 			"type": "patchouli:relations",

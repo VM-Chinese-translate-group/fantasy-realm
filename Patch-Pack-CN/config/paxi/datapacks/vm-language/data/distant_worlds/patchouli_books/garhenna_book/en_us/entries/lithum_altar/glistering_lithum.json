@@ -1,5 +1,5 @@
 {
-	"name": "Glistering Lithum",
+	"name": "闪耀的锂",
 	"icon": "distant_worlds:glistering_lithum",
 	"category": "distant_worlds:lithum_altar",
 	"sortnum": 2,
@@ -8,7 +8,7 @@
 		{
 			"type": "patchouli:crafting",
 			"recipe": "distant_worlds:glistering_lithum_recipe",
-			"text": "Glistering lithum is used to strengthen the foundation of a Lithum Altar."
+			"text": "闪耀的锂可用来加固锂祭坛的基底。"
 		},
 		{
 			"type": "patchouli:relations",

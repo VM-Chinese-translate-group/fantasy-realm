@@ -1,5 +1,5 @@
 {
-	"name": "Lithum Core",
+	"name": "锂核心",
 	"icon": "distant_worlds:lithum_core",
 	"category": "distant_worlds:lithum_altar",
 	"sortnum": 8,
@@ -8,15 +8,15 @@
 		{
 			"type": "patchouli:crafting",
 			"recipe": "distant_worlds:lithum_core_recipe",
-			"text": "Litum Core is the heart of the whole structure. It combines all the previously listed elements into a single whole and directs the activities of the entire structure during the ritual."
+			"text": "锂核心是整个结构的核心，它将之前列出的所有元素组合成一个整体，并在仪式期间指导整个结构的活动。"
 		},
 		{
 			"type": "patchouli:text",
-			"text": "On it you can see two indicators. The first one, when active, shows the amount of dalite energy transferred compared to the required supply. If you interrupt an active ritual, the energy will not return to the storage, but will be completely lost. The second indicator shows the level of stress on the structure and the time it takes for the dalite crystals to recover from the previous ritual."
+			"text": "在上面你可以看到两个指示灯，第一个当激活的时候，显示所需供应转移的达利特能量，如果你打断了一个激活的仪式，能量不会返还到储存器中。第二个指示显示了结构上的应力水平，以及达利特晶体从之前的仪式中恢复所需的时间。"
 		},
 		{
 			"type": "patchouli:text",
-			"text": "Further in the description of each ritual, you will meet such conventional units of measurement as $(#ea7f17)$(l)DE - Dalite Energy$() and $(#992032)$(l)DRP - Dalite Recovery Points$(), which indicate the corresponding values."
+			"text": "此外，在每个仪式的描述中，你会遇到诸如$(#ea7f17)$(l)DE - 达利特能量$() 和 $(#992032)$(l)DRP - 达利特恢复点$()这样的单位，它们表示相应的值。"
 		},
 		{
 			"type": "patchouli:relations",

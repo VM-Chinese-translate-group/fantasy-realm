@@ -1,5 +1,5 @@
 {
-	"name": "Toran",
+	"name": "托兰",
 	"icon": "distant_worlds:sticky_garsale_bark",
 	"category": "distant_worlds:garhenna_mobs",
 	"sortnum": 5,
@@ -7,21 +7,21 @@
 	"pages": [
 		{
 			"type": "patchouli:spotlight",
-			"title": "Toran",
+			"title": "托兰",
 			"item": "distant_worlds:toran_spawn_egg",
-			"text": "$(l)$(#990000)Health: 30$(#336600)$(br)Armor: 2$(#660066)$(br)Attack: 6$()$(br)Toran is a large ground mob found in the Sticky Marshes biome. They look like living Garsale Trees and may not be visible in their habitat. After attacking, he will knock you back and apply a new effect named Sticky Shackles. Upon death, it drops Garsale Wood and Sticky Garsale Bark with a small chance.",
+			"text": "$(l)$(#990000)生命值: 30$(#336600)$(br)护甲值: 2$(#660066)$(br)攻击力: 6$()$(br)托兰是在粘性沼泽群系中发现的一大群地面生物。它们看起来像活的伽萨尔树，这导致在它们的栖息地可能不容易发现。攻击后，他会将你击倒，并施加一个名为粘性枷锁的效果。死亡后，它会有几率掉落伽萨尔木和粘性伽萨尔树皮。",
 			"link_recipe": "true"
 		},
 		{
 			"type": "patchouli:spotlight",
-			"title": "Sticky Shackles",
+			"title": "粘性枷锁",
 			"item": "minecraft:potion{Potion:\"distant_worlds:sticky_shackles_potion\"}",
-			"text": "This effect will deal damage to entity equal to the effect level after falling more than half a block."
+			"text": "此效果会在实体超过半格高的高度掉落后造成与效果等级相同的伤害。"
 		},
 		{
 			"type": "patchouli:smelting",
 			"recipe": "distant_worlds:garsale_slime",
-			"text": "Sticky Garsale Bark can be smelted into Garsale Slime."
+			"text": "粘性伽萨尔树皮可以冶炼成伽萨尔粘液。"
 		},
 		{
 			"type": "patchouli:relations",

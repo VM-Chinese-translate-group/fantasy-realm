@@ -1,5 +1,5 @@
 {
-	"name": "Loteress",
+	"name": "洛特雷斯",
 	"icon": "distant_worlds:glowing_pollen",
 	"category": "distant_worlds:garhenna_mobs",
 	"sortnum": 6,
@@ -7,19 +7,19 @@
 	"pages": [
 		{
 			"type": "patchouli:spotlight",
-			"title": "Loteress",
+			"title": "洛特雷斯",
 			"item": "distant_worlds:loteress_spawn_egg",
-			"text": "$(l)$(#990000)Health: 10$(#336600)$(br)Armor: 0$(#660066)$(br)Attack: Special$()$(br)Loteress is a flying support mob. They are found in the Sticky Marshes biome and will not be hostile to the player by themselves. Their ability is to spew pollen profusely for 4 seconds if there is a Toran nearby with less than full health.",
+			"text": "$(l)$(#990000)生命值: 10$(#336600)$(br)护甲值: 0$(#660066)$(br)攻击力: 特殊$()$(br)洛特雷斯是一种飞行支援型生物。它们可从粘性沼泽群系中发现，且不会对玩家产生敌意。它们的能力是如果附近有一只受伤的托兰，会在四秒内喷出大量花粉治疗。",
 			"link_recipe": "true"
 		},
 		{
 			"type": "patchouli:text",
-			"text": "All Torans in range during this time will be subject to Regeneration effect of higher and higher levels, up to 4, and all living entities vulnerable to pollen will be poisoned. After using this ability, it will be restored within 20 seconds. If you hit Lotheress who hasn't used ability recently, there is a 70% chance to drop some of the pollen and inflict a weak poison effect on entities vulnerable to the pollen in a small radius. To defend yourself, you can use a shield after hitting."
+			"text": "在此期间，范围内的所有托兰都将受到级别越来越高的再生效果，最高可达4级，所有易受花粉影响的生物都将中毒。释放花粉后，它将在20秒内恢复。如果你击中了短时间没有使用过这种能力的洛特雷斯，有70%的概率掉落一些花粉，并对小半径内易受花粉伤害的实体造成微弱的毒性作用。为了自卫，你可以在击中后使用盾牌。"
 		},
 		{
 			"type": "patchouli:crafting",
 			"recipe": "distant_worlds:glowing_pollen_jar_recipe",
-			"text": "From these creatures you can get Glowing Pollen and Sticky Garsale Bark with a small chance. Glowing Pollen is an ingredient for crafting an accessory called the Glowing Pollen Jar. When worn around the neck, it is able to scatter glowing pollen nearby and temporarily illuminate an area while losing durability. Jar can be filled with 3 Glowing Pollen on crafting table."
+			"text": "从这些生物身上，你可以有几率获得发光花粉和粘性伽萨尔树皮。发光花粉是一种制作名为发光花粉罐的材料。当戴在脖子上时，它能够将发光花粉撒在附近，并暂时照亮该区域，同时失去耐久。在工作台上，罐子里可以装满3个发光花粉。"
 		},
 		{
 			"type": "patchouli:relations",

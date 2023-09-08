@@ -1,5 +1,5 @@
 {
-	"name": "Garsale Fruit",
+	"name": "伽萨尔果",
 	"icon": "distant_worlds:garsale_fruit",
 	"category": "distant_worlds:garhenna_natural",
 	"sortnum": 3,
@@ -9,17 +9,17 @@
 			"type": "patchouli:spotlight",
 			"item": "distant_worlds:garsale_fruit",
 			"link_recipe": "true",
-			"text": "From the leaves of the Garsale Tree, you have a small chance to get a Garsale Fruit, which can lower the Garhenna depletion rate due to its healing properties. It can be crafted into a highly nutritious Garsale Cake or Garsale Elixir, which can further reduce depletion and grant temporary protection. For convenience, garsale fruits can be stored in large boxes."
+			"text": "从伽萨尔树叶上，你有几率获得伽萨尔果，由于其治疗特性，它可以降低加尔赫纳的损耗。它也可以制作成营养丰富的伽萨尔蛋糕或伽萨尔灵药，可以进一步减少加尔赫纳损耗并提供临时保护。为了方便起见，伽萨尔果可以储存在箱子里。"
 		},
 		{
 			"type": "patchouli:crafting",
-			"title": "Related Recipes",
+			"title": "相关食材",
 			"recipe": "distant_worlds:garsale_cake_recipe",
 			"recipe2": "distant_worlds:garsale_elixir_recipe"
 		},
 		{
 			"type": "patchouli:crafting",
-			"title": "Storage in Boxes",
+			"title": "箱子储存",
 			"recipe": "distant_worlds:garsale_fruit_box_recipe",
 			"recipe2": "distant_worlds:garsale_fruit_recipe"
 		},

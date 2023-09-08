@@ -1,5 +1,5 @@
 {
-	"name": "Lithum Storage",
+	"name": "锂存储器",
 	"icon": "distant_worlds:lithum_storage_advanced",
 	"category": "distant_worlds:lithum_altar",
 	"sortnum": 5,
@@ -7,7 +7,7 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "The furnace crystals, which form dalite energy in themselves, would not be enough to fully store large reserves of energy. To do this, it is necessary to create accumulative Lithum Storages.$(br)Also, slightly smaller supplies of energy can be taken with you in portable Dalite Storages. They can be placed in lithum storage to replenish or return their internal energy supply."
+			"text": "熔炉中的晶体本身就形成了达利特能量，不足以完全储备大量的能量。想要做到这一点，有必要创造累积的锂存储器。$(br)此外，在便携式的锂存储器中，可以随身携带少量的能源，它们可以被放置在锂存储器中，以补充或返还其内部能量供应。"
 		},
 		{
 			"type": "patchouli:crafting",
@@ -19,7 +19,7 @@
 			"type": "patchouli:crafting",
 			"title": "Lithum Storages",
 			"recipe": "distant_worlds:lithum_storage_advanced_recipe",
-			"text": "Each of these can be used as storage in a Lithum Altar."
+			"text": "每一个都可以作为锂祭坛的存储室。"
 		},
 		{
 			"type": "patchouli:crafting",
@@ -31,7 +31,7 @@
 			"type": "patchouli:crafting",
 			"title": "Dalite Storages",
 			"recipe": "distant_worlds:dalite_storage_advanced_recipe",
-			"text": "Use them to transfer energy between storages, or to take the last of the energy from a storage before breaking it."
+			"text": "使用它们在存储器之间传递能量，或者在破坏存储器之前从存储器中取出最后一点能量。"
 		},
 		{
 			"type": "patchouli:relations",

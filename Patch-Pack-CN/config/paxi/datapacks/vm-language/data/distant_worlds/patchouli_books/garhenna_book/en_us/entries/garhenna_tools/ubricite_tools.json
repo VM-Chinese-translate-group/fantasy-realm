@@ -1,5 +1,5 @@
 {
-	"name": "Ubricite Tools",
+	"name": "乌布利特工具组",
 	"icon": "distant_worlds:ubricite_hammer",
 	"category": "distant_worlds:garhenna_tools",
 	"sortnum": 4,
@@ -8,7 +8,7 @@
 		{
 			"type": "patchouli:spotlight",
 			"item": "distant_worlds:ubricite_hammer",
-			"text": "Using Ubricite Ingot, you can create an Ubricite Hammer that can break blocks immediately from a 3x3 block territory.$(br)Can be crafted on Lithum Altar, using $(#ea7f17)$(l)40 000 DE$() and following items:$(li)Ubricite Ingot$(o) [Main]$()$(li)Ubricite Ingot $(o)[x4]$()$(li)Stick $(o)[x2]$()$(br2)Recovery after full ritual: $(#992032)$(l)800 DRP$()",
+			"text": "使用乌布利特锭制作一把乌布利特战锤，它可以立即从3x3的范围打破方块。$(br)可通过锂祭坛制作，花费 $(#ea7f17)$(l)40 000 DE$() 和以下物品：$(li)乌布利特锭$(o) [主要]$()$(li)乌布利特 $(o)[x4]$()$(li)木棍 $(o)[x2]$()$(br2)完整仪式后恢复时间：$(#992032)$(l)800 DRP$()",
 			"link_recipe": "true"
 		},
 		{

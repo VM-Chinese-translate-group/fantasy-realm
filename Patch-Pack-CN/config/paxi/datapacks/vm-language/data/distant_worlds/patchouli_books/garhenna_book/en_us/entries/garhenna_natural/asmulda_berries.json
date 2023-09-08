@@ -1,5 +1,5 @@
 {
-	"name": "Asmulda Berries",
+	"name": "阿斯穆达浆果",
 	"icon": "distant_worlds:asmulda_berries",
 	"category": "distant_worlds:garhenna_natural",
 	"sortnum": 1,
@@ -9,17 +9,17 @@
 			"type": "patchouli:spotlight",
 			"item": "distant_worlds:asmulda_berries",
 			"link_recipe": "true",
-			"text": "Asmulda are sour berries that grow in small bushes in the Burning Plains biome. These berries have little healing and nutritional properties, but can be used in making delicious meals like Asmulda Pie. Asmulda Elixir can be used to reduce depletion and temporary protection in the Garhenna Dimension.$(br)You can grow Asmulda Berries on Lifeless Grass and speed up their growth with Bone Meal. In addition, Asmulda berries are well stored in small boxes."
+			"text": "阿斯穆达浆果是一种酸味浆果，生长在燃烧平原群系的灌木丛中。这些浆果几乎没有愈合和饱食特性，但可以用来制作美味的食物，如阿斯穆达派。阿斯穆达灵药可以用来减少在加尔赫纳维度的损耗以及提供临时保护。$(br)你可以在枯萎草方块上种植阿斯穆达浆果，并用骨粉催化生长。此外，阿斯穆达浆果可被储存在箱子里。"
 		},
 		{
 			"type": "patchouli:crafting",
-			"title": "Related Recipes",
+			"title": "相关食材",
 			"recipe": "distant_worlds:asmulda_pie_recipe",
 			"recipe2": "distant_worlds:asmulda_elixir_recipe"
 		},
 		{
 			"type": "patchouli:crafting",
-			"title": "Storage in Boxes",
+			"title": "箱子储存",
 			"recipe": "distant_worlds:asmulda_berries_box_recipe",
 			"recipe2": "distant_worlds:asmulda_berries_recipe"
 		},

@@ -1,5 +1,5 @@
 {
-	"name": "Lithum Furnace",
+	"name": "锂熔炉",
 	"icon": "distant_worlds:lithum_furnace",
 	"category": "distant_worlds:lithum_altar",
 	"sortnum": 3,
@@ -7,17 +7,17 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Dalite Energy can be accumulated as a result of special reactions with the combustion of Curelite in Lithum Furnaces. In all elements of the Litum Altar, the stone of the same name is used, because it has fairly stable properties and is the least susceptible to the strong influence of large accumulations of Dalite."
+			"text": "在锂熔炉中，由于与卡瑞利特燃烧的特殊反应，可以积累达利特的能量。在锂祭坛的所有结构中都使用了相同的锂石，因为它具有相当稳定的特性，并且不易受到达利特大量积累的强烈影响。"
 		},
 		{
 			"type": "patchouli:crafting",
 			"recipe": "distant_worlds:lithum_furnace_recipe",
-			"text": "Fralite, on the other hand, has rather weak containment properties due to accumulations of Dalite ores in its natural environment - the Molten Hills."
+			"text": "另一方面，由于达利特矿石在其自然环境，熔岩丘陵中的堆积，弗莱特的遏制性能相当弱。"
 		},
 		{
 			"type": "patchouli:spotlight",
 			"item": "distant_worlds:lithum_furnace_lit",
-			"text": "After using fuel in a Litum Furnace, you will see a flame, which is an indicator that shows the remaining fuel level. Dalite energy can be immediately transferred to the connected lithum storage if it is not full.",
+			"text": "在锂熔炉中使用燃料后，您将看到火焰，这是一个显示剩余燃料的指示器。如果未满，达利特的能量可以立即转移到连接的锂存储器里。",
 			"link_recipe": "true"
 		},
 		{

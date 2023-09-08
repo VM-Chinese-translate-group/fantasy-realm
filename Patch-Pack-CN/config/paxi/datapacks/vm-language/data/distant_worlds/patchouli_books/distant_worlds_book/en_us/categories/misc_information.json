@@ -1,6 +1,6 @@
 {
-	"name": "Misc Information",
-	"description": "This category contains additional information.",
+	"name": "杂项",
+	"description": "该目录包含其他信息。",
 	"icon": "distant_worlds:textures/screens/misc_information_icon.png",
 	"sortnum": 1
 }

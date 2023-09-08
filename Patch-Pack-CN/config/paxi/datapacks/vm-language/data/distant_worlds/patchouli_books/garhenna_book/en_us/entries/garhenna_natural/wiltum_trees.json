@@ -1,5 +1,5 @@
 {
-	"name": "Wiltum Trees",
+	"name": "威尔顿树",
 	"icon": "distant_worlds:wiltum_sapling",
 	"category": "distant_worlds:garhenna_natural",
 	"sortnum": 4,
@@ -9,13 +9,13 @@
 			"type": "patchouli:spotlight",
 			"item": "distant_worlds:wiltum_sapling",
 			"link_recipe": "true",
-			"text": "Wiltum Trees grow in abundance in the Dead Valley biome and can be grown by you from saplings, including wide species of trees from 4 adjacent saplings. These trees are made from Wiltum Wood, which can be stripped or recycled into a variety of other decorative and functional blocks."
+			"text": "威尔顿树在死亡谷生物群落中生成，你可以用树苗种植，包括4棵相邻树苗的各种树木。这些树是由威尔顿木制成的，可以剥离或回收成各种其他装饰和功能方块。"
 		},
 		{
 			"type": "patchouli:spotlight",
 			"item": "distant_worlds:wiltum_core",
 			"link_recipe": "true",
-			"text": "Wiltum Core is found at the top of a tree behind its foliage and can be processed into wood or used as decorative lighting."
+			"text": "威尔顿核位于顶部树叶当中，可加工成木材或用作装饰照明。"
 		},
 		{
 			"type": "patchouli:empty",

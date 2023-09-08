@@ -1,5 +1,5 @@
 {
-	"name": "Firon",
+	"name": "菲隆",
 	"icon": "distant_worlds:firon_ingot",
 	"category": "distant_worlds:garhenna_materials",
 	"sortnum": 1,
@@ -8,7 +8,7 @@
 		{
 			"type": "patchouli:smelting",
 			"recipe": "distant_worlds:firon_nugget",
-			"text": "Firon is a valuable ore found throughout the Garhenna dimension in small quantities. By destroying the ore, you will get Raw Firon, which must later be smelted into a Firon Nugget. Firon Ingot can be crafted with 9 nuggets. Firon ingots, like all equipment made from this material, are not susceptible to the high temperatures of fire or lava."
+			"text": "菲隆是在整个加尔赫纳维度发现的一种有价值的矿石，数量很少。通过采集矿石，你将获得粗菲隆，然后必须将其冶炼成菲隆碎片。菲隆锭可以用9块碎片制作，像所有由这种菲隆锭制成的装备，都不易受到高温火或熔岩的影响。"
 		},
 		{
 			"type": "patchouli:crafting",
@@ -24,20 +24,20 @@
 			"type": "patchouli:spotlight",
 			"advancement": "distant_worlds:does_it_smile",
 			"item": "distant_worlds:glistering_garsale_fruit",
-			"text": "Among other things, you can cover a Garsale Fruit with a layer of Firon and get a Glistering Garsale Fruit. It has very strong healing properties and is able to saturate you for a long time. Glistering Garsale Fruits can also be stored in large boxes.",
+			"text": "此外，你可以在伽萨尔果上覆盖一层菲隆锭，然后就获得闪耀伽萨尔果，它具有非常强的治疗效果，能够让你长期处于饱和状态，闪耀伽萨尔果也可以储存在大盒子里。",
 			"link_recipe": "true"
 		},
 		{
 			"type": "patchouli:crafting",
 			"advancement": "distant_worlds:does_it_smile",
-			"title": "Related Recipes",
+			"title": "相关食材",
 			"recipe": "distant_worlds:glistering_garsale_fruit_cover_recipe",
 			"recipe2": "distant_worlds:glistering_garsale_elixir_recipe"
 		},
 		{
 			"type": "patchouli:crafting",
 			"advancement": "distant_worlds:does_it_smile",
-			"title": "Storage in Boxes",
+			"title": "箱子储存",
 			"recipe": "distant_worlds:glistering_garsale_fruit_box_recipe",
 			"recipe2": "distant_worlds:glistering_garsale_fruit_recipe"
 		},

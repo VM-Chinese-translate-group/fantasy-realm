@@ -3,24 +3,24 @@
 	group: ""
 	order_index: 1
 	filename: "getting_started"
-	title: " &7Getting Started"
+	title: " &7入门"
 	icon: "minecraft:oak_log"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Pick a Starter Item"
+			title: "采集初始物品"
 			icon: "minecraft:grass_block"
 			x: -4.5d
 			y: -1.0d
 			shape: "gear"
-			subtitle: "&6Starter Items &rdo not affect gameplay in any way, they are &5simply starting items."
+			subtitle: "&6初始物品&r不会以任何方式影响游戏性，它们只是&5初始物品。"
 			size: 1.5d
 			id: "7944A3DD37CF9502"
 			tasks: [{
 				id: "095D3A48E6778842"
 				type: "dimension"
-				title: "Pick a Starter Item"
+				title: "采集初始物品"
 				icon: "minecraft:grass_block"
 				dimension: "minecraft:overworld"
 			}]
@@ -33,10 +33,10 @@
 			}]
 		}
 		{
-			title: "Biome Locator"
+			title: "定位群系"
 			x: -3.0d
 			y: 0.5d
-			subtitle: "Craft a &aNature's Compass"
+			subtitle: "制作&a自然指南针"
 			dependencies: ["7944A3DD37CF9502"]
 			id: "745233F49640DA8A"
 			tasks: [{
@@ -63,10 +63,10 @@
 			]
 		}
 		{
-			title: "Enchantable, Portable Storage"
+			title: "更强，更便携的存储"
 			x: -4.5d
 			y: 1.0d
-			subtitle: "Craft a&6 Backpack"
+			subtitle: "制作&6背包"
 			dependencies: ["7944A3DD37CF9502"]
 			id: "7BD9F3A654922398"
 			tasks: [{
@@ -152,7 +152,7 @@
 		{
 			x: -6.0d
 			y: -2.5d
-			subtitle: "Guides for various mods in the modpack"
+			subtitle: "整合包里的各种模组指南"
 			dependencies: ["7944A3DD37CF9502"]
 			id: "2E99CAFA5689A90C"
 			tasks: [
@@ -242,35 +242,35 @@
 			}]
 		}
 		{
-			title: "&5Normal Mode"
+			title: "&5普通模式"
 			x: -5.5d
 			y: 4.5d
 			shape: "rsquare"
-			subtitle: "&fClick!"
+			subtitle: "&f点击！"
 			description: [
-				"Activated at &d&lWorld Creation.&r"
+				"&d&l创建世界&r时激活。"
 				""
-				"&6&lFeatures:&r"
+				"&6&l特点：&r"
 				""
-				"- &dUndead Army&r spawns after &4killing 25 undead mobs.&r"
+				"- &d亡灵军团&r在&4击杀25个亡灵生物&r后触发。"
 				""
-				"- &cAnimals&r, &cZombies&r, and &cSpiders&r inflict &4Bleeding effect&r."
+				"- &c动物&r，&c僵尸&r，和&c蜘蛛&r可造成&4流血效果&r。"
 				""
-				"- &eZombies&r and &eSkeletons&r spawn in &2groups.&r"
+				"- &e僵尸&r和&e骷髅&r &2成团&r生成。"
 				""
-				"- &2Creepers &rspawn &bcharged.&r"
+				"- &2苦力怕&r生成时&b自带闪电&r。"
 				""
-				"- &4Stronger mobs &rand &4bosses&r drop &4Treasure Bags.&r"
+				"- &4更强大的生物&r和&4Boss们&r将掉落&4宝藏袋&r。"
 				""
-				" - &3Elder Guardian &rdrops &6Elder guardian treasure bag&r"
+				" - &3远古守卫者&r掉落&6远古守卫者宝藏袋&r。"
 				""
-				" - &3Warden&r drops Warden treasure bag &6Warden Treasure Bag&r"
+				" - &3监守者&r掉落&6监守者宝藏袋&r。"
 				""
-				" - &3Wither&r drops Wither treasure bag &6Wither Treasure Bag&r"
+				" - &3凋灵&r掉落&6凋灵宝藏袋&r。"
 				""
-				" - &3Ender Dragon&r drops &6Ender dragon treasure bag&r"
+				" - &3末影龙&r掉落&6末影龙宝藏袋&r。"
 				""
-				"etc etc"
+				"以及其他"
 			]
 			id: "76D21CEBF925F2B1"
 			tasks: [{
@@ -290,33 +290,33 @@
 			x: -1.5d
 			y: 4.5d
 			shape: "circle"
-			subtitle: "&fClick!"
+			subtitle: "&f点击！"
 			description: [
-				"Activated when &l&dthe first player&r &l&4Changes Dimension.&r"
+				"当&l&d第一个玩家&r&l&4改变维度&r时激活。"
 				""
-				"&6&lFeatures:&r"
+				"&6&l特点：&r"
 				""
-				"- &dUndead Army&r has 2 extra waves.&r"
+				"- &d亡灵军团&r额外生成两波。&r"
 				""
-				"- &0Wither Skeletons &rand &4Cerberus Cerberus&r can be encountered during 4th and 5th wave.&r"
+				"- 在第四波以及第五波中可遇到&0凋灵骷髅&r和&4地狱犬&r。&r"
 				""
-				"- &4Bleeding effect &rgets stronger.&r"
+				"- &4流血效果&r更强。&r"
 				""
-				"- &6Piglins &rspawn in groups.&r"
+				"- &6猪灵&r成团生成。&r"
 				""
-				"- &2Creepers &rexplode into more &2Creeperlings.&r"
+				"- &2苦力怕&r爆炸会产生更多&2苦力怕。&r"
 				""
-				"- &2Creepers &rignite other &2Creepers &ron explosion.&r"
+				"- &2苦力怕&r在爆炸时会点燃其他&2苦力怕&r。&r"
 				""
-				"- &bDrowned &rspawn &blightning bolts&r when using &bTrident.&r"
+				"- &b溺尸&r生成时会持有&b召唤闪电&r的&b三叉戟。&r"
 				""
-				"- &4Mobs&r are more likely to spawn: &4+10% mob&r spawn rateIt only affects &4hostile mobs.&r"
+				"- &4生物&r生成时更有可能：&4+10%&r生成几率，只影响&4敌对生物。&r"
 				""
-				"- &eRabbits&r can be replaced with &4The Killer Bunny.&r"
+				"- &e兔子&r会被&4杀人兔&r替代。"
 				""
-				"- &2Fishing&r rewards you with &6Treasure Bags more often.&r"
+				"- &2钓鱼&r会更高概率钓出&6宝藏袋。&r"
 				""
-				"etc etc"
+				"以及其他"
 				""
 			]
 			dependencies: [
@@ -328,7 +328,7 @@
 			tasks: [{
 				id: "77570D18BF031E60"
 				type: "advancement"
-				title: "&5Expert Mode"
+				title: "&5专家模式"
 				advancement: "majruszsdifficulty:progressive_difficulty/expert_mode"
 				criterion: ""
 			}]
@@ -343,35 +343,35 @@
 			x: 2.5d
 			y: 4.5d
 			shape: "gear"
-			subtitle: "&fClick!"
+			subtitle: "&f点击！"
 			description: [
-				"Activated when &l&dAnyone&r defeats &l&dthe Ender Dragon.&r"
+				"当&l&d任何人&r击败&l&d末影龙&r时激活。"
 				""
-				"&l&6Features:&r"
+				"&l&6特点：&r"
 				""
-				"- &4Undead Army&r has extra wave.&r"
+				"- &4亡灵军团&r有额外的波数。&r"
 				""
-				"- &2Giant&r can be encountered during &b6th wave&r"
+				"- &2巨人&r可能会出现在&b第六波&r"
 				""
-				"- &4Bleeding effect &rgets stronger.&r"
+				"- &4流血效果&r更明显。&r"
 				""
-				"- &dEndermans&r teleport mobs on hit.&r"
+				"- &d末影人&r在攻击时传送生物。&r"
 				""
-				"- &3Phantoms&r inflict &bLevitation effect.&r"
+				"- &3幻翼&r攻击附带&b飘浮效果。&r"
 				""
-				"- &dShulkers &rinflict &6Blindness effect.&r"
+				"- &d潜影贝&r攻击附带&6失明效果。&r"
 				""
-				"- &4Mobs&r are more likely to spawn.&r"
+				"- &4生物&r更高频率生成。&r"
 				""
-				"- &cCerberus&r starts to spawn naturally in&4 the Nether.&r"
+				"- &c地狱犬&r开始在&4地狱&r中自然生成。"
 				""
-				"- &4Mobs have more &bhealth:&r "
-				" - &b+10% &4extra health&r during the day (&btotal +20%&r)"
-				" - &b+15% &4extra health&r during the night (&btotal +30%&r)"
+				"- &4生物&r拥有更高&b生命值：&r "
+				" - 在白天额外增加&b+10% &4生命值&r (&b总计 +20%&r)"
+				" - 在夜晚额外增加&b+15% &4生命值&r (&b总计 +30%&r)"
 				""
-				"- &4Mobs &rdeal more &4damage:&r"
-				" - &b+10% &4extra damage &rduring the day (&btotal +20%&r)"
-				" - &b+15% &4extra damage&r during the night (&btotal +30%&r)"
+				"- &4生物&r造成更多&4伤害：&r"
+				" - 在白天额外造成&b+10% &4伤害&r (&b总计 +20%&r)"
+				" - 在夜晚额外造成&b+15% &4伤害&r (&b总计 +30%&r)"
 				""
 				""
 			]
@@ -381,7 +381,7 @@
 			tasks: [{
 				id: "1409BD27BC44FC6B"
 				type: "advancement"
-				title: "&5Master Mode"
+				title: "&5大师模式"
 				advancement: "majruszsdifficulty:progressive_difficulty/master_mode"
 				criterion: ""
 			}]
@@ -393,10 +393,10 @@
 			}]
 		}
 		{
-			title: "Craft &5Bandages"
+			title: "制作&5绷带"
 			x: -5.0d
 			y: 6.0d
-			subtitle: "Bandage is an item that cures Bleeding effect. It can be obtained from Angler treasure bag Angler Treasure Bag or by crafting it."
+			subtitle: "绷带是用于治疗流血效果的物品，它可以从渔夫宝藏袋或通过人工合成获得。"
 			dependencies: ["76D21CEBF925F2B1"]
 			id: "17286011E566C866"
 			tasks: [
@@ -419,10 +419,10 @@
 			}]
 		}
 		{
-			title: "Craft an &5Undead Battle Standard"
+			title: "制作&5亡灵宣战旗"
 			x: -7.5d
 			y: 4.5d
-			subtitle: "&5Undead Battle Standard&r is an item that allows to summon the &5Undead Army&r whenever possible."
+			subtitle: "&5亡灵宣战旗&r可在任意时间下召唤&5亡灵军团&r。"
 			dependencies: ["76D21CEBF925F2B1"]
 			id: "226DA6205D929C7B"
 			tasks: [{
@@ -438,10 +438,10 @@
 			}]
 		}
 		{
-			title: "Obtain a &5Recall Potion"
+			title: "获得&5回忆药水"
 			x: -4.0d
 			y: 5.5d
-			subtitle: "It can be obtained from &fPillager Raid Treasure Bag."
+			subtitle: "它可以通过&f袭击宝藏袋&r获得。"
 			dependencies: ["76D21CEBF925F2B1"]
 			id: "78AE52AA945C6948"
 			tasks: [{
@@ -457,10 +457,10 @@
 			}]
 		}
 		{
-			title: "Obtain a &5Soul Jar"
+			title: "获得&5灵魂罐"
 			x: -4.0d
 			y: 3.5d
-			subtitle: "It can be obtained from &fUndead Army Treasure Bag."
+			subtitle: "它可以通过&f亡灵军团宝藏袋&r获得。"
 			dependencies: ["76D21CEBF925F2B1"]
 			id: "5646A179EE4D5BED"
 			tasks: [{
@@ -480,10 +480,10 @@
 			}]
 		}
 		{
-			title: "Craft an &5Enderium Set"
+			title: "制作&5末地套装"
 			x: 2.0d
 			y: 6.0d
-			subtitle: "Armor pieces can be crafted using Netherite equivalent,"
+			subtitle: "该装备可通过下界合金套通过末地锭锻造而成"
 			dependencies: ["6F4188CED1FC9D82"]
 			id: "3E616F1FD165DE43"
 			tasks: [
@@ -540,7 +540,7 @@
 			}]
 		}
 		{
-			title: "Craft an &5Enderium Tools Set"
+			title: "制作&5末地工具"
 			x: 3.0d
 			y: 6.0d
 			dependencies: ["6F4188CED1FC9D82"]
@@ -618,10 +618,10 @@
 			]
 		}
 		{
-			title: "Obtain an &5Enderium Shard Locator"
+			title: "获得&5末地碎片定位仪"
 			x: 2.0d
 			y: 3.0d
-			subtitle: "&5Enderium Shard Locator&r is an item that helps to locate the&5 Enderium Shard Ores&r by indicating how far the player is from the nearest ore.It can be obtained from &cEnder Dragon Treasure Bag."
+			subtitle: "&5末地碎片定位仪&r可以帮助您定位&5末地碎片矿石&r，并指示玩家距离最近矿石有多远。它可以通过&c末影龙宝藏袋&r获得。"
 			dependencies: ["6F4188CED1FC9D82"]
 			id: "1C5274CB5C3D832E"
 			tasks: [{
@@ -637,10 +637,10 @@
 			}]
 		}
 		{
-			title: "Obtain an &5Enderium Ingot"
+			title: "获得&5末地锭"
 			x: 3.0d
 			y: 3.0d
-			subtitle: "&5Enderium Ingot &ris an item required to craft &5Enderium Armor and Enderium Tools&r.It can be crafted using  &5Enderium Shards."
+			subtitle: "&5末地锭&r可以用于制作&5末地套装和末地工具&r。它通过&5末地碎片&r制作。"
 			dependencies: ["6F4188CED1FC9D82"]
 			id: "381899A2E72E410C"
 			tasks: [{
@@ -663,7 +663,7 @@
 			tasks: [{
 				id: "576CB1898AB8DC10"
 				type: "item"
-				title: "Obtain a &5Wither Sword"
+				title: "获得&5凋零剑"
 				item: {
 					id: "majruszsdifficulty:wither_sword"
 					Count: 1b
@@ -674,10 +674,10 @@
 			}]
 		}
 		{
-			title: "Obtain a &5Cerberus Fang"
+			title: "获得&5地狱犬牙"
 			x: -1.0d
 			y: 6.0d
-			subtitle: "&4Cerberus Fang&r is an item that is an ingredient required to make &0Wither Potions&r and &0Wither Arrows.&r It can be obtained from &4The Cerberus."
+			subtitle: "&4地狱犬牙&r可用于制作&0凋零药水&r和&0凋零箭&r。它可以通过&4地狱犬&r获得。"
 			dependencies: ["24E08A5486D838BE"]
 			id: "4E61B953876B1CB8"
 			tasks: [{
@@ -687,10 +687,10 @@
 			}]
 		}
 		{
-			title: "Obtain a &5Wither Treasure Bag"
+			title: "获得&5凋零宝藏袋"
 			x: -2.0d
 			y: 6.0d
-			subtitle: "&0Wither Treasure Bag&r is one of Treasure Bags that can be obtained after killing &0the Wither."
+			subtitle: "&0凋零宝藏袋&r是通过击杀&0凋零&r获得的宝藏袋。"
 			dependencies: ["24E08A5486D838BE"]
 			id: "579750220CF7B904"
 			tasks: [{
@@ -700,10 +700,10 @@
 			}]
 		}
 		{
-			title: "Obtain an &5Ender Dragon Treasure Bag"
+			title: "获得&5末影龙宝藏袋"
 			x: 4.0d
 			y: 4.0d
-			subtitle: "&5Ender Dragon Treasure Bag&r is one of Treasure Bags that can be obtained after killing &5the Ender Dragon."
+			subtitle: "&5末影龙宝藏袋&r是通过击杀&5末影龙&r获得的宝藏袋。"
 			dependencies: ["6F4188CED1FC9D82"]
 			id: "1437743B652CCD39"
 			tasks: [{
@@ -713,10 +713,10 @@
 			}]
 		}
 		{
-			title: "Obtain an &5Ender Pouch"
+			title: "获得&5末影袋"
 			x: 4.0d
 			y: 5.0d
-			subtitle: "&5Ender Pouch&r is an item that works as portable &fEnder Chest.&rIt can be obtained from an &5Ender Dragon Treasure Bag."
+			subtitle: "&5末影袋&r可以看作作为便携式的&f末影箱&r。它可以通过&5末影龙宝藏袋&r获得。"
 			dependencies: ["6F4188CED1FC9D82"]
 			id: "3EC122E73B3B1D61"
 			tasks: [{
@@ -726,16 +726,16 @@
 			}]
 		}
 		{
-			title: "Obtain &5the Angler Treasure Bag"
+			title: "获得&5渔夫宝藏袋"
 			x: -6.0d
 			y: 6.0d
-			subtitle: "Click me!"
+			subtitle: "点击我！"
 			description: [
-				"Angler Treasure Bag is one of Treasure Bags that can be obtained while fishing"
+				"渔夫宝藏袋是钓鱼可获得的宝藏之一"
 				""
-				"- once every 20 items fished on Normal Mode"
-				"- once every 15 items fished on Expert Mode"
-				"- once every 10 items fished on Master Mode"
+				"- 在普通模式下每20个物品钓出一次"
+				"- 在专家模式下每15个物品钓出一次"
+				"- 在大师模式下每10个物品钓出一次"
 				""
 				""
 				""
@@ -749,10 +749,10 @@
 			}]
 		}
 		{
-			title: "Obtain &5the Undead Army Treasure Bag"
+			title: "获得&5亡灵军团宝藏袋"
 			x: -7.0d
 			y: 3.5d
-			subtitle: "&cUndead Army Treasure Bag&r is one of Treasure Bags that can be obtained after defeating the&5 Undead Army."
+			subtitle: "&c亡灵军团宝藏袋&r是通过击败&5亡灵军团&r后获得的宝藏袋。"
 			dependencies: ["76D21CEBF925F2B1"]
 			id: "6BF0451167B38ACF"
 			tasks: [{
@@ -762,10 +762,10 @@
 			}]
 		}
 		{
-			title: "Obtain a &5Raid Treasure Bag"
+			title: "获得&5袭击宝藏袋"
 			x: -6.0d
 			y: 3.0d
-			subtitle: "&3Raid Treasure Bag&r is one of Treasure Bags that can be obtained after defeating &3the raid."
+			subtitle: "&3袭击宝藏袋&r是通过击败&3袭击&r后获得的宝藏袋。"
 			dependencies: ["76D21CEBF925F2B1"]
 			id: "69CB7E0AD09ED92F"
 			tasks: [{
@@ -775,10 +775,10 @@
 			}]
 		}
 		{
-			title: "Obtain an &5Elder Guardian Treasure Bag"
+			title: "获得&5远古守卫者宝藏袋"
 			x: -7.0d
 			y: 5.5d
-			subtitle: "&bElder Guardian Treasure Bag&r is one of Treasure Bags that can be obtained after killing the &bElder Guardian."
+			subtitle: "&b远古守卫者宝藏袋&r是通过击杀&b远古守卫者&r获得的宝藏袋。"
 			dependencies: ["76D21CEBF925F2B1"]
 			id: "6615AFCEAAB0049B"
 			tasks: [{
@@ -788,12 +788,12 @@
 			}]
 		}
 		{
-			title: "Create a &8Workbench"
+			title: "创造&8加工台"
 			icon: "tetra:basic_workbench"
 			x: -1.5d
 			y: -1.0d
 			shape: "circle"
-			subtitle: "Right click a crafting table with a&f hammer&r to create a &eWorkbench."
+			subtitle: "使用&f锤子&r右击工作台来创造出&e加工台。"
 			dependencies: ["7944A3DD37CF9502"]
 			size: 1.2d
 			id: "0A11483C0D4D821C"
@@ -822,10 +822,10 @@
 			}]
 		}
 		{
-			title: "Upgrade to a &8Tier 2 Hammer"
+			title: "升级&8锤子"
 			x: 0.0d
 			y: -2.5d
-			subtitle: "&6Upgrade a wooden hammer&r to a &8stone hamme&rr using the &eTetra Workbench."
+			subtitle: "通过&e加工台&r使用圆石将&6木锤&r升级成&8石锤&r。"
 			dependencies: ["0A11483C0D4D821C"]
 			id: "03B8B043890E8D81"
 			tasks: [{
@@ -842,10 +842,10 @@
 			}]
 		}
 		{
-			title: "Create a &8Tier 3 Hammer"
+			title: "再升级&8锤子"
 			x: 0.0d
 			y: -4.0d
-			subtitle: "Created in a &eTetra Workbench."
+			subtitle: "通过&e加工台&r创造。"
 			dependencies: ["03B8B043890E8D81"]
 			id: "5A909AB89A767C8E"
 			tasks: [{
@@ -862,10 +862,10 @@
 			}]
 		}
 		{
-			title: "Create a&8 Tier 4 Hammer"
+			title: "&8第四级锤子"
 			x: 1.5d
 			y: -4.0d
-			subtitle: "Created in a &eTetra Workbench."
+			subtitle: "通过&e加工台&r创造。"
 			dependencies: ["5A909AB89A767C8E"]
 			id: "121A55E1DB9C6395"
 			tasks: [{
@@ -882,10 +882,10 @@
 			}]
 		}
 		{
-			title: "Create a &8Tier 5 Hammer"
+			title: "&8第五级锤子"
 			x: 1.5d
 			y: -5.5d
-			subtitle: "Created in a &eTetra Workbench."
+			subtitle: "通过&e加工台&r创造。"
 			dependencies: ["121A55E1DB9C6395"]
 			id: "5EEFB1652B221214"
 			tasks: [{
@@ -902,10 +902,10 @@
 			}]
 		}
 		{
-			title: "Create a&8 Tier 6 Hammer"
+			title: "&8第六级锤子"
 			x: 0.0d
 			y: -5.5d
-			subtitle: "Created in a &eTetra Workbench."
+			subtitle: "通过&e加工台&r创造。"
 			dependencies: ["5EEFB1652B221214"]
 			id: "4044F53070B5724E"
 			tasks: [{
@@ -922,10 +922,10 @@
 			}]
 		}
 		{
-			title: "Obtain a &8Holosphere"
+			title: "获得&8全息球"
 			x: 2.5d
 			y: 0.0d
-			subtitle: "Shows the types of tools and weapons which can be made using &6Tetra crafting&r, alongside all possible materials. Attachments are not shown in the &fholosphere&r, and instead are shown on the tools themselves. Can be upgraded into a scanner with an&5 Eye of Ender&r. An additional &5Eye of Ender&r will extend the range which it can find Ruins."
+			subtitle: "展示了可以使用&6Tetra加工台&r制作的工具和武器类型，以及所有可能的材料。附件没有显示在&f全息球&r中，而是显示在工具本身上。可以升级成带有&5末影之眼&r的扫描仪。一个额外的&5末影之眼&r可以扩大它找到的遗迹范围。"
 			dependencies: ["0A11483C0D4D821C"]
 			id: "6B884ACCC607642F"
 			tasks: [{
@@ -949,10 +949,10 @@
 			}]
 		}
 		{
-			title: "Craft a &8Toolbelt"
+			title: "制作&8工具腰带"
 			x: -1.5d
 			y: -2.5d
-			subtitle: "Crafted in a crafting table with &f4 pieces of string."
+			subtitle: "通过工作台将&f四根线&r合成。"
 			dependencies: ["0A11483C0D4D821C"]
 			id: "2891F205429F2ABB"
 			tasks: [{
@@ -976,10 +976,10 @@
 			}]
 		}
 		{
-			title: "Fully upgrade a &8Toolbelt"
+			title: "完全升级&8工具腰带"
 			x: -1.5d
 			y: -3.5d
-			subtitle: "Upgraded in the &eTetra Workbench."
+			subtitle: "通过&eTetra加工台&r升级。"
 			dependencies: ["2891F205429F2ABB"]
 			id: "5CEAADF45BE31794"
 			tasks: [{
@@ -990,10 +990,10 @@
 			}]
 		}
 		{
-			title: "Upgrade a &8Sword"
+			title: "升级一把&8剑"
 			x: -1.5d
 			y: 0.5d
-			subtitle: "&fSwords &rcan be upgraded by placing them in a &eTetra Workbench."
+			subtitle: "&f剑&r可以通过&eTetra加工台&r升级。"
 			dependencies: ["0A11483C0D4D821C"]
 			id: "16EB81AB666A456D"
 			tasks: [{
@@ -1009,10 +1009,10 @@
 			}]
 		}
 		{
-			title: "Strengthen a &8Sword"
+			title: "加强一把&8剑"
 			x: -1.5d
 			y: 1.5d
-			subtitle: "Use a &eTetra Workbench."
+			subtitle: "使用&eTetra加工台。"
 			dependencies: ["16EB81AB666A456D"]
 			id: "512B2D81BD1B7C9C"
 			tasks: [{
@@ -1028,10 +1028,10 @@
 			}]
 		}
 		{
-			title: "Hone a &8Sword"
+			title: "打磨一把&8剑"
 			x: -0.5d
 			y: 0.5d
-			subtitle: "&fA Tetra Sword&r can be honed in a &eTetra Workbench&r after the sword is used a sufficient amount."
+			subtitle: "&f一把Tetra剑&r在充分利用之后，可以通过&eTetra加工台&r打磨。"
 			dependencies: ["16EB81AB666A456D"]
 			id: "0DD749BE290BB411"
 			tasks: [{
@@ -1047,10 +1047,10 @@
 			}]
 		}
 		{
-			title: "Upgrade a &8Tool"
+			title: "升级一把&8工具"
 			x: 2.5d
 			y: -1.0d
-			subtitle: "&fTools&r can be upgraded by placing them in a &eTetra Workbench."
+			subtitle: "&f工具&r可以通过&eTetra加工台&r升级。"
 			dependencies: ["0A11483C0D4D821C"]
 			id: "3F5AD7F84ED1D430"
 			tasks: [{
@@ -1066,10 +1066,10 @@
 			}]
 		}
 		{
-			title: "Upgrade a &8Shield"
+			title: "升级&8盾牌"
 			x: 1.5d
 			y: 0.5d
-			subtitle: "&fShields &rcan be upgraded by placing them in a &eTetra Workbench."
+			subtitle: "&f盾牌&r可通过&eTetra加工台&r升级。"
 			dependencies: ["0A11483C0D4D821C"]
 			id: "4720F10897BD2ED0"
 			tasks: [{
@@ -1085,10 +1085,10 @@
 			}]
 		}
 		{
-			title: "Upgrade a&8 Bow"
+			title: "升级一把&8弓"
 			x: 1.5d
 			y: -2.5d
-			subtitle: "&fBows&r can be upgraded by placing them in a &eTetra Workbench."
+			subtitle: "&f弓&r可通过&eTetra加工台&r升级。"
 			dependencies: ["0A11483C0D4D821C"]
 			id: "71AB8F72C97BEA47"
 			tasks: [{
@@ -1104,10 +1104,10 @@
 			}]
 		}
 		{
-			title: "Craft a &8Rack"
+			title: "制作&8工具架"
 			x: 2.5d
 			y: -2.0d
-			subtitle: "&fStores tools&r for easy access."
+			subtitle: "更方便&f存储工具&r了。"
 			dependencies: ["0A11483C0D4D821C"]
 			id: "4403068C731511D6"
 			tasks: [{
@@ -1124,7 +1124,7 @@
 		{
 			x: -5.0d
 			y: 3.0d
-			subtitle: "Scroll of &2Evoker Fangs&r is an item that summons &2Evoker Fangs&r in a straight line to &4damage other mobs&r. The longer the scroll is held the &bhigher the attack range&r is and must be held at least &41 second&r to release the attack."
+			subtitle: "&2唤魔者尖牙卷轴&r卷轴可像唤魔者一样，在一条直线上召唤&2唤魔者尖牙&r来对&4其他生物造成伤害&r。卷轴发动时间越长，&b攻击范围&r就越高，但必须保持一秒才能释放。"
 			dependencies: ["76D21CEBF925F2B1"]
 			id: "6788B541B155F079"
 			tasks: [{

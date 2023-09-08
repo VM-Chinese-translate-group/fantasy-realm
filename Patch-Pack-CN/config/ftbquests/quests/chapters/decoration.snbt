@@ -3,17 +3,17 @@
 	group: "5A43EA4A3BF38D32"
 	order_index: 5
 	filename: "decoration"
-	title: " &8Decoration"
+	title: " &8装饰"
 	icon: "irons_spellbooks:inscription_table"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Craft a &aBotanist's Workbench"
+			title: "制作&a植物学家工作台"
 			x: 0.0d
 			y: 0.0d
 			shape: "square"
-			subtitle: "Used to turn &anatural blocks such as snow, ice, glass, and plants&r into their &6Chipped variants."
+			subtitle: "用于将&a雪，冰，玻璃，植物等自然方块&r转化为&6Chipped方块。"
 			id: "574B5A7C06F28CB1"
 			tasks: [{
 				id: "483F5FA57A9CCAD2"
@@ -28,11 +28,11 @@
 			}]
 		}
 		{
-			title: "Craft a &3Glass Blower"
+			title: "制作&3玻璃匠工作台"
 			x: 1.5d
 			y: 0.0d
 			shape: "square"
-			subtitle: "Used to turn&f glass&r into their&6 Chipped variants."
+			subtitle: "用于将&f玻璃&r转化为&6Chipped方块。"
 			id: "38D9D8D0A291D5FD"
 			tasks: [{
 				id: "1B174F56A39D2868"
@@ -47,11 +47,11 @@
 			}]
 		}
 		{
-			title: "Craft a &eCarpenter's Table"
+			title: "制作&e木匠工作台"
 			x: -1.5d
 			y: 0.0d
 			shape: "square"
-			subtitle: "Used to turn &6wooden blocks&r into their &6Chipped variants."
+			subtitle: "用于将&6木制方块&r转化为&6Chipped方块。"
 			id: "3D7266C9E9FA21BA"
 			tasks: [{
 				id: "092D5B8441F88F0A"
@@ -66,11 +66,11 @@
 			}]
 		}
 		{
-			title: "Craft a &cMechanist's Workbench"
+			title: "制作&c工匠工作台"
 			x: 1.5d
 			y: 3.0d
 			shape: "square"
-			subtitle: "Used to turn &4redstone&r related items into their &6Chipped variants."
+			subtitle: "用于将&4红石相关物品&r转化为&6Chipped方块。"
 			id: "2C40A99B16D6AF52"
 			tasks: [{
 				id: "4322FDA627A3B129"
@@ -85,11 +85,11 @@
 			}]
 		}
 		{
-			title: "Craft a &9Loom"
+			title: "制作&9牧羊人工作台"
 			x: -1.5d
 			y: 1.5d
 			shape: "square"
-			subtitle: "Used to turn &fwools &rinto their &6Chipped variants."
+			subtitle: "用于将&f羊毛&r转化为&6Chipped方块。"
 			id: "781B3E354F93214B"
 			tasks: [{
 				id: "0216B32DBCD1C8F8"
@@ -104,11 +104,11 @@
 			}]
 		}
 		{
-			title: "Craft a &7Mason's Table"
+			title: "制作&7石匠工作台"
 			x: 1.5d
 			y: 1.5d
 			shape: "square"
-			subtitle: "Used to turn &8stones &rinto their &6Chipped variants."
+			subtitle: "用于将&8石头&r转化为&6Chipped方块。"
 			id: "0699672889B537CD"
 			tasks: [{
 				id: "01D1DF5BAFFC3DA5"
@@ -123,11 +123,11 @@
 			}]
 		}
 		{
-			title: "Craft an &5Alchemy Bench"
+			title: "制作&5学者工作台"
 			x: -1.5d
 			y: 3.0d
 			shape: "square"
-			subtitle: "Used to turn &bcondensed ingot blocks&r into their &6Chipped variants."
+			subtitle: "用于将&b金属方块&r转化为&6Chipped方块。"
 			id: "03C21FC6FAFD257F"
 			tasks: [{
 				id: "3E83F97B445BB8F2"
@@ -145,7 +145,7 @@
 			x: 0.0d
 			y: 1.5d
 			shape: "gear"
-			subtitle: "You use the&6 Furniture Station &rto obtain any furniture using &bclay, planks or cobblestone like items."
+			subtitle: "您可以使用&6家具加工台&r使用&b黏土，木板或类似圆石等物品&r来获取家具。"
 			size: 1.2d
 			id: "317CC24C75DD894D"
 			tasks: [{

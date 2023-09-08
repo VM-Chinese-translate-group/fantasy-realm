@@ -1,5 +1,5 @@
 {
-	"name": "Modules",
+	"name": "模块",
 	"icon": "distant_worlds:module_empty",
 	"category": "distant_worlds:lithum_altar",
 	"sortnum": 9,
@@ -7,82 +7,82 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Having made your choice in the direction of efficiency or speed, or maybe adding new useful properties to the blocks, you can customize the process of rituals to your taste. As you already understood, the following items will be available to you to change the characteristics of various blocks of the Lithum Altar."
+			"text": "在效率或速度的方向上做出选择后，或者可能为方块添加新的有用属性，你可以根据自己的意愿定制仪式过程。正如你所理解的，以下项目将为你提供，以改变锂祭坛的各个方块特征。"
 		},
 		{
 			"type": "patchouli:spotlight",
 			"item": "distant_worlds:module_empty",
-			"text": "Empty Module can be found in various Garhenna dimension structures. It is used to create any modules for a Lithum Altar.",
+			"text": "空模块可以在各种加尔赫纳维度建筑物中找到，它用于为锂祭坛创造任何模块。",
 			"link_recipe": "true"
 		},
 		{
 			"type": "patchouli:spotlight",
 			"item": "distant_worlds:module_charmed_pedestal",
-			"title": "Charmed Pedestal",
-			"text": "Gives a chance not to spend the item on the pedestal during the ritual.$(br)Can be crafted on Lithum Altar, using $(#ea7f17)$(l)10 000 DE$() and following items:$(li)Empty Module$(o) [Main]$()$(li)Curelite $(o)[x5]$()$(li)Blaze Powder$(br)Recovery after full ritual: $(#992032)$(l)500 DRP$()",
+			"title": "魔法基座",
+			"text": "有概率在仪式期间不将物品花费在基座上。$(br)可通过锂祭坛制作，花费 $(#ea7f17)$(l)10 000 DE$() 和以下物品：$(li)空模块$(o) [主要]$()$(li)卡瑞利特 $(o)[x5]$()$(li)烈焰粉$(br)完整仪式后恢复时间：$(#992032)$(l)500 DRP$()",
 			"link_recipe": "true"
 		},
 		{
 			"type": "patchouli:spotlight",
 			"item": "distant_worlds:module_increased_storage",
-			"title": "Increased Storage",
-			"text": "Increases the maximum amount of stored energy, but it will slowly evaporate to its normal value.$(br)Can be crafted on Lithum Altar, using $(#ea7f17)$(l)10 000 DE$() and following items:$(li)Empty Module$(o) [Main]$()$(li)Dalite Crystal $(o)[x5]$()$(li)Ender Chest$(br)Recovery after full ritual: $(#992032)$(l)500 DRP$()",
+			"title": "存储扩展",
+			"text": "增加储存能量的最大量，但它会慢慢衰减到正常值。$(br)可通过锂祭坛制作，花费 $(#ea7f17)$(l)10 000 DE$() 和以下物品：$(li)空模块$(o) [主要]$()$(li)达利特水晶 $(o)[x5]$()$(li)末影箱$(br)完整仪式后恢复时间：$(#992032)$(l)500 DRP$()",
 			"link_recipe": "true"
 		},
 		{
 			"type": "patchouli:spotlight",
 			"item": "distant_worlds:module_calm_flame",
-			"title": "Calm Flame",
-			"text": "Slows down the process of generating dalite energy, with some chance does not consume fuel.$(br)Can be crafted on Lithum Altar, using $(#ea7f17)$(l)10 000 DE$() and following items:$(li)Empty Module$(o) [Main]$()$(li)Curelite $(o)[x5]$()$(li)Blast Furnace$(br)Recovery after full ritual: $(#992032)$(l)500 DRP$()",
+			"title": "文火",
+			"text": "减缓了达利特能源的产生过程，在一定概率上不消耗燃料。$(br)可通过锂祭坛制作，花费 $(#ea7f17)$(l)10 000 DE$() 和以下物品：$(li)空模块$(o) [主要]$()$(li)卡瑞利特 $(o)[x5]$()$(li)高炉$(br)完整仪式后恢复时间：$(#992032)$(l)500 DRP$()",
 			"link_recipe": "true"
 		},
 		{
 			"type": "patchouli:spotlight",
 			"item": "distant_worlds:module_raging_flame",
-			"title": "Raging Flame",
-			"text": "Accelerates the processes of fuel consumption and the production of dalite energy, but in a smaller amount.$(br)Can be crafted on Lithum Altar, using $(#ea7f17)$(l)10 000 DE$() and following items:$(li)Empty Module$(o) [Main]$()$(li)Dalite Crystal $(o)[x5]$()$(li)Blast Furnace$(br)Recovery after full ritual: $(#992032)$(l)500 DRP$()",
+			"title": "猛火",
+			"text": "加速燃料消耗过程和达利特能源的生产，但数量较少。$(br)可通过锂祭坛制作，花费 $(#ea7f17)$(l)10 000 DE$() 和以下物品：$(li)空模块$(o) [主要]$()$(li)达利特水晶 $(o)[x5]$()$(li)高炉$(br)完整仪式后恢复时间：$(#992032)$(l)500 DRP$()",
 			"link_recipe": "true"
 		},
 		{
 			"type": "patchouli:spotlight",
 			"item": "distant_worlds:module_calm_spark",
-			"title": "Calm Spark",
-			"text": "Slows down the process of generating dalite energy, with some chance does not spend FE.$(br)Can be crafted on Lithum Altar, using $(#ea7f17)$(l)10 000 DE$() and following items:$(li)Empty Module$(o) [Main]$()$(li)Curelite $(o)[x5]$()$(li)Redstone Block$(br)Recovery after full ritual: $(#992032)$(l)500 DRP$()",
+			"title": "低频",
+			"text": "减缓产生达利特能量的过程，有几率不花费DE。$(br)可通过锂祭坛制作，花费 $(#ea7f17)$(l)10 000 DE$() 和以下物品：$(li)空模块$(o) [主要]$()$(li)卡瑞利特 $(o)[x5]$()$(li)红石块$(br)完整仪式后恢复时间：$(#992032)$(l)500 DRP$()",
 			"link_recipe": "true"
 		},
 		{
 			"type": "patchouli:spotlight",
 			"item": "distant_worlds:module_raging_spark",
-			"title": "Raging Spark",
-			"text": "Accelerates the consumption of FE and the production of dalite energy.$(br)Can be crafted on Lithum Altar, using $(#ea7f17)$(l)10 000 DE$() and following items:$(li)Empty Module$(o) [Main]$()$(li)Dalite Crystal $(o)[x5]$()$(li)Redstone Block$(br)Recovery after full ritual: $(#992032)$(l)500 DRP$()",
+			"title": "超频",
+			"text": "加速DE的消耗和达利特能源的生产。$(br)可通过锂祭坛制作，花费 $(#ea7f17)$(l)10 000 DE$() 和以下物品：$(li)空模块$(o) [主要]$()$(li)达利特水晶 $(o)[x5]$()$(li)红石块$(br)完整仪式后恢复时间：$(#992032)$(l)500 DRP$()",
 			"link_recipe": "true"
 		},
 		{
 			"type": "patchouli:spotlight",
 			"item": "distant_worlds:module_flow_filter",
-			"title": "Flow Filter",
-			"text": "Slows down the rate of energy transfer to the core, but also reduces the resulting DRP. Drops Raw Curelite with some chance.$(br)Can be crafted on Lithum Altar, using $(#ea7f17)$(l)10 000 DE$() and following items:$(li)Empty Module$(o) [Main]$()$(li)Curelite $(o)[x5]$()$(li)Ender Crystal$(br)Recovery after full ritual: $(#992032)$(l)500 DRP$()",
+			"title": "流量减缓",
+			"text": "减缓了能量转移到核心的速率，但也降低了由此产生的DRP。有几率掉落粗卡瑞利特。$(br)可通过锂祭坛制作，花费 $(#ea7f17)$(l)10 000 DE$() 和以下物品：$(li)空模块$(o) [主要]$()$(li)卡瑞利特 $(o)[x5]$()$(li)末地水晶$(br)完整仪式后恢复时间：$(#992032)$(l)500 DRP$()",
 			"link_recipe": "true"
 		},
 		{
 			"type": "patchouli:spotlight",
 			"item": "distant_worlds:module_flow_amplification",
-			"title": "Flow Amplification",
-			"text": "Increases the rate of energy transfer to the core, but also increases the resulting DRP.$(br)Can be crafted on Lithum Altar, using $(#ea7f17)$(l)10 000 DE$() and following items:$(li)Empty Module$(o) [Main]$()$(li)Dalite Crystal $(o)[x5]$()$(li)Ender Crystal$(br)Recovery after full ritual: $(#992032)$(l)500 DRP$()",
+			"title": "流量增强",
+			"text": "增加了能量转移到核心的速率，但也增加了由此产生的DRP。$(br)可通过锂祭坛制作，花费 $(#ea7f17)$(l)10 000 DE$() 和以下物品：$(li)空模块$(o) [主要]$()$(li)达利特水晶 $(o)[x5]$()$(li)末地水晶$(br)完整仪式后恢复时间：$(#992032)$(l)500 DRP$()",
 			"link_recipe": "true"
 		},
 		{
 			"type": "patchouli:spotlight",
 			"item": "distant_worlds:module_core_stabilization",
-			"title": "Core Stabilization",
-			"text": "Increases the cost of energy and the chance of a successful ritual.$(br)Can be crafted on Lithum Altar, using $(#ea7f17)$(l)10 000 DE$() and following items:$(li)Empty Module$(o) [Main]$()$(li)Curelite $(o)[x5]$()$(li)Anvil$(br)Recovery after full ritual: $(#992032)$(l)500 DRP$()",
+			"title": "核心稳定",
+			"text": "增加能量的成本，以及仪式成功的概率。$(br)可通过锂祭坛制作，花费 $(#ea7f17)$(l)10 000 DE$() 和以下物品：$(li)空模块$(o) [主要]$()$(li)卡瑞利特 $(o)[x5]$()$(li)铁砧$(br)完整仪式后恢复时间：$(#992032)$(l)500 DRP$()",
 			"link_recipe": "true"
 		},
 		{
 			"type": "patchouli:spotlight",
 			"item": "distant_worlds:module_core_destabilization",
-			"title": "Core Destabilization",
-			"text": "Reduces energy costs and the chance of a successful ritual.$(br)Can be crafted on Lithum Altar, using $(#ea7f17)$(l)10 000 DE$() and following items:$(li)Empty Module$(o) [Main]$()$(li)Dalite Crystal $(o)[x5]$()$(li)Anvil$(br)Recovery after full ritual: $(#992032)$(l)500 DRP$()",
+			"title": "核心失稳",
+			"text": "降低能量的成本，以及仪式成功的概率。$(br)可通过锂祭坛制作，花费 $(#ea7f17)$(l)10 000 DE$() 和以下物品：$(li)空模块$(o) [主要]$()$(li)达利特水晶 $(o)[x5]$()$(li)铁砧$(br)完整仪式后恢复时间：$(#992032)$(l)500 DRP$()",
 			"link_recipe": "true"
 		}
 	]
