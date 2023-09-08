@@ -53,7 +53,7 @@
 			}]
 		}
 		{
-			title: "击败太阳酋长Barako"
+			title: "击败太阳酋长"
 			icon: {
 				id: "mowziesmobs:barakoa_mask_fury"
 				Count: 1b
