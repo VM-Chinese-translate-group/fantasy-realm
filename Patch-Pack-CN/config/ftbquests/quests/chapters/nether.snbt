@@ -3,7 +3,7 @@
 	group: "47EF6B1E1AEB6949"
 	order_index: 0
 	filename: "nether"
-	title: " &4The Nether"
+	title: " &4古老下界"
 	icon: "minecraft:obsidian"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -21,18 +21,18 @@
 	}]
 	quests: [
 		{
-			title: "Enter the &4Nether"
+			title: "进入&4下界"
 			icon: "minecraft:netherrack"
 			x: 6.5d
 			y: -9.5d
 			shape: "gear"
-			subtitle: "Create a &4Nether Portal"
+			subtitle: "建造一个&4下界传送门&r。"
 			size: 1.5d
 			id: "495BB279FD92BBD3"
 			tasks: [{
 				id: "278ABF4424C0957A"
 				type: "dimension"
-				title: "Enter the Nether"
+				title: "进入下界"
 				icon: "minecraft:netherrack"
 				dimension: "minecraft:the_nether"
 			}]
@@ -44,16 +44,17 @@
 			}]
 		}
 		{
-			title: "Defeat &4The Wither"
+			title: "击败&4凋灵"
 			x: 8.0d
 			y: -13.5d
-			subtitle: "Instead of &dSoul Sand&r, you must use &5Soul Stone &rfrom the Bygone Nether mod. Make sure there are no obstructions like snow or grass under the arms when spawning."
+			subtitle: "召唤凋灵时，你必须使用Bygone Nether模组中的&5灵魂石&r替代原先的&d灵魂沙&r。并确保凋灵的手臂下方没有雪、草这样的障碍物。"
+
 			dependencies: ["233F01CF68EE6CB7"]
 			id: "3698E94FE5199C8F"
 			tasks: [{
 				id: "759215FA899342DE"
 				type: "kill"
-				title: "Kill The Wither"
+				title: "击杀凋灵"
 				icon: "minecraft:wither_skeleton_skull"
 				entity: "minecraft:wither"
 				value: 1L
@@ -65,16 +66,16 @@
 			}]
 		}
 		{
-			title: "Defeat &4Ignis"
+			title: "击败&4焰魔"
 			x: 3.5d
 			y: -12.0d
-			subtitle: "Found at the Top of the &cBurning Arena&r. Place Burning Ashes in the Altar to Summon &2Ignis"
+			subtitle: "在&c烈焰竞技场&r的顶层找到火焰祭坛，并在其上使用燃烧的灰烬召唤&2焰魔&r。"
 			dependencies: ["6C9D9A7F3B059EA8"]
 			id: "58FE5DCC46CD3748"
 			tasks: [{
 				id: "1EADDF115D029B72"
 				type: "kill"
-				title: "Kill Ignis"
+				title: "击杀焰魔"
 				icon: {
 					id: "cataclysm:ignitium_helmet"
 					Count: 1b
@@ -100,16 +101,16 @@
 			]
 		}
 		{
-			title: "Defeat the &4Netherite Monstrosity"
+			title: "击败&4下界合金巨兽"
 			x: 6.5d
 			y: -13.5d
-			subtitle: "&4The Netherite Monstrosity&r has over 300 health and some &bdifferent attack styles."
+			subtitle: "&4下界合金巨兽&r拥有超过300点生命以及一些&b不同寻常的攻击方式&r。"
 			dependencies: ["099AD42427F38743"]
 			id: "5D8F422832CF0C61"
 			tasks: [{
 				id: "4C08A49917B9C5A4"
 				type: "kill"
-				title: "Kill the Netherite Monstrosity"
+				title: "击杀下界合金巨兽"
 				icon: {
 					id: "cataclysm:monstrous_helm"
 					Count: 1b
@@ -135,7 +136,7 @@
 			]
 		}
 		{
-			title: "Discover the &cBurning Arena"
+			title: "找到&c烈焰竞技场"
 			x: 5.0d
 			y: -12.0d
 			shape: "square"
@@ -144,7 +145,7 @@
 			tasks: [{
 				id: "26F36B522E7CBB4C"
 				type: "advancement"
-				title: "Discover &4the Burning Arena"
+				title: "找到&4烈焰竞技场"
 				advancement: "cataclysm:find_burning_arena"
 				criterion: ""
 			}]
@@ -166,13 +167,13 @@
 		{
 			x: 10.5d
 			y: -9.5d
-			subtitle: "Found in the Ancient Battlegrounds"
+			subtitle: "在古战场中寻找。"
 			dependencies: ["2ECC380B6FC8AC2E"]
 			id: "7BE16EB49AC68EE6"
 			tasks: [{
 				id: "3024568D003D46CD"
 				type: "kill"
-				title: "Awaken and Defeat a &4Ancient Knight"
+				title: "唤醒并击杀&4远古骑士"
 				icon: "irons_spellbooks:armor_pile"
 				entity: "irons_spellbooks:citadel_keeper"
 				value: 1L
@@ -195,13 +196,13 @@
 			x: 5.0d
 			y: -13.5d
 			shape: "rsquare"
-			subtitle: "Found in the &4Burning Arena&r, it has two revenants appear."
+			subtitle: "在&4烈焰竞技场&r中寻找两只燃魂。"
 			dependencies: ["6C9D9A7F3B059EA8"]
 			id: "16B071D46B3C311C"
 			tasks: [{
 				id: "7C9093F7F7B7750C"
 				type: "kill"
-				title: "Defeat &4the Ignited Revenant"
+				title: "击败&4燃魂"
 				icon: "cataclysm:bulwark_of_the_flame"
 				entity: "cataclysm:ignited_revenant"
 				value: 1L
@@ -217,13 +218,13 @@
 			x: 8.0d
 			y: -12.0d
 			shape: "square"
-			subtitle: "&dThe Fortress&r is a lot like the &4Nether Fortress&r. However it’s much bigger, and much more exposed. To find the Fortress, you’d be better off looking in the &fBasalt Deltas Biome&r."
+			subtitle: "&d要塞&r与&4下界要塞&r非常相似。但是它更加巨大，暴露于地表的部分更多。要寻找要塞，你最好多看看&f玄武岩三角洲&r。"
 			dependencies: ["495BB279FD92BBD3"]
 			id: "233F01CF68EE6CB7"
 			tasks: [{
 				id: "63E0EB475A6A76EE"
 				type: "advancement"
-				title: "Find a &4Fortress"
+				title: "发现&4要塞"
 				advancement: "minecraft:nether/find_fortress"
 				criterion: ""
 			}]
@@ -238,13 +239,13 @@
 			x: 5.5d
 			y: -7.0d
 			shape: "square"
-			subtitle: "Can be Found in &cCrimson Forests"
+			subtitle: "可以在&c绯红森林&r中找到。"
 			dependencies: ["495BB279FD92BBD3"]
 			id: "5821BD60F4E523C4"
 			tasks: [{
 				id: "4133473F253E20C7"
 				type: "structure"
-				title: "Find the &4Piglin Manor"
+				title: "发现&4猪灵庄园"
 				icon: "minecraft:stripped_crimson_stem"
 				structure: "bygonenether:piglin_manor"
 			}]
@@ -259,13 +260,13 @@
 			x: 4.0d
 			y: -9.5d
 			shape: "square"
-			subtitle: "Can be Found Inside the &aWarped Forest"
+			subtitle: "可以在&a诡异森林&r中找到。"
 			dependencies: ["495BB279FD92BBD3"]
 			id: "0184DFBAADB9B990"
 			tasks: [{
 				id: "263AEBA04FAD5DA8"
 				type: "structure"
-				title: "Find &4the Citadels"
+				title: "发现&4堡垒"
 				icon: "chipped:warped_planks_26"
 				structure: "bygonenether:citadel"
 			}]
@@ -280,13 +281,13 @@
 			x: 7.5d
 			y: -7.0d
 			shape: "square"
-			subtitle: "Can be Found In the &cNether Wastes"
+			subtitle: "可以在&8灵魂沙峡谷&r中找到。"
 			dependencies: ["495BB279FD92BBD3"]
 			id: "5E88234A50F655B4"
 			tasks: [{
 				id: "6B55B737A51FA7DF"
 				type: "structure"
-				title: "Visit the &4Catacombs"
+				title: "进入&4地下墓窟"
 				icon: "bygonenether:withered_debris"
 				structure: "bygonenether:catacomb"
 			}]
@@ -298,7 +299,7 @@
 			}]
 		}
 		{
-			title: "Defeat a &4Warped EndeMan"
+			title: "击败&4诡异末影人"
 			x: 2.5d
 			y: -10.5d
 			dependencies: ["0184DFBAADB9B990"]
@@ -318,10 +319,10 @@
 			}]
 		}
 		{
-			title: "Defeat a &4Piglin Hunter"
+			title: "击败&4猪灵猎人"
 			x: 5.5d
 			y: -5.5d
-			subtitle: "Found in the &cPiglin Manor"
+			subtitle: "在&c猪灵庄园&r中寻找。"
 			dependencies: ["5821BD60F4E523C4"]
 			id: "08BA3CB06FB84CF4"
 			tasks: [{
@@ -342,13 +343,13 @@
 			x: 6.5d
 			y: -12.0d
 			shape: "square"
-			subtitle: "&cThe Soul Blacksmith&r looks like a giant &fForge/Smeltery&r, located in the &4Nether&r. You Will Find the &4Netherite Monstrosity Boss"
+			subtitle: "&c灵魂锻造厂&r看起来像一个巨大的&f锻炉&r，位于&4下界&r某处。你可以在这里找到Boss&4下界合金巨兽&r。"
 			dependencies: ["495BB279FD92BBD3"]
 			id: "099AD42427F38743"
 			tasks: [{
 				id: "274D80F7E5A7E5B1"
 				type: "structure"
-				title: "Find the &4Soul Black Smith"
+				title: "找到&4灵魂锻造厂"
 				icon: "minecraft:polished_blackstone_bricks"
 				structure: "cataclysm:soul_black_smith"
 			}]
@@ -363,22 +364,22 @@
 			x: 9.0d
 			y: -9.5d
 			shape: "square"
-			subtitle: "&bAncient Battlegrounds&r can be found resurfacing in the &4Nether"
+			subtitle: "&b古战场&r可以在&4下界&r地表找到。"
 			dependencies: ["495BB279FD92BBD3"]
 			id: "2ECC380B6FC8AC2E"
 			tasks: [{
 				id: "03D0138FFAD95ADC"
 				type: "structure"
-				title: "Find &4the Ancient Battleground"
+				title: "发现&4古战场"
 				icon: "twilightforest:tower_key"
 				structure: "irons_spellbooks:ancient_battleground"
 			}]
 		}
 		{
-			title: "Defeat a &4Wither Skeleton Knight"
+			title: "击败&4凋灵骷髅骑士"
 			x: 7.5d
 			y: -5.5d
-			subtitle: "Found in the&b Catacomb"
+			subtitle: "在&b地下墓窟&r中寻找。"
 			dependencies: ["5E88234A50F655B4"]
 			id: "386A909E0E580C66"
 			tasks: [{
@@ -396,7 +397,7 @@
 			}]
 		}
 		{
-			title: "Obtain a &4Warped Ender Pearl"
+			title: "获得&4扭曲的末影珍珠"
 			x: 2.5d
 			y: -8.5d
 			dependencies: ["0184DFBAADB9B990"]
