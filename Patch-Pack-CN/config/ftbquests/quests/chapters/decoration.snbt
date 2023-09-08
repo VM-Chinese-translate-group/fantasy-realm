@@ -13,7 +13,7 @@
 			x: 0.0d
 			y: 0.0d
 			shape: "square"
-			subtitle: "用于将&a雪，冰，干草，植物等自然方块&r转化为&6Chipped方块。"
+			subtitle: "用于将&a雪，冰，玻璃，植物等自然方块&r转化为&6Chipped方块。"
 			id: "574B5A7C06F28CB1"
 			tasks: [{
 				id: "483F5FA57A9CCAD2"
@@ -108,7 +108,7 @@
 			x: 1.5d
 			y: 1.5d
 			shape: "square"
-			subtitle: "用于将&8石制方块&r转化为&6Chipped方块。"
+			subtitle: "用于将&8石头&r转化为&6Chipped方块。"
 			id: "0699672889B537CD"
 			tasks: [{
 				id: "01D1DF5BAFFC3DA5"
@@ -145,7 +145,7 @@
 			x: 0.0d
 			y: 1.5d
 			shape: "gear"
-			subtitle: "您可以使用&6家具站&r使用&b粘土，木板或类似圆石等物品&r来获取家具。"
+			subtitle: "您可以使用&6家具加工台&r使用&b黏土，木板或类似圆石等物品&r来获取家具。"
 			size: 1.2d
 			id: "317CC24C75DD894D"
 			tasks: [{
