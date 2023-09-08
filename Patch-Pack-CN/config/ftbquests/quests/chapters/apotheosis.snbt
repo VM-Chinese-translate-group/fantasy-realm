@@ -3,7 +3,7 @@
 	group: "1E5E40F7A856E564"
 	order_index: 3
 	filename: "apotheosis"
-	title: " &9Apotheosis"
+	title: " &9神化"
 	icon: "apotheosis:boss_summoner"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -23,13 +23,13 @@
 		{
 			x: -2.5d
 			y: 6.0d
-			subtitle: "Dropped by &cboss mobs&r and rarely found in &6chests."
+			subtitle: "掉落于&cBOSS生物&r，也会稀少的出现在&6战利品箱里"
 			size: 1.5d
 			id: "4D96A84475465606"
 			tasks: [{
 				id: "427A21F889328D8C"
 				type: "advancement"
-				title: "Find an item with a &9Mythic affix"
+				title: "发现一个&9神话词缀物品"
 				icon: {
 					id: "minecraft:book"
 					Count: 1b
@@ -50,11 +50,11 @@
 			}]
 		}
 		{
-			title: "Obtain a &9Spawner"
+			title: "获取&9刷怪笼"
 			icon: "minecraft:spawner"
 			x: -11.0d
 			y: 6.0d
-			subtitle: "Click on the &2spawner&r  under &3\"Tasks\"&r  to see the various ways you can &cmodify spawners to improve their stats."
+			subtitle: "点击&2刷怪笼&r旁边的&3\"刷怪笼调节器\"&r以查看你可以&c在刷怪笼上使用什么模块"
 			size: 1.5d
 			id: "4CA069E1E0EEEE45"
 			tasks: [{
@@ -70,16 +70,16 @@
 			}]
 		}
 		{
-			title: "Obtain a &9book enchanted with Capturing 7"
+			title: "获取&9捕捉7的附魔书"
 			x: -11.0d
 			y: -1.5d
-			subtitle: "When &2added to a weapon&r, mobs will have a &3small chance&r  to drop their &6spawn egg&r. &cClicking a spawner&r with a spawn egg will change a &cspawner to that mob."
+			subtitle: "当&2附魔于武器上&r，生物有&3小概率&r掉落它们的&6刷怪蛋&r。&c右击刷怪笼&r可以改变它们的&c刷怪类型"
 			size: 1.5d
 			id: "177287242798591B"
 			tasks: [{
 				id: "07CA072E35D0892B"
 				type: "item"
-				title: "Capturing 7"
+				title: "捕捉7附魔书"
 				item: {
 					id: "minecraft:enchanted_book"
 					Count: 1b
@@ -105,16 +105,16 @@
 			]
 		}
 		{
-			title: "Craft an Enchantment Library"
+			title: "制作魔咒图书馆"
 			x: -2.5d
 			y: -1.5d
-			subtitle: "Allows you to &bstore enchantment books&r easily. If you've put in a &ahigh level book&r, you can use lower &alevel books&r to get more books of that level."
+			subtitle: "简单地为你&b存储附魔&r。如果你需要&a高等级附魔&r，你可以多塞几本&a低等级的附魔书&r进去叠加"
 			size: 1.5d
 			id: "2EC102A1C1D72FDB"
 			tasks: [{
 				id: "067C94D22D9C763A"
 				type: "item"
-				title: "&9Enchantment Library"
+				title: "&9魔咒图书馆"
 				item: "apotheosis:library"
 			}]
 			rewards: [
@@ -131,10 +131,10 @@
 			]
 		}
 		{
-			title: "Craft a &9Tome of Scrapping"
+			title: "制作&9拆解宝典"
 			x: -0.5d
 			y: -1.5d
-			subtitle: "When used in an &fanvil&r, transfers most of an &aitem's enchants onto a book&r, destroying the item in the process. You can check what &aenchants&r will transfer by hovering over the final product in the &fanvil menu."
+			subtitle: "使用&f铁砧&r以将大部分附魔&a转移到宝典上&r，同时将物品销毁。你可以把鼠标悬停在&a成品栏&r以查询最后你会得到什么&f附魔"
 			size: 1.5d
 			id: "15AF3341821CF530"
 			tasks: [{
@@ -156,10 +156,10 @@
 			]
 		}
 		{
-			title: "Obtain a &9book enchanted with Splitting 9"
+			title: "获取&9拆分9附魔书"
 			x: -0.5d
 			y: 2.0d
-			subtitle: "When an &fanvil enchanted&r with &bSplitting drops&r onto an &aenchanted boo&rk with several enchants, it will &csplit the enchants &rapart into separate &abooks."
+			subtitle: "当&f铁砧被附魔&r&b拆分&r时掉落在&a有多个附魔的附魔书&r上时，它会将附魔书转换成&r多本单一附魔的&a附魔书"
 			size: 1.5d
 			id: "3B52E2D6266468FC"
 			tasks: [{
@@ -190,10 +190,10 @@
 			]
 		}
 		{
-			title: "Obtain a &9book enchanted with Obliteration 9"
+			title: "获取&9分裂9附魔书"
 			x: -0.5d
 			y: 6.0d
-			subtitle: "When an &fanvil enchanted&r with &bObliteration &rdrops onto an enchantment book with a single enchant, it will split &athe book into lower tiers&r. For example, one &cProtection 2 book &rbecomes &btwo Protection&r &61 books."
+			subtitle: "当&f铁砧被附魔&r&b分裂&r时掉落在&a高等级附魔书&r上时，它会将附魔书转换为多本更低等级的。 举个例子， 一本&c保护2&r会变成&b两本保护1&r"
 			size: 1.5d
 			id: "07EC39F4F5B99C68"
 			tasks: [{

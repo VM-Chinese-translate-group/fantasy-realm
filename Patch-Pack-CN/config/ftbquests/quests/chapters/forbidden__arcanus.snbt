@@ -3,7 +3,7 @@
 	group: "1E5E40F7A856E564"
 	order_index: 1
 	filename: "forbidden__arcanus"
-	title: " &5Forbidden \\& Arcanus"
+	title: " &5禁忌与奥秘"
 	icon: {
 		id: "ftbquests:custom_icon"
 		Count: 1b
@@ -15,10 +15,10 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Craft an &5Obsidian with Iron"
+			title: "制作&5含铁的黑曜石"
 			x: -1.5d
 			y: 3.5d
-			subtitle: "One &5obsidian&r surrounded by four &firon ingots"
+			subtitle: "一块&5黑曜石&r与四个&铁粒"
 			id: "1B9CD783981512F5"
 			tasks: [{
 				id: "7C1B3477C1F0872F"
@@ -33,10 +33,10 @@
 			}]
 		}
 		{
-			title: "Craft an &5Obsidian Ingot"
+			title: "制作&5黑曜石锭"
 			x: 0.5d
 			y: 3.5d
-			subtitle: "Smelt an &5Obsidian&r with &fIron"
+			subtitle: "烧制&5含铁的黑曜石"
 			dependencies: ["1B9CD783981512F5"]
 			id: "1A1F51AF90AD772D"
 			tasks: [{
@@ -51,10 +51,10 @@
 			}]
 		}
 		{
-			title: "Craft an &5Obsidian Skull"
+			title: "制作&5黑曜石头颅"
 			x: 0.5d
 			y: 5.5d
-			subtitle: "Gives temporary&c fire resistance"
+			subtitle: "给予短时间的&c火焰伤害抗性"
 			dependencies: ["1A1F51AF90AD772D"]
 			id: "140EEC4B1B95C41F"
 			tasks: [{
@@ -76,10 +76,10 @@
 			]
 		}
 		{
-			title: "&5Be careful..."
+			title: "&5小心……"
 			x: 0.5d
 			y: 7.5d
-			subtitle: "&cMine Stellarite ore"
+			subtitle: "&c挖掘奥术陨石"
 			id: "5CD53D2D51AA5901"
 			tasks: [{
 				id: "610E1F24E3CAE6E6"
@@ -93,10 +93,10 @@
 			}]
 		}
 		{
-			title: "Mine an &5Xpetrified Ore"
+			title: "挖掘&5石化经验矿石"
 			x: 4.5d
 			y: 7.5d
-			subtitle: "&bSemi-common &rat low y levels. Can be found as high as&f y 35. "
+			subtitle: "&b在Y轴较低的地方&r零星生成。最高生成高度为&fY35层。 "
 			id: "3677CECD7DDB068E"
 			tasks: [{
 				id: "0D0E304E6B8188E7"
@@ -110,10 +110,10 @@
 			}]
 		}
 		{
-			title: "Craft an &5Eternal Stella"
+			title: "制作&5永恒之石"
 			x: 2.5d
 			y: 7.5d
-			subtitle: "Can be used in a &bSmithing Table&r to make any &funenchanted item unbreakable."
+			subtitle: "用于在&b锻造台&r将工具&f变成对应的永恒版本"
 			dependencies: [
 				"5CD53D2D51AA5901"
 				"3677CECD7DDB068E"
@@ -142,10 +142,10 @@
 			]
 		}
 		{
-			title: "Craft an &5Eternal Obsidian Skull"
+			title: "制作&5永恒黑曜石头颅"
 			x: 2.5d
 			y: 5.5d
-			subtitle: "Grants complete immunity from &cfire damage"
+			subtitle: "给予对&c火焰伤害&r的免疫"
 			dependencies: [
 				"140EEC4B1B95C41F"
 				"4FD999236E643AEB"
@@ -163,10 +163,10 @@
 			}]
 		}
 		{
-			title: "Craft a &5Draco Arcanus Staff"
+			title: "制作&5神秘天龙法杖"
 			x: 0.5d
 			y: 1.5d
-			subtitle: "Used to make &5Draco Arcanus tools&r. Can also be used as a &6wand."
+			subtitle: "用于制作&5神秘天龙工具&r。也可以用于制作&6神秘天龙权杖"
 			dependencies: ["1A1F51AF90AD772D"]
 			id: "10E9058DD21ECA75"
 			tasks: [{
@@ -181,10 +181,10 @@
 			}]
 		}
 		{
-			title: "Craft a set of &5Draco Arcanus armor"
+			title: "制作全套&5神秘天龙盔甲"
 			x: -3.5d
 			y: 3.5d
-			subtitle: "&f30 Armor and 12 Armor Toughness in total"
+			subtitle: "&f全套提供30点盔甲和12点盔甲韧性"
 			dependencies: ["68528E882A581D49"]
 			id: "7BAD533207CC5A1F"
 			tasks: [
@@ -257,10 +257,10 @@
 			]
 		}
 		{
-			title: "Obtain &5Dragon Scales"
+			title: "获得&5龙鳞"
 			x: -3.5d
 			y: 1.5d
-			subtitle: "Craftable. Can also be found in &eend cities."
+			subtitle: "合成得到，也可以在&e末地城&r的箱子里发现"
 			dependencies: ["2E3E3F0C0D293C3B"]
 			id: "68528E882A581D49"
 			tasks: [{
@@ -275,10 +275,10 @@
 			}]
 		}
 		{
-			title: "Craft all &5Draco Arcanus tools"
+			title: "制作&5神秘天龙工具"
 			x: -1.5d
 			y: 1.5d
-			subtitle: "A decent choice for &4early-late game."
+			subtitle: "一套强力的&4游戏后期&r工具"
 			dependencies: [
 				"68528E882A581D49"
 				"10E9058DD21ECA75"
@@ -332,10 +332,10 @@
 			]
 		}
 		{
-			title: "Craft a &5Mystical Dagger"
+			title: "制作&5神秘匕首"
 			x: -5.0d
 			y: 1.5d
-			subtitle: "Used to make &5Dragon Scales &rfrom &5Dragon Heads"
+			subtitle: "用于从&5末影龙头上剥下龙鳞&r和&收集血液"
 			dependencies: [
 				"3E02DA351F569692"
 				"743FBFF76EC6917D"
@@ -366,10 +366,10 @@
 			]
 		}
 		{
-			title: "Obtain a &5Dark Rune"
+			title: "获得&5暗黑符文"
 			x: -6.5d
 			y: 0.5d
-			subtitle: "Obtained by mining&c Dark Runestone Ore&r, found &adeep underground."
+			subtitle: "挖掘&c暗黑符文石&r获得，暗黑符文石通常在&a最深邃的地底"
 			id: "3E02DA351F569692"
 			tasks: [{
 				id: "7D2D64BA90A80AB0"
@@ -383,10 +383,10 @@
 			}]
 		}
 		{
-			title: "Craft an &5Arcane Gold Ingot"
+			title: "制作&5神秘金锭"
 			x: -6.5d
 			y: 2.5d
-			subtitle: "Used a &asubstitute&r for &6gold&r. Can also be used to craft the &5Mystical Dagger."
+			subtitle: "是&6黄金&r的&a完美替代品&r。也可用于制作&5神秘匕首。"
 			dependencies: [
 				"707158C270C7A98F"
 				"1EADC67CFACC1925"
@@ -404,10 +404,10 @@
 			}]
 		}
 		{
-			title: "Obtain &5Arcane Crystal Dust"
+			title: "获得&5奥术水晶粉末"
 			x: -8.0d
 			y: 3.5d
-			subtitle: "Obtained by &5smelting Arcane Crystals&r, found &adeep underground."
+			subtitle: "烧制&5奥术水晶&r获取，奥术水晶矿石被发现于&a较深的地层中"
 			id: "1EADC67CFACC1925"
 			tasks: [{
 				id: "23695D34D0DB194E"
@@ -421,10 +421,10 @@
 			}]
 		}
 		{
-			title: "Craft &5Mundabitur Dust"
+			title: "制作&5洁净之尘"
 			x: -8.0d
 			y: 1.5d
-			subtitle: "Used to make&5 Arcane Gold Ingots"
+			subtitle: "用于制作&5神秘金锭"
 			id: "707158C270C7A98F"
 			tasks: [{
 				id: "55B80077FAD3BE69"
@@ -438,10 +438,10 @@
 			}]
 		}
 		{
-			title: "Craft a &5Quantum Catcher"
+			title: "制作&5量子捕捉器"
 			x: -3.5d
 			y: -0.5d
-			subtitle: "Allows you to pick up &cANY mob &rexcept the &5Ender Dragon&r and &0Wither&r. &5Spawner scraps&r are obtained by breaking &fspawners without &cSilk Touch."
+			subtitle: "可以为你捕捉&c任何生物！&r当然……除了&5末影龙&r和&0凋灵&r。 &5刷怪笼碎片&r在你开采&f刷怪笼&r时获得，记得不要使用&c精准采集"
 			id: "7B4CF8E764E7AE89"
 			tasks: [{
 				id: "01A2DE68AE9D3373"
@@ -455,10 +455,10 @@
 			}]
 		}
 		{
-			title: "Craft a &5Sanity Meter"
+			title: "制作&5理智表"
 			x: -8.0d
 			y: 5.0d
-			subtitle: "Corruption is increased by &bkilling friendly mobs&r. Every 5 minutes, &5Corruption decreases&r by 1 point. Breeding or using soap will decrease Corruption. Consequences such as &enegative potion effects&r, &0scary sounds&r, and &8bad weather will occur&r with high &5Corruption."
+			subtitle: "腐败值会在你&b杀害友善生物&r时增加。每隔五分钟，&5腐败值都会下降&r一点。 使用纯化肥皂可以为你洗去腐败。腐败会&e给予你负面药水效果&r，&0发出噪音&r，以及&8造成持久不散的雷暴&r。当然，这种情况发生的前提是你有着极高的&5腐败"
 			dependencies: ["1EADC67CFACC1925"]
 			id: "7CE71D55A626278C"
 			tasks: [{
@@ -473,10 +473,10 @@
 			}]
 		}
 		{
-			title: "Obtain &5Wet Purifying Soap"
+			title: "制作&5湿润的纯化肥皂"
 			x: -9.5d
 			y: 4.5d
-			subtitle: "Obtained by putting &bPurifying Soap&r in water. Decreases&5 Corruption by 20 points."
+			subtitle: "只需要将&b纯化肥皂&r扔进水里。它将会洗去&520点腐败"
 			dependencies: ["1EADC67CFACC1925"]
 			id: "4A36A36820CA9955"
 			tasks: [{
@@ -492,10 +492,10 @@
 			}]
 		}
 		{
-			title: "Craft a &5Spectral Eye Amulet"
+			title: "制作 &5幽灵之眼护身符"
 			x: -6.5d
 			y: 4.0d
-			subtitle: "Allows you to see &cmobs through walls&r when used. Has a &fvery large radius."
+			subtitle: "让你可以看见&c墙后的生物&r。&f范围极大"
 			dependencies: [
 				"743FBFF76EC6917D"
 				"1E7EF04230D1092F"
