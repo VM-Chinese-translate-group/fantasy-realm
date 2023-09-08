@@ -3,24 +3,24 @@
 	group: "47EF6B1E1AEB6949"
 	order_index: 4
 	filename: "the_twilight_forest"
-	title: " &2Twilight Forest"
+	title: " &2暮色森林"
 	icon: "twilightforest:twilight_portal_miniature_structure"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "&2The Twilight Forest"
+			title: "&2暮色森林"
 			x: -6.0d
 			y: -1.0d
 			shape: "rsquare"
-			subtitle: "To create &2The Twilight Forest Portal.&r First make a  &d2x2 pool of water only 1 block deep&r forms the basis for this portal; additionally it must be &dsurrounded by \"natural\" vegetation including flowers, grass, saplings, and mushrooms&r. Once the pool is surrounded in this manner, the portal is completed by dropping a &bDiamond into the water&r. &f&lWiki : https://twilightforest.fandom.com/wiki/Twilight_Forest_Progression"
+			subtitle: "要建造&2暮色森林传送门&r，你首先需要挖一个&d2x2的一格深的水池&r作为传送门的基础；接着，水池要被&d“自然”植物环绕，包括花、草、树苗和蘑菇&r。然后&6向水中扔一颗钻石&r，传送门的建造就完成了。&f&lWiki : https://twilightforest.fandom.com/wiki/Twilight_Forest_Progression"
 			hide: true
 			size: 2.0d
 			id: "2BC7B74C1D405B3B"
 			tasks: [{
 				id: "43B4B4196E278A86"
 				type: "dimension"
-				title: "Enter the Twilight Forest"
+				title: "进入暮色森林"
 				icon: "twilightforest:twilight_portal_miniature_structure"
 				dimension: "twilightforest:twilight_forest"
 			}]
@@ -47,17 +47,17 @@
 			]
 		}
 		{
-			title: "Kill &aThe Naga"
+			title: "击杀&a娜迦"
 			x: -2.0d
 			y: -1.0d
-			subtitle: "Spawn in &aForests."
+			subtitle: "生成于&a森林&r中。"
 			dependencies: ["2BC7B74C1D405B3B"]
 			size: 1.5d
 			id: "7630C21661FED121"
 			tasks: [{
 				id: "3E3AAB64DD29EF24"
 				type: "kill"
-				title: "Defeat the Naga"
+				title: "击败娜迦"
 				icon: "twilightforest:naga_trophy"
 				entity: "twilightforest:naga"
 				value: 1L
@@ -77,17 +77,17 @@
 			]
 		}
 		{
-			title: "Kill &eThe Twilight Lich"
+			title: "击杀&e巫妖"
 			x: 3.0d
 			y: -1.0d
-			subtitle: "Spawn in &aForests&r."
+			subtitle: "生成于&a森林&r中。"
 			dependencies: ["7630C21661FED121"]
 			size: 1.5d
 			id: "7149FE98D0E105CE"
 			tasks: [{
 				id: "5794A56FA9705232"
 				type: "kill"
-				title: "Defeat The Twilight Lich"
+				title: "击败巫妖"
 				icon: "twilightforest:lich_trophy"
 				entity: "twilightforest:lich"
 				value: 1L
@@ -118,11 +118,11 @@
 			]
 		}
 		{
-			title: "Kill &4The Minoshroom"
+			title: "击杀&4米诺菇"
 			icon: "twilightforest:minoshroom_trophy"
 			x: 7.0d
 			y: 2.5d
-			subtitle: "Spawn in &8Labyrinth&r."
+			subtitle: "生成于&8迷宫&r中。"
 			dependencies: ["7149FE98D0E105CE"]
 			size: 1.5d
 			id: "5ED257E2C2147AB2"
@@ -146,17 +146,17 @@
 			]
 		}
 		{
-			title: "Kill the &2Hydra"
+			title: "击杀&2九头蛇"
 			x: 11.5d
 			y: 2.5d
-			subtitle: "Spawn in &5Hollow Hills in swamps."
+			subtitle: "生成于&5沼泽的矿山&r中。"
 			dependencies: ["5ED257E2C2147AB2"]
 			size: 1.5d
 			id: "37E4C4EFA9E20B79"
 			tasks: [{
 				id: "0C2016FE44EF5A17"
 				type: "kill"
-				title: "Defeat the Hydra"
+				title: "击败九头蛇"
 				icon: "twilightforest:hydra_trophy"
 				entity: "twilightforest:hydra"
 				value: 1L
@@ -184,14 +184,14 @@
 		{
 			x: 11.5d
 			y: -4.5d
-			subtitle: "Found in Dark Towers in &8The Dark Forest."
+			subtitle: "可在&8黑暗森林&r的幽冥高塔中找到。"
 			dependencies: ["5CC08547ACAE8422"]
 			size: 1.5d
 			id: "57FD6DFF7B7647D0"
 			tasks: [{
 				id: "45767EA415670C8F"
 				type: "kill"
-				title: "Kill &f&lThe Ur-Ghast"
+				title: "击杀&f&l暮初恶魂"
 				icon: "twilightforest:ur_ghast_trophy"
 				entity: "twilightforest:ur_ghast"
 				value: 1L
@@ -216,17 +216,17 @@
 			]
 		}
 		{
-			title: "Kill &f&lThe Alpha Yeti"
+			title: "击杀&f&l雪怪首领"
 			x: 7.0d
 			y: -1.0d
-			subtitle: "Spawn in &fYeti Lairs &rin the &fSnowy Forest&r."
+			subtitle: "生成于&f积雪森林&r的&f雪怪巢穴&r中。"
 			dependencies: ["7149FE98D0E105CE"]
 			size: 1.5d
 			id: "3D1F53C06B660F96"
 			tasks: [{
 				id: "12C1C8D16C9D9FD1"
 				type: "kill"
-				title: "Kill the Alpha Yeti"
+				title: "击杀雪怪首领"
 				icon: "twilightforest:alpha_yeti_trophy"
 				entity: "twilightforest:alpha_yeti"
 				value: 1L
@@ -246,17 +246,17 @@
 			]
 		}
 		{
-			title: "Kill &f&lThe Snow Queen"
+			title: "击杀&f&l冰雪女王"
 			x: 11.5d
 			y: -1.0d
-			subtitle: "Spawn in &fGlaciers."
+			subtitle: "生成于&f冰川&r中。"
 			dependencies: ["3D1F53C06B660F96"]
 			size: 1.5d
 			id: "7B6005A9F6F5C7FE"
 			tasks: [{
 				id: "191F4CCB0B22AB0A"
 				type: "kill"
-				title: "Defeat the Snow Queen"
+				title: "击败冰雪女王"
 				icon: "twilightforest:snow_queen_trophy"
 				entity: "twilightforest:snow_queen"
 				value: 1L
@@ -272,14 +272,14 @@
 			icon: "twilightforest:knight_phantom_trophy"
 			x: 7.0d
 			y: -4.5d
-			subtitle: "Spawn in Strongholds in &8Dark Forests."
+			subtitle: "生成于&8黑暗森林&r的要塞中。"
 			dependencies: ["7149FE98D0E105CE"]
 			size: 1.5d
 			id: "5CC08547ACAE8422"
 			tasks: [{
 				id: "1E03342D7A014326"
 				type: "kill"
-				title: "Kill &aThe Phantom Knight"
+				title: "击杀&a幻影骑士"
 				icon: "twilightforest:knight_phantom_trophy"
 				entity: "twilightforest:knight_phantom"
 				value: 1L
@@ -301,7 +301,7 @@
 		{
 			x: 16.0d
 			y: -1.0d
-			subtitle: "Spawn in &fThe Cloud Cottage"
+			subtitle: "生成于&f云上小屋&r中。"
 			dependencies: [
 				"57FD6DFF7B7647D0"
 				"37E4C4EFA9E20B79"
@@ -312,7 +312,7 @@
 			tasks: [{
 				id: "770B6CCF86FD165F"
 				type: "kill"
-				title: "Kill &3The Giant"
+				title: "击杀&3巨人"
 				icon: "minecraft:player_head"
 				entity: "twilightforest:giant_miner"
 				value: 1L
