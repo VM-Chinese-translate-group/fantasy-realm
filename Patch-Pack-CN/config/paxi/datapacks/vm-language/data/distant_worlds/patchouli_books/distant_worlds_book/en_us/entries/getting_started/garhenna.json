@@ -13,7 +13,7 @@
 			"type": "patchouli:spotlight",
 			"item": "distant_worlds:wither_totem",
 			"link_recipe": "true",
-			"text": "击败凋零来获得一件新的神器 —— 凋零图腾$（br2）最后一击杀死凋零的玩家将获得75%的机会。"
+			"text": "击败凋零来获得一件新的神器 —— 凋零图腾$(br2)最后一击杀死凋零的玩家将获得75%的机会。"
 		},
 		{
 			"type": "patchouli:crafting",
