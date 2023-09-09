@@ -3,7 +3,7 @@
 	group: "2F85EA47D6AE998C"
 	order_index: 5
 	filename: "ice__fire"
-	title: " &bIce &f\\& &4Fire"
+	title: "&b冰&r&4火&r传说"
 	icon: "iceandfire:dragonegg_red"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -23,13 +23,13 @@
 		{
 			x: -3.5d
 			y: -3.0d
-			subtitle: "Found inside of &bGorgon Temples&r. Drops a one time use &bGorgon Head&r which can be used to turn any mob, except the &5Ender Dragon, &finto stone. "
+			subtitle: "生成在&b蛇发女妖神庙&r中。 会掉落一次性物品：&b蛇发女妖头颅&r。可用于&f石化&r任何生物，末影龙除外。"
 			dependencies: ["2278C01E15065385"]
 			id: "665DED9551265639"
 			tasks: [{
 				id: "022A4802F0C5E55B"
 				type: "kill"
-				title: "Defeat the &4Gorgon"
+				title: "击败&4蛇发女妖"
 				icon: {
 					id: "iceandfire:gorgon_head"
 					Count: 1b
@@ -42,10 +42,10 @@
 			}]
 		}
 		{
-			title: "Craft a &4Blindfold"
+			title: "做一个&4眼罩"
 			x: -5.0d
 			y: -3.0d
-			subtitle: "Protects you from the&b Gorgon &rturning you into &fstone."
+			subtitle: "保护你不被&b蛇发女妖&r的&f石化。"
 			id: "2278C01E15065385"
 			tasks: [{
 				id: "7BAFB8D4CBD211EA"
@@ -65,10 +65,10 @@
 			}]
 		}
 		{
-			title: "Find a &bManuscript"
+			title: "找到&b手稿"
 			x: -3.5d
 			y: -1.0d
-			subtitle: "Found in &4Dragon Roosts&r, &4Dragon Caves&r, and &4Graveyards."
+			subtitle: "可以在&4龙的巢穴&r， &4地牢&r，&4悚陵&r中找到。"
 			id: "25A4AF4FCBF514A1"
 			tasks: [{
 				id: "70871BBCAF380307"
@@ -82,10 +82,10 @@
 			}]
 		}
 		{
-			title: "Craft a &4Bestiary"
+			title: "做一本&4异兽手记"
 			x: -2.0d
 			y: -1.0d
-			subtitle: "Contains information about &cvarious mobs."
+			subtitle: "包含&c各种生物&r的信息。"
 			dependencies: ["25A4AF4FCBF514A1"]
 			id: "0CA7009A7A6CBC2B"
 			tasks: [{
@@ -100,10 +100,10 @@
 			}]
 		}
 		{
-			title: "Craft a &bBestiary &4Lectern"
+			title: "做一个放&b异兽手记&r的&4书桌"
 			x: -5.0d
 			y: -1.0d
-			subtitle: "Used to add pages to &bthe Bestiary."
+			subtitle: "用于向&b异兽手记&r中添加条目。"
 			dependencies: ["25A4AF4FCBF514A1"]
 			id: "370C027F949A9AF0"
 			tasks: [{
@@ -118,10 +118,10 @@
 			}]
 		}
 		{
-			title: "Tame a &bHippogryph"
+			title: "驯化&b骏鹰 "
 			x: -2.0d
 			y: -3.0d
-			subtitle: "&aHippogryphs&r can be found in &7Mountains &rand &eDeserts. &rThey can be &dtamed&r by dropping &eRabbit Feet nearby."
+			subtitle: "&a骏鹰&r多生成在&7山脉 &r和 &e沙漠&r中。 &r如果要&d驯服&r它们， 你可以尝试在它们四周摆上&e兔子腿。"
 			id: "7F523A68A1417140"
 			tasks: [{
 				id: "69EF8A5F6C7218B3"
@@ -136,10 +136,10 @@
 			}]
 		}
 		{
-			title: "Obtain a &bRotten &4Egg"
+			title: "获得&b烂&4鸡蛋"
 			x: -2.0d
 			y: -6.0d
-			subtitle: "Rarely dropped by &6chickens&r instead of normal eggs. Has a chance to spawn a &dbaby Cockatrice &rwhen thrown."
+			subtitle: "&6鸡&r极小概率下这中蛋。 扔出后有小概率生成&d小鸡蛇&r。"
 			id: "6A51EBB9D2723C4B"
 			tasks: [{
 				id: "5314EFE5ACA7F57B"
@@ -153,10 +153,10 @@
 			}]
 		}
 		{
-			title: "Tame a &bCockatrice"
+			title: "驯服&b鸡蛇"
 			x: -2.0d
 			y: -4.5d
-			subtitle: "&eCockatrices &rbe tamed by either hatching them with a &cRotten Egg &ror by finding one in a &6Savannah &rand staring directly at it's face for an extended period of time. Can be healed with &aseeds or rotten flesh."
+			subtitle: "&e鸡蛇&r可通过两种方式驯服。一种是使用&c烂鸡蛋&r。第二种就是在&6热带草原&r找到一只，并死死盯住它的脸一段时间。 可用&a种子或腐肉&r治疗它们。"
 			dependencies: ["6A51EBB9D2723C4B"]
 			id: "0B244AC1A0F45A4C"
 			tasks: [{
@@ -181,12 +181,12 @@
 			}
 			x: -3.5d
 			y: -4.5d
-			subtitle: "Spawns underground in &aForests, &aMountains, and &aSnowy Tundras."
+			subtitle: "生成在&a森林，&a山脉，和&a雪原&r的地下。"
 			id: "7CCD473B3759429F"
 			tasks: [{
 				id: "6D0BAA9FC1DAAF7B"
 				type: "kill"
-				title: "Defeat a &bTroll"
+				title: "打败&b食人妖"
 				entity: "iceandfire:troll"
 				value: 1L
 			}]
@@ -197,16 +197,16 @@
 			}]
 		}
 		{
-			title: "Defeat a &4Cyclops"
+			title: "击败&4独眼巨人"
 			disable_toast: true
 			x: -3.5d
 			y: -6.0d
-			subtitle: "Spawns in &fsurface caves."
+			subtitle: "生成在&f洞穴中。"
 			id: "3CB96B97A6B6ED5F"
 			tasks: [{
 				id: "1762BFDD49B46A0F"
 				type: "kill"
-				title: "Defeat a Cyclops"
+				title: "击败独眼巨人"
 				entity: "iceandfire:cyclops"
 				value: 1L
 			}]
@@ -221,12 +221,12 @@
 			}
 			x: -5.0d
 			y: -6.0d
-			subtitle: "Spawns in&e Deserts. &rDrops Chitin which can be used to&c create armor."
+			subtitle: "牺息在&e沙漠中。&r掉落蠕虫甲壳，可以用来&c制作盔甲。"
 			id: "3E77B746EE090220"
 			tasks: [{
 				id: "6C505799EC50A4C6"
 				type: "kill"
-				title: "Defeat a &bDeath &4Worm"
+				title: "击败&b死亡&4蠕虫"
 				icon: "iceandfire:deathworm_egg"
 				entity: "iceandfire:deathworm"
 				value: 1L
@@ -238,10 +238,10 @@
 			}]
 		}
 		{
-			title: "Obtain a &bDeath Wo&4rm Egg"
+			title: "获得&b死亡&4蠕虫卵"
 			x: -5.0d
 			y: -7.5d
-			subtitle: "Hatches a tamed &dBaby Death Worm&r when thrown."
+			subtitle: "投掷后孵化出一只被驯服的&d小死亡蠕虫&r。"
 			dependencies: ["3E77B746EE090220"]
 			id: "4734922E96B74B43"
 			tasks: [{
@@ -260,22 +260,22 @@
 			icon: "iceandfire:hydra_heart"
 			x: -5.0d
 			y: -4.5d
-			subtitle: "Spawns in &aHydra Lairs in Swamp biomes&r. Fire damage is necessary to &ckill the Hydra."
+			subtitle: "&a九头蛇巢穴&r出现在沼泽生物群系中。你必须用火焰伤害才能&c杀死九头蛇。"
 			id: "0B4CEDF490C4A1DD"
 			tasks: [{
 				id: "35FC8FE44121171A"
 				type: "kill"
-				title: "Defeat a &bHydra"
+				title: "击败&b九头蛇"
 				icon: "iceandfire:hydra_heart"
 				entity: "iceandfire:hydra"
 				value: 1L
 			}]
 		}
 		{
-			title: "Obtain a &bDragon &4Bone"
+			title: "获得&b龙&4骨"
 			x: -16.0d
 			y: -9.0d
-			subtitle: "Obtained by clicking the &fskeleton of a dead dragon."
+			subtitle: "通过空手右键点击&f死龙的骨架&r获得。"
 			id: "7FA81B28CF9C9D6E"
 			tasks: [{
 				id: "6E9AA789EBF83D5F"
@@ -289,10 +289,10 @@
 			}]
 		}
 		{
-			title: "Craft a &bDragon Bo&4ne Flute"
+			title: "制作一个&b龙歌&4长笛"
 			x: -16.0d
 			y: -10.5d
-			subtitle: "When used, will make certain &btamed animals &rstop flying."
+			subtitle: "使用时，会使指定&b已驯服的动物&r停止飞行"
 			dependencies: ["7FA81B28CF9C9D6E"]
 			id: "388074F654362459"
 			tasks: [{
@@ -307,10 +307,10 @@
 			}]
 		}
 		{
-			title: "Craft a &bSiren &4Flute"
+			title: "制作一个&b塞壬&4长笛"
 			x: -17.5d
 			y: -9.0d
-			subtitle: "When used, will make &cnearby mobs&r become passive for 10 seconds."
+			subtitle: "使用时，会让&c附近的生物&r在10秒内变得温顺。"
 			dependencies: [
 				"11D07104D539B59E"
 				"388074F654362459"
@@ -336,12 +336,12 @@
 		{
 			x: -17.5d
 			y: -10.5d
-			subtitle: "Spawns on&b Siren Islands&r in &3Oceans."
+			subtitle: "在海洋中的&b塞壬礁&r&3生成。"
 			id: "11D07104D539B59E"
 			tasks: [{
 				id: "59FF3B6492640C2F"
 				type: "kill"
-				title: "Defeat a&b Siren"
+				title: "击败&b塞壬"
 				icon: "iceandfire:siren_tear"
 				entity: "iceandfire:siren"
 				value: 1L
@@ -355,12 +355,12 @@
 		{
 			x: -10.5d
 			y: -6.0d
-			subtitle: "Spawns in &3Oceans."
+			subtitle: "在&3海洋&r中生成。"
 			id: "22F107BD6518FC72"
 			tasks: [{
 				id: "485B4D27826CB6FA"
 				type: "kill"
-				title: "Defeat a &bHippocampus"
+				title: "击败&b海马"
 				icon: "iceandfire:hippocampus_fin"
 				entity: "iceandfire:hippocampus"
 				value: 1L
@@ -372,10 +372,10 @@
 			}]
 		}
 		{
-			title: "Tame a &4Hippocampus "
+			title: "驯服&4海马 "
 			x: -9.0d
 			y: -6.0d
-			subtitle: "Tamed using &eSponge or Kelp&r. Can be bred using &aPrismarine Crystals. Can be given &6horse armo&rr and a &6chest.&r After putting a saddle on a &cHippocampus,&r it can be mounted. &fWASD &rto move, space to float upwards, X to sink, and Shift to dismount."
+			subtitle: "你可以使用&e海绵或海带&r驯服它们，并且可以用&a海晶石碎片繁殖。你也可以给它们装上&6马铠&r和&6箱子&r。&c海马&r身上放上鞍后，你就可以骑乘它们。用&fWASD&r控制移动，空格键向上浮，X键下沉，Shift键下马。"
 			id: "5F22FE12415AB95D"
 			tasks: [{
 				id: "3FA39AC16E288C26"
@@ -399,12 +399,12 @@
 		{
 			x: -9.0d
 			y: -7.5d
-			subtitle: "Spawns in Oceans."
+			subtitle: "在海洋中生成"
 			id: "6FFE58989CBB2671"
 			tasks: [{
 				id: "78E49D65DA2DC9B5"
 				type: "kill"
-				title: "Defeat a Sea Serpent"
+				title: "击败海蟒"
 				icon: "iceandfire:sea_serpent_fang"
 				entity: "iceandfire:sea_serpent"
 				value: 1L
@@ -416,10 +416,10 @@
 			}]
 		}
 		{
-			title: "Craft a &bTide &4Trident"
+			title: "制作一个&b海潮&4三叉戟"
 			x: -10.5d
 			y: -7.5d
-			subtitle: "A very &bstrong Trident&r. Capable of piercing through multiple&c enemies."
+			subtitle: "一支非常&b强大的三叉戟&r。能够贯穿多个&c敌人。"
 			dependencies: ["6FFE58989CBB2671"]
 			id: "36B2CCC6F007D418"
 			tasks: [{
@@ -440,15 +440,15 @@
 			}]
 		}
 		{
-			title: "Obtain a &bDragon &4Skull"
+			title: "获得&b飞龙&4颅骨"
 			x: -9.0d
 			y: -4.5d
-			subtitle: "Obtained by interacting with a dead &edragon's skeleton."
+			subtitle: "通过空手右键点击死&e龙的骨架&r获得。"
 			id: "2444465D5A673566"
 			tasks: [{
 				id: "412DA97ED983D324"
 				type: "item"
-				title: "Any Dragon Skull"
+				title: "任何飞龙颅骨"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -464,10 +464,10 @@
 			}]
 		}
 		{
-			title: "Craft a &bDragon Com&4mand Staff"
+			title: "制作一个&b驯龙&4杖"
 			x: -10.5d
 			y: -4.5d
-			subtitle: "Used to control tamed &dDragons."
+			subtitle: "用于命令被驯服的&d龙。"
 			dependencies: ["2444465D5A673566"]
 			id: "25FA51019B4148A4"
 			tasks: [{
@@ -482,10 +482,10 @@
 			}]
 		}
 		{
-			title: "Craft a &bDragon &4Horn"
+			title: "制作一个&b龙吟&4号角"
 			x: -17.5d
 			y: -7.5d
-			subtitle: "Used to &dstore dragons."
+			subtitle: "可以将&d龙&r收起来"
 			dependencies: ["7FA81B28CF9C9D6E"]
 			id: "34327D1A101D0B6A"
 			tasks: [{
@@ -500,10 +500,10 @@
 			}]
 		}
 		{
-			title: "Obtain a Witherbone"
+			title: "获得凋零之骨"
 			x: -14.5d
 			y: -6.0d
-			subtitle: "Dropped by &fWither Skeletons &rand &eCockatrices."
+			subtitle: "由&f凋零骷髅&r和&e鸡蛇&r掉落"
 			id: "040C4726F0D038FC"
 			tasks: [{
 				id: "76C1A0A1FA15D3C7"
@@ -520,12 +520,12 @@
 			icon: "iceandfire:spawn_egg_cockatrice"
 			x: -14.5d
 			y: -4.5d
-			subtitle: "Spawns in Savannahs."
+			subtitle: "在热带草原生成。"
 			id: "27E285861E711144"
 			tasks: [{
 				id: "282B7DD70C141508"
 				type: "kill"
-				title: "Defeat a &bCockatrice"
+				title: "击败&b鸡蛇"
 				entity: "iceandfire:cockatrice"
 				value: 1L
 			}]
@@ -536,10 +536,10 @@
 			}]
 		}
 		{
-			title: "Obtain a &bCockatri&4ce Skull"
+			title: "获得&b鸡蛇&4头颅"
 			x: -16.0d
 			y: -4.5d
-			subtitle: "Rare drop from killing &eCockatrices&r. Can be placed on the wall as a &4trophy."
+			subtitle: "杀死&e鸡蛇&r有概率得到的稀有掉落物。你可以把它放在墙上作为&4战利品&r展示。"
 			dependencies: ["27E285861E711144"]
 			id: "389C55B4AFF74EE2"
 			tasks: [{
@@ -554,10 +554,10 @@
 			}]
 		}
 		{
-			title: "Obtain a &bCockatrice&4 Eye"
+			title: "获得&b鸡蛇&4之眼"
 			x: -13.0d
 			y: -4.5d
-			subtitle: "Rare drop from killing &eCockatrices."
+			subtitle: "杀死&e鸡蛇&r得到的稀有掉落物。"
 			dependencies: ["27E285861E711144"]
 			id: "258C78455C763EA7"
 			tasks: [{
@@ -572,10 +572,10 @@
 			}]
 		}
 		{
-			title: "Craft a &bCockatrice &4Scepter"
+			title: "制作一个&b鸡蛇&4节杖"
 			x: -13.0d
 			y: -6.0d
-			subtitle: "Withers targets and can attack &bmultiple mobs &rat once."
+			subtitle: "可一次性攻击&b多个目标&r并使其凋零。"
 			dependencies: [
 				"258C78455C763EA7"
 				"040C4726F0D038FC"
@@ -599,10 +599,10 @@
 			}]
 		}
 		{
-			title: "Obtain &bDragon &4Blood"
+			title: "取得&b龙&4血"
 			x: -13.0d
 			y: -7.5d
-			subtitle: "Can be obtained by using a &bGlass Bottle&r on a &dDead Dragon's Carcass."
+			subtitle: "通过使用&b玻璃瓶&r右键&d龙尸&r获取。"
 			id: "797126755126D991"
 			tasks: [
 				{
@@ -628,10 +628,10 @@
 			}]
 		}
 		{
-			title: "Craft a &bDragon Bo&4ne Sword"
+			title: "制作一把&b龙骨&4剑"
 			x: -16.0d
 			y: -7.5d
-			subtitle: "Can be enhanced with &4Dragon Blood."
+			subtitle: "可用&4龙血&r给它附加效果。"
 			dependencies: [
 				"7FA81B28CF9C9D6E"
 				"040C4726F0D038FC"
@@ -655,10 +655,10 @@
 			}]
 		}
 		{
-			title: "Craft all three &bDragon Bone &4Sword variants"
+			title: "制作全三种&b龙骨&4剑变种。"
 			x: -14.5d
 			y: -7.5d
-			subtitle: "Different variants have&a different effects."
+			subtitle: "不同的变种有&a不同的效果。"
 			dependencies: [
 				"797126755126D991"
 				"0B83745935E0344E"
@@ -713,10 +713,10 @@
 			]
 		}
 		{
-			title: "Craft &bDragon Fo&4rge Bricks"
+			title: "制作&b龙钢&4锻炉砖块"
 			x: -13.0d
 			y: -13.5d
-			subtitle: "Crafted with &cfive Dragon Forge blocks&r and &cfour Stone Bricks&r in a&f Crafting Table.&r Also used to create a &bDragonforge Aperture&r, which is necessary to create a &bDragonforge."
+			subtitle: "用&c五个龙鳞块&r和&c四个石砖&r在&f工作台&r上合成以制作&b龙钢锻炉孔&r，这是制作&b龙钢锻炉&r的必要条件。"
 			id: "181D6E46A30C357E"
 			tasks: [{
 				id: "63BE090E8DADBC8D"
@@ -733,13 +733,13 @@
 		{
 			x: -11.5d
 			y: -13.5d
-			subtitle: "Crafted with &ceight Dragon Forge Bricks&r and a &cDragon Heart."
+			subtitle: "使用&c八个龙炎锻炉砖块&r和一个&c火龙心脏合成."
 			dependencies: ["181D6E46A30C357E"]
 			id: "7E0F94706F35BE1D"
 			tasks: [{
 				id: "0B54893957D63C64"
 				type: "advancement"
-				title: "Craft a &bDragon Fo&4rge Core"
+				title: "制作一个&b龙炎&4锻炉核心"
 				advancement: "iceandfire:iceandfire/dragon_forge_core"
 				criterion: ""
 			}]
@@ -752,12 +752,12 @@
 		{
 			x: -3.5d
 			y: -7.5d
-			subtitle: "&cWild Ampitheres &rcan be mounted by clicking on them with an &fempty hand.&r They can also be knocked out of the &bsky with projectiles&r. Once mounted, they will repeatedly bite you until they eventually stop and become tamed. &fShields&r will negate &cthis damage.&r Can be bred with&e cookies&r. Uses controls similar to an&d Elytra. Spacebar to fly&r, and G to use a strike attack."
+			subtitle: "&c野生的翼蚺&r可以通过&f空手&r点击来骑乘。它们会被&b投射物&r从空中击落。骑上后，它们会反复咬你，直到最终停止并变得驯服。&f盾牌&r可以防御&c撕咬伤害&r。可以用&e饼干&r进行繁殖。操作方式类似于&d鞘翅&r。空格键飞行&r，G键使用打击攻击。"
 			id: "14C5867FDEF4E654"
 			tasks: [{
 				id: "0CAEA0F03C7BD18B"
 				type: "advancement"
-				title: "Tame a &bAmphithere"
+				title: "驯服&b翼蚺"
 				advancement: "iceandfire:iceandfire/tame_amphithere"
 				criterion: ""
 			}]
@@ -768,10 +768,10 @@
 			}]
 		}
 		{
-			title: "Craft a &bBlock of Dra&4gon Bones"
+			title: "制作&b龙骨&4块"
 			x: -14.5d
 			y: -13.5d
-			subtitle: "Used to make the &cDragonforge."
+			subtitle: "用于制造&c龙钢锻炉。"
 			id: "660C1930FBE26464"
 			tasks: [{
 				id: "2DECF14F2B1A1615"
@@ -788,7 +788,7 @@
 		{
 			x: -13.0d
 			y: -11.5d
-			subtitle: "&cDragonforges&r should be built far away from your base as they will damage nearby blocks. To create a &c3x3 Dragonforge&r, place five &cDragonforge Bricks&r in the shape of a plus sign. Fill the corners in with &fBlocks of Dragon Bones&r. Then, place the Core in the middle of the second layer and the Aperture on top of one of the &cDragonforge Brick&rs from the first layer. Fill the rest of the layer in with &cDragonforge Bricks.&r The third layer is the exact same as the first."
+			subtitle: "&c龙钢锻炉&r应该建在离你的基地很远的地方，这是因为当你使用它时，需要你的龙在旁边喷火，龙息会破坏附近的方块。搭建&c3x3的龙钢锻炉&r，需要用&c龙钢锻炉砖&r摆成十字形。并用&f龙骨方块&r填充角落。然后，把核心放在第二层的中间，把龙钢锻炉焰孔放在第一层的任意一个&c龙钢锻炉砖&r上面。用&c龙钢锻炉砖&r填满第二场剩下的部分。第三层摆放和第一层一样"
 			dependencies: [
 				"660C1930FBE26464"
 				"7E0F94706F35BE1D"
@@ -798,7 +798,7 @@
 			tasks: [{
 				id: "3881C9635DC7A29F"
 				type: "checkmark"
-				title: "Create a &bDragon&4forge"
+				title: "搭建&b龙钢&4锻炉"
 			}]
 			rewards: [{
 				id: "5BAAB322FFC9659E"
@@ -807,10 +807,10 @@
 			}]
 		}
 		{
-			title: "Create a &bFire Drago&4nsteel Ingot"
+			title: "制造&b龙炎&4钢锭"
 			x: -11.5d
 			y: -9.5d
-			subtitle: "Created in a &cFire Dragon Forge&r with &4Fire Dragon Blood &rand an&f Iron Ingot."
+			subtitle: "用&4火龙血&r和&f铁锭&r在&c龙炎锻炉&r中锻造。"
 			dependencies: [
 				"797126755126D991"
 				"432416014A71B013"
@@ -828,10 +828,10 @@
 			}]
 		}
 		{
-			title: "Create an I&bce Drago&4nsteel Ingot"
+			title: "制造&b龙霜&4钢锭"
 			x: -13.0d
 			y: -9.5d
-			subtitle: "Created in an &bIce Dragon Forge&r with Ice &4Dragon Blood&r and an&f Iron Ingot."
+			subtitle: "用&4冰龙血&r和&f铁锭&r在&b龙霜锻炉&r中锻造。"
 			dependencies: [
 				"797126755126D991"
 				"432416014A71B013"
@@ -849,10 +849,10 @@
 			}]
 		}
 		{
-			title: "Create a &bLightning Drag&4onsteel Ingot"
+			title: "制作&b龙霆&4钢锭"
 			x: -14.5d
 			y: -9.5d
-			subtitle: "Created in a &9Lightning Dragon Forge &rwith &9Lightning Dragon Blood&r and an&f Iron Ingot."
+			subtitle: "用&4雷龙血&r和&f铁锭&r在&b龙霆锻炉&r中锻造。"
 			dependencies: [
 				"797126755126D991"
 				"432416014A71B013"
@@ -870,10 +870,10 @@
 			}]
 		}
 		{
-			title: "Craft a &bDreadst&4eel Ingot"
+			title: "制作一个&b悚怖&4钢锭"
 			x: -10.0d
 			y: -9.5d
-			subtitle: "Requires all three &cDragonsteel variants."
+			subtitle: "制作它需要所有&c龙钢&r变种"
 			dependencies: [
 				"45191757CCF85926"
 				"196DF27546684090"
@@ -894,12 +894,12 @@
 		{
 			x: -10.5d
 			y: -3.0d
-			subtitle: "Drop &6cake &rnear a fairy to befriend them."
+			subtitle: "将&6蛋糕&r扔在精灵附近以建立友谊。"
 			id: "157C1161DB6E3C5E"
 			tasks: [{
 				id: "4C58E4A72584AFCE"
 				type: "advancement"
-				title: "Befriend a &bFairy"
+				title: "跟&b小精灵&r做朋友"
 				advancement: "iceandfire:iceandfire/tame_pixie"
 				criterion: ""
 			}]
@@ -912,13 +912,13 @@
 		{
 			x: -9.0d
 			y: -3.0d
-			subtitle: "Generates &bFairy &4Dust"
+			subtitle: "收集&b精灵&4尘"
 			dependencies: ["157C1161DB6E3C5E"]
 			id: "4B10C0DD12423D89"
 			tasks: [{
 				id: "5D09B9041FAB7A8D"
 				type: "advancement"
-				title: "Put a Fairy in a jar"
+				title: "把精灵放进罐子里"
 				advancement: "iceandfire:iceandfire/jar_pixie"
 				criterion: ""
 			}]
@@ -929,10 +929,10 @@
 			}]
 		}
 		{
-			title: "Craft a &bPixie &4Wand"
+			title: "制作一个&b精灵&4法杖"
 			x: -10.5d
 			y: -1.5d
-			subtitle: "&cShoots a magical charge&r that does 5 charges and makes the target levitate. Uses&c Pixie Dust &ras&f ammo."
+			subtitle: "发射一个漂浮的&c魔法团&r，造成5点伤害并让目标漂浮。消耗&c精灵尘&r作为&f弹药。"
 			dependencies: ["157C1161DB6E3C5E"]
 			id: "13845E48979B8A46"
 			tasks: [{
@@ -955,12 +955,12 @@
 		{
 			x: -16.0d
 			y: -6.0d
-			subtitle: "Defeating a&4 Stage 4 or 5 Female Dragon&r then repeatedly clicking it will give you a &fDragon Egg&r. If you collect too &4much blood from the dragon&r before doing this, you will no longer get the egg. &bHatched dragons will be tamed."
+			subtitle: "击败一个&4四阶或五阶的雌性龙&r，然后反复点击它，就可以得到一个&f龙蛋&r。如果在这之前你从龙身上&4装了太多龙血&r，你就拿不到蛋了。&b孵化出来的龙是已驯服的。"
 			id: "2EF137451968D2AD"
 			tasks: [{
 				id: "6B20A84DD7346B33"
 				type: "advancement"
-				title: "Obtain a &bDragon &4Egg"
+				title: "获得&b龙&4蛋"
 				advancement: "iceandfire:iceandfire/dragon_egg"
 				criterion: ""
 			}]
@@ -971,10 +971,10 @@
 			}]
 		}
 		{
-			title: "Craft &bDragon &4Meal"
+			title: "制作&b龙&4食"
 			x: -17.5d
 			y: -6.0d
-			subtitle: "Each &cDragon Meal &rwill increase a &cDragon's age &rby&f one in-game day."
+			subtitle: "每一份&c龙食&r都会让&c龙的年龄&r增加&f一个游戏日。"
 			dependencies: ["2EF137451968D2AD"]
 			id: "2B16F552649C68E7"
 			tasks: [{
