@@ -74,7 +74,7 @@
 			icon: "blue_skies:multi_portal_item"
 			x: -2.5d
 			y: -1.0d
-			subtitle: "从&2守门人&r那里获得&3浩蓝旅记&r。他会出现在&a平原, 山地&r，和 &a雪地生物群系&r。随着你在模组中的进度他也会解锁更多交易。"
+			subtitle: "从&2守门人&r那里获得&3浩蓝旅记&r。他会出现在&a平原, 山地&r，和 &a雪地生物群系&r。随着你的进度的推进，他会解锁更多&6交易。"
 			id: "39877A9BE7CD03D2"
 			tasks: [{
 				id: "7AC8F93DB3774AFC"
@@ -97,10 +97,10 @@
 			]
 		}
 		{
-			title: "做一套&3榴石工具"
+			title: "制作一套&3榴石工具"
 			x: -2.5d
 			y: 1.5d
-			subtitle: "&2主世界装备&r不太好使。你可能需要打造一套全新的工具和护甲"
+			subtitle: "&2主世界的装备&r可能并不好使。你需要打造一套全新的工具和护甲。"
 			dependencies: [
 				"0A00DA03272FF80E"
 				"32544222A9CC4950"
@@ -148,10 +148,10 @@
 			}]
 		}
 		{
-			title: "做一个&3星辰源"
+			title: "制作一个&3星辰源"
 			x: -2.5d
 			y: -3.5d
-			subtitle: "可将村民转化为观星者职业。"
+			subtitle: "可将村民的职业转化为观星者。"
 			dependencies: [
 				"0A00DA03272FF80E"
 				"32544222A9CC4950"
@@ -171,10 +171,10 @@
 			}]
 		}
 		{
-			title: "换到一个&3星盘"
+			title: "交易得到一个&3星盘"
 			x: -2.5d
 			y: -5.0d
-			subtitle: "使你传送到星辰源处"
+			subtitle: "可将你传送到星辰源处"
 			dependencies: ["38EDF683E805E3C4"]
 			id: "7E3217909CE96E4D"
 			tasks: [{
@@ -204,10 +204,10 @@
 			]
 		}
 		{
-			title: "造一个&3 工具箱"
+			title: "制作一个&3工具箱"
 			x: -4.5d
 			y: 3.5d
-			subtitle: "使用&2缪铁锭&r&c给工具增加耐久&r。 也可用于&2切换工具上的手柄&r。不同工具使用不同的手柄会有不同效果。"
+			subtitle: "使用&2缪铁锭&r&c给工具增加耐久&r。也可用于&2切换工具上的手柄&r。不同工具使用不同的手柄会有不同效果。"
 			dependencies: ["02FD4D3B62F198B1"]
 			id: "39B5EBDF7A563B10"
 			tasks: [{
@@ -231,13 +231,13 @@
 		{
 			x: -0.5d
 			y: 3.5d
-			subtitle: "在大范围内&c阻止地对生物&r&6生成&r。 本身不发光。"
+			subtitle: "在&6大范围内&r&c阻止敌对生物&r&6生成&r。本身不发光。"
 			dependencies: ["02FD4D3B62F198B1"]
 			id: "2E7925144A93028A"
 			tasks: [{
 				id: "39BD3D7E27AA2FE6"
 				type: "item"
-				title: "造一个&3珍珠灵匣"
+				title: "制作一个&3珍珠灵匣"
 				item: "blue_skies:warding_pearl"
 			}]
 			rewards: [
@@ -254,7 +254,7 @@
 			]
 		}
 		{
-			title: "做一套&3天闪石工具"
+			title: "制作一套&3天闪石工具"
 			x: -2.5d
 			y: 3.5d
 			subtitle: "和铁同级"
@@ -309,7 +309,7 @@
 			]
 		}
 		{
-			title: "做一套&3透辉石工具"
+			title: "制作一套&3透辉石工具"
 			x: -3.5d
 			y: 5.0d
 			subtitle: "比&2绛紫晶&r速度慢，但更强一些。透辉石矿&2深埋地下。"
@@ -346,10 +346,10 @@
 			}]
 		}
 		{
-			title: "做一套&3绛紫晶工具"
+			title: "制作一套&3绛紫晶工具"
 			x: -1.5d
 			y: 5.0d
-			subtitle: "比&2透辉石&r速度快，但会弱一些。 绛紫晶矿&r&2深埋底下"
+			subtitle: "比&2透辉石&r速度快，但更弱一些。绛紫晶矿&r&2深埋底下"
 			dependencies: ["0F71B687E7626A68"]
 			id: "4CE7A5755E6A70EB"
 			tasks: [
@@ -383,7 +383,7 @@
 			}]
 		}
 		{
-			title: "干掉召唤师"
+			title: "击败召唤师"
 			icon: "blue_skies:bright_blinding_keystone"
 			disable_toast: true
 			x: -6.5d
@@ -394,7 +394,7 @@
 			tasks: [{
 				id: "10DD64CBF7D86F91"
 				type: "kill"
-				title: "干掉&3召唤师"
+				title: "击败&3召唤师"
 				icon: {
 					id: "ftbquests:custom_icon"
 					Count: 1b
@@ -417,7 +417,7 @@
 			tasks: [{
 				id: "1A79FE3858D2F50A"
 				type: "kill"
-				title: "干掉&3炼金术士"
+				title: "击败&3炼金术士"
 				icon: {
 					id: "ftbquests:custom_icon"
 					Count: 1b
