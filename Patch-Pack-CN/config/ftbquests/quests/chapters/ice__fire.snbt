@@ -3,7 +3,7 @@
 	group: "2F85EA47D6AE998C"
 	order_index: 5
 	filename: "ice__fire"
-	title: " &b冰 &f\\& &4火&r传说"
+	title: "&b冰&r&4火&r传说"
 	icon: "iceandfire:dragonegg_red"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
