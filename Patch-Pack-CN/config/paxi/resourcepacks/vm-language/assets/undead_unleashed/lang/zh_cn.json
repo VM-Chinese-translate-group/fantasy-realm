@@ -47,7 +47,7 @@
   "item.undead_expansion_2.moonlight_projectile": "月光球",
   "item.undead_expansion_2.spirit_shard": "灵魂碎片",
   "item.undead_expansion_2.fiend_fire_projectile": "炎魔的火球",
-  "item.undead_expansion_2.wraith_spawn_egg": "鬼魂刷怪蛋",
+  "item.undead_expansion_2.wraith_spawn_egg": "幽灵刷怪蛋",
   "item.undead_expansion_2.frenzied_knight_spawn_egg": "狂暴骑士刷怪蛋",
   "item.undead_expansion_2.lava_fiend_spawn_egg": "炎魔刷怪蛋",
   "item.undead_expansion_2.ghost_pepper": "鬼椒",
@@ -63,7 +63,7 @@
   "item.undead_unleashed.grave_metal_boots": "墓石靴子",
   "item.undead_unleashed.reaping_scythe": "收割之镰",
   "item.undead_unleashed.moonlight_greatsword": "月光大剑",
-  "item.undead_unleashed.lost_soul": "走失的灵魂",
+  "item.undead_unleashed.lost_soul": "失散的灵魂",
   "item.undead_unleashed.cursed_cloth": "诅咒布匹",
   "item.undead_unleashed.ghost_pepper": "鬼椒",
   "item.undead_unleashed.shadow_helmet": "暗夜纺绸帽罩",
@@ -77,11 +77,11 @@
   "item.undead_unleashed.moon_slash_projectile": "月光斩",
   "item.undead_unleashed.necrotic_dust": "死灵尘",
   "item.undead_unleashed.fiend_fire_projectile": "炎魔的火球",
-  "item.undead_unleashed.haunter_spawn_egg": "缠身鬼刷怪蛋",
+  "item.undead_unleashed.haunter_spawn_egg": "怨灵刷怪蛋",
   "item.undead_unleashed.frenzied_knight_spawn_egg": "狂暴骑士刷怪蛋",
   "item.undead_unleashed.flamebreather_spawn_egg": "烈炎喷吐者刷怪蛋",
   "item.undead_unleashed.graveriser_spawn_egg": "墓灵刷怪蛋",
-  "item.undead_unleashed.shadewraith_spawn_egg": "暗影鬼魂刷怪蛋",
+  "item.undead_unleashed.shadewraith_spawn_egg": "暗影幽灵刷怪蛋",
   
   "block.undead_unleashed.shaded_bricks": "影砖块",
   "block.undead_unleashed.shaded_brick_wall": "影砖墙",
@@ -109,7 +109,7 @@
   "advancements.shards_of_the_past.title": "昔日的残片",
   "advancements.shards_of_the_past.descr": "获得一块墓石",
   "advancements.boo.title": "嘘！",
-  "advancements.boo.descr": "见证一个缠身鬼留下尸体或坟墓",
+  "advancements.boo.descr": "让一个怨灵留下尸体或坟墓",
 
   "enchantment.undead_unleashed.undertaker": "送葬人",
 
@@ -131,9 +131,9 @@
   "entity.undead_expansion_2.frenzied_knight": "狂暴骑士",
 
   "entity.undead_unleashed.graveriser": "墓灵",
-  "entity.undead_unleashed.haunter": "缠身鬼",
+  "entity.undead_unleashed.haunter": "怨灵",
   "entity.undead_unleashed.frenzied_knight": "狂暴骑士",
-  "entity.undead_unleashed.shadewraith": "暗影鬼魂",
+  "entity.undead_unleashed.shadewraith": "暗影幽灵",
   "entity.undead_unleashed.flamebreather": "烈炎喷吐者",
 
   "gamerule.armedSkeletons": "armedSkeletons",
@@ -147,10 +147,10 @@
   "gamerule.allow_graverisers.description": "允许烈炎喷吐者自然生成",
   "gamerule.allowGraverisers": "启用墓灵",
   "gamerule.allowGraverisers.description": "允许墓灵自然生成",
-  "gamerule.allowWraithSpawning": "启用鬼魂",
-  "gamerule.allow_knights_spawning": "启用鬼魂",
-  "gamerule.allowWraithSpawning.description": "允许鬼魂自然生成",
-  "gamerule.allow_knights_spawning.description": "允许鬼魂自然生成",
+  "gamerule.allowWraithSpawning": "启用幽灵",
+  "gamerule.allow_knights_spawning": "启用幽灵",
+  "gamerule.allowWraithSpawning.description": "允许幽灵自然生成",
+  "gamerule.allow_knights_spawning.description": "允许幽灵自然生成",
   "gamerule.allow_fiend_spawning": "启用狂暴骑士",
   "gamerule.allowKnightsSpawning": "启用狂暴骑士",
   "gamerule.allowKnightsSpawning.description": "允许狂暴骑士自然生成",
@@ -159,9 +159,9 @@
   "gamerule.allow_haunters_spawning": "启用炎魔",
   "gamerule.allow_haunters_spawning.description": "允许炎魔自然生成",
   "gamerule.allow_flamebreathers_spawning.description": "允许炎魔自然生成",
-  "gamerule.allowHauntersSpawning": "启用缠身鬼",
-  "gamerule.allow_skeleton_armor": "启用缠身鬼",
-  "gamerule.allowHauntersSpawning.description": "允许缠身鬼自然生成",
-  "gamerule.allow_skeleton_armor.description": "允许缠身鬼自然生成"
+  "gamerule.allowHauntersSpawning": "启用怨灵",
+  "gamerule.allow_skeleton_armor": "启用怨灵",
+  "gamerule.allowHauntersSpawning.description": "允许怨灵自然生成",
+  "gamerule.allow_skeleton_armor.description": "允许怨灵自然生成"
   
 }
