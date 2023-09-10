@@ -1,7 +1,7 @@
 {
 	id: "6A529AE3C5542E75"
 	order_index: 1
-	title: "Medium Tier"
+	title: "中级"
 	icon: {
 		id: "minecraft:gold_block"
 		Count: 64b
@@ -18,19 +18,19 @@
 		{ item: "minecraft:diamond", count: 2, weight: 3 }
 		{ item: "minecraft:diamond", count: 8 }
 		{
-			title: "+10 XP Levels"
+			title: "+10经验等级"
 			xp_levels: 10
 			type: "xp_levels"
 			weight: 3
 		}
 		{
-			title: "+15 XP Levels"
+			title: "+15经验等级"
 			xp_levels: 15
 			type: "xp_levels"
 			weight: 2
 		}
 		{
-			title: "+20 XP Levels"
+			title: "+20经验等级"
 			xp_levels: 20
 			type: "xp_levels"
 		}

@@ -1,7 +1,7 @@
 {
 	id: "1E816A51D92D3214"
 	order_index: 0
-	title: "Low Tier"
+	title: "低级"
 	icon: {
 		id: "minecraft:coal_block"
 		Count: 64b
@@ -17,13 +17,13 @@
 		{ icon: "minecraft:diamond", item: "minecraft:diamond", count: 2 }
 		{ icon: "minecraft:coal", item: "minecraft:coal", count: 24, weight: 2 }
 		{
-			title: "+10 XP Levels"
+			title: "+10经验等级"
 			icon: "minecraft:experience_bottle"
 			xp_levels: 10
 			type: "xp_levels"
 		}
 		{
-			title: "+5 XP Levels"
+			title: "+5经验等级"
 			xp_levels: 5
 			type: "xp_levels"
 			weight: 2

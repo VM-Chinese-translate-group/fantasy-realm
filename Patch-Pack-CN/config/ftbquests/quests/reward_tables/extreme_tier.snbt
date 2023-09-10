@@ -1,7 +1,7 @@
 {
 	id: "67BBA1EA7E5FBAEA"
 	order_index: 4
-	title: "Extreme Tier"
+	title: "极限级"
 	icon: {
 		id: "minecraft:netherite_block"
 		Count: 64b
@@ -21,7 +21,7 @@
 			weight: 3
 		}
 		{
-			title: "+3 Skill Points"
+			title: "+3技能点"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -68,7 +68,7 @@
 						MinSpawnDelay: 20s
 					}
 					display: {
-						Lore: ["{\"text\":\"§fClick me with any spawn egg!\"}"]
+						Lore: ["{\"text\":\"§f用任意刷怪蛋点我！\"}"]
 					}
 				}
 			}

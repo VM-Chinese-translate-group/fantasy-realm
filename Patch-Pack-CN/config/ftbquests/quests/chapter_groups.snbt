@@ -1,8 +1,8 @@
 {
 	chapter_groups: [
-		{ id: "2F85EA47D6AE998C", title: "Exploration" }
-		{ id: "1E5E40F7A856E564", title: "Armor \\& Weaponry" }
-		{ id: "47EF6B1E1AEB6949", title: "Dimensions" }
-		{ id: "5A43EA4A3BF38D32", title: "Miscellaneous" }
+		{ id: "2F85EA47D6AE998C", title: "探险" }
+		{ id: "1E5E40F7A856E564", title: "盔甲与武器" }
+		{ id: "47EF6B1E1AEB6949", title: "维度" }
+		{ id: "5A43EA4A3BF38D32", title: "杂项" }
 	]
 }

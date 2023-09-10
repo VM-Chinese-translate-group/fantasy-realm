@@ -1,7 +1,7 @@
 {
 	id: "2268CB773889CE2F"
 	order_index: 7
-	title: "Apotheosis Spawner Improvement"
+	title: "神化刷怪笼增强"
 	icon: "apotheosis:boss_summoner"
 	loot_size: 1
 	rewards: [

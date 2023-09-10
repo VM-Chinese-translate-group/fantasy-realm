@@ -1,7 +1,7 @@
 {
 	id: "7F4D27881FC05DB5"
 	order_index: 5
-	title: "Loot Bags"
+	title: "战利品袋"
 	icon: {
 		id: "treasurebags:treasure_bag"
 		Count: 1b

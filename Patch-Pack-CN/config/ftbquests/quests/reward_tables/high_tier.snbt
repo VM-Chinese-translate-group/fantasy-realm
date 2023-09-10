@@ -1,7 +1,7 @@
 {
 	id: "24B842B34426E835"
 	order_index: 2
-	title: "High Tier"
+	title: "高级"
 	icon: {
 		id: "minecraft:diamond_block"
 		Count: 64b
@@ -15,7 +15,7 @@
 	loot_size: 1
 	rewards: [
 		{
-			title: "+1 Skill Point"
+			title: "+1技能点"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b

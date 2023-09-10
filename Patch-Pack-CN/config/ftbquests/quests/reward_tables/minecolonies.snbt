@@ -1,7 +1,7 @@
 {
 	id: "4E57477E7E02235E"
 	order_index: 6
-	title: "MineColonies"
+	title: "模拟殖民地"
 	icon: {
 		id: "ftbquests:custom_icon"
 		Count: 1b
