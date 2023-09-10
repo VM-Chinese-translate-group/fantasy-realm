@@ -30,7 +30,7 @@
 			title: "建造一个永昼之地传送门"
 			x: -4.5d
 			y: -1.0d
-			subtitle: "&b&b永昼之地&r传送门以&2绿松石砖&r作框架，可以用&c御风火石&r &2激活传送门。 &c御风火石&r可从&2守门人&r处购买，传送门本体也在他的家中。"
+			subtitle: "&b&b永昼之地&r传送门以&2绿松石砖&r作框架，可以用&c御风火石&r激活传送门。 &c御风火石&r可从&2守门人&r处购买，传送门本体也在他的家中。"
 			dependencies: ["39877A9BE7CD03D2"]
 			id: "0A00DA03272FF80E"
 			tasks: [{
@@ -52,7 +52,7 @@
 			title: "建造一个恒晓之地传送门"
 			x: -0.5d
 			y: -1.0d
-			subtitle: "使用&2望舒石砖&r搭好框架，并用&c御风火石&r &2点燃以打开&3恒晓之地&r传送门。&c御风火石&r可从&2守门人&r处购买，传送门本体也在他的家中。"
+			subtitle: "使用&2望舒石砖&r搭好框架，并用&c御风火石&r点燃以打开&3恒晓之地&r传送门。&c御风火石&r可从&2守门人&r处购买，传送门本体也在他的家中。"
 			dependencies: ["39877A9BE7CD03D2"]
 			id: "32544222A9CC4950"
 			tasks: [{
@@ -74,7 +74,7 @@
 			icon: "blue_skies:multi_portal_item"
 			x: -2.5d
 			y: -1.0d
-			subtitle: "从&2守门人&r那里购买&3浩蓝旅记&r。他会出现在&a平原, 山地&r，和 &a雪地生物群系&r。随着你不断推进，他会解锁更多&6交易。"
+			subtitle: "从&2守门人&r那里购买&3浩蓝旅记&r。他会出现在&a平原，山地&r，和 &a雪地生物群系&r。随着你不断推进，他会解锁更多&6交易。"
 			id: "39877A9BE7CD03D2"
 			tasks: [{
 				id: "7AC8F93DB3774AFC"
@@ -148,7 +148,7 @@
 			}]
 		}
 		{
-			title: "制作一个&3星辰源"
+			title: "制作一个&3星辰放射台"
 			x: -2.5d
 			y: -3.5d
 			subtitle: "可将村民的职业转化为观星者。"
@@ -174,7 +174,7 @@
 			title: "交易得到一个&3星盘"
 			x: -2.5d
 			y: -5.0d
-			subtitle: "可将你传送到星辰源处"
+			subtitle: "可将你传送到星辰放射台处"
 			dependencies: ["38EDF683E805E3C4"]
 			id: "7E3217909CE96E4D"
 			tasks: [{
@@ -312,7 +312,7 @@
 			title: "制作一套&3透辉石工具"
 			x: -3.5d
 			y: 5.0d
-			subtitle: "比&2绛紫晶&r速度慢，但更强一些。透辉石矿&2深埋地下。"
+			subtitle: "比&2绛紫晶&r速度慢，但更强一些。透辉石矿&2深埋于地下。"
 			dependencies: ["0F71B687E7626A68"]
 			id: "7F45CA9DF28784F2"
 			tasks: [
@@ -349,7 +349,7 @@
 			title: "制作一套&3绛紫晶工具"
 			x: -1.5d
 			y: 5.0d
-			subtitle: "比&2透辉石&r速度快，但更弱一些。绛紫晶矿&r&2深埋底下"
+			subtitle: "比&2透辉石&r速度快，但更弱一些。绛紫晶矿&r&2深埋于地下"
 			dependencies: ["0F71B687E7626A68"]
 			id: "4CE7A5755E6A70EB"
 			tasks: [
@@ -388,7 +388,7 @@
 			disable_toast: true
 			x: -6.5d
 			y: -1.0d
-			subtitle: "可于&c惑乱地牢&r内找到。推荐装配&2透辉石 或 绛紫晶&r装备 和 &2月长石盾牌&r。 召唤BOSS需要四个&c惑乱钥匙&r可从&6地牢中的箱子&r中找到 或 在与钥匙孔方块交互后&6从守门人处购买&r。"
+			subtitle: "可于&c惑乱地牢&r内找到。推荐装配&2透辉石或绛紫晶&r装备和&2月长石盾牌&r。 召唤BOSS需要四个&c惑乱钥匙&r，可从&6地牢中的箱子&r中找到 或在与钥匙孔方块交互后&6从守门人处购买&r。"
 			dependencies: ["0A00DA03272FF80E"]
 			id: "649A8378FBDC3ECF"
 			tasks: [{
@@ -417,7 +417,7 @@
 			tasks: [{
 				id: "1A79FE3858D2F50A"
 				type: "kill"
-				title: "击败&3炼金术士"
+				title: "击败&3炼金师"
 				icon: {
 					id: "ftbquests:custom_icon"
 					Count: 1b
@@ -440,7 +440,7 @@
 			tasks: [{
 				id: "58C98F01C1059F64"
 				type: "kill"
-				title: "击败&3星熠破灭之树"
+				title: "击败&3星荧粉碎者"
 				entity: "blue_skies:starlit_crusher"
 				value: 1L
 			}]

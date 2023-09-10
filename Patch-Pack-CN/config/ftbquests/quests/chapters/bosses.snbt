@@ -9,7 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "弱鸡独眼巨人"
+			title: "菜鸟独眼巨人"
 			x: -3.5d
 			y: -1.0d
 			subtitle: "击败一只&2生成在陆地上&r的&c独眼巨人。"
@@ -17,7 +17,7 @@
 			tasks: [{
 				id: "090933F82E209D45"
 				type: "kill"
-				title: "击败&c弱鸡独眼巨人"
+				title: "击败&c菜鸟独眼巨人"
 				entity: "trouble_rpg:cyclops"
 				value: 1L
 			}]
@@ -68,7 +68,7 @@
 			tasks: [{
 				id: "3A6E54D9087A3B0E"
 				type: "advancement"
-			title: "击败太阳酋长"
+				title: "击败太阳酋长"
 				advancement: "mowziesmobs:kill_barako"
 				criterion: ""
 			}]
@@ -166,7 +166,7 @@
 			]
 		}
 		{
-			title: "击败&cCorneila船长的鬼魂"
+			title: "击败&c科妮莉亚船长的亡灵"
 			x: 1.0d
 			y: -1.0d
 			subtitle: "使用贝壳号角召唤"
