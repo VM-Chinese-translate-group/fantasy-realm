@@ -224,7 +224,7 @@
 			title: "合成&6角魔镐"
 			x: -15.0d
 			y: 2.0d
-			subtitle: "制作它时会获得&a特殊属性&,镐子将获得&a时运附魔"
+			subtitle: "制作它时会获得&a特殊属性&r，镐子将获得&a时运附魔"
 			dependencies: ["0D1035D5C594C23C"]
 			id: "3901825031F8162F"
 			tasks: [{

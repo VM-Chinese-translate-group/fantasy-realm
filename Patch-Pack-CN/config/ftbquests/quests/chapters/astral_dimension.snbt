@@ -213,7 +213,7 @@
 			x: -2.5d
 			y: 9.0d
 			shape: "hexagon"
-			subtitle: "Click"
+			subtitle: "点击"
 			description: [
 				"要召唤它，你必须找到一个虚空蛋。"
 				""
