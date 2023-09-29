@@ -59,8 +59,10 @@
 					count: 32
 				}
 				{
-					id: "77285D2013393F51"
+					id: "7CD911E032DFD1D9"
 					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2198154992902025748L
 				}
 			]
 		}
@@ -111,17 +113,11 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "7F3066D3A72157C9"
-					type: "choice"
-					table_id: 7661356219169517173L
-				}
-				{
-					id: "4E646B33CDF4AF3A"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "7F3066D3A72157C9"
+				type: "choice"
+				table_id: 7661356219169517173L
+			}]
 		}
 		{
 			x: 1.0d
@@ -141,17 +137,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "5EB383EBF432D131"
-					type: "random"
-					table_id: 2198154992902025748L
-				}
-				{
-					id: "6DCDE994BC5ABC8F"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "5EB383EBF432D131"
+				type: "random"
+				table_id: 2198154992902025748L
+			}]
 		}
 		{
 			x: 1.0d
@@ -171,17 +161,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "72613A3C0E939923"
-					type: "choice"
-					table_id: 2198154992902025748L
-				}
-				{
-					id: "1B34841202CBE4EF"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "72613A3C0E939923"
+				type: "choice"
+				table_id: 2198154992902025748L
+			}]
 		}
 		{
 			x: 0.0d
@@ -201,17 +185,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "278E664A7A10517A"
-					type: "random"
-					table_id: 7661356219169517173L
-				}
-				{
-					id: "472DD459E88DF488"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "278E664A7A10517A"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
 		}
 		{
 			x: 1.0d
@@ -230,17 +208,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "6F38E624542C37F8"
-					type: "random"
-					table_id: 7661356219169517173L
-				}
-				{
-					id: "46BE0EB1A96CDC4B"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "6F38E624542C37F8"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
 		}
 		{
 			x: 2.0d
@@ -260,17 +232,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "17AB00C332D8B42B"
-					type: "random"
-					table_id: 2198154992902025748L
-				}
-				{
-					id: "72F56B804B7C4541"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "17AB00C332D8B42B"
+				type: "random"
+				table_id: 2198154992902025748L
+			}]
 		}
 		{
 			x: 2.0d
@@ -290,17 +256,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "77DAFCD56DA7E867"
-					type: "random"
-					table_id: 7661356219169517173L
-				}
-				{
-					id: "4840571B9B77B2FE"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "77DAFCD56DA7E867"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
 		}
 		{
 			x: 0.0d
@@ -319,17 +279,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "013A15F29C0E7C9B"
-					type: "random"
-					table_id: 2198154992902025748L
-				}
-				{
-					id: "702F4FBAAE8750FD"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "013A15F29C0E7C9B"
+				type: "random"
+				table_id: 2198154992902025748L
+			}]
 		}
 		{
 			x: 0.0d
@@ -348,17 +302,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "231D6DF4E58264DD"
-					type: "choice"
-					table_id: 2198154992902025748L
-				}
-				{
-					id: "0622E46FC0B8F381"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "231D6DF4E58264DD"
+				type: "choice"
+				table_id: 2198154992902025748L
+			}]
 		}
 		{
 			x: 2.0d
@@ -378,17 +326,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "55F042D630BE63D0"
-					type: "choice"
-					table_id: 2198154992902025748L
-				}
-				{
-					id: "2AD586DEFB35A6DE"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "55F042D630BE63D0"
+				type: "choice"
+				table_id: 2198154992902025748L
+			}]
 		}
 		{
 			x: 1.0d
@@ -418,10 +360,6 @@
 					type: "random"
 					table_id: 2198154992902025748L
 				}
-				{
-					id: "32C1094C0969C1E2"
-					type: "random"
-				}
 			]
 		}
 		{
@@ -440,17 +378,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "33AA5AC0555961B5"
-					type: "random"
-					table_id: 7661356219169517173L
-				}
-				{
-					id: "10B28B27D9AC08A9"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "33AA5AC0555961B5"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
 		}
 		{
 			x: 5.5d
@@ -485,10 +417,6 @@
 						}
 					}
 				}
-				{
-					id: "78D85F8275A2DE8E"
-					type: "random"
-				}
 			]
 		}
 		{
@@ -507,17 +435,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "61442CF8908FACEB"
-					type: "choice"
-					table_id: 2198154992902025748L
-				}
-				{
-					id: "0B10D84F607A4823"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "61442CF8908FACEB"
+				type: "choice"
+				table_id: 2198154992902025748L
+			}]
 		}
 		{
 			x: -2.0d
@@ -536,17 +458,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "4C1BED331F902C01"
-					type: "random"
-					table_id: 2198154992902025748L
-				}
-				{
-					id: "0C68D248E967EE3A"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "4C1BED331F902C01"
+				type: "random"
+				table_id: 2198154992902025748L
+			}]
 		}
 		{
 			x: -2.0d
@@ -565,17 +481,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "21BEB934D03C2EE6"
-					type: "random"
-					table_id: 7661356219169517173L
-				}
-				{
-					id: "4958FAC021901388"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "21BEB934D03C2EE6"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
 		}
 		{
 			x: 4.5d
@@ -593,17 +503,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "26132B80A9F77474"
-					type: "random"
-					table_id: 7661356219169517173L
-				}
-				{
-					id: "7A160ABBDAF761C2"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "26132B80A9F77474"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
 		}
 		{
 			x: 4.5d
@@ -622,17 +526,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "20C94B999E19B552"
-					type: "random"
-					table_id: 9173031481625304501L
-				}
-				{
-					id: "4A5EF1D5C4EAC5C4"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "20C94B999E19B552"
+				type: "random"
+				table_id: 9173031481625304501L
+			}]
 		}
 		{
 			x: 1.0d
@@ -650,17 +548,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "0718029775B4BB02"
-					type: "random"
-					table_id: 2198154992902025748L
-				}
-				{
-					id: "62252550C61A005E"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "0718029775B4BB02"
+				type: "random"
+				table_id: 2198154992902025748L
+			}]
 		}
 		{
 			x: 1.0d
@@ -678,17 +570,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "7B7B2784C00630AB"
-					type: "random"
-					table_id: 2198154992902025748L
-				}
-				{
-					id: "43584EDE000C3B9F"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "7B7B2784C00630AB"
+				type: "random"
+				table_id: 2198154992902025748L
+			}]
 		}
 		{
 			x: 1.0d
@@ -706,17 +592,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "231B9AFC045F9D59"
-					type: "random"
-					table_id: 2198154992902025748L
-				}
-				{
-					id: "270A3D9026FBF81F"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "231B9AFC045F9D59"
+				type: "random"
+				table_id: 2198154992902025748L
+			}]
 		}
 		{
 			x: -3.0d
@@ -734,17 +614,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "28E52E4256F8E52D"
-					type: "choice"
-					table_id: 9173031481625304501L
-				}
-				{
-					id: "2481EABD57CD6709"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "28E52E4256F8E52D"
+				type: "choice"
+				table_id: 9173031481625304501L
+			}]
 		}
 		{
 			x: -3.0d
@@ -772,10 +646,6 @@
 					id: "03525C5786FBAEA8"
 					type: "item"
 					item: "minecraft:red_bed"
-				}
-				{
-					id: "103B96D98D649328"
-					type: "random"
 				}
 			]
 		}
@@ -812,10 +682,6 @@
 						}
 					}
 				}
-				{
-					id: "7ABC8EDF0AD3AD04"
-					type: "random"
-				}
 			]
 		}
 		{
@@ -834,17 +700,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "798CA61AB746275E"
-					type: "random"
-					table_id: 7661356219169517173L
-				}
-				{
-					id: "168AB0CE9F8577BB"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "798CA61AB746275E"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
 		}
 		{
 			x: 0.0d
@@ -854,7 +714,7 @@
 			tasks: [{
 				id: "14AC939E5D163B4B"
 				type: "item"
-				title: "旧靴子"
+				title: "Old Boots"
 				item: {
 					id: "relics:old_boot"
 					Count: 1b
@@ -863,17 +723,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "2E2208700DE4E01D"
-					type: "choice"
-					table_id: 9173031481625304501L
-				}
-				{
-					id: "034DBFFE7CB9B38A"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "2E2208700DE4E01D"
+				type: "choice"
+				table_id: 9173031481625304501L
+			}]
 		}
 		{
 			x: 0.0d
@@ -891,17 +745,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "3A2865BBAB4E227A"
-					type: "choice"
-					table_id: 2198154992902025748L
-				}
-				{
-					id: "7B91FE8873C34326"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "3A2865BBAB4E227A"
+				type: "choice"
+				table_id: 2198154992902025748L
+			}]
 		}
 		{
 			x: -4.0d
@@ -919,17 +767,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "73AE45C59FAA9A74"
-					type: "choice"
-					table_id: 2198154992902025748L
-				}
-				{
-					id: "4560039ECD18157E"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "73AE45C59FAA9A74"
+				type: "choice"
+				table_id: 2198154992902025748L
+			}]
 		}
 		{
 			x: -4.0d
@@ -948,23 +790,18 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "633801AE38C92DF4"
-					type: "random"
-					table_id: 7661356219169517173L
-				}
-				{
-					id: "382D7412866CF093"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "633801AE38C92DF4"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
 		}
 		{
 			x: -4.0d
 			y: 4.0d
-			subtitle: "可以在&8废弃矿井&r与&e要塞&r中找到。"
-			id: "682F52146539FCED"
+			subtitle: "Found in &8Mineshafts &rand &eStrongholds."
+						subtitle: "可以在&8废弃矿井&r与&e要塞&r中找到。"
+id: "682F52146539FCED"
 			tasks: [{
 				id: "5FC68394E5CA41AB"
 				type: "item"
@@ -976,17 +813,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "22CF6C4571D94D3B"
-					type: "choice"
-					table_id: 2198154992902025748L
-				}
-				{
-					id: "5A1E9859F81B59F7"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "22CF6C4571D94D3B"
+				type: "choice"
+				table_id: 2198154992902025748L
+			}]
 		}
 		{
 			x: -3.0d
@@ -1005,17 +836,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "553909D3B96B4617"
-					type: "random"
-					table_id: 7661356219169517173L
-				}
-				{
-					id: "5346096FD845785B"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "553909D3B96B4617"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
 		}
 		{
 			x: -2.0d
@@ -1034,17 +859,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "4B4FD3F58A06FB12"
-					type: "random"
-					table_id: 2198154992902025748L
-				}
-				{
-					id: "68A0FA78BE527BA0"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "4B4FD3F58A06FB12"
+				type: "random"
+				table_id: 2198154992902025748L
+			}]
 		}
 		{
 			x: 3.5d
@@ -1062,17 +881,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "5C6443A04CA9A724"
-					type: "random"
-					table_id: 9173031481625304501L
-				}
-				{
-					id: "1B9F0BE03B78BD37"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "5C6443A04CA9A724"
+				type: "random"
+				table_id: 9173031481625304501L
+			}]
 		}
 		{
 			x: 4.5d
@@ -1091,17 +904,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "2EC53A2CCF887E6F"
-					type: "random"
-					table_id: 7661356219169517173L
-				}
-				{
-					id: "4966AD8442077963"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "2EC53A2CCF887E6F"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
 		}
 	]
 	quest_links: [ ]
